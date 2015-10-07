@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for the wizard belonging to extension 'rgmediaimages'</description>
+	</meta>
+	<data type="array">
+		<!-- DEFAULT -->
+		<languageKey index="default" type="array">
+			<label index="function1">Wizard</label>
+			<label index="header1">Wizard for the Extension rgmediaimages </label>
+			<label index="defaultset">Default</label>
+			<label index="colorset">The colors</label>
+			<label index="displayset">Display appearance</label>
+			<label index="controlset">Controlbar appearance</label>
+			<label index="playbackset">Playback behaviour</label>
+			<label index="youtubeset">Youtube configuration</label>
+			<label index="mp3set">MP3 configuration</label>
+			<label index="youtubeColor1">Color 1</label>
+			<label index="youtubeColor2">Color 1</label>
+			<label index="youtubeBorder">Border Color</label>
+			<label index="foregroundColor">Foreground Color</label>
+			<label index="screenColor">Screen Color</label>
+			<label index="backgroundColor">Background Color</label>
+			<label index="highlightColor">Highlight Color</label>
+			<label index="showNavigation">Show Navigation</label>
+			<label index="showEqualizer">Equalizer</label>
+			<label index="showStop">Show Stop</label>
+			<label index="showDigits">Show Digits</label>
+			<label index="showDownload">Show Download</label>
+			<label index="callback">Callback</label>			
+			<label index="volume">Volume</label>
+			<label index="autoRepeat">Auto-Repeat</label>
+			<label index="autoStart">Auto-Start</label>
+			<label index="backgroundImage">BG Image</label>
+			<label index="url">File</label>
+			<label index="colorpicker">Choose a color</label>
+			<label index="use1PixelOut">Use 1PixelOut</label>
+			<label index="bg">Background color</label>
+			<label index="leftbg">Left background</label>
+			<label index="lefticon">Left icon </label>
+			<label index="rightbg">Right background</label>
+			<label index="rightbghover">Hover right background</label>
+			<label index="righticon">Right icon</label>
+			<label index="righticonhover">Hover right icon</label>
+			<label index="text">Text</label>
+			<label index="slider">Slider</label>
+			<label index="track">Track</label>
+			<label index="border">Border loading bar </label>
+			<label index="loop">Play in loop</label>
+			<label index="autostart">Autostart</label>
+			<label index="true">true</label>
+			<label index="false">false</label>
+			
+			<label index="helpset">Display a little help</label>			
+			<label index="helpFLV">&lt;h2&gt;	FLV Player	&lt;/h2&gt; To get help for all the variables you can set, please take a look at &lt;a href="http://www.jeroenwijering.com/?page=wizard" title="http://www.jeroenwijering.com/?page=wizard" target="_blank"&gt;this url&lt;/a&gt;.&lt;br /&gt;You will see a wizard with a possible preview how everything looks.</label>
+			<label index="help1PixelOut">&lt;h2&gt;	1PixelOut-Player	&lt;/h2&gt; Basically you can just set the colors of the player. To know what is what, please take a look at this image: &lt;img src="res/1pixelout.gif" /&gt;</label>	
+									
+		</languageKey>
+
+
+		<!-- GERMAN -->
+		<languageKey index="de" type="array">
+			<label index="function1">Wizard</label>
+			<label index="header1">Wizard für die Extension rgmediaimages </label>
+			<label index="defaultset">Standard</label>
+			<label index="colorset">Farben</label>
+			<label index="displayset">Anzeige</label>
+			<label index="controlset">Steuerung</label>
+			<label index="playbackset">Wiedergabe</label>
+			<label index="youtubeset">Youtube Konfiguration</label>
+			<label index="mp3set">MP3 Konfiguration</label>
+			<label index="youtubeColor1">Farbe #1</label>
+			<label index="youtubeColor2">Farbe #2</label>
+			<label index="youtubeBorder">Randfarbe</label>
+			<label index="foregroundColor">Vordergrund</label>
+			<label index="screenColor">Bildschirm</label>
+			<label index="backgroundColor">Hintergrund</label>
+			<label index="highlightColor">Hover-Farbe</label>
+			<label index="showNavigation">Navigation</label>
+			<label index="showEqualizer">Equalizer</label>
+			<label index="showStop">Stop-Icon</label>
+			<label index="showDigits">Show Digits</label>
+			<label index="showDownload">Download-Icon</label>
+			<label index="callback">Callback</label>			
+			<label index="volume">Lautstärke</label>
+			<label index="autoRepeat">Auto-Wiederholung</label>
+			<label index="autoStart">Auto-Start</label>
+			<label index="backgroundImage">Hintergrundbild</label>
+			<label index="url">Datei</label>
+			<label index="colorpicker">Wähle eine Farbe</label>
+			<label index="use1PixelOut">Benütze 1PixelOut-Player</label>
+			<label index="bg">Hintergrundfarbe</label>
+			<label index="leftbg">Linker Hintergrund</label>
+			<label index="lefticon">Links Icon</label>
+			<label index="rightbg">Rechter Hintergrund</label>
+			<label index="rightbghover">Rechter Hintergrund Hover</label>
+			<label index="righticon">Rechtes Icon</label>
+			<label index="righticonhover">Rechtes Icon Hover</label>
+			<label index="text">Text</label>
+			<label index="slider">Schieber</label>
+			<label index="track">Track</label>
+			<label index="border">Rand Ladebalken</label>
+			<label index="loop">Auto. Wiederholung</label>
+			<label index="autostart">Autostart</label>
+			<label index="true">ja</label>
+			<label index="false">nein</label>
+			
+			<label index="helpset">Anzeige der Hilfe</label>			
+			<label index="helpFLV">&lt;h2&gt;	FLV Player	&lt;/h2&gt; Für Hilfe zu den einzelnen Variabeln, bitte &lt;a href="http://www.jeroenwijering.com/?page=wizard" title="http://www.jeroenwijering.com/?page=wizard" target="_blank"&gt;diese Url&lt;/a&gt; besuchen.&lt;br /&gt;Hier befindet sich der Original-Wizard inklusive Vorschaumodus.</label>
+			<label index="help1PixelOut">&lt;h2&gt;	1PixelOut-Player	&lt;/h2&gt; Bei diesem Player kann man nur die Farben verändern. Um zu wissen welche Variable für was steht, einfach das nachfolgende Bild betrachten! &lt;img src="res/1pixelout.gif" /&gt;</label>	
+									
+		</languageKey>
+
+	</data>
+</T3locallang>

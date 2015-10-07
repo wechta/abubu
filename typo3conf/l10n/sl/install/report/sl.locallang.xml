@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="status_fileSystem"/>
+      <label index="status_writable"/>
+      <label index="status_missingDirectory"/>
+      <label index="status_nonExistingDirectory"/>
+      <label index="status_recommendedWritableDirectory"/>
+      <label index="status_requiredWritableDirectory"/>
+      <label index="status_directoryDoesNotExist"/>
+      <label index="status_directoryDoesNotExistCouldNotCreate"/>
+      <label index="status_directoryShouldAlsoBeWritable"/>
+      <label index="status_directoryShouldBeWritable"/>
+      <label index="status_directoryMustBeWritable"/>
+      <label index="status_remainingUpdates"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

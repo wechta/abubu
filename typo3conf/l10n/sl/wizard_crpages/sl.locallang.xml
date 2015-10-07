@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="wiz_crMany">Ustvari več strani</label>
+      <label index="wiz_W">W!</label>
+      <label index="wiz_newPages">Ustvari nove strani</label>
+      <label index="wiz_newPages_page">Stran</label>
+      <label index="wiz_newPages_currentMenu">Zgradba nove strani</label>
+      <label index="wiz_newPages_errorMsg1">Tukaj ne morete ustvariti novih podstrani!</label>
+      <label index="wiz_newPages_lCreate">Ustvari strani</label>
+      <label index="wiz_newPages_listEnd">Namesti nove strani za obstoječe</label>
+      <label index="wiz_newPages_hidePages">Skrij nove strani</label>
+      <label index="wiz_newPages_lCreate_msg1">Ustvarili boste mnogo novih strani. Res želite nadaljevati?</label>
+      <label index="wiz_newPages_lReset">Izprazni polja</label>
+      <label index="wiz_newPages_noCreate">Nič strani ni bilo dodanih!</label>
+      <label index="wiz_newPages_create">Nič strani ni bilo dodanih!</label>
+      <label index="wiz_newPages_addMoreLines"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

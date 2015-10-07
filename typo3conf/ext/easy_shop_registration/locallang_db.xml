@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'easy_shop_registration'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">User registration</label>
+			<label index="tt_content.list_type_pi2">User infopush</label>
+			<label index="fe_users.tx_easyshopregistration_id_ddv">Davčna številka</label>
+			<label index="fe_users.tx_easyshopregistration_is_ddv">Zavezanec za ddv</label>
+			<label index="fe_users.tx_easyshopregistration_info_reciver">Želi obveščanje</label>
+		</languageKey>
+	</data>
+</T3locallang>

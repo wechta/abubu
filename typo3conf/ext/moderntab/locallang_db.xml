@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'moderntab'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_moderntab_entry">Modern Tab</label>
+			<label index="tx_moderntab_entry.title">Naslov</label>
+			<label index="tx_moderntab_entry.link">Povezava</label>
+			<label index="tx_moderntab_entry.vsebina">Vsebina</label>
+			<label index="tx_moderntab_entry.slika">Slika</label>
+			<label index="tt_content.list_type_pi1">Modern Tab</label>
+		</languageKey>
+	</data>
+</T3locallang>

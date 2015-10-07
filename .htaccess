@@ -1,0 +1,396 @@
+RewriteEngine On
+RewriteRule ^typo3$ - [L]
+RewriteRule ^typo3/.*$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule .* index.php
+
+
+redirect 301 /oolong/haicha/7/ http://www.zisha.si/izdelki_oolong_caji/caj_haicha/
+redirect 301 /oolong/china-da-hong-pao/10/ http://www.zisha.si/izdelki_oolong_caji/caj_da_hong_pao/
+redirect 301 /caji/zeliscni-caji/bozicna-zelisca/23/ http://www.zisha.si/izdelki_zeliscni_caji/caj_bozicna_zelisca/
+redirect 301 /pripomocki/skodelice/skodelica-s-podstavkom/188/ http://www.zisha.si/izdelki_pribor_skodelice/caj_skodelica_s_podstavkom/
+redirect 301 /clanki/o-cajih/ingver/3/ http://www.zisha.si/seznam_novic/novica/n/ingver-je-rastlina-prijetnega-vonja-in-nekoliko-sladkega-okusa/
+
+redirect 301 /caji/zeliscni-caji/bozicna-zelisca/23/ http://www.zisha.si/izdelki_zeliscni_caji/caj_bozicna_zelisca/
+redirect 301 /caji/zeliscni-caji/zelena-meta/116/ http://www.zisha.si/izdelki_zeliscni_caji/caj_spearmint/
+redirect 301 /caji/zeleni-caji/gunpowder/128/ http://www.zisha.si/izdelki_zeleni_caji/caj_gunpowder/
+redirect 301 /caji/zeleni-caji/bio-gyokuro/90/ http://www.zisha.si/izdelki_zeleni_caji/caj_gyokuro_bio/
+
+redirect 301 /stran/kontakti/5/ http://www.zisha.si/kontakt_in_lokacija/
+redirect 301 /caji/zeleni-caji/sencha-shokai/34/ http://www.zisha.si/izdelki_zeleni_caji/caj_sencha_shokai/
+redirect 301 /caji/crni-caji/kokos/162/ http://www.zisha.si/izdelki_crni_caji/caj_kokos/
+redirect 301 /caji/sadni-caji/sadni-punc/156/ http://www.zisha.si/izdelki_sadni_caji/caj_sadni_punc/
+redirect 301 /novo-v-ponudbi/japonski-cajni-filter/175/ http://www.zisha.si/izdelki_pribor_cedila/caj_japonski_cajni_filter/
+redirect 301 /novo-v-ponudbi/mate-prazen/193/ http://www.zisha.si/izdelki_mate_caji/caj_mate_prazen/
+
+redirect 301 /clanki/recepti/smoothie-crni-ananas/9/ http://www.zisha.si/seznam_novic/novica/n/kako-smo-pripravili-smoothie-crni-ananas-s-crnim-cajem/
+redirect 301 /pripomocki/cedila/papirni-filter-za-cajnik/177/ http://www.zisha.si/izdelki_pribor_cedila/caj_papirni_filter_za_cajnik/
+
+redirect 301 /caji/zeliscni-caji/ingver/37/ http://www.zisha.si/izdelki_zeliscni_caji/caj_ingver/
+redirect 301 /novo-v-ponudbi/caj-za-dva/196/ http://www.zisha.si/izdelki_pribor_skodelice/caj_cajni_set_iz_porcelana_za_dva/
+redirect 301 /oolong-caji/da-hong-pao/10/ http://www.zisha.si/izdelki_oolong_caji/caj_da_hong_pao/
+redirect 301 /caji/zeliscni-caji/limonska-trava/113/ http://www.zisha.si/izdelki_zeliscni_caji/caj_limonska_trava/
+
+redirect 301 /caji/zeliscni-caji/colada/26/ http://www.zisha.si/izdelki_rooibos_caji/caj_colada/
+redirect 301 /caji/zeliscni-caji/koprivin-caj/114/ http://www.zisha.si/izdelki_zeliscni_caji/caj_koprivin_caj/
+redirect 301 /caji/sadni-caji/plava-laguna/131/ http://www.zisha.si/izdelki_sadni_caji/caj_plava_laguna/
+
+redirect 301 /caji/zeliscni-caji/cool-fresh/73/ http://www.zisha.si/izdelki_mate_caji/caj_cool_fresh/
+redirect 301 /pripomocki/skodelice/gaiwan-modro-nebo/187/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_modro_nebo/
+
+redirect 301 /caji/zeliscni-caji/kamilice/115/ http://www.zisha.si/izdelki_zeliscni_caji/caj_kamilice/
+redirect 301 /caji/zeleni-caji/genmaicha/129/ http://www.zisha.si/izdelki_zeleni_caji/caj_gen_mai_cha/
+redirect 301 /caji/zeliscni-caji/lapacho/74/ http://www.zisha.si/izdelki_zeliscni_caji/caj_lapacho/
+redirect 301 /caji/crni-caji/kashmiri/32/ http://www.zisha.si/izdelki_crni_caji/caj_kashmiri/
+
+
+redirect 301 /caji/crni-caji/kashmiri/32/ http://www.zisha.si/izdelki_crni_caji/caj_kashmiri/
+redirect 301 /pripomocki/cedila/japonski-cajni-filter/175/ http://www.zisha.si/izdelki_pribor_cedila/caj_japonski_cajni_filter/
+redirect 301 /caji/zeliscni-caji/planinski-caj/111/ http://www.zisha.si/izdelki_zeliscni_caji/caj_planinski_caj/
+redirect 301 /pripomocki/skodelice/gaiwan-modra-ptica/186/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_modra_ptica/
+redirect 301 /caji/crni-caji/chamraj/31/ http://www.zisha.si/izdelki_crni_caji/caj_tgfop_chamraj/
+redirect 301 /caji/crni-caji/jesenski-sonet/134/ http://www.zisha.si/izdelki_zeleni_caji/caj_jesenski_sonet/
+redirect 301 /novo-v-ponudbi/caj-za-hujsanje/154/ http://www.zisha.si/izdelki_zeliscni_caji/caj_caj_za_hujsanje/
+redirect 301 /clanki/o-cajih/priprava-chai-napitka/11/ http://www.zisha.si/seznam_novic/novica/n/priprava-chai-napitka/
+redirect 301 /caji/crni-caji/earl-grey-jasmin/126/ http://www.zisha.si/izdelki_crni_caji/caj_earl_grey_jasmin/
+redirect 301 /caji/crni-caji/dublin-cream/67/ http://www.zisha.si/izdelki_crni_caji/caj_dublin_cream/
+redirect 301 /novo-v-ponudbi/cajni-set/194/ http://www.zisha.si/izdelki_pribor_cajni_seti/
+redirect 301 /caji/zeliscni-caji/caj-za-hujsanje/154/ http://www.zisha.si/izdelki_zeliscni_caji/caj_caj_za_hujsanje/
+redirect 301 /pripomocki/skodelice/gaiwan-z-zmajem/185/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_z_zmajem/
+
+redirect 301 /caji/crni-caji/budla-beta/30/ http://www.zisha.si/izdelki_crni_caji/caj_assam_sf_ftgfop1_budla_beta/
+redirect 301 /caji/zeleni-caji/zeleni-jasminov-caj/127/ http://www.zisha.si/izdelki_zeleni_caji/caj_china_jasmin/
+redirect 301 /novo-v-ponudbi/skodelica-s-podstavkom/188/ http://www.zisha.si/izdelki_pribor_skodelice/caj_skodelica_s_podstavkom/
+redirect 301 /caji/zeliscni-caji/mate-prazen/193/ http://www.zisha.si/izdelki_mate_caji/caj_mate_prazen/
+redirect 301 /pripomocki/skodelice/glinena-skodelica/195/ http://www.zisha.si/izdelki_pribor_skodelice/caj_glinena_skodelica/
+redirect 301 /caji/zeleni-caji/shan-tuyet-suoi-giang/5/ http://www.zisha.si/izdelki_zeleni_caji/caj_shan_tuyet_suoi_giang/
+redirect 301 /caji/sadni-caji/hawaii-cocktail/15/ http://www.zisha.si/izdelki_sadni_caji/caj_hawaii_cocktail/
+redirect 301 /caji/crni-caji/earl-grey-blue-flower/33/ http://www.zisha.si/izdelki_crni_caji/caj_earl_grey_blue_flower/
+redirect 301 /pripomocki/skodelice/okrogla-japonska-skodelica/184/ http://www.zisha.si/izdelki_pribor_skodelice/caj_japonska_skodelica_okrogla/
+redirect 301 /caji/crni-caji/marcipan/29/ http://www.zisha.si/izdelki_crni_caji/caj_marcipan/
+redirect 301 /caji/rooibos-caji/jagodna-krema/35/ http://www.zisha.si/izdelki_rooibos_caji/caj_jagodna_krema-1/
+redirect 301 /caji/zeleni-caji/kukicha/6/ http://www.zisha.si/izdelki_zeleni_caji/caj_kukicha/
+redirect 301 /pripomocki/cedila/cedilo-63mm/197/ http://www.zisha.si/izdelki_pribor_cedila/caj_cedilo_brez_rocaja_premera_63/
+redirect 301 /caji/zeliscni-caji/lapacho-vanilija/75/ http://www.zisha.si/izdelki_zeliscni_caji/caj_lapacho_vanilija/
+redirect 301 /pripomocki/cedila/zaponka-za-filter-vrecko/178/ http://www.zisha.si/izdelki_pribor_cedila/caj_zaponka_za_filter_vrecko/
+redirect 301 /caji/sadni-caji/bozicno-jabolko/160/ http://www.zisha.si/izdelki_sadni_caji/caj_bozicno_jabolko/
+redirect 301 /pripomocki/cedila/cedilo-68mm/199/ http://www.zisha.si/izdelki_pribor_cedila/caj_cedilo_brez_rocaja_premera_68/
+redirect 301 /caji/zeliscni-caji/cold-season/20/ http://www.zisha.si/izdelki_zeliscni_caji/caj_cold_season/
+redirect 301 /pripomocki/cedila/bombilla/77/ http://www.zisha.si/izdelki_pribor_cedila/caj_bombilla/
+redirect 301 /caji/crni-caji/tisoc-in-ena-noc/132/ http://www.zisha.si/izdelki_crni_caji/caj_1001_noc/
+redirect 301 /pripomocki/cedila/papirni-filter-za-skodelico/176/ http://www.zisha.si/izdelki_pribor_cedila/caj_papirni_filter_za_skodelico/
+
+redirect 301 /caji/sadni-caji/peceno-jabolko/159/ http://www.zisha.si/izdelki_sadni_caji/caj_peceno_jabolko/
+redirect 301 /caji/crni-caji/mentolov-koktajl/130/ http://www.zisha.si/izdelki_crni_caji/caj_mentolov_koktejl/
+redirect 301 /caji/zeleni-caji/king-of-pu-erh/68/ http://www.zisha.si/izdelki_pu_erh_caji/caj_king_of_pu_erh/
+redirect 301 /caji/sadni-caji/pina-colada/16/ http://www.zisha.si/izdelki_sadni_caji/caj_pina_colada/
+redirect 301 /caji/zeliscni-caji/caj-za-sprostitev/71/ http://www.zisha.si/izdelki_zeliscni_caji/caj_caj_za_sprostitev/
+
+redirect 301 /caji/zeliscni-caji/ayurveda-classic/205/ http://www.zisha.si/izdelki_zeliscni_caji/caj_ayurveda_classic/
+redirect 301 /izdelek_crni_caji/izdelek/op_yunnan/ http://www.zisha.si/izdelki_crni_caji/caj_op_yunnan/
+redirect 301 /pripomocki/skodelice/japonska-skodelica-1dcl/183/ http://www.zisha.si/izdelki_pribor_skodelice/caj_japonska_skodelica/
+redirect 301 /caji/zeliscni-caji/kali-chai/24/ http://www.zisha.si/izdelki_zeliscni_caji/caj_kali_chai/
+redirect 301 /pripomocki/skodelice/caj-za-dva/196/ http://www.zisha.si/izdelki_pribor_skodelice/caj_cajni_set_iz_porcelana_za_dva/
+
+redirect 301 /caji/sadni-caji/turski-med/36/ http://www.zisha.si/izdelki_sadni_caji/caj_turski_med/
+redirect 301 /pripomocki/skodelice/crete/41/ http://www.zisha.si/izdelki_pribor_skodelice/caj_skodelica_crete/
+redirect 301 /caji/rooibos-caji/colada/26/ http://www.zisha.si/izdelki_rooibos_caji/caj_colada/
+redirect 301 /caji/rooibos-caji/kapucino/153/ http://www.zisha.si/izdelki_rooibos_caji/caj_kapucin/
+redirect 301 /caji/sadni-caji/fruity-ginger/17/ http://www.zisha.si/izdelki_sadni_caji/caj_fruity_ginger/
+redirect 301 /caji/zeliscni-caji/full-power/21/ http://www.zisha.si/izdelki_zeliscni_caji/caj_full_power/
+redirect 301 /caji/rooibos-caji/scottish-cream/13/ http://www.zisha.si/izdelki_rooibos_caji/caj_scottish_cream/
+redirect 301 /novo-v-ponudbi/papirni-filter-za-skodelico/176/ http://www.zisha.si/izdelki_pribor_cedila/caj_papirni_filter_za_skodelico/
+redirect 301 /pripomocki/cedila/ http://www.zisha.si/izdelki_pribor_cedila/
+redirect 301 /pripomocki/cedila/cedilo-iz-bambusa/179/ http://www.zisha.si/izdelki_pribor_cedila/caj_cedilo_iz_bambusa/
+redirect 301 /sladila/sladkor/ http://www.zisha.si/izdelki_pribor_sladila/
+redirect 301 /pripomocki/cajniki/caj-za-dva/196/ http://www.zisha.si/izdelki_pribor_skodelice/caj_cajni_set_iz_porcelana_za_dva/
+
+redirect 301 /novo-v-ponudbi/cedilo-iz-bambusa/179/ http://www.zisha.si/izdelki_pribor_cedila/caj_cedilo_iz_bambusa/
+redirect 301 /caji/zeleni-caji/jesenski-sonet/134/ http://www.zisha.si/izdelki_zeleni_caji/caj_jesenski_sonet/
+redirect 301 /caji/mate-caj/mate-prazen/193/ http://www.zisha.si/izdelki_mate_caji/caj_mate_prazen/
+redirect 301 /caji/crni-caji/king-of-pu-erh/68/ http://www.zisha.si/izdelki_pu_erh_caji/caj_king_of_pu_erh/
+redirect 301 /caji/sadni-caji/sladki-angel-malina/66/ http://www.zisha.si/izdelki_sadni_caji/caj_sladki_angel_malina/
+redirect 301 /caji/rooibos-caji/cacao-cream-caramel/19/ http://www.zisha.si/izdelki_rooibos_caji/caj_cacao_cream_caramel/
+redirect 301 /pripomocki/cedila/cedilo-65mm/198/ http://www.zisha.si/izdelki_pribor_cedila/caj_cedilo_brez_rocaja_premera_65/
+redirect 301 /sladila/sladkor/kandirana-palcka/49/ http://www.zisha.si/izdelki_pribor_sladila/caj_kandirana_palcka_za_caj/
+redirect 301 /pripomocki/skodelice/ http://www.zisha.si/izdelki_pribor_skodelice/
+redirect 301 /izdelek_crni_caji/izdelek/earl_grey_jasmin/ http://www.zisha.si/izdelki_crni_caji/caj_earl_grey_jasmin/
+
+redirect 301 /caji/rumeni-caji/huang-da-cha/206/ http://www.zisha.si/izdelki_rumeni_caji/
+redirect 301 /pripomocki/lesena-lopatka/200/ http://www.zisha.si/izdelki_pribor_ostali_pribor/caj_lesena_lopatka_za_caj/
+redirect 301 /clanki/recepti/matcha-smoothie/8/ http://www.zisha.si/seznam_novic/novica/n/matcha-smoothie/
+redirect 301 /novo-v-ponudbi/glinena-skodelica/195/ http://www.zisha.si/izdelki_pribor_skodelice/caj_glinena_skodelica/
+redirect 301 /caji/oolong-caji/haicha/7/ http://www.zisha.si/izdelki_oolong_caji/caj_haicha/
+redirect 301 /izdelek_zeliscni_caji/izdelek/caj_za_sprostitev/ http://www.zisha.si/izdelki_zeliscni_caji/caj_caj_za_sprostitev/
+redirect 301 /caji/sadni-caji/ledena-palaca/70/ http://www.zisha.si/izdelki_sadni_caji/caj_ledena_palaca/
+redirect 301 /pripomocki/skodelice/skodelica-sovica-bela/216/ http://www.zisha.si/izdelki_pribor_skodelice/caj_skodelica_sovica_bela/
+redirect 301 /caji/rooibos-caji/ginger-lemon/27/ http://www.zisha.si/izdelki_rooibos_caji/caj_ingver_limona-1/
+redirect 301 /caji/zeliscni-caji/jagodna-krema/35/ http://www.zisha.si/izdelki_rooibos_caji/caj_jagodna_krema-1/
+redirect 301 /pripomocki/satulje/travnik/141/ http://www.zisha.si/izdelki_pribor_satulje/caj_plocevinasta_satulja_travnik_100g/
+redirect 301 /izdelek_zeleni_caji/izdelek/gen_mai_cha/ http://www.zisha.si/izdelki_zeleni_caji/caj_gen_mai_cha/
+redirect 301 /izdelek_zeleni_caji/izdelek/jasminov_caj/ http://www.zisha.si/izdelki_zeleni_caji/caj_china_jasmin/
+redirect 301 /izdelek_zeliscni_caji/izdelek/anti_stres/ http://www.zisha.si/izdelki_zeliscni_caji/caj_anti_stres/
+redirect 301 /izdelek_zeleni_caji/izdelek/sencha_limona/ http://www.zisha.si/izdelki_zeleni_caji/caj_sencha_limona/
+redirect 301 /izdelek_zeleni_caji/izdelek/caj_za_dobro_jutro/ http://www.zisha.si/izdelki_zeleni_caji/caj_caj_za_dobro_jutro/
+redirect 301 /izdelek_sadni_caji/izdelek/ledena_palaca/ http://www.zisha.si/izdelki_sadni_caji/caj_ledena_palaca/
+redirect 301 /izdelek_crni_caji/izdelek/mentolov_koktejl/ http://www.zisha.si/izdelki_crni_caji/caj_mentolov_koktejl/
+redirect 301 /izdelek_crni_caji/izdelek/chamraj/ http://www.zisha.si/izdelki_crni_caji/caj_tgfop_chamraj/
+redirect 301 /caji/beli-caji/yunnan-pai-mu-tan/214/ http://www.zisha.si/izdelki_beli_caji/caj_pai_mu_tan/
+redirect 301 /novo-v-ponudbi/kokos/162/ http://www.zisha.si/izdelki_crni_caji/caj_kokos/
+redirect 301 /izdelek_beli_caji/izdelek/yunnan_pai_mu_tan/ http://www.zisha.si/izdelki_beli_caji/caj_pai_mu_tan/
+redirect 301 /izdelek_rooibos_caji/izdelek/jagodna_krema/ http://www.zisha.si/izdelki_rooibos_caji/caj_jagodna_krema-1/
+redirect 301 /izdelek_pribor_skodelice/izdelek/skodelica_sovica_modra/ http://www.zisha.si/izdelki_pribor_skodelice/caj_skodelica_sovica_modra/
+redirect 301 /novo-v-ponudbi/caj-piratov/161/ http://www.zisha.si/izdelki_sadni_caji/caj_caj_piratov/
+redirect 301 /novo-v-ponudbi/kapucino/153/ http://www.zisha.si/izdelki_rooibos_caji/caj_kapucin/
+redirect 301 /novo-v-ponudbi/babicin-caj/155/ http://www.zisha.si/izdelki_sadni_caji/caj_babicin_caj/
+redirect 301 /novo-v-ponudbi/gaiwan-modro-nebo/187/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_modro_nebo/
+redirect 301 /izdelek_zeliscni_caji/izdelek/zelena_meta/ http://www.zisha.si/izdelki_zeliscni_caji/caj_spearmint/
+redirect 301 /caji/zeleni-caji/ledeni-caj-limona/123/ http://www.zisha.si/izdelki_zeleni_caji/caj_ledeni_caj_limona/
+redirect 301 /novo-v-ponudbi/sadni-punc/156/ http://www.zisha.si/izdelki_sadni_caji/caj_sadni_punc/
+redirect 301 /pripomocki/satulje/azija/138/ http://www.zisha.si/izdelki_pribor_satulje/caj_plocevinasta_satulja_azija_100g/
+redirect 301 /caji/zeliscni-caji/tempelj-ljubezni/14/ http://www.zisha.si/izdelki_zeliscni_caji/caj_tempelj_ljubezni/
+redirect 301 /caji/rooibos-caji/bananaberry/25/ http://www.zisha.si/izdelki_rooibos_caji/caj_bananaberry/
+redirect 301 /caji/zeliscni-caji/mate/72/ http://www.zisha.si/izdelki_mate_caji/
+
+redirect 301 /izdelek_zeliscni_caji/izdelek/tempelj_ljubezni/ http://www.zisha.si/izdelki_zeliscni_caji/caj_tempelj_ljubezni/
+redirect 301 /caji/zeliscni-caji/cacao-cream-caramel/19/ http://www.zisha.si/izdelki_rooibos_caji/caj_cacao_cream_caramel/
+redirect 301 /zeleni/shan-tuyet-suoi-giang/5/ http://www.zisha.si/izdelki_zeleni_caji/caj_shan_tuyet_suoi_giang/
+redirect 301 /caji/zeliscni-caji/bozickov-pomocnik/12/ http://www.zisha.si/izdelki_rooibos_caji/caj_bozickov_pomocnik/
+redirect 301 /izdelek_mate_caji/izdelek/cool_fresh/ http://www.zisha.si/izdelki_mate_caji/caj_cool_fresh/
+redirect 301 /novo-v-ponudbi/yunnan-pai-mu-tan/214/ http://www.zisha.si/izdelki_beli_caji/caj_pai_mu_tan/
+redirect 301 /izdelek_zeliscni_caji/izdelek/sivi_brskin/ http://www.zisha.si/izdelki_zeliscni_caji/caj_sivi_brskin/
+redirect 301 /izdelek_zeleni_caji/izdelek/jagodna_krema-1/ http://www.zisha.si/izdelki_rooibos_caji/caj_jagodna_krema-1/
+
+redirect 301 /izdelek_pribor_satulje/izdelek/plocevinasta_satulja_crna_roza/ http://www.zisha.si/izdelki_pribor_satulje/caj_plocevinasta_satulja_crna_roza_100g/
+
+redirect 301 /novo-v-ponudbi/skodelica-sovica-bela/216/ http://www.zisha.si/izdelki_pribor_skodelice/caj_skodelica_sovica_bela/
+redirect 301 /novo-v-ponudbi/skodelica-sovica-modra/215/ http://www.zisha.si/izdelki_pribor_skodelice/caj_skodelica_sovica_modra/
+redirect 301 /caji/zeleni-caji/bancha/110/ http://www.zisha.si/izdelki_zeleni_caji/caj_bancha/
+redirect 301 /izdelki_zeleni_caji/caj_ledeni_caj_limona-2/ http://www.zisha.si/izdelki_zeleni_caji/caj_ledeni_caj_limona/
+redirect 301 /novice/novice-iz-zishe/zacaran-gozd/3/ http://www.zisha.si/seznam_novic/novica/n/zacaran-gozd/
+
+redirect 301 /novo-v-ponudbi/huang-da-cha/206/ http://www.zisha.si/izdelki_rumeni_caji/caj_huang_da_cha/
+redirect 301 /izdelek_crni_caji/izdelek/marcipan/ http://www.zisha.si/izdelki_crni_caji/caj_marcipan/
+redirect 301 /novo-v-ponudbi/okrogla-japonska-skodelica/184/ http://www.zisha.si/izdelki_pribor_skodelice/caj_japonska_skodelica/
+redirect 301 /caji/sadni-caji/caj-piratov/161/ http://www.zisha.si/izdelki_sadni_caji/caj_caj_piratov/
+redirect 301 /caji/zeliscni-caji/christmas-herbs/23/ http://www.zisha.si/izdelki_zeliscni_caji/caj_bozicna_zelisca/
+redirect 301 /novo-v-ponudbi/peceno-jabolko/159/ http://www.zisha.si/izdelki_sadni_caji/caj_peceno_jabolko/
+redirect 301 /izdelek_crni_caji/izdelek/jesenski_sonet/ http://www.zisha.si/izdelki_zeleni_caji/caj_jesenski_sonet/
+
+redirect 301 /pripomocki/cajniki/cajni-set/194/ http://www.zisha.si/izdelki_pribor_cajni_seti/
+redirect 301 /izdelek_zeleni_caji/izdelek/jesenski_sonet/ http://www.zisha.si/izdelki_zeleni_caji/caj_jesenski_sonet/
+redirect 301 /caji/pu-erh-caji/chai/207/ http://www.zisha.si/izdelki_pu_erh_caji/caj_chai/
+redirect 301 /novo-v-ponudbi/bozicno-jabolko/160/ http://www.zisha.si/izdelki_sadni_caji/caj_bozicno_jabolko/
+redirect 301 /caji/sadni-caji/babicin-caj/155/ http://www.zisha.si/izdelki_sadni_caji/caj_babicin_caj/
+redirect 301 /izdelek_zeliscni_caji/izdelek/limonska_trava/ http://www.zisha.si/izdelki_zeliscni_caji/caj_limonska_trava/
+redirect 301 /caji/sadni-caji/sadna-pravljica/65/ http://www.zisha.si/izdelki_sadni_caji/caj_sadna_pravljica/
+redirect 301 /caji/zeleni-caji/young-hyson/8/ http://www.zisha.si/izdelki_zeleni_caji/caj_young_hyson/
+redirect 301 /caji/zeleni-caji/sencha/11/ http://www.zisha.si/izdelki_zeleni_caji/caj_sencha/
+
+redirect 301 /novo-v-ponudbi/zaponka-za-filter-vrecko/178/ http://www.zisha.si/izdelki_pribor_cedila/caj_zaponka_za_filter_vrecko/
+redirect 301 /caji/mate-caj/cool-fresh/73/ http://www.zisha.si/izdelki_mate_caji/caj_cool_fresh/
+redirect 301 /clanki/o-cajih/lapacho-cudez-narave/5/ http://www.zisha.si/izdelki_zeliscni_caji/caj_lapacho/
+redirect 301 /caji/pu-erh-caji/king-of-pu-erh/68/ http://www.zisha.si/izdelki_pu_erh_caji/caj_king_of_pu_erh/
+redirect 301 /caji/rooibos-caji/bozickov-pomocnik/12/ http://www.zisha.si/izdelki_rooibos_caji/caj_bozickov_pomocnik/
+redirect 301 /pripomocki/skodelice/bucka-mate/119/ http://www.zisha.si/izdelki_pribor_skodelice/caj_bucka_mate/
+redirect 301 /clanki/o-cajih/cajevec/1/ http://www.zisha.si/seznam_novic/novica/n/veste-kaksne-vrste-rastlina-je-cajevec/
+redirect 301 /caji/zeliscni-caji/sleep-well/18/ http://www.zisha.si/izdelki_zeliscni_caji/caj_sleep_well/
+redirect 301 /caji/zeliscni-caji/sivi-brskin/117/ http://www.zisha.si/izdelki_zeliscni_caji/caj_sivi_brskin/
+redirect 301 /izdelek_pu_erh_caji/izdelek/king_of_pu_erh/ http://www.zisha.si/izdelki_pu_erh_caji/caj_king_of_pu_erh/
+redirect 301 /caji/sadni-caji/sladki-angel/66/ http://www.zisha.si/izdelki_sadni_caji/caj_sladki_angel_malina/
+redirect 301 /novo-v-ponudbi/gaiwan-z-zmajem/185/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_z_zmajem/
+redirect 301 /novo-v-ponudbi/papirni-filter-za-cajnik/177/ http://www.zisha.si/izdelki_pribor_cedila/caj_papirni_filter_za_cajnik/
+redirect 301 /novo-v-ponudbi/japonska-skodelica-1dcl/183/ http://www.zisha.si/izdelki_pribor_skodelice/caj_japonska_skodelica/
+redirect 301 /izdelek_pu_erh_caji/izdelek/chai/ http://www.zisha.si/izdelki_pu_erh_caji/caj_chai/
+redirect 301 /caji/zeliscni-caji/kapucino/153/ http://www.zisha.si/izdelki_rooibos_caji/caj_kapucin/
+redirect 301 /caji/zeliscni-caji/scottish-cream/13/ http://www.zisha.si/izdelki_rooibos_caji/caj_scottish_cream/
+redirect 301 /caji/crni-caji/jun-chiyabari/1/ http://www.zisha.si/izdelki_crni_caji/caj_nepal_sf_jun_chiyabari/
+redirect 301 /pripomocki/sladila/kandirana-palcka/49/ http://www.zisha.si/izdelki_pribor_sladila/caj_kandirana_palcka_za_caj/
+redirect 301 /caji/crni-caji/pacifisko-sonce/133/ http://www.zisha.si/izdelki_crni_caji/caj_pacifisko_sonce/
+redirect 301 /novo-v-ponudbi/cajnik-0-5l/182/ http://www.zisha.si/izdelki_pribor_cajniki/caj_cajnik_iz_porcelana/
+
+redirect 301 /clanki/recepti/sencha-in-goji-jagode/2/ http://www.zisha.si/seznam_novic/novica/n/zanimiv-recept-zeleni-caj-sencha-in-goji-jagode/
+redirect 301 /pripomocki/cajniki/bel-cajnik/190/ http://www.zisha.si/izdelki_pribor/caj_cajnik_iz_porcelana_v_beli_barvi_in_crno_obrobo/
+redirect 301 /pripomocki/satulje/crna-roza/140/ http://www.zisha.si/izdelki_pribor_satulje/caj_plocevinasta_satulja_crna_roza_100g/
+redirect 301 /novo-v-ponudbi/gaiwan-modra-ptica/186/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_modra_ptica/
+redirect 301 /novice/novice-iz-zishe/narava-in-zdravje/2/ http://www.zisha.si/seznam_novic/novica/n/sejem-narava-zdravje/
+redirect 301 /pripomocki/skodelice/skodelica-sovica-modra/215/ http://www.zisha.si/izdelki_pribor_skodelice/caj_skodelica_sovica_modra/
+redirect 301 /novo-v-ponudbi/ayurveda-classic/205/ http://www.zisha.si/izdelki_zeliscni_caji/caj_ayurveda_classic/
+redirect 301 /caji/sadni-caji/sadna-pravljica/65 http://www.zisha.si/izdelki_sadni_caji/caj_sadna_pravljica/
+
+redirect 301 /caji/zeliscni-caji/bozicna-zelisca/23/ http://www.zisha.si/izdelki_zeliscni_caji/caj_bozicna_zelisca/
+redirect 301 /caji/zeliscni-caji/koprivin-caj/114/ http://www.zisha.si/izdelki_zeliscni_caji/caj_koprivin_caj/
+
+redirect 301 /caji/zeleni-caji/gunpowder/128/ http://www.zisha.si/izdelki_zeleni_caji/caj_gunpowder/
+redirect 301 /novo-v-ponudbi/mate-prazen/193/ http://www.zisha.si/izdelki_mate_caji/caj_mate_prazen/
+redirect 301 /caji/zeliscni-caji/cool-fresh/73/ http://www.zisha.si/izdelki_mate_caji/caj_cool_fresh/
+redirect 301 /novo-v-ponudbi/caj-za-dva/196/ http://www.zisha.si/izdelki_pribor_skodelice/caj_cajni_set_iz_porcelana_za_dva/
+redirect 301 /caji/zeleni-caji/bio-gyokuro/90/ http://www.zisha.si/izdelki_zeleni_caji/caj_gyokuro_bio/
+redirect 301 /caji/zeliscni-caji/bozickov-pomocnik/12/ http://www.zisha.si/izdelki_rooibos_caji/caj_bozickov_pomocnik/
+redirect 301 /novo-v-ponudbi/okrogla-japonska-skodelica/184/ http://www.zisha.si/izdelki_pribor_skodelice/caj_japonska_skodelica/
+redirect 301 /caji/sadni-caji/sadni-punc/156/ http://www.zisha.si/izdelki_sadni_caji/caj_sadni_punc/
+redirect 301 /caji/zeleni-caji/bancha/110/ http://www.zisha.si/izdelki_zeleni_caji/caj_bancha/
+redirect 301 /caji/crni-caji/earl-grey-jasmin/126/ http://www.zisha.si/izdelki_crni_caji/caj_earl_grey_jasmin/
+redirect 301 /caji/crni-caji/earl-grey-blue-flower/33/ http://www.zisha.si/izdelki_crni_caji/caj_earl_grey_blue_flower/
+
+redirect 301 /novo-v-ponudbi/papirni-filter-za-skodelico/176/ http://www.zisha.si/izdelki_pribor_cedila/caj_papirni_filter_za_skodelico/
+redirect 301 /caji/zeleni-caji/ledeni-caj-limona/123/ http://www.zisha.si/izdelki_zeleni_caji/caj_ledeni_caj_limona/
+redirect 301 /caji/zeliscni-caji/full-power/21/ http://www.zisha.si/izdelki_zeliscni_caji/caj_full_power/
+redirect 301 /novo-v-ponudbi/gaiwan-modro-nebo/187/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_modro_nebo/
+redirect 301 /caji/sadni-caji/caj-piratov/161/ http://www.zisha.si/izdelki_sadni_caji/caj_caj_piratov/
+redirect 301 /novo-v-ponudbi/papirni-filter-za-cajnik/177/ http://www.zisha.si/izdelki_pribor_cedila/caj_papirni_filter_za_cajnik/
+redirect 301 /pripomocki/skodelice/ http://www.zisha.si/izdelki_pribor_skodelice/
+redirect 301 /caji/sadni-caji/bozicno-jabolko/160/ http://www.zisha.si/izdelki_sadni_caji/caj_bozicno_jabolko/
+redirect 301 /novo-v-ponudbi/gaiwan-z-zmajem/185/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_z_zmajem/
+redirect 301 /caji/zeliscni-caji/cold-season/20/ http://www.zisha.si/izdelki_zeliscni_caji/caj_cold_season/
+redirect 301 /novo-v-ponudbi/zaponka-za-filter-vrecko/178/ http://www.zisha.si/izdelki_pribor_cedila/caj_zaponka_za_filter_vrecko/
+redirect 301 /caji/sadni-caji/ledena-palaca/70/ http://www.zisha.si/izdelki_sadni_caji/caj_ledena_palaca/
+redirect 301 /caji/oolong-caji/da-hong-pao/10/ http://www.zisha.si/izdelki_oolong_caji/caj_da_hong_pao/
+redirect 301 /novo-v-ponudbi/glinena-skodelica/195/ http://www.zisha.si/izdelki_pribor_skodelice/caj_glinena_skodelica/
+redirect 301 /caji/zeleni-caji/sencha/11/ http://www.zisha.si/izdelki_zeleni_caji/caj_china_sencha/
+redirect 301 /caji/crni-caji/kokos/162/ http://www.zisha.si/izdelki_crni_caji/caj_kokos/
+redirect 301 /caji/sadni-caji/turski-med/36/ http://www.zisha.si/izdelki_sadni_caji/caj_turski_med/
+redirect 301 /pripomocki/skodelice/crete/41/ http://www.zisha.si/izdelki_pribor/caj_skodelica_iz_porcelana_300ml_s_pokrovom/
+redirect 301 /caji/zeliscni-caji/caj-za-hujsanje/154/ http://www.zisha.si/izdelki_zeliscni_caji/caj_caj_za_hujsanje/
+redirect 301 /caji/oolong-caji/ http://www.zisha.si/izdelki_oolong_caji/
+redirect 301 /caji/zeliscni-caji/kapucino/153/ http://www.zisha.si/izdelki_rooibos_caji/caj_kapucin/
+
+redirect 301 /caji/sadni-caji/pina-colada/16/ http://www.zisha.si/izdelki_sadni_caji/caj_pina_colada/
+redirect 301 /caji/sadni-caji/peceno-jabolko/159/ http://www.zisha.si/izdelki_sadni_caji/caj_peceno_jabolko/
+redirect 301 /novice/novice-iz-zishe/ http://www.zisha.si/seznam_novic/
+redirect 301 /caji/zeliscni-caji/caj-za-sprostitev/71/ http://www.zisha.si/izdelki_zeliscni_caji/caj_caj_za_sprostitev/
+redirect 301 /clanki/o-cajih/lapacho-cudez-narave/5/ http://www.zisha.si/izdelki_zeliscni_caji/caj_lapacho/
+redirect 301 /caji/zeliscni-caji/scottish-cream/13/ http://www.zisha.si/izdelki_rooibos_caji/caj_scottish_cream/
+redirect 301 /caji/crni-caji/pacifisko-sonce/133/ http://www.zisha.si/izdelki_crni_caji/caj_pacifisko_sonce/
+redirect 301 /sladila/sladkor/ http://www.zisha.si/izdelki_pribor_sladila/
+redirect 301 /novo-v-ponudbi/cedilo-iz-bambusa/179/ http://www.zisha.si/izdelki_pribor_cedila/caj_cedilo_iz_bambusa/
+redirect 301 /caji/zeliscni-caji/lapacho/74/ http://www.zisha.si/izdelki_zeliscni_caji/caj_lapacho/
+redirect 301 /novo-v-ponudbi/japonska-skodelica-1dcl/183/ http://www.zisha.si/izdelki_pribor_skodelice/caj_japonska_skodelica/
+redirect 301 /novo-v-ponudbi/gaiwan-modra-ptica/186/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_modra_ptica/
+redirect 301 /pripomocki/cedila/bombilla/77/ http://www.zisha.si/izdelki_pribor_cedila/caj_bombilla/
+redirect 301 /caji/crni-caji/jesenski-sonet/134/ http://www.zisha.si/izdelki_zeleni_caji/caj_jesenski_sonet/
+redirect 301 /caji/sadni-caji/babicin-caj/155/ http://www.zisha.si/izdelki_sadni_caji/caj_babicin_caj/
+redirect 301 /caji/zeleni-caji/young-hyson/8/ http://www.zisha.si/izdelki_zeleni_caji/caj_young_hyson/
+redirect 301 /caji/sadni-caji/sadna-pravljica/65/ http://www.zisha.si/izdelki_sadni_caji/caj_sadna_pravljica/
+redirect 301 /caji/zeliscni-caji/kali-chai/24/ http://www.zisha.si/izdelki_zeliscni_caji/caj_kali_chai/
+redirect 301 /novo-v-ponudbi/cajni-set/194/ http://www.zisha.si/izdelki_pribor_cajni_seti/
+
+redirect 301 /caji/zeliscni-caji/sivi-brskin/117/ http://www.zisha.si/izdelki_zeliscni_caji/caj_sivi_brskin/
+redirect 301 /pripomocki/skodelice/skodelica-s-podstavkom/188/ http://www.zisha.si/izdelki_pribor_skodelice/caj_skodelica_s_podstavkom/
+
+redirect 301 /novo-v-ponudbi/japonski-cajni-filter/175/ http://www.zisha.si/izdelki_pribor_cedila/caj_japonski_cajni_filter/
+
+redirect 301 /novo-v-ponudbi/caj-za-dva/196/ http://www.zisha.si/izdelki_pribor_skodelice/caj_cajni_set_iz_porcelana_za_dva/
+
+redirect 301 /caji/crni-caji/jesenski-sonet/134/ http://www.zisha.si/izdelki_zeleni_caji/caj_jesenski_sonet/
+redirect 301 /pripomocki/cedila/japonski-cajni-filter/175/ http://www.zisha.si/izdelki_pribor_cedila/caj_japonski_cajni_filter/
+redirect 301 /caji/zeleni-caji/zeleni-caj-meta/125/ http://www.zisha.si/izdelki_zeleni_caji/caj_zelena_meta/
+redirect 301 /novo-v-ponudbi/skodelica-s-podstavkom/188/ http://www.zisha.si/izdelki_pribor_skodelice/caj_skodelica_s_podstavkom/
+redirect 301 /novo-v-ponudbi/glinena-skodelica/195/ http://www.zisha.si/izdelki_pribor_skodelice/caj_glinena_skodelica/
+redirect 301 /caji/rooibos-caji/bozickov-pomocnik/12/ http://www.zisha.si/izdelki_rooibos_caji/caj_bozickov_pomocnik/
+redirect 301 /caji/rooibos-caji/cacao-cream-caramel/19/ http://www.zisha.si/izdelki_rooibos_caji/caj_cacao_cream_caramel/
+redirect 301 /caji/rooibos-caji/scottish-cream/13/ http://www.zisha.si/izdelki_rooibos_caji/caj_scottish_cream/
+redirect 301 /caji/sadni-caji/sadni-punc/156/ http://www.zisha.si/izdelki_sadni_caji/caj_sadni_punc/
+redirect 301 /izdelek_zeleni_caji/izdelek/gunpowder/ http://www.zisha.si/izdelki_zeleni_caji/caj_gunpowder/
+redirect 301 /caji/rooibos-caji/bananaberry/25/ http://www.zisha.si/izdelki_rooibos_caji/caj_bananaberry/
+redirect 301 /caji/crni-caji/kokos/162/ http://www.zisha.si/izdelki_crni_caji/caj_kokos/
+
+redirect 301 /pripomocki/cedila/cedilo-65mm/198/ http://www.zisha.si/izdelki_pribor_cedila/caj_cedilo_brez_rocaja_premera_65/
+redirect 301 /caji/zeliscni-caji/ http://www.zisha.si/izdelki_zeliscni_caji/
+redirect 301 /pripomocki/cedila/bombilla/77/ http://www.zisha.si/izdelki_pribor_cedila/caj_bombilla/
+redirect 301 /caji/sadni-caji/babicin-caj/155/ http://www.zisha.si/izdelki_sadni_caji/caj_babicin_caj/
+redirect 301 /caji/mate-caj/cool-fresh/73/ http://www.zisha.si/izdelki_mate_caji/caj_cool_fresh/
+
+redirect 301 /pripomocki/skodelice/gaiwan-modro-nebo/187/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_modro_nebo/
+
+redirect 301 /caji/zeliscni-caji/koprivin-caj/114/ http://www.zisha.si/izdelki_zeliscni_caji/caj_koprivin_caj/
+redirect 301 /izdelek_zeliscni_caji/izdelek/limonska_trava/ http://www.zisha.si/izdelki_zeliscni_caji/caj_limonska_trava/
+redirect 301 /caji/zeliscni-caji/kamilice/115/ http://www.zisha.si/izdelki_zeliscni_caji/caj_kamilice/
+redirect 301 /novice/novice-iz-zishe/spletna-cajnica/1/ http://www.zisha.si/seznam_novic/
+redirect 301 /caji/zeliscni-caji/planinski-caj/111/ http://www.zisha.si/izdelki_zeliscni_caji/caj_planinski_caj/
+redirect 301 /caji/zeleni-caji/zeleni-jasminov-caj/127/ http://www.zisha.si/izdelki_zeleni_caji/caj_china_jasmin/
+redirect 301 /pripomocki/cedila/papirni-filter-za-cajnik/177/ http://www.zisha.si/izdelki_pribor_cedila/caj_papirni_filter_za_cajnik/
+
+redirect 301 /pripomocki/skodelice/glinena-skodelica/195/ http://www.zisha.si/izdelki_pribor_skodelice/caj_glinena_skodelica/
+redirect 301 /caji/zeliscni-caji/caj-za-hujsanje/154/ http://www.zisha.si/izdelki_zeliscni_caji/caj_caj_za_hujsanje/
+redirect 301 /caji/crni-caji/jun-chiyabari/1/ http://www.zisha.si/izdelki_crni_caji/caj_nepal_sf_jun_chiyabari/
+redirect 301 /novo-v-ponudbi/papirni-filter-za-cajnik/177/ http://www.zisha.si/izdelki_pribor_cedila/caj_papirni_filter_za_cajnik/
+redirect 301 /caji/sadni-caji/peceno-jabolko/159/ http://www.zisha.si/izdelki_sadni_caji/caj_peceno_jabolko/
+redirect 301 /caji/zeliscni-caji/bozickov-pomocnik/12/ http://www.zisha.si/izdelki_rooibos_caji/caj_bozickov_pomocnik/
+redirect 301 /caji/sadni-caji/bozicno-jabolko/160/ http://www.zisha.si/izdelki_sadni_caji/caj_bozicno_jabolko/
+redirect 301 /caji/rooibos-caji/jagodna-krema/35/ http://www.zisha.si/izdelki_rooibos_caji/caj_jagodna_krema-1/
+redirect 301 /pripomocki/skodelice/gaiwan-modra-ptica/186/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_modra_ptica/
+redirect 301 /caji/crni-caji/marcipan/29/ http://www.zisha.si/izdelki_crni_caji/caj_marcipan/
+redirect 301 /caji/sadni-caji/plava-laguna/131/ http://www.zisha.si/izdelki_sadni_caji/caj_plava_laguna/
+redirect 301 /caji/sadni-caji/turski-med/36/ http://www.zisha.si/izdelki_sadni_caji/caj_turski_med/
+
+redirect 301 /pripomocki/cajniki/caj-za-dva/196/ http://www.zisha.si/izdelki_pribor_skodelice/caj_cajni_set_iz_porcelana_za_dva/
+redirect 301 /novo-v-ponudbi/gaiwan-modro-nebo/187/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_modro_nebo/
+redirect 301 /novo-v-ponudbi/gaiwan-z-zmajem/185/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_z_zmajem/
+redirect 301 /caji/sadni-caji/ledena-palaca/70/ http://www.zisha.si/izdelki_sadni_caji/caj_ledena_palaca/
+redirect 301 /caji/rumeni-caji/huang-da-cha/206/ http://www.zisha.si/izdelki_rumeni_caji/caj_huang_da_cha/
+
+redirect 301 /caji/zeliscni-caji/cacao-cream-caramel/19/ http://www.zisha.si/izdelki_rooibos_caji/caj_cacao_cream_caramel/
+redirect 301 /novo-v-ponudbi/okrogla-japonska-skodelica/184/ http://www.zisha.si/izdelki_pribor_skodelice/caj_japonska_skodelica/
+redirect 301 /pripomocki/cajniki/bel-cajnik/190/ http://www.zisha.si/izdelki_pribor/caj_cajnik_iz_porcelana_v_beli_barvi/
+redirect 301 /novo-v-ponudbi/gaiwan-modra-ptica/186/ http://www.zisha.si/izdelki_pribor_skodelice/caj_gaiwan_iz_porcelana_modra_ptica/
+redirect 301 /novo-v-ponudbi/zaponka-za-filter-vrecko/178/ http://www.zisha.si/izdelki_pribor_cedila/caj_zaponka_za_filter_vrecko/
+redirect 301 /caji/zeleni-caji/zeleni-caj-meta/125/ http://www.zisha.si/izdelki_zeleni_caji/caj_zelena_meta/
+redirect 301 /izdelek_zeleni_caji/izdelek/gunpowder/ http://www.zisha.si/izdelki_zeleni_caji/caj_gunpowder/
+
+redirect 301 /o-nas http://www.zisha.si/o_podjetju/
+redirect 301 /clanki http://www.zisha.si/seznam_novic/
+redirect 301 /caji/mate-caj/ http://www.zisha.si/izdelki_mate_caji/
+redirect 301 /caji/sadni-caji/ http://www.zisha.si/izdelki_sadni_caji/
+redirect 301 /stran/dostava/3 http://www.zisha.si/dostava/
+redirect 301 /caji/zeleni-caji/ http://www.zisha.si/izdelki_zeleni_caji/
+redirect 301 /pripomocki/ http://www.zisha.si/izdelki_pribor/
+redirect 301 /sladila/ http://www.zisha.si/izdelki_pribor_sladila/
+
+redirect 301 /novo-v-ponudbi/ http://www.zisha.si/
+redirect 301 /caji/crni-caji/ http://www.zisha.si/izdelki_crni_caji/
+
+redirect 301 /caji/zeleni-caji/ http://www.zisha.si/izdelki_zeleni_caji/
+redirect 301 /caji/rooibos-caji/ http://www.zisha.si/izdelki_rooibos_caji/
+redirect 301 /caji/pu-erh-caji/ http://www.zisha.si/izdelki_pu_erh_caji/
+redirect 301 /caji/zeliscni-caji/ http://www.zisha.si/izdelki_zeliscni_caji/
+redirect 301 /caji/sadni-caji/?&stran=1 http://www.zisha.si/izdelki_sadni_caji/
+redirect 301 /pripomocki/?&stran=3 http://www.zisha.si/izdelki_pribor/
+redirect 301 /pripomocki/?&stran=2 http://www.zisha.si/izdelki_pribor/
+redirect 301 /clanki/o-cajih/ http://www.zisha.si/seznam_novic/
+redirect 301 /novice/novice-iz-zishe/ http://www.zisha.si/seznam_novic/
+redirect 301 /caji/beli-caji/ http://www.zisha.si/izdelki_beli_caji/
+redirect 301 /pripomocki/cedila/ http://www.zisha.si/izdelki_pribor_cedila/
+redirect 301 /caji/pu-erh-caji/ http://www.zisha.si/izdelki_pu_erh_caji/
+redirect 301 /pripomocki/cajniki/ http://www.zisha.si/izdelki_pribor_cajniki/
+redirect 301 /pripomocki/?&stran=1 http://www.zisha.si/izdelki_pribor/
+
+redirect 301 /pripomocki/cajniki/ http://www.zisha.si/izdelki_pribor_cajniki/
+redirect 301 /pripomocki/?&stran=3 http://www.zisha.si/izdelki_pribor/
+redirect 301 /pripomocki/cedila/ http://www.zisha.si/izdelki_pribor_cedila/
+
+redirect 301 /caji/mate-caj/ http://www.zisha.si/izdelki_mate_caji/
+redirect 301 /caji/beli http://www.zisha.si/izdelki_beli_caji/
+redirect 301 /caji/rumeni-caji/ http://www.zisha.si/izdelki_rumeni_caji/
+redirect 301 /caji/crni http://www.zisha.si/izdelki_crni_caji/
+redirect 301 /caji/oolong-caji/ http://www.zisha.si/izdelki_oolong_caji/
+redirect 301 /novice/.../ http://www.zisha.si/seznam_novic/
+
+redirect 301 /pripomocki/cajniki/ http://www.zisha.si/izdelki_pribor_cajniki/
+redirect 301 /novice/novice-iz-zishe/ http://www.zisha.si/seznam_novic/
+
+redirect 301 /caji/beli-caji/ http://www.zisha.si/izdelki_beli_caji/
+redirect 301 /pripomocki/ http://www.zisha.si/izdelki_pribor/
+redirect 301 /novice/ http://www.zisha.si/seznam_novic/
+redirect 301 /caji/beli/ http://www.zisha.si/izdelki_beli_caji/
+redirect 301 /stran/dostava/5 http://www.zisha.si/dostava/
+redirect 301 /stran/kontakti/2 http://www.zisha.si/kontakt_in_lokacija/
+redirect 301 /narocilo http://www.zisha.si/kosarica/
+
+redirect 301 /caji/?&stran=3 http://www.zisha.si/izdelki_caji/
+redirect 301 /caji/?&stran=1 http://www.zisha.si/izdelki_caji/
+redirect 301 /caji/?&stran=4 http://www.zisha.si/izdelki_caji/
+redirect 301 /caji/ http://www.zisha.si/izdelki_caji/
+redirect 301 /caji/ http://www.zisha.si/izdelki_caji/

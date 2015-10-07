@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="removeLink">Odstrani povezavo</label>
+      <label index="uploadImage">Dodaj sliko</label>
+      <label index="update">Osveži</label>
+      <label index="path">Pot</label>
+      <label index="page">Stran</label>
+      <label index="file">Datoteka</label>
+      <label index="extUrl">Zunanji URL</label>
+      <label index="email">Email</label>
+      <label index="special">Posebno</label>
+      <label index="folderTree">Drevo map</label>
+      <label index="files">Datoteke</label>
+      <label index="target">Cilj</label>
+      <label index="linkRelationship"/>
+      <label index="target_popUpWindow">Odpri v oknu</label>
+      <label index="target_popUpWindow_width">Širina</label>
+      <label index="target_popUpWindow_height">Višina</label>
+      <label index="anchor_class">Stil</label>
+      <label index="anchor_title">Naslov</label>
+      <label index="newWindow">Novo okno</label>
+      <label index="top">Vrh</label>
+      <label index="none">Nič - nova povezava!</label>
+      <label index="pageTree">Drevo strani</label>
+      <label index="contentElements">Elementi vsebine</label>
+      <label index="selectRecords">Izberi zapise</label>
+      <label index="addToList">Dodaj v seznam...</label>
+      <label index="info">Info</label>
+      <label index="emailAddress">Email naslov</label>
+      <label index="setLink">Nastavi povezavo</label>
+      <label index="clickToRedrawFullSize">Slika je večja kot je prikazana tukaj! Klikni za prikaz v polni velikosti.</label>
+      <label index="findDragDrop">Poišči sliko, nato jo klikni in povleci v urejevalnik v glavnem oknu!</label>
+      <label index="noWebFolder">To ni vaša lokalna mapa (rumena), zato iz nje ne morete poveči slik.</label>
+      <label index="currentLink">Obstoječa povezava</label>
+      <label index="invalidChar">NAPAKA: Neveljaven znak v poti do datoteke (%s). Ne morem dodati datoteke!</label>
+      <label index="page_id"/>
+      <label index="query_parameters"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

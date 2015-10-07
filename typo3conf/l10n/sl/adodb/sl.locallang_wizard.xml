@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="dbtype">Tip podatkovne baze</label>
+      <label index="host">Gostitelj ali DSN</label>
+      <label index="dbname">Ime podatkovne baze</label>
+      <label index="username">Uporabniško ime</label>
+      <label index="password">Geslo</label>
+      <label index="table">Ime tabele</label>
+      <label index="checkconnectionwizard">Preveri povezavo do podatkovne baze s spodnjo konfiguracijo</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

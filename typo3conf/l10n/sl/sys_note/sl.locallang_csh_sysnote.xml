@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index=".description"/>
+      <label index=".details"/>
+      <label index="_.seeAlso"/>
+      <label index="category.description"/>
+      <label index="subject.description"/>
+      <label index="message.description"/>
+      <label index="author.description"/>
+      <label index="email.description"/>
+      <label index="personal.description"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

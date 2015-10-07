@@ -1,0 +1,52 @@
+###
+# Default TS-constants for cookie_control
+##
+
+plugin.cookiecontrol{
+     
+  # cat=plugin_cookie_control/file/1; type=text; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.templateFile
+  file.templateFile = EXT:cookie_control/pi1/res/template.html
+
+  # cat=plugin_cookie_control/file/3; type=text; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.themepath
+  theme.themepath = typo3conf/ext/cookie_control/
+  
+  # cat=plugin_cookie_control/file/2; type=options[default,blue,grey,black]; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.themeselect
+  theme.themeselect = default
+  
+  # cat=plugin_cookie_control//24; type=options[information_only,implicit,explicit]; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.consentmodel
+   theme.consentmodel = information_only
+  
+  # cat=plugin_cookie_control/file/4; type=text; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.bluetheme
+  theme.bluetheme = 
+  
+  # cat=plugin_cookie_control/file/5; type=text; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.greytheme
+  theme.greytheme = 
+  
+  # cat=plugin_cookie_control/file/6; type=text; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.blacktheme
+  theme.blacktheme =  
+  
+  # cat=plugin_cookie_control/file/7; type=text; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.themedefault
+  theme.default = 
+
+ # cat=plugin_cookie_control//8; type=options[left,right]; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.iconposition
+  theme.iconposition = left
+  
+   # cat=plugin_cookie_control//9; type=options[triangle,diamond]; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.icontype
+   theme.icontype = triangle
+   
+    # cat=plugin_cookie_control//10; type=boolean; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.countryselection
+   theme.countryselection = 
+   
+    # cat=plugin_cookie_control//21; type=text; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.countryfield
+   theme.countryfield = 
+   
+   # cat=plugin_cookie_control//22; type=text; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.theme
+   theme.theme =
+   
+   # cat=plugin_cookie_control//23; type=text; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.analyticscode
+   theme.analyticscode = 
+    # cat=plugin_cookie_control//24; type=boolean; label= LLL:EXT:cookie_control/locallang_db.xml:tsce.enableSession
+   theme.enableSession = 
+   
+
+}

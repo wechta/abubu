@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="mlang_labels_tablabel">Orodja za predloge</label>
+      <label index="mlang_labels_tabdescr">Tukaj lahko upravljate s TypoScript predlogami, ki določajo izgled vaše spletne strani. V modulu lahko najdete specializirane funkcije, kot so brskalnik po objektih, urejevalnik konstant in možnost urejanja izvorne Typoscript kode.&lt;br /&gt;&lt;em&gt;Dostop imajo samo administrativni uporabniki!&lt;/em&gt;</label>
+      <label index="mlang_tabs_tab">Predloga</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

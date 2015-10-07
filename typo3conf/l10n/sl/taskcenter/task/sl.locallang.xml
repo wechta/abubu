@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="mlang_tabs_tab"/>
+      <label index="task_overview"/>
+      <label index="error_header"/>
+      <label index="error-access"/>
+      <label index="error_no-instance"/>
+      <label index="no-tasks"/>
+      <label index="lReplyAddress">Povratni naslov je vaš e-naslov</label>
+      <label index="lSelf">Jaz</label>
+      <label index="lSendNew">Pošlji novo sporočilo</label>
+      <label index="lSendReply">Pošlji odgovor</label>
+      <label index="listSeparator_Groups">__Skupine:__</label>
+      <label index="lHomedir">Domača mapa</label>
+      <label index="lNone">[brez]</label>
+      <label index="lCreate">Ustvari</label>
+      <label index="lCancel">Prekliči</label>
+      <label index="lDelete_warning">Ste prepričani, da želite odstraniti tega uporabnika?</label>
+      <label index="lDelete">Izbriši</label>
+      <label index="lUpdate">Osveži</label>
+      <label index="task_description"/>
+      <label index="taskcenter-about"/>
+      <label index="taskcenter-adminheader"/>
+      <label index="taskcenter-admin"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

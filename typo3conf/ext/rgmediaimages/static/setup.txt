@@ -1,0 +1,210 @@
+# /***************************
+# *  Default TS for the
+# *   EXT rgmediaimages
+# * by Ringer Georg (just2b)
+# *   http://www.ringer.it
+# ***************************/  
+
+# Videos in tt_content
+includeLibs.rgmediaimages = EXT:rgmediaimages/class.tx_rgmediaimages_fe.php
+
+
+tt_content.image.20.1.stdWrap {
+	override {
+		if	{
+			isInList {
+				current = 1	
+				substring = -3,3
+				case = upper
+			}	
+			value = FLV,SWF,RTMP,MP3,WMV,RGG
+		}
+		postCObject = COA
+		postCObject {
+					
+			10 = TEXT
+			10 {
+				current = 1
+				field = image
+				
+				postUserFunc = tx_rgmediaimages_fe->user_images
+				postUserFunc {
+					
+					conf.useSwfObject			= {$plugin.rgmediaimages.useSwfObject}
+					conf.use1PixelOut			= {$plugin.rgmediaimages.use1PixelOut}
+					conf.width						= {$plugin.rgmediaimages.width}
+					conf.height						= {$plugin.rgmediaimages.height}
+					conf.backgroundColor	= {$plugin.rgmediaimages.backgroundColor}
+					conf.backgroundImage	= {$plugin.rgmediaimages.backgroundImage}
+					conf.foregroundColor	= {$plugin.rgmediaimages.foregroundColor}
+					conf.highlightColor		= {$plugin.rgmediaimages.highlightColor}
+					conf.screenColor			= {$plugin.rgmediaimages.screenColor}
+					conf.largeControllBar	= {$plugin.rgmediaimages.largeControllBar}
+					conf.showNavigation		= {$plugin.rgmediaimages.showNavigation}					
+					conf.showDigits				= {$plugin.rgmediaimages.showDigits}
+					conf.showDownload			= {$plugin.rgmediaimages.showDownload}
+					conf.showStop					= {$plugin.rgmediaimages.showStop}
+					conf.showEqualizer		= {$plugin.rgmediaimages.showEqualizer}
+					conf.showLoadPlay			= {$plugin.rgmediaimages.showLoadPlay}
+					conf.showVolume				= {$plugin.rgmediaimages.showVolume}
+					conf.autoStart				= {$plugin.rgmediaimages.autoStart}
+					conf.autoRepeat				= {$plugin.rgmediaimages.autoRepeat}
+					conf.volume						= {$plugin.rgmediaimages.volume}	
+					conf.logo							= {$plugin.rgmediaimages.logo}
+					conf.mootools					= {$plugin.rgmediaimages.mootools}
+					
+					conf.youtubeBorder		= {$plugin.rgmediaimages.youtubeBorder}
+					conf.youtubeColor1		= {$plugin.rgmediaimages.youtubeColor1}										
+					conf.youtubeColor2		= {$plugin.rgmediaimages.youtubeColor2}
+					
+					confmp3.width					= {$plugin.rgmediaimagesMp3.width}
+					confmp3.height				= {$plugin.rgmediaimagesMp3.height}						
+					confmp3.bg						= {$plugin.rgmediaimagesMp3.bg}
+					confmp3.leftbg				= {$plugin.rgmediaimagesMp3.leftbg}
+					confmp3.lefticon			= {$plugin.rgmediaimagesMp3.lefticon}
+					confmp3.rightbg				= {$plugin.rgmediaimagesMp3.rightbg}
+					confmp3.rightbghover	= {$plugin.rgmediaimagesMp3.rightbghover}
+					confmp3.righticon			= {$plugin.rgmediaimagesMp3.righticon}
+					confmp3.righticonhover= {$plugin.rgmediaimagesMp3.righticonhover}
+					confmp3.text					= {$plugin.rgmediaimagesMp3.text}
+					confmp3.slider				= {$plugin.rgmediaimagesMp3.slider}
+					confmp3.track					= {$plugin.rgmediaimagesMp3.track}
+					confmp3.border				= {$plugin.rgmediaimagesMp3.border}
+					confmp3.loader				= {$plugin.rgmediaimagesMp3.loader}
+					confmp3.loop					= {$plugin.rgmediaimagesMp3.loop}
+					confmp3.autostart			= {$plugin.rgmediaimagesMp3.autostart}
+
+					override= TEXT
+					override {
+						field = altText
+						split.token.char = 10
+						split.token.if.isTrue = {$styles.content.imgtext.imageTextSplit}
+						split.returnKey.data = register : IMAGE_NUM_CURRENT
+					}
+				}
+			}
+		}	
+	}		
+}
+
+# Videos in tt_news
+
+plugin.tt_news {
+	rgmediaimages {
+		videoWrapIfAny.wrap = <div class="news-single-video"> | </div>
+		
+		singleMedia.wrap = |<br />
+		
+		caption {
+			wrap = <p class="news-single-imgcaption"> | </p>
+			required = 1
+			trim=1
+		}
+
+		conf.useSwfObject = {$plugin.rgmediaimages.useSwfObject}
+		conf.use1PixelOut			= {$plugin.rgmediaimages.use1PixelOut}		
+		conf.width = {$plugin.rgmediaimages.width}
+		conf.height = {$plugin.rgmediaimages.height}
+		conf.backgroundColor = {$plugin.rgmediaimages.backgroundColor}
+		conf.backgroundImage = {$plugin.rgmediaimages.backgroundImage}
+		conf.foregroundColor = {$plugin.rgmediaimages.foregroundColor}
+		conf.highlightColor = {$plugin.rgmediaimages.highlightColor}
+		conf.screenColor = {$plugin.rgmediaimages.screenColor}
+		conf.largeControllBar = {$plugin.rgmediaimages.largeControllBar}
+		conf.showNavigation		= {$plugin.rgmediaimages.showNavigation}		
+		conf.showDigits = {$plugin.rgmediaimages.showDigits}
+		conf.showDownload = {$plugin.rgmediaimages.showDownload}
+		conf.showEqualizer = {$plugin.rgmediaimages.showEqualizer}
+		conf.showLoadPlay = {$plugin.rgmediaimages.showLoadPlay}
+		conf.showVolume = {$plugin.rgmediaimages.showVolume}
+		conf.showStop					= {$plugin.rgmediaimages.showStop}		
+		conf.autoStart = {$plugin.rgmediaimages.autoStart}
+		conf.autoRepeat = {$plugin.rgmediaimages.autoRepeat}
+		conf.volume = {$plugin.rgmediaimages.volume}
+		conf.logo = {$plugin.rgmediaimages.logo}
+		conf.mootools = {$plugin.rgmediaimages.mootools}	
+
+		conf.youtubeBorder		= {$plugin.rgmediaimages.youtubeBorder}
+		conf.youtubeColor1		= {$plugin.rgmediaimages.youtubeColor1}										
+		conf.youtubeColor2		= {$plugin.rgmediaimages.youtubeColor2}
+
+
+		confmp3.width					= {$plugin.rgmediaimagesMp3.width}
+		confmp3.height				= {$plugin.rgmediaimagesMp3.height}						
+		confmp3.bg						= {$plugin.rgmediaimagesMp3.bg}
+		confmp3.leftbg				= {$plugin.rgmediaimagesMp3.leftbg}
+		confmp3.lefticon			= {$plugin.rgmediaimagesMp3.lefticon}
+		confmp3.rightbg				= {$plugin.rgmediaimagesMp3.rightbg}
+		confmp3.rightbghover	= {$plugin.rgmediaimagesMp3.rightbghover}
+		confmp3.righticon			= {$plugin.rgmediaimagesMp3.righticon}
+		confmp3.righticonhover= {$plugin.rgmediaimagesMp3.righticonhover}
+		confmp3.text					= {$plugin.rgmediaimagesMp3.text}
+		confmp3.slider				= {$plugin.rgmediaimagesMp3.slider}
+		confmp3.track					= {$plugin.rgmediaimagesMp3.track}
+		confmp3.border				= {$plugin.rgmediaimagesMp3.border}
+		confmp3.loader				= {$plugin.rgmediaimagesMp3.loader}
+		confmp3.loop					= {$plugin.rgmediaimagesMp3.loop}
+		confmp3.autostart			= {$plugin.rgmediaimagesMp3.autostart}
+
+	}
+}
+
+
+#### Plugin
+plugin.tx_rgmediaimages_pi1 {
+	use1PixelOut = 1
+	pathToCSS = EXT:rgmediaimages/res/styles.css
+	caption {
+		stdWrap.dataWrap = <div class="rgmediaimages-caption">|</div>
+	}
+	singleMedia {
+		stdWrap.dataWrap = <div class="rgmediaimages-media" style="width:{field:tx_rgmediaimagesWidth}px;">|</div>
+		
+	}
+	
+	confmp3.width					= {$plugin.rgmediaimagesMp3.width}
+	confmp3.height				= {$plugin.rgmediaimagesMp3.height}						
+	confmp3.bg						= {$plugin.rgmediaimagesMp3.bg}
+	confmp3.leftbg				= {$plugin.rgmediaimagesMp3.leftbg}
+	confmp3.lefticon			= {$plugin.rgmediaimagesMp3.lefticon}
+	confmp3.rightbg				= {$plugin.rgmediaimagesMp3.rightbg}
+	confmp3.rightbghover	= {$plugin.rgmediaimagesMp3.rightbghover}
+	confmp3.righticon			= {$plugin.rgmediaimagesMp3.righticon}
+	confmp3.righticonhover= {$plugin.rgmediaimagesMp3.righticonhover}
+	confmp3.text					= {$plugin.rgmediaimagesMp3.text}
+	confmp3.slider				= {$plugin.rgmediaimagesMp3.slider}
+	confmp3.track					= {$plugin.rgmediaimagesMp3.track}
+	confmp3.border				= {$plugin.rgmediaimagesMp3.border}
+	confmp3.loader				= {$plugin.rgmediaimagesMp3.loader}
+	confmp3.loop					= {$plugin.rgmediaimagesMp3.loop}
+	confmp3.autostart			= {$plugin.rgmediaimagesMp3.autostart}
+
+	conf.useSwfObject			= {$plugin.rgmediaimages.useSwfObject}
+	conf.use1PixelOut			= {$plugin.rgmediaimages.use1PixelOut}
+	conf.width						= {$plugin.rgmediaimages.width}
+	conf.height						= {$plugin.rgmediaimages.height}
+	conf.backgroundColor	= {$plugin.rgmediaimages.backgroundColor}
+	conf.backgroundImage	= {$plugin.rgmediaimages.backgroundImage}
+	conf.foregroundColor	= {$plugin.rgmediaimages.foregroundColor}
+	conf.highlightColor		= {$plugin.rgmediaimages.highlightColor}
+	conf.screenColor			= {$plugin.rgmediaimages.screenColor}
+	conf.largeControllBar	= {$plugin.rgmediaimages.largeControllBar}
+	conf.showNavigation		= {$plugin.rgmediaimages.showNavigation}					
+	conf.showDigits				= {$plugin.rgmediaimages.showDigits}
+	conf.showDownload			= {$plugin.rgmediaimages.showDownload}
+	conf.showEqualizer		= {$plugin.rgmediaimages.showEqualizer}
+	conf.showLoadPlay			= {$plugin.rgmediaimages.showLoadPlay}
+	conf.showVolume				= {$plugin.rgmediaimages.showVolume}
+	conf.showStop					= {$plugin.rgmediaimages.showStop}	
+	conf.autoStart				= {$plugin.rgmediaimages.autoStart}
+	conf.autoRepeat				= {$plugin.rgmediaimages.autoRepeat}
+	conf.volume						= {$plugin.rgmediaimages.volume}	
+	conf.logo							= {$plugin.rgmediaimages.logo}
+	conf.mootools					= {$plugin.rgmediaimages.mootools}
+	
+	conf.youtubeBorder		= {$plugin.rgmediaimages.youtubeBorder}
+	conf.youtubeColor1		= {$plugin.rgmediaimages.youtubeColor1}										
+	conf.youtubeColor2		= {$plugin.rgmediaimages.youtubeColor2}
+
+
+}

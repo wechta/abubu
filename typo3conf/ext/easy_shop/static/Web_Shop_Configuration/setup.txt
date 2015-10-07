@@ -1,0 +1,124 @@
+plugin.tx_easyshop_pi1 = {$plugin.tx_easyshop_pi1}
+plugin.tx_easyshop_pi1 {
+	jQueryFrameworkFile={$plugin.tx_easyshop_pi1.jQueryFrameworkFile}
+	includeJQueryFramework={$plugin.tx_easyshop_pi1.includeJQueryFramework}
+	jsPaginationFile={$plugin.tx_easyshop_pi1.jsPaginationFile}
+	cssPaginationFile={$plugin.tx_easyshop_pi1.cssPaginationFile}
+	pageTitlePrependText={$plugin.tx_easyshop_pi1.pageTitlePrependText}
+	pageTitleAppendText={$plugin.tx_easyshop_pi1.pageTitleAppendText}
+	categoryPathTrackDelimiter={$plugin.tx_easyshop_pi1.categoryPathTrackDelimiter}
+	categoryPathTrackWrap={$plugin.tx_easyshop_pi1.categoryPathTrackWrap}
+	categoryMenuSortOrder={$plugin.tx_easyshop_pi1.categoryMenuSortOrder}
+	categoryMenuSortOrderAscDesc ={$plugin.tx_easyshop_pi1.categoryMenuSortOrderAscDesc}
+	productsDefaultSortOrder = {$plugin.tx_easyshop_pi1.productsDefaultSortOrder}
+	productsDefaultSortOrderAscDesc = {$plugin.tx_easyshop_pi1.productsDefaultSortOrderAscDesc}
+	discountWrap = {$plugin.tx_easyshop_pi1.discountWrap}
+	ajax{
+		typeNum = {$plugin.tx_easyshop_pi1.ajax.typeNum}
+		languageParameter = {$plugin.tx_easyshop_pi1.ajax.languageParameter}
+		templateFile={$plugin.tx_easyshop_pi1.ajax.templateFile}
+	}
+	usePiBasePagebrowser = 1
+	pageBrowser {
+	    maxPages = {$plugin.tx_easyshop_pi1.pageBrowser.maxPages}
+	    resultsAtATime = {$plugin.tx_easyshop_pi1.pageBrowser.resultsAtATime}
+	    showResultCount = {$plugin.tx_easyshop_pi1.pageBrowser.showResultCount}
+	    showPBrowserText = {$plugin.tx_easyshop_pi1.pageBrowser.showPBrowserText}
+	    dontLinkActivePage = {$plugin.tx_easyshop_pi1.pageBrowser.dontLinkActivePage}
+	    showFirstLast = {$plugin.tx_easyshop_pi1.pageBrowser.showFirstLast}
+	    pagefloat = {$plugin.tx_easyshop_pi1.pageBrowser.pagefloat}
+	    showRange = {$plugin.tx_easyshop_pi1.pageBrowser.showRange}
+	    disabledLinkWrap = {$plugin.tx_easyshop_pi1.pageBrowser.disabledLinkWrap}
+	    inactiveLinkWrap = {$plugin.tx_easyshop_pi1.pageBrowser.inactiveLinkWrap}
+	    activeLinkWrap ={$plugin.tx_easyshop_pi1.pageBrowser.activeLinkWrap}
+	    showResultsWrap = {$plugin.tx_easyshop_pi1.pageBrowser.showResultsWrap}
+	    browseBoxWrap = {$plugin.tx_easyshop_pi1.pageBrowser.browseBoxWrap}
+	    browseLinksWrap = {$plugin.tx_easyshop_pi1.pageBrowser.browseLinksWrap}
+	}
+	image{
+           maxW={$plugin.tx_easyshop_pi1.image.maxW}
+           maxH={$plugin.tx_easyshop_pi1.image.maxH}
+           class={$plugin.tx_easyshop_pi1.image.class}
+        }
+        thumbnail{
+           maxW={$plugin.tx_easyshop_pi1.thumbnail.maxW}
+           maxH={$plugin.tx_easyshop_pi1.thumbnail.maxH}
+           class={$plugin.tx_easyshop_pi1.thumbnail.class}
+        }
+        file{
+           icon={$plugin.tx_easyshop_pi1.file.icon.show}
+           stdWrap.wrap={$plugin.tx_easyshop_pi1.file.stdWrap.wrap}
+        }
+}
+includeLibs.tx_easyshop_pi1 = EXT:easy_shop/pi1/class.tx_easyshop_pi1.php
+tendWebShopAjaxCall = PAGE
+tendWebShopAjaxCall {
+  typeNum = {$plugin.tx_easyshop_pi1.ajax.typeNum}
+  config {
+  	disableAllHeaderCode = 1
+  	disableCharsetHeader = 1
+  	tx_realurl_enable = 0
+  }
+  10 = USER_INT
+  10 {
+  	userFunc=tx_easyshop_pi1->ajaxCall
+  	jQueryFrameworkFile={$plugin.tx_easyshop_pi1.jQueryFrameworkFile}
+	includeJQueryFramework={$plugin.tx_easyshop_pi1.includeJQueryFramework}
+	typeNum = {$plugin.tx_easyshop_pi1.ajax.typeNum}
+	productsDefaultSortOrder = {$plugin.tx_easyshop_pi1.productsDefaultSortOrder}
+	productsDefaultSortOrderAscDesc = {$plugin.tx_easyshop_pi1.productsDefaultSortOrderAscDesc}
+	discountWrap = {$plugin.tx_easyshop_pi1.discountWrap}
+	pageBrowser {
+	    maxPages = 10
+	    resultsAtATime = 6
+	    showResultCount = 1
+	    showPBrowserText = 0
+	    dontLinkActivePage = 1
+	    showFirstLast = 0
+	    pagefloat = center
+	    showRange = 0
+	    disabledLinkWrap = 
+	    inactiveLinkWrap = <li class="number">|</li>
+	    activeLinkWrap =<li class="activenumber">|</li>
+	    showResultsWrap = |<br />
+	    browseBoxWrap = <div class="top">|</div>
+	    browseLinksWrap = <ul class="moreIcons">|</ul>
+        }
+        image{
+           maxW={$plugin.tx_easyshop_pi1.image.maxW}
+           maxH={$plugin.tx_easyshop_pi1.image.maxH}
+           class={$plugin.tx_easyshop_pi1.image.class}
+        }
+        thumbnail{
+           maxW={$plugin.tx_easyshop_pi1.thumbnail.maxW}
+           maxH={$plugin.tx_easyshop_pi1.thumbnail.maxH}
+           class={$plugin.tx_easyshop_pi1.thumbnail.class}
+        }
+        file{
+           icon = icon={$plugin.tx_easyshop_pi1.file.icon.show}
+           stdWrap.wrap = {$plugin.tx_easyshop_pi1.file.stdWrap.wrap}
+        }
+#   languageParameter = {$plugin.tx_easyshop_pi1.ajax.languageParameter}
+#   templateFile={$plugin.tx_easyshop_pi1.ajax.templateFile}
+  }	
+}
+[globalVar = GP:tx_easyshop_pi1|prod>0] 
+   config.noPageTitle = 2
+[global]
+[globalVar = GP:tx_easyshop_pi1|cat>0] 
+   config.noPageTitle = 2
+[global]
+
+plugin.tx_easyshop_pi2 = USER_INT
+plugin.tx_easyshop_pi2{
+	payment.merchandID={$plugin.tx_easyshop_pi1.payment.merchandID}
+	payment.merchandPass={$plugin.tx_easyshop_pi1.payment.merchandPass}
+	payment.merchandAction={$plugin.tx_easyshop_pi1.payment.merchandAction}
+	payment.url={$plugin.tx_easyshop_pi1.payment.url}
+	productsDefaultSortOrder < plugin.tx_easyshop_pi1.productsDefaultSortOrder
+	productsDefaultSortOrderAscDesc < plugin.tx_easyshop_pi1.productsDefaultSortOrderAscDesc 
+	discountWrap < plugin.tx_easyshop_pi1.discountWrap
+	image < plugin.tx_easyshop_pi1.image
+	thumbnail < plugin.tx_easyshop_pi1.thumbnail
+	file < plugin.tx_easyshop_pi1.file
+}

@@ -1,0 +1,12 @@
+#page_margins {
+    width:560px;
+    padding:0 20px 0 10px;
+}
+
+.bodytext {
+    clear: both;
+}
+
+table.contenttable{
+    color: green;
+}

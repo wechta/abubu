@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:36Z" product-name="rtehtmlarea" target-language="sl">
+    <header/>
+    <body>
+      <trans-unit id="folderTree" xml:space="preserve" approved="yes">
+        <source>Folder tree</source>
+      <target state="translated">Drevo map</target></trans-unit>
+      <trans-unit id="uploadImage" xml:space="preserve" approved="yes">
+        <source>Upload Image</source>
+      <target state="translated">Dodaj sliko</target></trans-unit>
+      <trans-unit id="path" xml:space="preserve" approved="yes">
+        <source>Path</source>
+      <target state="translated">Pot</target></trans-unit>
+      <trans-unit id="images" xml:space="preserve" approved="yes">
+        <source>Images</source>
+      <target state="translated">Slike</target></trans-unit>
+      <trans-unit id="magicImage_msg" xml:space="preserve" approved="yes">
+        <source>In "Magic" mode you can select any kind of image with any dimensions. The image is automatically converted to a web image format and any adjustments you make to the size of the image is post processed in order to optimize size and quality.</source>
+      <target state="translated">V "čarobnem" načinu lahko izberete sliko s kakrąnemkoli formatu ali velikosti. Program sliko avtomatično pretvori v spletni format in pravo velikost. Vse vaąe nastavitve velikosti se izvedejo naknadno, zaradi optimizacije velikosti in kvalitete.</target></trans-unit>
+      <trans-unit id="plainImage_msg" xml:space="preserve" approved="yes">
+        <source>In "Plain" mode you can insert only web image formats (jpg,jpeg,gif,png) up to %1$sx%2$s pixels. This method is designed for images which are optimized for web already.</source>
+      <target state="translated">V "običajnem" načinu lahko dodajate samo slike v spletnem formatu (JPG,GIF in PNG) do velikosti 640x480 točk. Ta način uporabite pri slikah, ki so ľe optimizirane za splet.</target></trans-unit>
+      <trans-unit id="class" xml:space="preserve" approved="yes">
+        <source>Style</source>
+      <target state="translated">Stil</target></trans-unit>
+      <trans-unit id="width" xml:space="preserve" approved="yes">
+        <source>Width</source>
+      <target state="translated">Širina</target></trans-unit>
+      <trans-unit id="height" xml:space="preserve" approved="yes">
+        <source>Height</source>
+      <target state="translated">Višina</target></trans-unit>
+      <trans-unit id="border" xml:space="preserve" approved="yes">
+        <source>Border</source>
+      <target state="translated">Okvir</target></trans-unit>
+      <trans-unit id="margin_tb" xml:space="preserve" approved="yes">
+        <source>Margin top/bottom</source>
+      <target state="translated">Rob zgoraj/spodaj</target></trans-unit>
+      <trans-unit id="margin_lr" xml:space="preserve" approved="yes">
+        <source>Margin left/right</source>
+      <target state="translated">Rob levo/desno</target></trans-unit>
+      <trans-unit id="padding_top" xml:space="preserve">
+        <source>Top padding</source>
+      </trans-unit>
+      <trans-unit id="padding_right" xml:space="preserve">
+        <source>Right padding</source>
+      </trans-unit>
+      <trans-unit id="padding_bottom" xml:space="preserve">
+        <source>Bottom padding</source>
+      </trans-unit>
+      <trans-unit id="padding_left" xml:space="preserve">
+        <source>Left padding</source>
+      </trans-unit>
+      <trans-unit id="float" xml:space="preserve" approved="yes">
+        <source>Float</source>
+      <target state="translated">Lebdenje</target></trans-unit>
+      <trans-unit id="notSet" xml:space="preserve" approved="yes">
+        <source>Not set</source>
+      <target state="translated">Ni nastavljeno</target></trans-unit>
+      <trans-unit id="nonFloating" xml:space="preserve" approved="yes">
+        <source>Non-floating</source>
+      <target state="translated">Nelebdeče</target></trans-unit>
+      <trans-unit id="left" xml:space="preserve" approved="yes">
+        <source>Left</source>
+      <target state="translated">Levo</target></trans-unit>
+      <trans-unit id="right" xml:space="preserve" approved="yes">
+        <source>Right</source>
+      <target state="translated">Desno</target></trans-unit>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Naslov</target></trans-unit>
+      <trans-unit id="alt" xml:space="preserve" approved="yes">
+        <source>Alternate text</source>
+      <target state="translated">Nadomestno besedilo</target></trans-unit>
+      <trans-unit id="update" xml:space="preserve" approved="yes">
+        <source>Update</source>
+      <target state="translated">Osveľi</target></trans-unit>
+      <trans-unit id="magicImage" xml:space="preserve" approved="yes">
+        <source>New Magic Image</source>
+      <target state="translated">Nova 'čarobna' slika</target></trans-unit>
+      <trans-unit id="plainImage" xml:space="preserve" approved="yes">
+        <source>New Plain Image</source>
+      <target state="translated">Nova običajna slika</target></trans-unit>
+      <trans-unit id="dragDropImage" xml:space="preserve" approved="yes">
+        <source>Drag and Drop</source>
+      <target state="translated">Potegni in spusti</target></trans-unit>
+      <trans-unit id="currentImage" xml:space="preserve" approved="yes">
+        <source>Current Image</source>
+      <target state="translated">Trenutna slika</target></trans-unit>
+      <trans-unit id="bytes" xml:space="preserve" approved="yes">
+        <source>bytes</source>
+      <target state="translated">bajtov</target></trans-unit>
+      <trans-unit id="pixels" xml:space="preserve" approved="yes">
+        <source>pixels</source>
+      <target state="translated">pikslov</target></trans-unit>
+    </body>
+  </file>
+</xliff>

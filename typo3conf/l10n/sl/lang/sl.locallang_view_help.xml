@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="details">Podrobnosti</label>
+      <label index="syntax">Sintaksa</label>
+      <label index="seeAlso">Glej tudi</label>
+      <label index="goBack">Pojdi nazaj</label>
+      <label index="fullDescription">Poglej poln opis tabele</label>
+      <label index="fullDescription_module">Prikaži poln opis modula</label>
+      <label index="goToToc">Pojdi na kazalo</label>
+      <label index="to_top">Na vrh</label>
+      <label index="TOC">Kazalo</label>
+      <label index="TOC_core">Značilnosti jedra TYPO3</label>
+      <label index="TOC_modules">Administrativni moduli</label>
+      <label index="TOC_tables">Podatkovne tabele</label>
+      <label index="TOC_extensions">Razširitve</label>
+      <label index="TOC_glossary">Slovar</label>
+      <label index="TOC_other">Drugo</label>
+      <label index="close">Zapri</label>
+      <label index="title">Vključen priročnik za TYPO3</label>
+      <label index="manual_title">Vključena uporabniška navodila za TYPO3</label>
+      <label index="introduction">Uvod</label>
+      <label index="description">Vključen priročnik za TYPO3 je sestavljen iz besedil za kontekstno pomoč, ki je na voljo v tej TYPO3 namestitvi. Tukaj najdete splošne opise modulov TYPO3 jedra, administracijskih modulov, ki so pomembni za namestitev in podatkovnih tabel, ki so na voljo, glede na vašo prijavo.</label>
+      <label index="full_manual">Celoten priročnik (ena stran)</label>
+      <label index="full_manual_chapters">Poglavja priročnika</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

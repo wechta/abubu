@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="permissions">Privilegiji</label>
+      <label index="ch_permissions">Spremeni privilegije</label>
+      <label index="Legend">Legenda</label>
+      <label index="Owner">Lastnik</label>
+      <label index="Group">Skupina</label>
+      <label index="Everybody">Vsakdo</label>
+      <label index="EditLock">Zakleni</label>
+      <label index="EditLock_descr">To stran in njeno vsebino lahko urejajo samo 'admin' uporabniki.</label>
+      <label index="Save">Shrani</label>
+      <label index="Abort">Prekliči</label>
+      <label index="Edit">UREDI</label>
+      <label index="recursive">Nastavi rekurzivno</label>
+      <label index="pages_affected">upoštevanih strani</label>
+      <label index="user_overview">Uporabniški pregled</label>
+      <label index="Mode">Način</label>
+      <label index="Depth">Globina</label>
+      <label index="levels">nivojev</label>
+      <label index="User">Uporabnik</label>
+      <label index="def">Definicija: 'vsebina' so zapisi iz vseh tabel na strani - razen zapisi iz tabele 'strani' (Strani).</label>
+      <label index="A_Granted">Dostop omogočen</label>
+      <label index="A_Denied">Dostop zavrnjen</label>
+      <label index="1">Uredi vsebino</label>
+      <label index="16">Uredi vsebino</label>
+      <label index="2">Uredi stran</label>
+      <label index="4">Izbriši stran</label>
+      <label index="8">Nove strani</label>
+      <label index="1_t">Pokaži/Kopiraj stran in vsebino.</label>
+      <label index="16_t">Spremeni/Dodaj/Izbriši/Premakni vsebino.</label>
+      <label index="2_t">Spremeni/Premakni stran, npr. spremeni naslov strani itd.</label>
+      <label index="4_t">Izbriši stran in vsebino.</label>
+      <label index="8_t">Ustvari nove strani pod to stranjo.</label>
+      <label index="mlang_labels_tablabel">Privilegiji za urejanje</label>
+      <label index="mlang_labels_tabdescr">Z nastavitvijo privilegijev posameznim uporabnikom omogočite urejanje strani.</label>
+      <label index="mlang_tabs_tab">Dostop</label>
+      <label index="WorkspaceWarning"/>
+      <label index="WorkspaceWarningText"/>
+      <label index="notSet"/>
+      <label index="deleted"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

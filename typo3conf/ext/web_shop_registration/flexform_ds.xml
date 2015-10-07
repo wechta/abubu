@@ -1,0 +1,321 @@
+<T3DataStructure>
+  <sheets>
+	<sGEN>
+	  	<ROOT>
+			<TCEforms>
+				<sheetTitle>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.sheet_display</sheetTitle>
+			</TCEforms>
+		    <type>array</type>
+		    <el>
+		      <language>
+					<TCEforms>
+						<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.language</label>
+						<config>
+							<type>select</type>
+							<foreign_table>sys_language</foreign_table>
+							<foreign_table_where>AND sys_language.title!=''</foreign_table_where>
+							<items>
+								<numIndex index="0" type="array">
+									<numIndex index="0">LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.language.0</numIndex>
+								</numIndex>
+							</items>
+							<size>1</size>
+							<minitems>0</minitems>
+							<maxitems>1</maxitems>
+						</config>
+					</TCEforms>
+			  </language>
+			  
+			  
+			  <writeinto>
+				<TCEforms>
+						<label>write into</label>
+				         <config>
+							<type>group</type>
+							<internal_type>db</internal_type>
+							<allowed>pages</allowed>
+							<size>1</size>
+							<maxitems>1</maxitems>
+							<minitems>0</minitems>
+							<show_thumbs>1</show_thumbs>
+						</config>
+						</TCEforms>
+		      </writeinto>
+		      
+		      <usereditpage>
+				<TCEforms>
+						<label>User edit page</label>
+				         <config>
+							<type>group</type>
+							<internal_type>db</internal_type>
+							<allowed>pages</allowed>
+							<size>1</size>
+							<maxitems>1</maxitems>
+							<minitems>0</minitems>
+							<show_thumbs>1</show_thumbs>
+						</config>
+						</TCEforms>
+		      </usereditpage>
+			  <userregisterpage>
+				<TCEforms>
+						<label>User register page</label>
+				         <config>
+							<type>group</type>
+							<internal_type>db</internal_type>
+							<allowed>pages</allowed>
+							<size>1</size>
+							<maxitems>1</maxitems>
+							<minitems>0</minitems>
+							<show_thumbs>1</show_thumbs>
+						</config>
+						</TCEforms>
+		      </userregisterpage>
+		      <loginpage>
+				<TCEforms>
+						<label>User login page</label>
+				         <config>
+							<type>group</type>
+							<internal_type>db</internal_type>
+							<allowed>pages</allowed>
+							<size>1</size>
+							<maxitems>1</maxitems>
+							<minitems>0</minitems>
+							<show_thumbs>1</show_thumbs>
+						</config>
+						</TCEforms>
+		      </loginpage>
+			  
+			  
+		      <templateFile>
+				<TCEforms>
+				<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.templateFile</label>
+		         <config>
+		          <type>input</type>
+		          <size>30</size>
+		         </config>
+				</TCEforms>
+		      </templateFile>
+		      <showForm>
+					<TCEforms>
+						<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.showForm</label>
+						<config>
+							<type>select</type>
+							<items type="array">			
+								<numIndex index="1" type="array">
+									<numIndex index="0">Normal</numIndex>
+									<numIndex index="1">normal</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">Infopush</numIndex>
+									<numIndex index="1">infopush</numIndex>
+								</numIndex>
+							</items>
+							<minitems>1</minitems>
+							<maxitems>1</maxitems>
+							<size>1</size>
+						</config>
+					</TCEforms>
+				</showForm>
+				<fe_group>
+				<TCEforms>
+				<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.fe_group</label>
+		         <config>
+					<type>group</type>
+					<internal_type>db</internal_type>
+					<allowed>fe_groups</allowed>
+					<size>1</size>
+					<maxitems>1</maxitems>
+					<minitems>0</minitems>
+					<show_thumbs>1</show_thumbs>
+				</config>
+				</TCEforms>
+		      </fe_group>
+	    	</el>
+	  </ROOT>
+    </sGEN>
+    <sPAGES>
+	  	<ROOT>
+			<TCEforms>
+				<sheetTitle>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.sheet_pages</sheetTitle>
+			</TCEforms>
+		    <type>array</type>
+		    <el>
+		      <login_page>
+				<TCEforms>
+				<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.login_page</label>
+		         <config>
+					<type>group</type>
+					<internal_type>db</internal_type>
+					<allowed>pages</allowed>
+					<size>1</size>
+					<maxitems>1</maxitems>
+					<minitems>0</minitems>
+					<show_thumbs>1</show_thumbs>
+				</config>
+				</TCEforms>
+		      </login_page>
+		      <page_basket_view>
+				<TCEforms>
+				<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.page_basket_view</label>
+		         <config>
+					<type>group</type>
+					<internal_type>db</internal_type>
+					<allowed>pages</allowed>
+					<size>1</size>
+					<maxitems>1</maxitems>
+					<minitems>0</minitems>
+					<show_thumbs>1</show_thumbs>
+				</config>
+				</TCEforms>
+		      </page_basket_view>
+	    	</el>
+	  </ROOT>
+    </sPAGES>
+    <sMAIL>
+	  	<ROOT>
+			<TCEforms>
+				 <sheetTitle>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.sheet_mail</sheetTitle>
+			</TCEforms>
+		    <type>array</type>
+		    <el>
+		       <mailer>
+					<TCEforms>
+						<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.mailer</label>
+						<config>
+							<type>select</type>
+							<items type="array">			
+								<numIndex index="1" type="array">
+									<numIndex index="0">LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.mailer.1</numIndex>
+									<numIndex index="1">mail</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.mailer.3</numIndex>
+									<numIndex index="1">sendmail</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.mailer.5</numIndex>
+									<numIndex index="1">smtp</numIndex>
+								</numIndex>
+							</items>
+							<minitems>1</minitems>
+							<maxitems>1</maxitems>
+							<size>1</size>
+						</config>
+					</TCEforms>
+				</mailer>
+				<priority>
+					<TCEforms>
+						<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.priority</label>
+						<config>
+							<type>select</type>
+							<items type="array">	
+								<numIndex index="2" type="array">
+									<numIndex index="0">LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.priority.3</numIndex>
+									<numIndex index="1">3</numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.priority.1</numIndex>
+									<numIndex index="1">1</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.priority.5</numIndex>
+									<numIndex index="1">5</numIndex>
+								</numIndex>
+							</items>
+							<minitems>1</minitems>
+							<maxitems>1</maxitems>
+							<size>1</size>
+						</config>
+					</TCEforms>
+				</priority>
+				<charset>
+					<TCEforms>
+						<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.charset</label>
+				         <config>
+				          <type>input</type>
+				          <size>30</size>
+				         </config>
+					</TCEforms>
+		        </charset>
+		        <from>
+					<TCEforms>
+						<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.from</label>
+			         <config>
+			          <type>input</type>
+			          <size>30</size>
+			         </config>
+					</TCEforms>
+		      </from>
+		      <from_name>
+					<TCEforms>
+						<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.from_name</label>
+			         <config>
+			          <type>input</type>
+			          <size>30</size>
+			         </config>
+					</TCEforms>
+		      </from_name>
+		      <send_to>
+					<TCEforms>
+						<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.send_to</label>
+			         <config>
+			          <type>input</type>
+			          <size>30</size>
+			         </config>
+					</TCEforms>
+		      </send_to>
+		      <notify_usergroup>
+				<TCEforms>
+				<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.notify_usergroup</label>
+		         <config>
+					<type>group</type>
+					<internal_type>db</internal_type>
+					<allowed>fe_groups</allowed>
+					<size>1</size>
+					<maxitems>1</maxitems>
+					<minitems>0</minitems>
+					<show_thumbs>1</show_thumbs>
+				</config>
+				</TCEforms>
+		      </notify_usergroup>
+		      <reply_to>
+					<TCEforms>
+						<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.reply_to</label>
+			         <config>
+			          <type>input</type>
+			          <size>30</size>
+			         </config>
+					</TCEforms>
+		      </reply_to>
+				<subject>
+					<TCEforms>
+						<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.subject</label>
+			         <config>
+			          <type>input</type>
+			          <size>30</size>
+			         </config>
+						</TCEforms>
+		      </subject>
+			  <host>
+				  	<TCEforms>
+			  		<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.host</label>
+				    <config>
+				       <type>input</type>
+				       <size>30</size>
+	      			</config>
+					</TCEforms>
+			  </host>	
+			  <port>
+					<TCEforms>
+					<label>LLL:EXT:web_shop_registration/locallang_tca.php:web_shop_registration.pi_flexform.port</label>
+				    <config>
+				       <type>input</type>
+				       <size>30</size>
+				    </config>
+			  		</TCEforms>
+			  </port>
+	    	</el>
+	  </ROOT>
+    </sMAIL>
+  </sheets>
+</T3DataStructure>

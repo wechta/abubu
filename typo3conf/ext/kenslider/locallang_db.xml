@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'kenslider'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">kenslider</label>
+			<label index="tx_kenslider_entry">Entry</label>
+			<label index="tx_kenslider_entry.image">Image</label>
+			<label index="tx_kenslider_entry.thumb">Thumb</label>
+			<label index="tx_kenslider_entry.initialzoom">Initial Zoom</label>
+			<label index="tx_kenslider_entry.finalzoom">Final Zoom</label>
+			<label index="tx_kenslider_entry.link">Link</label>
+			<label index="tx_kenslider_entry.linktarget">Link Target Outside</label>
+			<label index="tx_kenslider_entry.iframelink">Iframe Link</label>
+			<label index="tx_kenslider_entry.text1">Text 1</label>
+			<label index="tx_kenslider_entry.text2">Text 2</label>
+			<label index="tx_kenslider_entry.text3">Text 3</label>
+			<label index="tx_kenslider_entry.style.I.0">Style 1</label>
+			<label index="tx_kenslider_entry.style.I.1">Style 2</label>
+			<label index="tx_kenslider_entry.style.I.2">Style 3</label>
+			<label index="tx_kenslider_entry.style.I.3">Style 4</label>
+			<label index="tx_kenslider_entry.style">Style</label>
+		</languageKey>
+	</data>
+</T3locallang>

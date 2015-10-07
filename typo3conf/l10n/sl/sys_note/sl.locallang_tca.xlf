@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="si" datatype="plaintext" original="messages" date="Tue Jul 12 18:40:55 UTC 2011" product-name="sys_note">
+    <header/>
+    <body>
+      <trans-unit id="sys_note" approved="yes">
+        <source>Internal note</source>
+        <target state="translated">Interna opomba</target>
+      </trans-unit>
+      <trans-unit id="sys_note.category.I.1" approved="yes">
+        <source>Instructions</source>
+        <target state="translated">Navodila</target>
+      </trans-unit>
+      <trans-unit id="sys_note.category.I.2" approved="yes">
+        <source>Notes</source>
+        <target state="translated">Opombe</target>
+      </trans-unit>
+      <trans-unit id="sys_note.category.I.3" approved="yes">
+        <source>To-do</source>
+        <target state="translated">Naloge</target>
+      </trans-unit>
+      <trans-unit id="sys_note.category.I.4" approved="yes">
+        <source>Template</source>
+        <target state="translated">Predloga</target>
+      </trans-unit>
+      <trans-unit id="sys_note.subject" approved="yes">
+        <source>Subject:</source>
+        <target state="translated">Predmet:</target>
+      </trans-unit>
+      <trans-unit id="sys_note.message" approved="yes">
+        <source>Message:</source>
+        <target state="translated">Sporočilo:</target>
+      </trans-unit>
+      <trans-unit id="sys_note.personal" approved="yes">
+        <source>Personal:</source>
+        <target state="translated">Osebno:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="sel1">Izberite, kakšno vsebino želite ustvariti:</label>
+      <label index="sel2">Izberite položaj vsebine na strani:</label>
+      <label index="common">Tipična vsebina strani</label>
+      <label index="common_headerOnly_title"/>
+      <label index="common_headerOnly_description"/>
+      <label index="common_regularText_title">Običajno besedilo</label>
+      <label index="common_regularText_description">Običajno besedilo z naslovom in telesom besedila.</label>
+      <label index="common_textImage_title">Besedilo s sliko</label>
+      <label index="common_textImage_description">Poljubno število slik oblito z običajnim besedilom.</label>
+      <label index="common_imagesOnly_title">Samo slike</label>
+      <label index="common_imagesOnly_description">Poljubno število slik poravnanih v stolpce in vrstice z opisi.</label>
+      <label index="common_bulletList_title">Neoštevilčen seznam</label>
+      <label index="common_bulletList_description">Samostojen neoštevilčen seznam.</label>
+      <label index="common_table_title">Tabela</label>
+      <label index="common_table_description">Enostavna tabela z do 8 stolpci.</label>
+      <label index="special">Posebni elementi</label>
+      <label index="special_filelinks_title">Povezave do datotek</label>
+      <label index="special_filelinks_description">Ustvari seznam datotek za prenos.</label>
+      <label index="special_multimedia_title">Multimedija</label>
+      <label index="special_multimedia_description">Vstavi medijski element, n.pr: Flash animacijo, audio ali video posnetek.</label>
+      <label index="special_media_title"/>
+      <label index="special_media_description"/>
+      <label index="special_swfobject_title"/>
+      <label index="special_swfobject_description"/>
+      <label index="special_qtobject_title"/>
+      <label index="special_qtobject_description"/>
+      <label index="special_sitemap_title">Načrt strani</label>
+      <label index="special_sitemap_description">Ustvari načrt spletne strani.</label>
+      <label index="special_plainHTML_title">Enostaven HTML</label>
+      <label index="special_plainHTML_description">Vstavi HTML kodo na stran.</label>
+      <label index="special_divider_title"/>
+      <label index="special_divider_description"/>
+      <label index="forms">Elementi obrazca</label>
+      <label index="forms_mail_title">Poštni obrazec</label>
+      <label index="forms_mail_description">Poštni obrazec omogoča obiskovalcem spletne strani pošiljanje odgovorov</label>
+      <label index="forms_search_title">Iskalni obrazec</label>
+      <label index="forms_search_description">Vstavi iskalni obrazec in rezultate iskanja</label>
+      <label index="forms_login_title">Prijavni obrazec</label>
+      <label index="forms_login_description">Prijavno/odjavni obrazec se uporablja za avtoriziranje uporabnikov spletne strani.</label>
+      <label index="plugins">Vtičniki</label>
+      <label index="plugins_general_title">Splošen vtičnik</label>
+      <label index="plugins_general_description">Ta tip elementa izberite, če želite vstaviti vtičnik, ki ga ni med spodnjimi možnostmi.</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

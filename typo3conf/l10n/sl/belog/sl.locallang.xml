@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="chLog_title">Dnevnik</label>
+      <label index="chLog_users_0">Vsi uporabniki</label>
+      <label index="chLog_users_-1">Jaz</label>
+      <label index="chLog_time_0">Ta teden</label>
+      <label index="chLog_time_1">Prejšnji teden</label>
+      <label index="chLog_time_2">Zadnjih 7 dni</label>
+      <label index="chLog_time_10">Ta mesec</label>
+      <label index="chLog_time_11">Zadnji mesec</label>
+      <label index="chLog_time_12">Zadnjih 31 dni</label>
+      <label index="chLog_time_20">Brez omejitve</label>
+      <label index="chLog_l_time">Čas</label>
+      <label index="chLog_l_user">Uporabnik</label>
+      <label index="chLog_l_error">N</label>
+      <label index="chLog_l_action">Dejanje</label>
+      <label index="chLog_l_table">Tabela</label>
+      <label index="chLog_l_details">Podrobnosti</label>
+      <label index="chLog_menuUsers">Uporabniki</label>
+      <label index="chLog_menuDepth">Globina</label>
+      <label index="chLog_menuTime">Čas</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

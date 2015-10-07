@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="sys_note">Interna opomba</label>
+      <label index="sys_note.category.I.1">Navodila</label>
+      <label index="sys_note.category.I.2">Opombe</label>
+      <label index="sys_note.category.I.3">Naloge</label>
+      <label index="sys_note.category.I.4">Predloga</label>
+      <label index="sys_note.subject">Predmet:</label>
+      <label index="sys_note.message">Sporočilo:</label>
+      <label index="sys_note.personal">Osebno:</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

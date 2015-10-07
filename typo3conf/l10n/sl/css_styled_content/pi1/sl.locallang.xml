@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="label.toTop">Na vrh</label>
+      <label index="login.username">Uporabniško ime:</label>
+      <label index="login.password">Geslo:</label>
+      <label index="login.login">Prijava</label>
+      <label index="login.logout">Odjava</label>
+      <label index="search.emptySearch">Oprostite, iskanje ni vrnilo rezultatov!</label>
+      <label index="search.resultRange">Rezultati iskanja: ###RANGELOW###-###RANGEHIGH### od ###TOTAL###</label>
+      <label index="search.searchResultNext">Naslednji</label>
+      <label index="search.searchResultPrev">Prejšnji</label>
+      <label index="search.searchWord">Iskana beseda:</label>
+      <label index="search.searchIn">Išči v:</label>
+      <label index="search.headersKeywords">Naslovih in ključnih besedah</label>
+      <label index="search.pageContent">Vsebini strani</label>
+      <label index="search.searchButton">Poišči!</label>
+      <label index="eIcon.html">Uredi HTML vsebino</label>
+      <label index="eIcon.header">Uredi naslov</label>
+      <label index="eIcon.subheader">Uredi podnaslov</label>
+      <label index="eIcon.bodytext">Uredi telo besedila</label>
+      <label index="eIcon.images">Uredi slike</label>
+      <label index="eIcon.caption">Uredi podnapis slike</label>
+      <label index="eIcon.bullets">Uredi neoštevilčen seznam</label>
+      <label index="eIcon.table">Uredi tabelo</label>
+      <label index="eIcon.filelist">Uredi seznam datotek</label>
+      <label index="eIcon.menuSitemap">Uredi meni / kazalo strani</label>
+      <label index="eIcon.recordList">Uredi seznam zapisov</label>
+      <label index="eIcon.plugin">Spremeni/konfiguriraj vtičnik</label>
+      <label index="eIcon.multimedia">Uredi multimedijsko vsebino</label>
+      <label index="eIcon.form">Uredi e-poštni obrazec</label>
+      <label index="eIcon.search">Uredi iskanje</label>
+      <label index="eIcon.login">Uredi prijavo</label>
+      <label index="eIcon.page">Stran:</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

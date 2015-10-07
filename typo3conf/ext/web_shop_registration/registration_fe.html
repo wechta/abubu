@@ -1,0 +1,314 @@
+<!-- ###REGISTRATION_FORM### begin-->
+<script type="text/javascript">
+	 jQuery(document).ready(function() {
+	jQuery("#web_shop_registration").validationEngine({promptPosition : "topRight", scroll: false})
+	});
+</script>
+<div class="registerBox">
+    <h1>Vpišite svoje podatke</h1>
+	<form name="web_shop_registration" id="web_shop_registration" method="post" action="###THIS_LINK###" onsubmit="return VF(this);">
+    	<div class="login_item">
+            <label for="user">Ime *</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="first_name" id="first_name" value="###FIRST_NAME###"></div>
+        </div>
+        <div class="login_item">
+            <label for="last_name">Priimek *</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="last_name" id="last_name" value="###LAST_NAME###"></div>
+        </div>
+        <div class="login_item">
+        	<label for="last_name">Spol *</label>
+            	<div class="loginInputOzadjeRadio">
+                    <input type="radio" class="validate[required]" name="spol" id="spol1" value="0"><label for="spol1">Ženski</label>
+                </div>
+                <div class="loginInputOzadjeRadio">
+                    <input type="radio" class="validate[required]" name="spol" id="spol2" value="1"><label for="spol2">Moški</label>
+                </div>
+        </div>
+        <div class="login_item">
+            <label for="email">Domači naslov *</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="naslov" id="naslov" value="###NASLOV###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Poštna stevilka *</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="posta" id="posta" value="###POSTA###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Kraj *</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="kraj" id="kraj" value="###KRAJ###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Telefon</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="telefon" id="telefon" value="###TELEFON###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Poklic *</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="poklic" id="poklic" value="###POKLIC###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Strokovni naziv</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="strokovni_naziv" id="strokovni_naziv" value="###STROKOVNI_NAZIV###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Akademski naziv</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="akademski_naziv" id="akademski_naziv" value="###AKADEMSKI_NAZIV###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Državni naziv</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="drzavni_naziv" id="drzavni_naziv" value="###DRZAVNI_NAZIV###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Specializacija</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="specializacija" id="specializacija" value="###SPECIALIZACIJA###"></div>
+        </div>
+        <h2>Vpišite vaše poslovne podatke:</h2>
+        
+        <div class="login_item">
+            <label for="email">Ustanova / podjetje, kjer ste zaposleni *</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="ustanova" id="ustanova" value="###USTANOVA###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Naslov</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="naslov_podjetje" id="naslov_podjetje" value="###NASLOV_PODJETJE###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Poštna številka</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="posta_st_podjetje" id="posta_st_podjetje" value="###POSTA_ST_PODJETJE###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Kraj</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="posta_podjetje" id="posta_podjetje" value="###POSTA_PODJETJE###"></div>
+        </div>
+        
+
+        <h2>Vpišite vaš e-poštni naslov in geslo:</h2>
+        <div class="login_item">
+            <label for="email">E-pošta * (hkrati bo to tudi vaše uporabniško ime)</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="email" id="email" value="###EMAIL###"></div>
+        </div>
+        <div class="login_item">
+            <label for="password">Geslo *</label>
+            <div class="loginInputOzadje"><input type="password" class="validate[required,minSize[6]] text-input" name="password" id="password" value="###PASSWORD###"></div>
+        </div>
+        <div class="login_item">
+            <label for="password_repeat">Ponovi geslo *</label>
+            <div class="loginInputOzadje"><input type="password" class="validate[required,equals[password]] text-input" name="password_repeat" id="password_repeat" value="###PASSWORD_REPEAT###"></div>
+        </div>
+        <div class="login_item_perma">
+            <input type="checkbox" class="validate[required] checkbox" name="pogoji" id="pogoji">
+            <label for="pogoji">Soglašam z <a href="o_drustvu_mzb/izjava_o_varovanju_zasebnosti-registracija/">izjavo o varovanju zasebnosti</a></label>
+        </div>
+		<input type="hidden" name="usergroup" value="1">
+		<input type="image" src="fileadmin/template/images/posljiPodatke.png" name="register" id="register" value="Potrdi">
+	</form>
+</div>
+<!-- ###REGISTRATION_FORM### end -->
+
+<!-- ###REGISTRATION_FORM_EDIT### begin-->
+<script type="text/javascript">
+	 jQuery(document).ready(function() {
+	jQuery("#web_shop_registration").validationEngine({promptPosition : "topRight", scroll: false})
+	});
+</script>
+<div class="registerBox">
+    <h1>Popravite vaše podatke!</h1>
+	<form name="web_shop_registration" id="web_shop_registration" method="post" action="###THIS_LINK###" onsubmit="return VF(this);">
+    	<h2>Vaši osebni podatki:</h2>
+    	<div class="login_item">
+            <label for="user">Ime *</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="first_name" id="first_name" value="###FIRST_NAME###"></div>
+        </div>
+        <div class="login_item">
+            <label for="last_name">Priimek *</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="last_name" id="last_name" value="###LAST_NAME###"></div>
+        </div>
+        <div class="login_item">
+        	<label for="last_name">Spol *</label>
+            	<div class="loginInputOzadjeRadio">
+                    <input type="radio" class="validate[required]" name="spol" id="spol1" ###SEL_WOMEN### value="0"><label for="spol1">Ženski</label>
+                </div>
+                <div class="loginInputOzadjeRadio">
+                    <input type="radio" class="validate[required]" name="spol" id="spol2" ###SEL_MEN### value="1"><label for="spol2">Moški</label>
+                </div>
+        </div>
+        <div class="login_item">
+            <label for="email">Domači naslov *</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="naslov" id="naslov" value="###NASLOV###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Poštna stevilka *</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="posta" id="posta" value="###POSTA###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Kraj *</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="kraj" id="kraj" value="###KRAJ###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Telefon</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="telefon" id="telefon" value="###TELEFON###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Poklic</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="poklic" id="poklic" value="###POKLIC###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Strokovni naziv</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="strokovni_naziv" id="strokovni_naziv" value="###STROKOVNI_NAZIV###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Akademski naziv</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="akademski_naziv" id="akademski_naziv" value="###AKADEMSKI_NAZIV###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Državni naziv</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="drzavni_naziv" id="drzavni_naziv" value="###DRZAVNI_NAZIV###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Specializacija</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="specializacija" id="specializacija" value="###SPECIALIZACIJA###"></div>
+        </div>
+        <h2>Vpišite vaše poslovne podatke:</h2>
+        
+        <div class="login_item">
+            <label for="email">Ustanova / podjetje, kjer ste zaposleni *</label>
+            <div class="loginInputOzadje"><input type="text" class="validate[required,length[0,200]] loginInput" name="ustanova" id="ustanova" value="###USTANOVA###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Naslov</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="naslov_podjetje" id="naslov_podjetje" value="###NASLOV_PODJETJE###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Poštna številka</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="posta_st_podjetje" id="posta_st_podjetje" value="###POSTA_ST_PODJETJE###"></div>
+        </div>
+        <div class="login_item">
+            <label for="email">Kraj</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="posta_podjetje" id="posta_podjetje" value="###POSTA_PODJETJE###"></div>
+        </div>
+        
+
+        <h2>Vpišite vaš e-poštni naslov in geslo:</h2>
+        <div class="login_item">
+            <label for="email">E-pošta *</label>
+            <div class="loginInputOzadje"><input type="text" class="loginInput" name="email" id="email" value="###EMAIL###"></div>
+        </div>
+        <div class="login_item">
+            <label for="password">Geslo *</label>
+            <div class="loginInputOzadje"><input type="password" class="validate[required,minSize[6]] text-input" name="password" id="password" value="###PASSWORD###"></div>
+        </div>
+        <div class="login_item">
+            <label for="password_repeat">Ponovi geslo *</label>
+            <div class="loginInputOzadje"><input type="password" class="validate[required,equals[password]] text-input" name="password_repeat" id="password_repeat" value="###PASSWORD_REPEAT###"></div>
+        </div>
+		<input type="hidden" name="usergroup" value="1">
+		<input type="image" src="fileadmin/template/images/spremeniPodatkeGumb.png" name="edit" id="edit" value="Potrdi">
+	</form>
+</div>
+<!-- ###REGISTRATION_FORM_EDIT### end -->
+
+<!-- ###FORGOT_PASSWORD_FORM### begin-->
+	<form name="web_shop_registration" method="post" action="###THIS_LINK###" onsubmit="return VF(this);">
+		<div>
+		Vnesite elektronski naslov in poslali vam bomo geslo po elektronski poÄąË‡ti.<br><br>
+		<label for="email">Elektronski naslov: *</label>
+		<input type="text" name="email" id="email" value="###EMAIL###">
+		<input type="submit" name="forgot_password" id="forgot_password" value="PoÄąË‡lji">
+		</div>
+		<!-- ###EMAIL_ERROR### begin-->
+		<div class="registration_error">Polje elektronski ni vneĹˇeno ali ni veljavno!</div>
+		<!-- ###EMAIL_ERROR### end-->
+	</form>
+	<!-- ###SUBMIT_SUCCESS### begin-->
+		<div>Geslo je bilo poslano na vaĹˇ elektronski naslov.</div>
+	<!-- ###SUBMIT_SUCCESS### end-->
+	
+<!-- ###FORGOT_PASSWORD_FORM### end -->
+
+<!-- ###REGISTRATION_MAIL### begin-->
+	<div>
+		Pozdravljeni, <br><br>
+		Nov uporabnik se je registriral na strani <a href="###SITE_URL###">###SITE_URL###</a>.<br><br> 
+		Uporabniško ime: ###USERNAME###<br>
+		Ime: ###FIRST_NAME###<br>
+		Priimek: ###LAST_NAME###<br><br>
+		Za potrditev računa prosim kliknite na povezavo za <a href="###CONFIRMATION_URL###">potrditev</a>.<br><br>
+		Lep pozdrav,
+			Društvo MŽB
+	</div>
+<!-- ###REGISTRATION_MAIL### end-->
+
+
+
+<!-- ###REGISTRATION_SUCCESS### begin-->
+	<div class="registerBox">
+		<h1>Uporabnik uspešno registriran.</h1>
+		<p>Hvala za registracijo. Račun bo aktiven, ko ga bo administrator strani potrdil in aktiviral.</p>
+	</div>
+<!-- ###REGISTRATION_SUCCESS### end-->
+
+<!-- ###FORGOT_PASSWORD_MAIL### begin-->
+	<div>
+		Pozdravljeni, <br><br> 
+		Vaše geslo: ###PASSWORD###<br><br>
+		Za prijavo kliknite na povezavo <a href="###LOGIN_LINK###">prijava</a>.<br><br>
+		Lep pozdrav
+	</div>
+<!-- ###FORGOT_PASSWORD_MAIL### end -->
+
+<!-- ###REGISTRATION_CREATION_ERROR### begin-->
+	<div>Napaka pri kreiranju računa. Prosimo poskusite ponovno.</div>
+<!-- ###REGISTRATION_CREATION_ERROR### end-->
+
+<!-- ###USER_EXISTS_ERROR### begin-->
+	<div class="registerBox">
+		<h1>Uporabnik neuspešno registriran.</h1>
+		<p>Račun z takšnim uporabniškim imenom že obstaja. Prosimo poskusite drugo uporabniško ime ali kliknite na povezavo <a href="/registrirajte_se/?tx_felogin_pi1%5Bforgot%5D=1&tx_webshopregistration_pi1%5Bshow%5D=forgot_password">pozabil sem geslo</a>.</p>
+	</div>
+<!-- ###USER_EXISTS_ERROR### end-->
+
+<!-- ###CONFIRMATION_SUCCESS### begin-->
+	<div>
+		Uporabnik ###NAME### uspešno registriran.
+		<br>Sedaj se lahko prijavite <a href="###LOGIN_LINK###">tukaj</a> 
+	</div>
+<!-- ###CONFIRMATION_SUCCESS### end-->
+
+<!-- ###INFO_NO_USER### begin-->
+	<a href="###URL###">Vstop v elektronsko knjižnico</a>
+<!-- ###INFO_NO_USER### end-->
+
+<!-- ###INFO_USER### begin-->
+	<p>Pozdravljeni, ###USER_NAME###</p>
+	<p><a href="###URL_PROFIL###">Uredi profil</a></p>
+	<form action="/" target="_top" method="post" name="odjava" id="odjava" >
+		<p><a href="#" onclick="document['odjava'].submit(); return false">Odjava</a></p>
+
+		<input type="hidden" name="logintype" value="logout">
+		<input type="hidden" name="pid" value="21,24">
+		<input type="hidden" name="tx_felogin_pi1[noredirect]" value="0">
+	</form>
+<!-- ###INFO_USER### end-->
+
+<!-- ###REGISTRACIJA_ERROR_JS### begin -->
+<div class="registerBox">
+	<h1>Neuspešna registracija</h1>
+	<p>Registracija ni bila uspešna. Za uspešno registracijo morate imeti vklopljen javascript.</p>
+</div>
+<!-- ###REGISTRACIJA_ERROR_JS### end -->
+
+<!-- ###EDIT_ERROR_JS### begin -->
+<div class="registerBox">
+	<h1>Neuspešen popravek podatkov</h1>
+	<p>Popravek podatkov ni bil uspešen. Za uspešen popravek morate imeti vklopljen javascript.</p>
+	<p><a href="http://glavobol.com/profil_uporabnika/">Nazaj</a>.</p>
+</div>
+<!-- ###EDIT_ERROR_JS### end -->
+
+<!-- ###POTRDITEV_UPORABNIKA### begin -->
+<div class="registerBox">
+	<h1>Uspešna aktivacija</h1>
+	<p>Aktivacija uporabnika je bila uspešna.</p>
+</div>
+<!-- ###POTRDITEV_UPORABNIKA### end -->
+
+
+

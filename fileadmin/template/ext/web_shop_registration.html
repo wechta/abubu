@@ -1,0 +1,311 @@
+﻿<!-- ###REGISTRATION_FORM### begin-->
+<div class="registerBox">
+<script type="text/javascript">
+  jQuery(document).ready(function() {
+  jQuery("#web_shop_registration").validationEngine({promptPosition : "topRight", scroll: true})
+  });
+  </script>
+  <script>
+  function setupLabel() {
+  if ($('.label_check input').length) {
+  $('.label_check').each(function(){
+  $(this).removeClass('c_on');
+  });
+  $('.label_check input:checked').each(function(){
+  $(this).parent('label').addClass('c_on');
+  });
+  };
+  if ($('.label_radio input').length) {
+  $('.label_radio').each(function(){
+  $(this).removeClass('r_on');
+  });
+  $('.label_radio input:checked').each(function(){
+  $(this).parent('label').addClass('r_on');
+  });
+  };
+  };
+  $(document).ready(function(){
+  $('body').addClass('has-js');
+  $('.label_check, .label_radio').click(function(){
+  setupLabel();
+  });
+  setupLabel();
+  });
+  </script>
+	  <form action="###THIS_LINK###" name="web_shop_registration" id="web_shop_registration" method="post">
+			<h3>Če se želite registrirati izpolnite polja spodaj</h3>
+			<div class="inputBox">
+				<label for="first_name">Ime: <span>*</span></label>
+				<input type="text" id="first_name" name="first_name" value="###FIRST_NAME###" class="validate[required] radius">
+			</div>
+			<div class="inputBox">
+				<label for="last_name">Priimek: <span>*</span></label>
+				<input type="text" id="last_name" name="last_name" value="###LAST_NAME###" class="validate[required] radius">
+			</div>
+			<div class="inputBox">
+				<label for="telefon">Telefon:</label>
+				<input type="text" id="telefon" name="telefon" value="###TELEFON###" class="radius">
+			</div>
+			<div class="inputBox">
+				<label for="naslov">Naslov: <span>*</span></label>
+				<input type="text" id="naslov" name="naslov" value="###NASLOV###" class="validate[required] radius">
+			</div>
+			<div class="inputBox">
+				<label for="kraj">Pošta: <span>*</span></label>
+				<input type="text" id="kraj" name="kraj" value="###KRAJ###" class="validate[required] radius">
+			</div>
+			<div class="inputBox">
+				<label for="posta">Poštna številka: <span>*</span></label>
+				<input type="text" id="posta" name="posta" value="###POSTA###" class="validate[required] radius">
+			</div>
+			<div class="inputBox">
+				<label for="email">E-pošta: <span>*</span></label>
+				<input type="text" id="email" name="email" value="###EMAIL###" class="validate[required] radius">
+			</div>
+			<div class="inputBox">
+				<label for="password">Geslo: <span>*</span></label>
+				<input type="password" id="password" name="password" value="###PASSWORD###" class="validate[required,minSize[6]] radius">
+			</div>
+			<div class="inputBox">
+				<label for="password_repeat">Ponovite geslo: <span>*</span></label>
+				<input type="password" id="password_repeat" name="password_repeat" value="###PASSWORD_REPEAT###" class="validate[required,equals[password]] radius">
+			</div>
+			<h3>Spodnja polja izpolnijo pravne osebe</h3>
+			<div class="inputBox">
+				<label for="ustanova">Naziv podjetja:</label>
+				<input type="text" id="ustanova" name="ustanova" value="###USTANOVA###" class="radius">
+			</div>
+			<div class="inputBox">
+				<label for="id_ddv">Davčna številka:</label>
+				<input type="text" id="id_ddv" name="id_ddv" value="###ID_DDV###" class="radius">
+			</div>
+			
+			<label title="Izberi" for="is_ddv" class="label_check">
+				<p>Podjetje je davčni zavezanec</p>
+				<input type="checkbox" id="is_ddv" name="is_ddv">
+			</label>
+			
+			<input type="submit" class="inputSubmit flehaCrna" value="Registrirajte se">
+			
+			<label title="Izberi" for="agree" class="label_check">
+				<p>Strinjam se s <a target="_blank" href="ostale_informacije/pogoji_poslovanja/">splošnimi pogoji poslovanja</a></p>
+				<input type="checkbox" id="agree" name="agree" class="validate[required]">
+			</label>
+			
+			<label title="Izberi" for="newsletter" class="label_check">
+				<p>Želim, da me občasno obveščate o ponudbi</p>
+				<input type="checkbox" id="newsletter" name="newsletter" >
+			</label>
+			<input type="hidden" name="register" id="register" value="1">		
+		</form>
+	</div>
+<!-- ###REGISTRATION_FORM### end -->
+
+<!-- ###REGISTRATION_FORM_EDIT### begin-->
+<div class="registerBox">
+<script type="text/javascript">
+  jQuery(document).ready(function() {
+  jQuery("#web_shop_registration").validationEngine({promptPosition : "topRight", scroll: true})
+  });
+  </script>
+  <script>
+  function setupLabel() {
+  if ($('.label_check input').length) {
+  $('.label_check').each(function(){
+  $(this).removeClass('c_on');
+  });
+  $('.label_check input:checked').each(function(){
+  $(this).parent('label').addClass('c_on');
+  });
+  };
+  if ($('.label_radio input').length) {
+  $('.label_radio').each(function(){
+  $(this).removeClass('r_on');
+  });
+  $('.label_radio input:checked').each(function(){
+  $(this).parent('label').addClass('r_on');
+  });
+  };
+  };
+  $(document).ready(function(){
+  $('body').addClass('has-js');
+  $('.label_check, .label_radio').click(function(){
+  setupLabel();
+  });
+  setupLabel();
+  });
+  </script>
+	  <form action="###THIS_LINK###" name="web_shop_registration" id="web_shop_registration" method="post">
+			<h3>Uredi profil</h3>
+			<div class="inputBox">
+				<label for="first_name">Ime: <span>*</span></label>
+				<input type="text" id="first_name" name="first_name" value="###FIRST_NAME###" class="validate[required] radius">
+			</div>
+			<div class="inputBox">
+				<label for="last_name">Priimek: <span>*</span></label>
+				<input type="text" id="last_name" name="last_name" value="###LAST_NAME###" class="validate[required] radius">
+			</div>
+			<div class="inputBox">
+				<label for="telefon">Telefon:</label>
+				<input type="text" id="telefon" name="telefon" value="###TELEFON###" class="radius">
+			</div>
+			<div class="inputBox">
+				<label for="naslov">Naslov: <span>*</span></label>
+				<input type="text" id="naslov" name="naslov" value="###NASLOV###" class="validate[required] radius">
+			</div>
+			<div class="inputBox">
+				<label for="kraj">Pošta: <span>*</span></label>
+				<input type="text" id="kraj" name="kraj" value="###KRAJ###" class="validate[required] radius">
+			</div>
+			<div class="inputBox">
+				<label for="posta">Poštna številka: <span>*</span></label>
+				<input type="text" id="posta" name="posta" value="###POSTA###" class="validate[required] radius">
+			</div>
+			<div class="inputBox">
+				<label for="email">E-pošta: <span>*</span></label>
+				<input type="text" id="email" name="email" value="###EMAIL###" class="validate[required] radius">
+			</div>
+			<div class="inputBox">
+				<label for="password">Geslo: <span>*</span></label>
+				<input type="text" id="password" name="password" value="###PASSWORD###" class="validate[required,minSize[6]] radius">
+			</div>
+			<div class="inputBox">
+				<label for="password_repeat">Ponovite geslo: <span>*</span></label>
+				<input type="text" id="password_repeat" name="password_repeat" value="###PASSWORD_REPEAT###" class="validate[required,equals[password]] radius">
+			</div>
+            
+			<h3>Spodnja polja izpolnijo pravne osebe</h3>
+			<div class="inputBox">
+				<label for="ustanova">Naziv podjetja:</label>
+				<input type="text" id="ustanova" name="ustanova" value="###USTANOVA###" class="radius">
+			</div>
+			<div class="inputBox">
+				<label for="id_ddv">Davčna številka:</label>
+				<input type="text" id="id_ddv" name="id_ddv" value="###ID_DDV###" class="radius">
+			</div>
+			
+			<label title="Izberi" for="is_ddv" class="label_check">
+				<p>Podjetje je davčni zavezanec</p>
+				<input type="checkbox" id="is_ddv" name="is_ddv" ###IS_DDV_CHECKED###>
+			</label>
+			
+			<input type="submit" class="inputSubmit flehaCrna" value="Uredi">
+			
+			<label title="Izberi" for="newsletter" class="label_check">
+				<p>Želim, da me občasno obveščate o ponudbi</p>
+				<input type="checkbox" id="newsletter" name="newsletter" ###NEWSLETTER_CHECKED###>
+			</label>
+			<input type="hidden" name="edit" id="edit" value="1">		
+		</form>
+	</div>
+<!-- ###REGISTRATION_FORM_EDIT### end -->
+
+<!-- ###FORGOT_PASSWORD_FORM### begin-->
+	<form name="web_shop_registration" method="post" action="###THIS_LINK###" onsubmit="return VF(this);">
+		<div>
+		Vnesite elektronski naslov in poslali vam bomo geslo po elektronski pošti.<br><br>
+		<label for="email">Elektronski naslov: *</label>
+		<input type="text" name="email" id="email" value="###EMAIL###">
+		<input type="submit" name="forgot_password" id="forgot_password" value="PoÄąË‡lji">
+		</div>
+		<!-- ###EMAIL_ERROR### begin-->
+		<div class="registration_error">Polje elektronski ni vnešeno ali ni veljavno!</div>
+		<!-- ###EMAIL_ERROR### end-->
+	</form>
+	<!-- ###SUBMIT_SUCCESS### begin-->
+		<div>Geslo je bilo poslano na vaš elektronski naslov.</div>
+	<!-- ###SUBMIT_SUCCESS### end-->
+	
+<!-- ###FORGOT_PASSWORD_FORM### end -->
+
+<!-- ###REGISTRATION_MAIL### begin-->
+	<div>
+		Pozdravljeni, <br><br>
+		Nov uporabnik se je registriral na strani <a href="###SITE_URL###">###SITE_URL###</a>.<br><br> 
+		Uporabniško ime: ###USERNAME###<br>
+		Ime: ###FIRST_NAME###<br>
+		Priimek: ###LAST_NAME###<br><br>
+		Za potrditev računa prosim kliknite na povezavo za <a href="###CONFIRMATION_URL###">potrditev</a>.<br><br>
+		Lep pozdrav,
+		Ekipa Zisha
+	</div>
+<!-- ###REGISTRATION_MAIL### end-->
+
+
+
+<!-- ###REGISTRATION_SUCCESS### begin-->
+	<div class="registerBox">
+		<h1>Uporabnik uspešno registriran.</h1>
+		<p>Hvala za registracijo. Račun aktivirate tako, da kliknete na povezavo, ki ste jo prejeli na vaš e-poštni naslov.</p>
+	</div>
+<!-- ###REGISTRATION_SUCCESS### end-->
+
+<!-- ###FORGOT_PASSWORD_MAIL### begin-->
+	<div>
+		Pozdravljeni, <br><br> 
+		Vaše geslo: ###PASSWORD###<br><br>
+		Za prijavo kliknite na povezavo <a href="###LOGIN_LINK###">prijava</a>.<br><br>
+		Lep pozdrav
+	</div>
+<!-- ###FORGOT_PASSWORD_MAIL### end -->
+
+<!-- ###REGISTRATION_CREATION_ERROR### begin-->
+	<div>Napaka pri kreiranju računa. Prosimo poskusite ponovno.</div>
+<!-- ###REGISTRATION_CREATION_ERROR### end-->
+
+<!-- ###USER_EXISTS_ERROR### begin-->
+	<div class="registerBox">
+		<h1>Uporabnik neuspešno registriran.</h1>
+		<p>Račun z takšnim uporabniškim imenom že obstaja. Prosimo poskusite drugo uporabniško ime ali kliknite na povezavo <a style="text-decoration:underline;" href="prijavite_se/?tx_felogin_pi1%5Bforgot%5D=1">pozabil sem geslo</a>.</p>
+	</div>
+<!-- ###USER_EXISTS_ERROR### end-->
+
+<!-- ###CONFIRMATION_SUCCESS### begin-->
+	<div>
+		Uporabnik ###NAME### uspešno registriran.
+		<br>Sedaj se lahko prijavite <a href="###LOGIN_LINK###">tukaj</a> 
+	</div>
+<!-- ###CONFIRMATION_SUCCESS### end-->
+
+<!-- ###INFO_NO_USER### begin-->
+	<a href="###URL###" class="topLoginGumb">Prijavite se</a>
+<!-- ###INFO_NO_USER### end-->
+
+<!-- ###INFO_USER### begin-->
+	<p class="topUserTitle">
+	<span>Pozdravljeni, </span>###USER_NAME###
+	</p>
+    <a href="###URL_PROFIL###" class="topUserEdit">Uredi profil</a>
+	<form action="###URL_PRIJAVA###" target="_top" method="post" name="odjava" id="odjava" >
+		<a href="#" onclick="document['odjava'].submit(); return false" class="topLogout">Odjavi se</a>
+		<input type="hidden" name="logintype" value="logout">
+		<input type="hidden" name="pid" value="42">
+		<input type="hidden" name="tx_felogin_pi1[noredirect]" value="0">
+	</form>
+	
+<!-- ###INFO_USER### end-->
+
+<!-- ###REGISTRACIJA_ERROR_JS### begin -->
+<div class="registerBox">
+	<h1>Neuspešna registracija</h1>
+	<p>Registracija ni bila uspešna. Za uspešno registracijo morate imeti vklopljen javascript.</p>
+</div>
+<!-- ###REGISTRACIJA_ERROR_JS### end -->
+
+<!-- ###EDIT_ERROR_JS### begin -->
+<div class="registerBox">
+	<h1>Neuspešen popravek podatkov</h1>
+	<p>Popravek podatkov ni bil uspešen. Za uspešen popravek morate imeti vklopljen javascript.</p>
+	<p><a href="uredi_profil/">Nazaj</a>.</p>
+</div>
+<!-- ###EDIT_ERROR_JS### end -->
+
+<!-- ###POTRDITEV_UPORABNIKA### begin -->
+<div class="registerBox">
+	<h1>Uspešna aktivacija</h1>
+	<p>Aktivacija uporabnika je bila uspešna, sedaj se lahko prijavite v spletno trgovino.</p>
+</div>
+<!-- ###POTRDITEV_UPORABNIKA### end -->
+
+
+

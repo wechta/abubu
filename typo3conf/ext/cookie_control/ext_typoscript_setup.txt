@@ -1,0 +1,13 @@
+plugin.tx_cookiecontrol_pi1.iconPosition = left
+plugin.tx_cookiecontrol_pi1.iconTheme = light
+plugin.tx_cookiecontrol_pi1.iconType = triangle
+plugin.tx_cookiecontrol_pi1.extra_options = 
+plugin.tx_cookiecontrol_pi1.countryField = 
+
+plugin.tx_cookiecontrol_pi1.title = Cookie Control
+plugin.tx_cookiecontrol_pi1.buttonText = I am happy with this
+
+plugin.tx_cookiecontrol_pi1.blueTheme = blue.css
+plugin.tx_cookiecontrol_pi1.greyTheme = grey.css
+plugin.tx_cookiecontrol_pi1.blackTheme = black.css
+plugin.tx_cookiecontrol_pi1.defaultTheme = default.css

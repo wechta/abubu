@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="title">Statistike indeksiranega iskanja</label>
+      <label index="title2">Seznam najbolj iskanih besed</label>
+      <label index="noresults">Ni rezultatov</label>
+      <label index="all">Vse</label>
+      <label index="last30days">Zadnjih 30 dni</label>
+      <label index="last24hours">Zadnjih 24 ur</label>
+      <label index="justthispage">Statistika samo za to stran</label>
+      <label index="allpages">Statistika za vse strani. Izberite stran z obrazcem za indeksirano iskanje, če želite videti več statistik</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

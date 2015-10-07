@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="Insert/Modify Acronym">Vstavi/Spremeni akronim ali okrajšavo</label>
+      <label index="Insert abbreviation">Vstavi/Spremeni akronim ali okrajšavo</label>
+      <label index="Edit abbreviation"/>
+      <label index="Term_to_abridge"/>
+      <label index="Defined_acronym"/>
+      <label index="Defined_abbr"/>
+      <label index="Term"/>
+      <label index="Unabridged_term"/>
+      <label index="Select_a_term"/>
+      <label index="Abridged_term"/>
+      <label index="Acronym"/>
+      <label index="Abbreviation"/>
+      <label index="Select_an_acronym"/>
+      <label index="Select_an_abbr"/>
+      <label index="Use_this_term"/>
+      <label index="Use_this_term_explain"/>
+      <label index="Delete"/>
+      <label index="Select_a_language"/>
+      <label index="Language_abbr_helpText"/>
+      <label index="Language_acronym_helpText"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

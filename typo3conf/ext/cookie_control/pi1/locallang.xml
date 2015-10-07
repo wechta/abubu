@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_cookiecontrol_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="titlelabel">Cookie Control</label>
+			<label index="additional_text"></label>
+			<label index="introductory_text">Naša spletna stran uporablja, piškotke zato da lahko razločujemo med obiskovalci in štejemo njihovo število in tako izboljšamo delovanje strani.</label>
+			<label index="cookieofftext">Cookies off</label>
+			<label index="cookiepreftext">(One cookie will be set to store your preference)</label>
+			<label index="cookiecheckboxlabel">Do not ask me again</label>
+			<label index="cookiecheckboxtext">(Ticking this sets a cookie to hide this popup if you then hit close. This will not store any personal information)</label>
+			<label index="close">Close</label>
+			<label index="cookieoff">Dovoli</label>
+			<label index="cookieon">Se strinjam</label>
+			<label index="readmore">Poglej več</label>
+			<label index="readless">Skrij</label>
+			<label index="enable_cookie">Enable Cookie</label>
+		</languageKey>
+		<languageKey index="hu" type="array">
+			<label index="titlelabel">Cookie ellenőrzése</label>
+			<label index="additional_text"></label>
+			<label index="introductory_text">Egyes cookie-k ezen az oldalon elengedhetetlen, és az oldal nem a várt módon működik nélkülük. Ezek a cookie-k be, ha elküld egy űrlapot, jelentkezz be, vagy befolyásolja a helyszínen csinál valamit, ami túlmutat az egyszerű kattintás links.We is használhatja, nem alapvető fontosságú sütiket névtelenül követi nyomon a látogatókat és tapasztalatokkal gazdagodhat az oldalon. Ha nem vagy elégedett ezzel, nem fogjuk meg ezeket a sütiket, de pár szép képességgel az oldal nem érhető el.</label>
+			<label index="cookieofftext">Cookie-k kikapcsolva</label>
+			<label index="cookiepreftext">(Egy süti lesz állítva tárolja a preferencia)</label>
+			<label index="cookiecheckboxlabel">Ne kérdezze meg újra</label>
+			<label index="cookiecheckboxtext">(Ketyeg ez beállít egy cookie rejteni ezt a popup, ha majd nyomja meg a Bezárás gombra. Ez nem tárolnak semmilyen személyes adatot)</label>
+			<label index="close">közeli</label>
+			<label index="cookieoff">A cookie-k kikapcsolása</label>
+			<label index="cookieon">Cookie-k vannak</label>
+			<label index="readmore">Bővebben</label>
+			<label index="readless">Olvassa el kevesebb</label>
+			<label index="enable_cookie">Engedélyezze a cookie-k</label>
+		</languageKey>
+	</data>
+</T3locallang>

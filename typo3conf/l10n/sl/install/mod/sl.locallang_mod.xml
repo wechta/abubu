@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="mlang_labels_tablabel">Orodje za inštalacijo</label>
+      <label index="mlang_labels_tabdescr">Dostop do orodja za inštalacijo (typo3/install/) mora biti posebej omogočen.&lt;br /&gt;&lt;em&gt;Uporaba je dovoljena le 'admin' uporabnikom!&lt;/em&gt;</label>
+      <label index="mlang_tabs_tab">Inštalacija</label>
+      <label index="confirmUnlockInstallToolTitle"/>
+      <label index="confirmUnlockInstallToolMessage"/>
+      <label index="confirmUnlockInstallToolButton"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

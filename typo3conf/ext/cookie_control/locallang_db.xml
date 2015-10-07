@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'cookie_control'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">Cookie Control Widget</label>
+			<label index="tx_cookiecontrol_data.title">Title</label>
+			<label index="cookie_control.pi_flexform.sheet_general">General</label>
+			<label index="cookie_control.pi_flexform.icon_type">Cookie control icon type</label>
+			<label index="cookie_control.pi_flexform.diamond_view">Diamond</label>
+			<label index="cookie_control.pi_flexform.triangle_view">Triangle</label>
+			<label index="cookie_control.pi_flexform.icon_position">Cookie control icon position</label>
+			<label index="cookie_control.pi_flexform.icon_position_left">Left</label>
+			<label index="cookie_control.pi_flexform.icon_position_right">Right</label>
+			<label index="cookie_control.pi_flexform.introductory_text">Introductory text</label>
+			<label index="cookie_control.pi_flexform.additional_text">Additional text</label>
+			<label index="cookie_control.pi_flexform.extra_options">Extra options</label>
+			<label index="cookie_control.pi_flexform.theme_options">Theme</label>
+			<label index="cookie_control.pi_flexform.title">Title</label>	
+			<label index="cookie_control.pi_flexform.theme_options">Theme</label>
+			<label index="cookie_control.pi_flexform.theme_title">Popup Box Title</label>
+			<label index="cookie_control.pi_flexform.select_theme">Select the Theme</label>
+			<label index="cookie_control.pi_flexform.theme_grey">Grey</label>
+			<label index="cookie_control.pi_flexform.theme_blue">Blue</label>
+			<label index="cookie_control.pi_flexform.file_upload">Template File</label>
+			<label index="cookie_control.pi_flexform.theme_black">Black</label>
+			<label index="cookie_control.pi_flexform.theme_country_enable">Enable Countries</label>
+			<label index="cookie_control.pi_flexform.theme_country_list">Countries (eg: Germany,France ... more list here http://www.geoplugin.com/iso3166)</label>
+			<label index="cookie_control.pi_flexform.theme_default">Default</label>
+			<label index="cookie_control.pi_flexform.anlyticsCode">Google Analytics Code</label>
+			<label index="cookie_control.pi_flexform.theme_custom_theme_enable">Enable Custom Theme</label>
+			<label index="cookie_control.pi_flexform.upload_custom_theme">Custom Theme</label>
+			<label index="cookie_control.pi_flexform.theme_custom">Custom</label>
+			<label index="cookie_control.pi_flexform.consentModel">Content Model</label>
+			<label index="cookie_control.pi_flexform.theme_enable_session">Disable Session Cookies</label>
+      
+      <label index="tsce.templateFile">Template file: Path to main template file</label>
+      <label index="tsce.themepath">Theme path: Path to theme JS</label>
+      <label index="tsce.themeselect">Theme selector: Select the predefined theme</label>
+      <label index="tsce.consentmodel">Consent model: More info in http://civicuk.com/cookie-law/cookie_configuration_v5</label>
+      <label index="tsce.bluetheme">Blue theme css</label>
+      <label index="tsce.greytheme">Grey theme css</label>
+      <label index="tsce.blacktheme">Black theme css</label>
+      <label index="tsce.iconposition">Cookie control icon position</label>
+      <label index="tsce.themedefault">Default theme css</label>
+      <label index="tsce.icontype">Cookie control icon type</label>
+      <label index="tsce.countryselection">Enable Countries</label>
+      <label index="tsce.countryfield">Countries: (If Enable Countries option is set then usage eg: Germany,France ... more listed here http://www.geoplugin.com/iso3166)</label>
+      <label index="tsce.theme">Custom Theme css: (Used only incase of Theme selector custom option)</label>
+      <label index="tsce.analyticscode">Google Analytics code: (You can get the GA code form http://google.com/analytics/)</label>
+	   <label index="tsce.enableSession">Disable Session Cookies</label>		
+		</languageKey>
+	</data>
+</T3locallang>

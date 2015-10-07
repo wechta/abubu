@@ -1,0 +1,43 @@
+8
+
+dir
+8
+http://192.168.50.8/svn/repos/CNS/typo3conf/ext/short_direct_mail_sub/pi1/ext_lib
+http://192.168.50.8/svn/repos
+
+
+
+2007-11-19T16:14:57.656250Z
+8
+mitjav
+
+
+svn:special svn:externals svn:needs-lock
+
+language
+dir
+
+class.phpmailer.php
+file
+
+
+
+
+2007-11-15T17:28:33.228200Z
+fd3d48f056878f95f605404a6a848560
+2007-11-19T16:14:57.656250Z
+8
+mitjav
+
+class.smtp.php
+file
+
+
+
+
+2007-11-15T17:28:33.275071Z
+b0c42f4e3e17aff813e7105d030ca543
+2007-11-19T16:14:57.656250Z
+8
+mitjav
+

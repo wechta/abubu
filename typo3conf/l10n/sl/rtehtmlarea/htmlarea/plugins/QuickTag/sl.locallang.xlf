@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:36Z" product-name="rtehtmlarea" target-language="sl">
+    <header/>
+    <body>
+      <trans-unit id="Quick Tag Editor" xml:space="preserve" approved="yes">
+        <source>Insert tag</source>
+      <target state="translated">Vstavi značko</target></trans-unit>
+      <trans-unit id="Enter the TAG you want to insert" xml:space="preserve" approved="yes">
+        <source>Enter the TAG you want to insert</source>
+      <target state="translated">Vnesi ZNAČKO, ki jo želite vstaviti</target></trans-unit>
+      <trans-unit id="You have to select some text" xml:space="preserve" approved="yes">
+        <source>You have to select some text</source>
+      <target state="translated">Izbrati morate nekaj besedila</target></trans-unit>
+      <trans-unit id="There are some unclosed quote" xml:space="preserve" approved="yes">
+        <source>There are some unclosed quotes</source>
+      <target state="translated">Obstajajo nezaključeni narekovaji</target></trans-unit>
+      <trans-unit id="This attribute already exists in the TAG" xml:space="preserve" approved="yes">
+        <source>This attribute already exists in the TAG</source>
+      <target state="translated">Ta označba že obstaja v tej ZNAČKI</target></trans-unit>
+      <trans-unit id="No CSS class avaiable" xml:space="preserve" approved="yes">
+        <source>No CSS classes available</source>
+      <target state="translated">Noben CSS razred ni na voljo</target></trans-unit>
+      <trans-unit id="OPTIONS" xml:space="preserve" approved="yes">
+        <source>Options</source>
+      <target state="translated">MOŽNOSTI</target></trans-unit>
+      <trans-unit id="ATTRIBUTES" xml:space="preserve" approved="yes">
+        <source>Attributes</source>
+      <target state="translated">OZNAČBE</target></trans-unit>
+      <trans-unit id="TAGs" xml:space="preserve" approved="yes">
+        <source>Tags</source>
+      <target state="translated">ZNAČKE</target></trans-unit>
+      <trans-unit id="Colors" xml:space="preserve" approved="yes">
+        <source>Colors</source>
+      <target state="translated">Barve</target></trans-unit>
+      <trans-unit id="Ok" xml:space="preserve" approved="yes">
+        <source>Ok</source>
+      <target state="translated">V redu</target></trans-unit>
+      <trans-unit id="Cancel" xml:space="preserve" approved="yes">
+        <source>Cancel</source>
+      <target state="translated">Prekliči</target></trans-unit>
+    </body>
+  </file>
+</xliff>

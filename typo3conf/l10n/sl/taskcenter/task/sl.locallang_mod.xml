@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="mlang_labels_tablabel">Center opravil s pregledi nalog, sporočilo in seznamom opravil</label>
+      <label index="mlang_labels_tabdescr">Center opravil vam omogoča dostop do lastnega seznama opravil, sporočil, opomb, dejanj, idr. Vsebuje tudi bližnjice na razpoložljive module in zadnje urejene strani. S pomočjo centra opravil boste lahko sledili dnevnim opravilom in poteku dela.</label>
+      <label index="mlang_tabs_tab">Center opravil</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

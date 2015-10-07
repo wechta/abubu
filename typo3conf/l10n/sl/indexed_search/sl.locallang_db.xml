@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="index_config">Konfiguracija indeksiranja</label>
+      <label index="index_config.title">Naslov:</label>
+      <label index="index_config.description">Opis:</label>
+      <label index="index_config.type.I.1">Zapisi v podatkovni bazi</label>
+      <label index="index_config.type.I.2">Pot do datotek na strežniku</label>
+      <label index="index_config.type.I.3">Zunaji URL</label>
+      <label index="index_config.type.I.4">Drevo strani</label>
+      <label index="index_config.type.I.5">Meta konfiguracija</label>
+      <label index="index_config.type">Tip:</label>
+      <label index="index_config.depth.I.0">Posamezna stran</label>
+      <label index="index_config.depth.I.1">1 nivo</label>
+      <label index="index_config.depth.I.2">2 nivoja</label>
+      <label index="index_config.depth.I.3">3 nivoji</label>
+      <label index="index_config.depth">Globina:</label>
+      <label index="index_config.table2index">Tabela za indeksiranje:</label>
+      <label index="index_config.alternative_source_pid">Alternativna izvorna stran:</label>
+      <label index="index_config.get_params">GET niz (z ###UID### zamenjavo)</label>
+      <label index="index_config.fields">Polja (prvo je naziv):</label>
+      <label index="index_config.externalUrl">Zunanji URL (n.pr: "http://www.domena.si"):</label>
+      <label index="index_config.chashcalc">Izračunam cHash (prisiljeno predpomnjenje)?</label>
+      <label index="index_config.filepath">Pot do datotek:</label>
+      <label index="index_config.extensions">Omeji na razširitve (ločeno z vejico):</label>
+      <label index="index_config.url_deny">Vnesite podURL-je v katere se ne spustim:</label>
+      <label index="index_config.records_indexonchange">Indeksiram zapise ob shranjevanju?:</label>
+      <label index="index_config.timer_next_indexing">Naslednje indeksiranje je planirano ob (če je prazno, potem takoj)</label>
+      <label index="index_config.timer_offset">Časovni odmik od polnoči:</label>
+      <label index="index_config.timer_frequency">Kako pogosto želite ponovno indeksiranje?:</label>
+      <label index="index_config.timer_frequency.I.0">Vsako uro</label>
+      <label index="index_config.timer_frequency.I.1">Vsak dan (24 ur)</label>
+      <label index="index_config.timer_frequency.I.2">Vsak teden</label>
+      <label index="index_config.recordsbatch">Koliko zapisov indeksiran v minuti (privzeto je 100):</label>
+      <label index="index_config.set_id"/>
+      <label index="index_config.indexcfgs">Konfiguracije indeksiranja:</label>
+      <label index="index_config.parameterCfgs">Konfiguracija kombinacije parametrov ([tablename]:&amp;[param]=###UID###):</label>
+      <label index="index_config.rootpage">Korenska stran:</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="mlang_labels_tablabel">Preverjanje integritete baze podatkov</label>
+      <label index="mlang_labels_tabdescr">Tukaj lahko preverite integriteto tabel, konfiguriranih v $TCA. Primer: vsi zapisi morajo pripadati neki strani. Preverite lahko tudi obstoj poslanih datotek, pripetih k zapisom (ponavadi so v uploads/* mapah). Na voljo je še ogled celotnega drevesa strani, vključno z izbrisanimi. Nazadnje je tu tudi globalni iskalnik po podatkovni bazi.&lt;br /&gt;&lt;em&gt;Uporaba je dovoljena le 'admin' uporabnikom!&lt;/em&gt;</label>
+      <label index="mlang_tabs_tab">Preverjanje baze</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

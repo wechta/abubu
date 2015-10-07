@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="noTitle">Brez naslova</label>
+      <label index="expand">Razširi kategorijo</label>
+      <label index="noTextSelection">Napaka: Niste izbrali besedila, ki ga želite obdati.</label>
+      <label index="pixels">Piksli</label>
+      <label index="filesize">Velikost datoteke</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

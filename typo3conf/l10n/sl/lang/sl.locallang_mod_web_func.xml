@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="title">Napredne funkcije</label>
+      <label index="clickAPage_content">Kliknite na naslov strani v drevesu strani</label>
+      <label index="mlang_labels_tablabel">Napredne funkcije</label>
+      <label index="mlang_labels_tabdescr">Tu najdete splošne funcije za izvoz in uvoz podatkov. Ta modul vsebuje tudi posebne funkcije - čarovnike - ki so uporabni naprimer za paketno dodajanje strani ali njihovo sortiranje.</label>
+      <label index="mlang_tabs_tab">Funkcije</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="Spell Checker">Črkovalnik</label>
+      <label index="CONFIRM_LINK_CLICK">Prosim potrdite, da želite odpreti to povezavo</label>
+      <label index="Cancel">Prekliči</label>
+      <label index="Dictionary">Slovar</label>
+      <label index="Finished list of mispelled words">Dokončal sem seznam narobe črkovanih besed</label>
+      <label index="I will open it in a new page.">Odprl ga bom v novem oknu</label>
+      <label index="Ignore all">Prezri vse</label>
+      <label index="Ignore">Prezri</label>
+      <label index="NO_ERRORS">Z izbranim slovarjem nisem našel narobe črkovanih besed</label>
+      <label index="NO_ERRORS_CLOSING">Preverjanje črkovanja zaključeno, nisem našel narobe črkovanih besed. Zapiram...</label>
+      <label index="OK">V redu</label>
+      <label index="Original word">Originalna beseda</label>
+      <label index="Please wait. Calling spell checker.">Prosim počakajte. Kličem črkovalnik.</label>
+      <label index="Please wait: changing dictionary to">Prosim počakajte. Menjavam slovar v</label>
+      <label index="HTMLArea Spell Checker">HTMLArea črkovalnik</label>
+      <label index="QUIT_CONFIRMATION">S tem boste zavrgli spremembe in zaprli črkovalnik. Prosim, potrdite.</label>
+      <label index="Re-check">Ponovno preveri</label>
+      <label index="Replacement"/>
+      <label index="Replace all">Zamenjaj vse</label>
+      <label index="Replace with">Zamenjaj z</label>
+      <label index="Replace">Zamenjaj</label>
+      <label index="Learn">Dodaj v slovar</label>
+      <label index="Revert">Povrni v prejšnje stanje</label>
+      <label index="SC-spell-check">Preveri črkovanje</label>
+      <label index="Suggestions">Predlogi</label>
+      <label index="One occurrence">En zadetek</label>
+      <label index="Two occurrences">Dva zadetka</label>
+      <label index="occurrences">zadetkov</label>
+      <label index="of the word">besede</label>
+      <label index="was found.">je najdenih.</label>
+      <label index="were found.">je najdenih.</label>
+      <label index="Info"/>
+      <label index="Document information">Informacije o dokumentu</label>
+      <label index="No information available">Ni informacij</label>
+      <label index="Total words">Skupaj besed</label>
+      <label index="Misspelled words">Narobe črkovanih besed</label>
+      <label index="Total suggestions">Skupaj predlogov</label>
+      <label index="Total words suggested">Skupaj predlaganih besed</label>
+      <label index="Spelling checked in">Črkovanje preverjeno v</label>
+      <label index="seconds">sekundah</label>
+      <label index="pliz weit ;-)">Prosim, počakajte...</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,360 @@
+<T3DataStructure>
+  <sheets>
+	<sGEN>
+	  	<ROOT>
+			<TCEforms>
+				<sheetTitle>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.sheet_display</sheetTitle>
+			</TCEforms>
+		    <type>array</type>
+		    <el>
+		      <language>
+					<TCEforms>
+						<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.language</label>
+						<config>
+							<type>select</type>
+							<foreign_table>sys_language</foreign_table>
+							<foreign_table_where>AND sys_language.title!=''</foreign_table_where>
+							<items>
+								<numIndex index="0" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.language.0</numIndex>
+								</numIndex>
+							</items>
+							<size>1</size>
+							<minitems>0</minitems>
+							<maxitems>1</maxitems>
+						</config>
+					</TCEforms>
+			  </language>
+		      <display>
+					<TCEforms>
+						<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.display</label>
+						<config>
+							<type>select</type>
+							<items type="array">			
+								<numIndex index="1" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.display.1</numIndex>
+									<numIndex index="1">1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.display.2</numIndex>
+									<numIndex index="1">2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.display.3</numIndex>
+									<numIndex index="1">3</numIndex>
+								</numIndex>
+								<numIndex index="5" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.display.5</numIndex>
+									<numIndex index="1">5</numIndex>
+								</numIndex>
+								<numIndex index="4" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.display.4</numIndex>
+									<numIndex index="1">4</numIndex>
+								</numIndex>
+								<numIndex index="6" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.display.6</numIndex>
+									<numIndex index="1">6</numIndex>
+								</numIndex>
+								<numIndex index="7" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.display.7</numIndex>
+									<numIndex index="1">7</numIndex>
+								</numIndex>
+								<numIndex index="8" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.display.8</numIndex>
+									<numIndex index="1">8</numIndex>
+								</numIndex>
+								<numIndex index="9" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.display.9</numIndex>
+									<numIndex index="1">9</numIndex>
+								</numIndex>
+								<numIndex index="10" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.display.10</numIndex>
+									<numIndex index="1">10</numIndex>
+								</numIndex>
+								<numIndex index="11" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.display.11</numIndex>
+									<numIndex index="1">11</numIndex>
+								</numIndex>
+								<numIndex index="12" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.display.12</numIndex>
+									<numIndex index="1">12</numIndex>
+								</numIndex>
+							</items>
+							<minitems>1</minitems>
+							<maxitems>3</maxitems>
+							<size>8</size>
+						</config>
+					</TCEforms>
+			  </display>
+		      <templateFile>
+				<TCEforms>
+				<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.templateFile</label>
+		         <config>
+		          <type>input</type>
+		          <size>30</size>
+		         </config>
+				</TCEforms>
+		      </templateFile>
+		      <categories_display_type>
+					<TCEforms>
+						<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.categories_display_type</label>
+						<config>
+							<type>select</type>
+							<items type="array">			
+								<numIndex index="1" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.categories_display_type.1</numIndex>
+									<numIndex index="1">1</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.categories_display_type.2</numIndex>
+									<numIndex index="1">2</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.categories_display_type.3</numIndex>
+									<numIndex index="1">3</numIndex>
+								</numIndex>
+							</items>
+							<minitems>1</minitems>
+							<maxitems>1</maxitems>
+							<size>1</size>
+						</config>
+					</TCEforms>
+			  </categories_display_type>
+		      <root_categories>
+					<TCEforms>
+						<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.categories</label>
+						<config>
+							<type>select</type>
+							<foreign_table>tx_easyshop_categories</foreign_table>
+							<foreign_table_where>AND tx_easyshop_categories.parrent=0</foreign_table_where>
+							<size>10</size>
+							<minitems>0</minitems>
+							<maxitems>10</maxitems>
+						</config>
+					</TCEforms>
+				</root_categories>
+				<tea_categories>
+					<TCEforms>
+						<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.tea_categories</label>
+						<config>
+							<type>select</type>
+							<foreign_table>tx_easyshop_categories</foreign_table>
+							<foreign_table_where>AND tx_easyshop_categories.parrent=121</foreign_table_where>
+							<size>10</size>
+							<minitems>0</minitems>
+							<maxitems>10</maxitems>
+						</config>
+					</TCEforms>
+				</tea_categories>
+				<special_limit>
+					<TCEforms>
+					<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.special_limit</label>
+				    <config>
+				       <type>input</type>
+				       <size>3</size>
+				    </config>
+			  		</TCEforms>
+			  </special_limit>
+	    	</el>
+	  </ROOT>
+    </sGEN>
+    <sPAGES>
+	  	<ROOT>
+			<TCEforms>
+				<sheetTitle>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.sheet_pages</sheetTitle>
+			</TCEforms>
+		    <type>array</type>
+		    <el>
+		      <page_single_product>
+				<TCEforms>
+				<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.page_single_product</label>
+		         <config>
+					<type>group</type>
+					<internal_type>db</internal_type>
+					<allowed>pages</allowed>
+					<size>1</size>
+					<maxitems>1</maxitems>
+					<minitems>0</minitems>
+					<show_thumbs>1</show_thumbs>
+				</config>
+				</TCEforms>
+		      </page_single_product>
+		      <page_products_list>
+				<TCEforms>
+				<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.page_products_list</label>
+		         <config>
+					<type>group</type>
+					<internal_type>db</internal_type>
+					<allowed>pages</allowed>
+					<size>1</size>
+					<maxitems>1</maxitems>
+					<minitems>0</minitems>
+					<show_thumbs>1</show_thumbs>
+				</config>
+				</TCEforms>
+		      </page_products_list>
+		      <page_basket_view>
+				<TCEforms>
+				<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.page_basket_view</label>
+		         <config>
+					<type>group</type>
+					<internal_type>db</internal_type>
+					<allowed>pages</allowed>
+					<size>1</size>
+					<maxitems>1</maxitems>
+					<minitems>0</minitems>
+					<show_thumbs>1</show_thumbs>
+				</config>
+				</TCEforms>
+		      </page_basket_view>
+			  <page_boxoffice_view>
+				<TCEforms>
+				<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.page_boxoffice_view</label>
+		         <config>
+					<type>group</type>
+					<internal_type>db</internal_type>
+					<allowed>pages</allowed>
+					<size>1</size>
+					<maxitems>1</maxitems>
+					<minitems>0</minitems>
+					<show_thumbs>1</show_thumbs>
+				</config>
+				</TCEforms>
+		      </page_boxoffice_view>
+	    	</el>
+	  </ROOT>
+    </sPAGES>
+    <sMAIL>
+	  	<ROOT>
+			<TCEforms>
+				 <sheetTitle>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.sheet_mail</sheetTitle>
+			</TCEforms>
+		    <type>array</type>
+		    <el>
+		       <mailer>
+					<TCEforms>
+						<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.mailer</label>
+						<config>
+							<type>select</type>
+							<items type="array">			
+								<numIndex index="1" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.mailer.1</numIndex>
+									<numIndex index="1">mail</numIndex>
+								</numIndex>
+								<numIndex index="2" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.mailer.3</numIndex>
+									<numIndex index="1">sendmail</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.mailer.5</numIndex>
+									<numIndex index="1">smtp</numIndex>
+								</numIndex>
+							</items>
+							<minitems>1</minitems>
+							<maxitems>1</maxitems>
+							<size>1</size>
+						</config>
+					</TCEforms>
+				</mailer>
+				<priority>
+					<TCEforms>
+						<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.priority</label>
+						<config>
+							<type>select</type>
+							<items type="array">	
+								<numIndex index="2" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.priority.3</numIndex>
+									<numIndex index="1">3</numIndex>
+								</numIndex>
+								<numIndex index="1" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.priority.1</numIndex>
+									<numIndex index="1">1</numIndex>
+								</numIndex>
+								<numIndex index="3" type="array">
+									<numIndex index="0">LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.priority.5</numIndex>
+									<numIndex index="1">5</numIndex>
+								</numIndex>
+							</items>
+							<minitems>1</minitems>
+							<maxitems>1</maxitems>
+							<size>1</size>
+						</config>
+					</TCEforms>
+				</priority>
+				<charset>
+					<TCEforms>
+						<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.charset</label>
+				         <config>
+				          <type>input</type>
+				          <size>30</size>
+				         </config>
+					</TCEforms>
+		        </charset>
+		        <from>
+					<TCEforms>
+						<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.from</label>
+			         <config>
+			          <type>input</type>
+			          <size>30</size>
+			         </config>
+					</TCEforms>
+		      </from>
+		      <from_name>
+					<TCEforms>
+						<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.from_name</label>
+			         <config>
+			          <type>input</type>
+			          <size>30</size>
+			         </config>
+					</TCEforms>
+		      </from_name>
+		      <send_to>
+					<TCEforms>
+						<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.send_to</label>
+			         <config>
+			          <type>input</type>
+			          <size>30</size>
+			         </config>
+					</TCEforms>
+		      </send_to>
+		      <reply_to>
+					<TCEforms>
+						<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.reply_to</label>
+			         <config>
+			          <type>input</type>
+			          <size>30</size>
+			         </config>
+					</TCEforms>
+		      </reply_to>
+				<subject>
+					<TCEforms>
+						<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.subject</label>
+			         <config>
+			          <type>input</type>
+			          <size>30</size>
+			         </config>
+						</TCEforms>
+		      </subject>
+			  <host>
+				  	<TCEforms>
+			  		<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.host</label>
+				    <config>
+				       <type>input</type>
+				       <size>30</size>
+	      			</config>
+					</TCEforms>
+			  </host>	
+			  <port>
+					<TCEforms>
+					<label>LLL:EXT:easy_shop/locallang_tca1.php:easy_shop.pi_flexform.port</label>
+				    <config>
+				       <type>input</type>
+				       <size>30</size>
+				    </config>
+			  		</TCEforms>
+			  </port>
+	    	</el>
+	  </ROOT>
+    </sMAIL>
+  </sheets>
+</T3DataStructure>

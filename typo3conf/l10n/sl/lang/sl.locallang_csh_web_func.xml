@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index=".alttitle">Modul Splet&gt;Funkcije</label>
+      <label index=".description">Modul Splet&gt;Funkcije je zamišljen kot zbirni modul, v katerem se nahajajo aplikacije, s katerimi želimo obdelovati strani ali veje v drevesu strani.</label>
+      <label index=".details">Modul Web&gt;Funkcije se od modula Splet&gt;Info razlikuje samo po tem, da ponuja ob informacijah tudi možnost obdelave strani ali drevesa. Kam bo programer uvrstil dodatno funkcionalnost, pa je njegova odločitev.</label>
+      <label index="_.seeAlso"/>
+      <label index="_.image"/>
+      <label index=".image_descr">Modul Splet&gt;Funkcije je, v obliki, kot ga ponuja jedro sistema, prazna lupina. Ponuja pa API, ki ga razširitve lahko uporabljajo za dodajanje novih funkcionalnosti v ta modul. Delovanje nam ponazarja razširitev Čarovnik, ki dodaja glavni meni v desnem zgornjem kotu modula. Izbirnik "Izberite čarovnika" pa omogoča uporabniku, da izbira funkcionalnosti na naslednjem nivoju, ki jih ponujajo druge razširitve, v tem primeru razširitev "wizard_sortpages".</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

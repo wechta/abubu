@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="cms" target-language="sl">
+    <header/>
+    <body>
+      <trans-unit id="pagetree_overview.alttitle" xml:space="preserve" approved="yes">
+        <source>Pagetree Overview</source>
+      <target state="translated">Pregled drevesa strani</target></trans-unit>
+      <trans-unit id="pagetree_overview.description" xml:space="preserve" approved="yes">
+        <source>The Pagetree Overview shows information related to pages for a branch of the page tree. This includes start- and stop-times, cache settings etc.</source>
+      <target state="translated">Pregled drevesa strani prikazuje informacije povezane s stranmi v drevesa strani, kot so: začetek in konec prikazovanja, nastavitve predpomnjenja...</target></trans-unit>
+      <trans-unit id="_pagetree_overview.seeAlso" xml:space="preserve">
+        <source>_MOD_web_info:func_0,
+_MOD_web_info:func_1,
+_MOD_web_info:func_2,
+_MOD_web_info:stat</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      </trans-unit>
+      <trans-unit id="_pagetree_overview.image" xml:space="preserve">
+        <source>EXT:cms/cshimages/pagetree_overview_1.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      </trans-unit>
+      <trans-unit id="pagetree_overview.image_descr" xml:space="preserve" approved="yes">
+        <source>One of the features of the Pagetree Overview module is that you can see what types of records are found on pages in a branch. Here record counts are shown for a page tree branch 2 levels down.</source>
+      <target state="translated">Ena izmed značilnosti pregleda drevesa strani je, da lahko vidite kateri tipi zapisov se nahajajo na straneh v veji. Slika prikazuje števec zapisov za globino 2 nivojev.</target></trans-unit>
+      <trans-unit id="func_0.alttitle" xml:space="preserve" approved="yes">
+        <source>Basic Settings</source>
+      <target state="translated">Osnovne nastavitve</target></trans-unit>
+      <trans-unit id="func_0.description" xml:space="preserve" approved="yes">
+        <source>Displays a selection of fields from page records which are regarded as foundational settings for pages. That includes aliases, start- and stop times, access restriction information etc.</source>
+      <target state="translated">Prikazuje izbor polj iz zapisov strani, ki se smatrajo za osnovne nastavitve strani. To vključuje vzdevek, časovno obdobje prikaza, podatke o omejitvi dostopa, itd.</target></trans-unit>
+      <trans-unit id="func_0.details" xml:space="preserve" approved="yes">
+        <source>The Basic Settings view resembles the Cache and Age view quite a lot. They are different only by the selection of fields they show.
+
+&lt;b&gt;Batch editing page fields&lt;/b&gt;
+You will find multiple edit-icons around the interface. All edit icons in head lines will bring you to an editing dialog where you can change exactly that field for all listed tables! Very useful for batch-editing of say all "Start" times.
+If you click the edit icon at the ID numbers of pages you will get straight to the regular editing of a whole page record.</source>
+      <target state="translated">Pogled "Osnovne nastavitve" je kar precej podoben pogledu "Predpomnjenje in starost". Razlikujeta se le po izboru polj, ki jih prikazujeta. &lt;b&gt;Skupinsko urejanje polj&lt;/b&gt; V vmesniku boste našli več ikon za urejanje. Vse ikone za urejanje v naslovnih vrsticah vas bodo pripeljale v urejevalnik, kjer lahko uredite to polje za vse naštete tabele! Zelo uporabno za skupinsko urejanje n.pr. časov objave strani. Če pritisnete ikono za urejanje ob ID številki strani, boste prišli v obrazec za normalno urejanje celotne strani.</target></trans-unit>
+      <trans-unit id="_func_0.seeAlso" xml:space="preserve">
+        <source>xMOD_csh_corebe:list_module,
+_MOD_web_info:func_2,
+_MOD_web_info:pagetree_overview</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      </trans-unit>
+      <trans-unit id="_func_0.image" xml:space="preserve">
+        <source>EXT:cms/cshimages/pagetree_overview_4.png,
+EXT:cms/cshimages/pagetree_overview_8.png,
+EXT:cms/cshimages/pagetree_overview_9.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      </trans-unit>
+      <trans-unit id="func_0.image_descr" xml:space="preserve" approved="yes">
+        <source>The Basic Settings view offers a very convenient overview of page aliases, start times and access restriction settings in the tree branch.
+If you click an edit-icon in the header you will be able to edit that field for all listed pages.</source>
+      <target state="translated">Pogled Osnovne nastavitve ponuja zelo prikladen pregled vzdevkov, časovnih omejitev in omejitev dostopa doi strani v veji drevesa. Če pritisnete na ikono za urejanje v naslovni vrstici, boste lahko urejali to polje za vse naštete strani.</target></trans-unit>
+      <trans-unit id="func_1.alttitle" xml:space="preserve" approved="yes">
+        <source>Record Overview</source>
+      <target state="translated">Pregled zapisov</target></trans-unit>
+      <trans-unit id="func_1.description" xml:space="preserve" approved="yes">
+        <source>Record overview gives you an indispensable overview of the distribution of records in the page tree. Each database table in the system is represented with a column and for each page you can see the number of records from that table located on the page.</source>
+      <target state="translated">Pregled zapisov vam ponuja neobhoden pregled porazdelitve zapisov v drevesu strani. Vsaka tabela v podatkovni bazi je predstavljena s stolpcem, v katerem vidite število zapisov iz te tabele na posamezni strani.</target></trans-unit>
+      <trans-unit id="func_1.details" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Notice:&lt;/b&gt; Be careful with the level-setting. A high level-setting may cause the module to respond very slowly if there are many pages and many records in the database as well!
+
+&lt;b&gt;Tree stop?&lt;/b&gt;
+Notice the red "+" next to a page in the page tree? This is due to a setting for that page record which means that the page tree will not expand for this page. Typically this is set for protection when there are a large amount of subpages underneath (hundreds of pages typically). If you click the icon/title the overview will jump to make this page the new root of the overview.</source>
+      <target state="translated">&lt;b&gt;OPOMBA:&lt;/b&gt; Bodite previdni z nastavitvijo nivoja pregleda. Nastavitev visokega nivoja lahko povzroči, da se modul odziva zelo počasi, če v podatkovni bazi obstaja dosti strani in zapisov na njih. &lt;b&gt;Konec prikaza drevesa strani&lt;/b&gt; Ste opazili rdeč znak "+" ob imenu strani? Znak pomeni, da pod to stranjo obstaja več strani, ki pa niso prikazane. Takšen znak se prikaže ob strani, ki ima veliko podstrani (več sto). Če kliknete na ikono/ime strani se bo prikazalo novo drevo, kjer bo ta stran prikazana kot koren pregleda drevesa.</target></trans-unit>
+      <trans-unit id="_func_1.seeAlso" xml:space="preserve">
+        <source>_MOD_web_info:pagetree_overview,
+pages:php_tree_stop</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      </trans-unit>
+      <trans-unit id="_func_1.image" xml:space="preserve">
+        <source>EXT:cms/cshimages/pagetree_overview_6.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      </trans-unit>
+      <trans-unit id="func_1.image_descr" xml:space="preserve" approved="yes">
+        <source>You can easily see the distribution of Content Elements on a page. You can also see where Template Records - and basically any record! - are located in the page tree!</source>
+      <target state="translated">Enostavno lahko vidite razporeditev vsebinskih elementov na strani. Prav tako lahko vidite kje v drevesu se nahajajo predloge ali katere koli druge oblike zapisov!</target></trans-unit>
+      <trans-unit id="func_2.alttitle" xml:space="preserve" approved="yes">
+        <source>Cache and Age</source>
+      <target state="translated">Predpomnjenje in časovne nastavitve</target></trans-unit>
+      <trans-unit id="func_2.description" xml:space="preserve" approved="yes">
+        <source>Displays a selection of fields from page records related to page caching and time settings.</source>
+      <target state="translated">Prikaže izbor polj zapisov na strani, ki so povezani s predpomnjenjem in časovnimi nastavitvami.</target></trans-unit>
+      <trans-unit id="_func_2.seeAlso" xml:space="preserve">
+        <source>_MOD_web_info:func_0,
+_MOD_web_info:pagetree_overview,
+pages:TSconfig</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      </trans-unit>
+      <trans-unit id="_func_2.image" xml:space="preserve">
+        <source>EXT:cms/cshimages/pagetree_overview_5.png,
+EXT:cms/cshimages/pagetree_overview_7.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      </trans-unit>
+      <trans-unit id="func_2.image_descr" xml:space="preserve" approved="yes">
+        <source>The "Cache and Age" view.
+Here you see the "TSconfig" column. The overview exposes that these two pages include some Page TSconfig code!</source>
+      <target state="translated">Pogled "Predpomnjenje in časovne nastavitve". Tukaj vidite stolpec "TSconfig". Pogled razkrije, da ti dve strani vsebujeta TSconfig kodo strani.</target></trans-unit>
+      <trans-unit id="stat.alttitle" xml:space="preserve" approved="yes">
+        <source>Page Hit statistics</source>
+      <target state="translated">Statistika zadetkov</target></trans-unit>
+      <trans-unit id="stat.description" xml:space="preserve" approved="yes">
+        <source>Displays website hit statistics for a branch of the page tree. Based on the simple, internal MySQL statistics table which records page impressions and sessions only.</source>
+      <target state="translated">Prikaže statistiko zadetkov za vejo drevesa strani. Temelji na enostavni interni MySQL statistični tabeli, v katero se zapisujejo samo seje in prikaze strani.</target></trans-unit>
+      <trans-unit id="stat.details" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Notice:&lt;/b&gt; This function requires the extension "Simple hit statistics" (sys_stat) to be installed. Also you must configure TypoScript to register page hits in the statistics database table.</source>
+      <target state="translated">&lt;b&gt;Opomba:&lt;/b&gt; Funkcija zahteva instalacijo vtičnika "Enostavna statistika zadetkov" (sys_stat). Potrebna pa je tudi TypoScript konfiguracija, ki beleži zadetke v statistično tabelo.</target></trans-unit>
+      <trans-unit id="_stat.image" xml:space="preserve">
+        <source>EXT:cms/cshimages/pagetree_overview_3.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      </trans-unit>
+      <trans-unit id="lang.details" xml:space="preserve" approved="yes">
+        <source>The overview uses colors to signal the availability and fall back situation for a given page. Here is a description for each color code:
+&lt;b&gt;Green background:&lt;/b&gt; Page is translated and viewable in this language. For translations it means that an active page overlay record is present.
+&lt;b&gt;Red background:&lt;/b&gt; Page &lt;em&gt;cannot&lt;/em&gt; be viewed in this language and you will see an error message if you try. Menus should automatically filter out links to pages with this translation.
+&lt;b&gt;Gray background (not available for default language):&lt;/b&gt; Page will fall back to the specified fallback mode for content. Depends on configuration. (sys_language_mode = content_fallback is recommended for most flexible fallback, sys_language_mode = strict will prevent this and issue an error instead!)
+
+&lt;b&gt;The pages "Localization settings:"&lt;/b&gt;
+It is the "Localization settings" of the page record that determines the modes above. In the column of the default translation each of these settings are represented by a "N" (Hide page if no translation for current language exists) or a "D" (Hide default translation of page).
+As you can see the page "Startpage" has the N flag set and therefore any access to the german version of that page will be blocked with an error message because there is no translation in german. By default "german access" to a non-translated page will just show the english content.
+There is also a page with the D flag ("[Dummy]"). The D flag means that the page is only available in one of the translations, in this case Danish. So any attempt to access the page in the default language or german will show an error message.
+
+So, when the "Localization settings" checkboxes for a page are used, you will get an error message when you try to request a page which has been blocked. This is a feature. The trick is not to create links to those pages.
+
+Menus generated from HMENU objects will always take "sys_language" into account and display only pages which can be accessed for that language. But combined with the "localization settings" of pages which may block page access this becomes a problem with pages which are &lt;em&gt;not&lt;/em&gt; translated (has gray background); You might get menu items which links to non-accessible pages.
+The problem basically is that "&amp;L=xx" is different from internal "sys_language". You would like to avoid that and to do so you should configure "sys_language_mode" to "content_fallback". If you do that sys_language will &lt;em&gt;always&lt;/em&gt; follow what "&amp;L=" instructs it to and your menus will be right. At the same time you will get the default content displayed if no translation exists (because content selection falls back).
+
+Finally, the number found in each column tells you how many content elements are found in the specified language.</source>
+      <target state="translated">Pregled za prikazovanje statusa lokalizacije posamezne strani uporablja barvno označevanje. Tukaj je razlaga za posamezne barve: &lt;b&gt;Zeleno ozadje:&lt;/b&gt; Stran je prevedena in vidna v tem jeziku. Za prevod to pomeni, da obstaja aktivno jezikovno prekrivanje. &lt;b&gt;Rdeča podlaga:&lt;/b&gt; Strani &lt;em&gt;se ne&lt;/em&gt; prikaže v tem jeziku, ob prikazu se bo prikazalo sporočilo o napaki. Meniji avtomatično izločijo povazave do strani s tem prevodom. &lt;b&gt;Siva podlaga (ni na voljo za privzeti jezik):&lt;/b&gt; Stran se bo prikazala v načinu prikaza, ki je določen s konfiguracijo. (sys_language_mode = content_fallback je priporočena vrednosta za najbolj prilagodljiv prikaz, sys_language_mode = strict pa bo preprečila to stanje in prikazala sporočilo o napaki!) &lt;b&gt;"Nastavitve lokalizacije" na strani:&lt;/b&gt; določajo zgornje načine. V stolpcu privzetega prevoda je vsaka od teh nastavitev predstavljena z "N" (Skrij stran, če za trenuten jezik ne obstaja prevod) ali "D" (Skrij privzeti prevod strani). Kot lahko vidite je "Začetna stran" označena z N, zato bo vsak dostop do te strani v nemškem jeziku sprožil sporočilo o napaki, saj prevod v nemški jezik ne obstaja. V privzetem načinu bi dostop do te strani prikazal angleško vsebino. Obstaja tudi stran označena z "D" ("[Dummy]"). Označba "D" pomeni, da je stran na voljo samo v enem izmed prevodov, v tem primeru je to dansko. Zato bo vsak poizkus dostopa do te strani v privzetem ali nemškem jeziku prikazal sporočilo o napaki. Kadar so uporabljene "Nastavitve lokalizacije" na strani, boste za vsak poizkus dostopa do strani v jeziku, ki ne obstaja, dobili sporočilo o napaki. To je značilnost, s katero želimo preprečiti ustvarjanje povezav do teh strani. Meniji generirani s pomočjo objekta HMENU, bojo vedno upoštevali vrednost polja "sys_language" in prikazali samo strani, ki so dosegljive iz tistega jezika. Vendar lahko v kombinaciji z "Nastavitvami lokalizacije" na strani, ki lahko onemogočajo dostop do strani, to privede do problema s stranmi, ki &lt;em&gt;niso&lt;/em&gt; prevedene (imajo sivo ozadje); dobite lahko točke v meniju, ki kažejo na nedostopne strani. Problem je v tem, da je "&amp;L=xx" drugačen kot interni "sys_language". Temu bi se radi izognili, zato je priporočljivo nastaviti vrednost parametra "sys_language_mode" na "content_fallback". Ob tej vrednosti parametra bo vrednost parametra "sys_language" vedno sledila temu, kar bo nastavljeno s spremenljivko "&amp;L=" in meniji bodo pravilni. Obenem bo ob neobstoječem prevodu prikazana privzeta vsebina. Številka v vsakem stolpcu vam pove koliko vsebinskih elementov obstaja v izbranem jeziku.</target></trans-unit>
+      <trans-unit id="_lang.image" xml:space="preserve">
+        <source>EXT:cms/cshimages/localizationoverview.png,
+EXT:cms/cshimages/localizationoverview1.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      </trans-unit>
+      <trans-unit id="lang.image_descr" xml:space="preserve" approved="yes">
+        <source>Localization overview in the Web&gt;Info module. Use the buttons to edit, view and create new page translation headers. Use the regular page module to put localized content on the pages.
+The "Localization settings" that affect availability of pages in the various languages.</source>
+      <target state="translated">Pregled lokalizacije v modulu Splet&gt;Info. Uporabite gumbe za urejanje, pogled ali ustvarjanje novih prevodov strani. Za dodajanje prevodov vsebin pa uporabljajte normalen modul "Stran". "Nastavitve lokalizacije", ki vplivajo na dostopnost strani v različnih jezikih.</target></trans-unit>
+      <trans-unit id="func_hits.alttitle" xml:space="preserve" approved="yes">
+        <source>Statistic Views</source>
+      <target state="translated">Statistični pogledi</target></trans-unit>
+      <trans-unit id="func_hits.description" xml:space="preserve" approved="yes">
+        <source>You can select between three views of the statistics in the selector box; "Page hits", "Total hits", "Hits in main sections". Use the right selector box to select the depth of the overview in the pagetree.</source>
+      <target state="translated">V izbirniku lahko izberete med tremi statističnimi pogledi; "Zadetki na stran", "Skupni zadetki", "Zadetki v glavnem razdelku". Desni izbirnik uporabite za izbiro globine prikaza v drevesu strani.</target></trans-unit>
+      <trans-unit id="func_hits.details" xml:space="preserve" approved="yes">
+        <source>You can view the page hit statistics 30 days back. Each day is shown in its own column.
+For each page in the page tree you can see the page hits each day as a number formatted like [page hits]/[user sessions]. So if the number is "286/34" it means that the page had 286 page hits that day and that there were at least 34 unique visitors (measured by at least two hits by a user accepting a cookie from the site).
+
+This is an overview of the meaning of each view mode:
+
+&lt;b&gt;Page hits&lt;/b&gt;
+This shows page hits/sessions for each page.
+
+&lt;b&gt;Total hits&lt;/b&gt;
+This will show statistics for only pages that have a Template Record (with Root-flag set) on it. This means that page hits are shown as totals for a whole website.
+
+&lt;b&gt;Hits in main sections&lt;/b&gt;
+Will show the total number of page hits/sessions within main sections of a website. A "main section" is all subpages to a page on the first level of a website (defined by a Template Record with the Root flag set)</source>
+      <target state="translated">Statistiko zadetkov lahko preglejujete za zadnjih 30 dni. Vsak dan je prikazan v svojem stolpcu. Za vsako stran v drevesu lahko vidite dnevne zadetke kot števila v obliki [zadetki na stran]/[uporabniške seje]. N.pr: če je prikazano število "286/34" to pomeni, da je imela stran ta dan 286 zadetkov in da jo je obiskalo najmanj 34 različnih obiskovalcev. Pregled pomena posameznih ogledov: &lt;b&gt;Zadetki na stran&lt;/b&gt; Prikazuje število zadetkov/sej za stran. &lt;b&gt;Skupni zadetki&lt;/b&gt; Prikazuje zadetke samo za strani, ki vsebujejo predlogo (z oznako korena strani). To prikazuje zadetke za celotno spletno stran. &lt;b&gt;Zadetki v glavnem razdelku&lt;/b&gt; Prikazuje skupno število zadetkov/sej za stran v glavnem razdelku spletne strani. "Glavni razdelek" so vse podstrani strani na prvem nivoju (ki ga določa predloga z oznako korena strani)</target></trans-unit>
+      <trans-unit id="_func_hits.image" xml:space="preserve">
+        <source>EXT:cms/cshimages/pagetree_overview_2.png</source>
+        <note from="developer">This string contains an internal text, which must not be changed. Just copy the original text into the translation field. For more information have a look at the Tutorial.</note>
+      </trans-unit>
+      <trans-unit id="lang.alttitle" xml:space="preserve" approved="yes">
+        <source>Localization overview</source>
+      <target state="translated">Pregled lokalizacije</target></trans-unit>
+      <trans-unit id="lang.description" xml:space="preserve" approved="yes">
+        <source>Gives an overview of which pages in the page tree are translated to the system languages installed.</source>
+      <target state="translated">Ponuja pregled strani v drevesu, ki so prevedene v nameščene sistemske jezike.</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:36Z" product-name="rtehtmlarea" target-language="sl">
+    <header/>
+    <body>
+      <trans-unit id="Substitute this occurrence?" xml:space="preserve" approved="yes">
+        <source>Substitute this occurrence?</source>
+      <target state="translated">Zamenjam ta zadetek?</target></trans-unit>
+      <trans-unit id="Enter the text you want to find" xml:space="preserve" approved="yes">
+        <source>Enter the text you want to find</source>
+      <target state="translated">Vnesite besedilo, ki ga želite najti</target></trans-unit>
+      <trans-unit id="Inform a replacement word" xml:space="preserve" approved="yes">
+        <source>This will erase all occurrences.</source>
+      <target state="translated">Izbrisali boste vse zadetke.</target></trans-unit>
+      <trans-unit id="found items" xml:space="preserve" approved="yes">
+        <source>found items</source>
+      <target state="translated">najdenih postavk</target></trans-unit>
+      <trans-unit id="replaced items" xml:space="preserve" approved="yes">
+        <source>replaced items</source>
+      <target state="translated">izbrisanih postavk</target></trans-unit>
+      <trans-unit id="found item" xml:space="preserve" approved="yes">
+        <source>item found</source>
+      <target state="translated">najdena postavka</target></trans-unit>
+      <trans-unit id="replaced item" xml:space="preserve" approved="yes">
+        <source>item replaced</source>
+      <target state="translated">zamenjana postavka</target></trans-unit>
+      <trans-unit id="not found" xml:space="preserve" approved="yes">
+        <source>not found</source>
+      <target state="translated">ni najdeno</target></trans-unit>
+      <trans-unit id="Find and Replace" xml:space="preserve" approved="yes">
+        <source>Find And Replace</source>
+      <target state="translated">Poišči in zamenjaj</target></trans-unit>
+      <trans-unit id="Options" xml:space="preserve" approved="yes">
+        <source>Options</source>
+      <target state="translated">Možnosti:</target></trans-unit>
+      <trans-unit id="Whole words only" xml:space="preserve" approved="yes">
+        <source>Whole words only</source>
+      <target state="translated">Samo celotne besede</target></trans-unit>
+      <trans-unit id="Case sensitive search" xml:space="preserve" approved="yes">
+        <source>Case sensitive search</source>
+      <target state="translated">Iskanje, občutljivo na velikost črk</target></trans-unit>
+      <trans-unit id="Substitute all occurrences" xml:space="preserve" approved="yes">
+        <source>Substitute all occurrences</source>
+      <target state="translated">Zamenjaj vse zadetke</target></trans-unit>
+      <trans-unit id="Search for:" xml:space="preserve" approved="yes">
+        <source>Search for:</source>
+      <target state="translated">Išči:</target></trans-unit>
+      <trans-unit id="Replace with:" xml:space="preserve" approved="yes">
+        <source>Replace with:</source>
+      <target state="translated">Zamenjaj z:</target></trans-unit>
+      <trans-unit id="Actions" xml:space="preserve" approved="yes">
+        <source>Actions</source>
+      <target state="translated">Akcije:</target></trans-unit>
+      <trans-unit id="Clear" xml:space="preserve" approved="yes">
+        <source>Clear</source>
+      <target state="translated">Počisti</target></trans-unit>
+      <trans-unit id="Highlight" xml:space="preserve" approved="yes">
+        <source>Highlight</source>
+      <target state="translated">Poudarek</target></trans-unit>
+      <trans-unit id="Undo" xml:space="preserve" approved="yes">
+        <source>Undo</source>
+      <target state="translated">Razveljavi</target></trans-unit>
+      <trans-unit id="Next" xml:space="preserve" approved="yes">
+        <source>Next</source>
+      <target state="translated">Naslednji</target></trans-unit>
+      <trans-unit id="Done" xml:space="preserve" approved="yes">
+        <source>Done</source>
+      <target state="translated">Dokončano</target></trans-unit>
+    </body>
+  </file>
+</xliff>

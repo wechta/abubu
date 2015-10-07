@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="labels.username"/>
+      <label index="labels.openId"/>
+      <label index="labels.password"/>
+      <label index="labels.interface"/>
+      <label index="labels.submitLogin"/>
+      <label index="labels.submitLogout"/>
+      <label index="labels.donate"/>
+      <label index="labels.whatIsOpenId"/>
+      <label index="labels.switchToOpenId"/>
+      <label index="labels.switchToDefault"/>
+      <label index="availableInterfaces"/>
+      <label index="interface.backend"/>
+      <label index="interface.frontend"/>
+      <label index="interface.backend_old"/>
+      <label index="headline"/>
+      <label index="info.about"/>
+      <label index="info.reset"/>
+      <label index="info.cookies_and_js"/>
+      <label index="clear"/>
+      <label index="login_process"/>
+      <label index="warning.incompatibleBrowserHeadline"/>
+      <label index="warning.incompatibleBrowser"/>
+      <label index="warning.incompatibleBrowserInternetExplorer"/>
+      <label index="newsheadline"/>
+      <label index="error.login"/>
+      <label index="error.login.title"/>
+      <label index="error.login.description"/>
+      <label index="error.javascript"/>
+      <label index="error.cookies"/>
+      <label index="error.cookies_ignore"/>
+      <label index="error.capslock"/>
+      <label index="error.furtherInformation"/>
+      <label index="warranty.by"/>
+      <label index="no.warranty"/>
+      <label index="typo3.logo"/>
+      <label index="typo3.cms"/>
+      <label index="version.short"/>
+      <label index="copyright"/>
+      <label index="extension.copyright"/>
+      <label index="details.link"/>
+      <label index="free.software"/>
+      <label index="keep.notice"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="editElement"/>
+      <label index="general"/>
+      <label index="identification"/>
+      <label index="id"/>
+      <label index="title"/>
+      <label index="className"/>
+      <label index="events"/>
+      <label index="onkeydown"/>
+      <label index="onkeypress"/>
+      <label index="onkeyup"/>
+      <label index="onclick"/>
+      <label index="ondblclick"/>
+      <label index="onmousedown"/>
+      <label index="onmousemove"/>
+      <label index="onmouseout"/>
+      <label index="onmouseover"/>
+      <label index="onmouseup"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

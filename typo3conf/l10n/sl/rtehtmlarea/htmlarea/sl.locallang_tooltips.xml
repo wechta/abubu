@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="bold">Krepko</label>
+      <label index="italic">Ležeče</label>
+      <label index="underline">Podčrtano</label>
+      <label index="strikethrough">Prečrtano</label>
+      <label index="subscript">Podpisano</label>
+      <label index="superscript">Nadpisano</label>
+      <label index="justifyleft">Poravnaj levo</label>
+      <label index="justifycenter">Poravnaj sredinsko</label>
+      <label index="justifyright">Poravnaj desno</label>
+      <label index="justifyfull">Poravnaj obojestransko</label>
+      <label index="insertorderedlist">Oštevilčen seznam</label>
+      <label index="insertunorderedlist">Neoštevilčen seznam</label>
+      <label index="outdent">Zmanjšaj zamik</label>
+      <label index="indent">Povečaj zamik</label>
+      <label index="forecolor">Barva pisave</label>
+      <label index="hilitecolor">Barva podlage</label>
+      <label index="inserthorizontalrule">Horizontalna črta</label>
+      <label index="createlink">Vstavi spletno povezavo</label>
+      <label index="unlink"/>
+      <label index="insertimage">Vstavi/Spremeni sliko</label>
+      <label index="inserttable">Vstavi tabelo</label>
+      <label index="htmlmode">Prikaži HTML kodo</label>
+      <label index="popupeditor">Povečaj urejevalnik</label>
+      <label index="about">O tem urejevalniku</label>
+      <label index="showhelp">Pomoč pri uporabi urejevalnika</label>
+      <label index="textindicator">Trenutni stil</label>
+      <label index="undo">Razveljavi zadnjo akcijo</label>
+      <label index="redo">Ponovi zadnjo akcijo</label>
+      <label index="cut">Izreži izbor</label>
+      <label index="copy">Kopiraj izbor</label>
+      <label index="paste">Prilepi iz odložišča</label>
+      <label index="lefttoright">Smer od leve proti desno</label>
+      <label index="righttoleft">Smer od desne proti levi</label>
+      <label index="removeformat">Odstrani oblikovanje</label>
+      <label index="print">Natisni dokument</label>
+      <label index="killword">Odstrani MSOffice oznake</label>
+      <label index="fontname">Pisava</label>
+      <label index="fontsize">Velikost pisave</label>
+      <label index="formatblock">Tip odstavka</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

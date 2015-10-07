@@ -1,0 +1,15 @@
+  # cat=provider/account; type=string; label= Private Key:Your Paymill private key
+privatekey = 0e029bce12
+  # cat=provider/account; type=string; label= Public Key:Your Paymill public key
+publickey = 0ab876fe81
+  # cat=provider/uri; type=string; label= URI path: URI for the API of Paymill.
+provideruri = https://api.paymill.com/v2/
+  # cat=bridge/uri; type=string; label= URI path: URI for the bridge of Paymill.
+bridgeuri = https://bridge.paymill.com/
+  # cat=jquery/uri; type=string; label= URI path: URI for the jQuery Library.
+jqueryuri = https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
+  # cat=provider/mode; type=boolean; label= Test Mode:Set this to 1 to get test credit and account data filled into the form.
+testMode = 1
+
+
+

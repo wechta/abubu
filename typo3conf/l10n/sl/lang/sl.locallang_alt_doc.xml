@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="deleteItem">Izbriši</label>
+      <label index="deleteWarning">Ste prepričani, da želite izbrisati ta zapis?</label>
+      <label index="undoLastChange">Razveljavi / Ponovi zadnjo spremembo (pred %s)</label>
+      <label index="recordHistory">Poglej zgodovino sprememb zapisov</label>
+      <label index="editWholeRecord">Uredi celoten zapis</label>
+      <label index="openDocs">ODPRTI DOKUMENTI</label>
+      <label index="noDocuments">Ni odprtih dokumentov</label>
+      <label index="noDocuments_msg">Ni odprtih dokumentov, ki bi jih lahko urejali.</label>
+      <label index="noDocuments_msg2">Lahko se pomaknete do %s, da poiščete stran ali zapis, ki jo želite spremeniti.</label>
+      <label index="noDocuments_msg3">Seznam nedavno spremenjenih zapisov:</label>
+      <label index="noDocuments_pagemodule">modul Web&gt;Stran</label>
+      <label index="noDocuments_OR">ali</label>
+      <label index="noDocuments_listmodule">modul Web&gt;Seznam</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

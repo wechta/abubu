@@ -1,0 +1,158 @@
+<!-- ###PRODUCTS_BASKET_LIST_TEMPLATE### begin-->
+	<h1>Products basket list</h1>
+	<div id="products_list_body_###cUID###" style="float:left;width:550px;">
+		<!-- ###PRODUCTS_PAGE_TEMPLATE### begin-->
+		<form name="basket_full" method="POST">	
+		<ul class="products_list" id="products_list_###cUID###_page_###PAGE###" style="list-style:none;float:left;width:100%;">
+			<li style="text-align:right;list-style:none;margin-top:15px; float:right;width:100%;">
+				<div style="margin-right:50px;">Cena</div>
+				<div style="float:right;width:260px;">
+					<div style="float:left;width:60px;text-align:center;font-weight:bold;">Količina</div>
+					<div style="float:right;width:200px;">
+						<span style="float:left;width:50px;text-align:center;font-weight:bold;">Popust</span>
+						<span style="float:left;width:75px;text-align:right;font-weight:bold;">Redna</span>
+						<span style="float:right;width:75px;text-align:right;font-weight:bold;">Spletna</span>
+					</div>
+				</div>
+			</li>
+			<!-- ###ITEM_FIRST###  begin-->		
+			<li style="border-top:1px solid black;border-bottom:1px dotted black;margin-bottom:10px;float:left;width:100%;">
+				<div style="float:left">
+					<div>
+					<!-- ###IMAGES### begin-->
+						<!-- ###IMAGE_1### begin--><a href="###IMAGE_ORIGINAL###" rel="###PRODUCT_UID###_###IMAGE_POS###" title="###CAPTION###" style="float:left;">###IMAGE_THUMBNAIL###</a><!-- ###IMAGE_1### begin-->
+					<!-- ###IMAGES### end-->
+						<div  style="width:340px;">
+						<span style="display:block;"><a href="###PRODUCT_SINGLE_LINK###">###PRODUCT###</a></span>
+						<span>###PRODUCT_SUBTITLE###</span>
+						<span>###PRODUCT_PROPERTIES###</span>
+						<span>###PRODUCT_CATEGORIES###</span>
+						<span>###PRODUCT_STOCK###</span>
+						<span style="display:block;"><br/><a href="###REMOVE_PRODUCT_LINK###">Odstrani</a></span>
+						</div>
+					</div>
+				</div>
+				<div style="float:right;width:250px;">
+					<div style="float:left;width:50px;text-align:center;"><span><input type="text" name="###PRODUCT_QUANTITY_INPUT###" value="###PRODUCT_QUANTITY###" size="2"></span> ###PRODUCT_MEASURE_UNIT###</div>
+					<div style="float:right;width:200px;">
+						<span style="float:left;width:50px;text-align:center;">###PRODUCT_DISCOUNT###</span>
+						<span style="float:left;width:150px;text-align:right;">###PRODUCT_PRICE###</span>
+					</div>
+				</div>
+			</li>
+			<!-- ###ITEM_FIRST###  end-->
+			<!-- ###ITEM_1###  begin-->
+			<li style="border-bottom:1px dotted black;margin-bottom:10px;width:100%; float:left;width:100%;">
+				<div style="float:left">
+					<div>
+					<!-- ###IMAGES### begin-->
+						<!-- ###IMAGE_1### begin--><a href="###IMAGE_ORIGINAL###" rel="###PRODUCT_UID###_###IMAGE_POS###" title="###CAPTION###" style="float:left;">###IMAGE_THUMBNAIL###</a><!-- ###IMAGE_1### begin-->
+					<!-- ###IMAGES### end-->
+						<div  style="width:340px;">
+						<span style="display:block;"><a href="###PRODUCT_SINGLE_LINK###">###PRODUCT###</a></span>
+						<span>###PRODUCT_SUBTITLE###</span>
+						<span>###PRODUCT_PROPERTIES###</span>
+						<span>###PRODUCT_CATEGORIES###</span>
+						<span>###PRODUCT_STOCK###</span>
+						<span style="display:block;"><br/><a href="###REMOVE_PRODUCT_LINK###">Odstrani</a></span>
+						</div>
+					</div>
+				</div>
+				<div style="float:right;width:250px;">
+					<div style="float:left;width:50px;text-align:center;"><span><input type="text" name="###PRODUCT_QUANTITY_INPUT###" value="###PRODUCT_QUANTITY###" size="2"></span> ###PRODUCT_MEASURE_UNIT###</div>					
+					<div style="float:right;width:200px;">
+						<span style="float:left;width:50px;text-align:center;">###PRODUCT_DISCOUNT###</span>
+						<span style="float:left;width:150px;text-align:right;">###PRODUCT_PRICE###</span>
+					</div>
+				</div>
+			</li>
+			<!-- ###ITEM_1###  end-->
+			<!-- ###ITEM_LAST###  begin-->		
+			<li style="border-bottom:1px solid black;width:100%; float:left;width:100%;">
+				<div style="float:left">
+					<div>
+					<!-- ###IMAGES### begin-->
+						<!-- ###IMAGE_1### begin--><a href="###IMAGE_ORIGINAL###" rel="###PRODUCT_UID###_###IMAGE_POS###" title="###CAPTION###" style="float:left;">###IMAGE_THUMBNAIL###</a><!-- ###IMAGE_1### begin-->
+					<!-- ###IMAGES### end-->
+						<div  style="width:340px;">
+						<span style="display:block;"><a href="###PRODUCT_SINGLE_LINK###">###PRODUCT###</a></span>
+						<span>###PRODUCT_SUBTITLE###</span>
+						<span>###PRODUCT_PROPERTIES###</span>
+						<span>###PRODUCT_CATEGORIES###</span>
+						<span>###PRODUCT_STOCK###</span>
+						<span style="display:block;"><br/><a href="###REMOVE_PRODUCT_LINK###">Odstrani</a></span>
+						</div>
+					</div>
+				</div>
+				<div style="float:right;width:250px;">
+					<div style="float:left;width:50px;text-align:center;"><span><input type="text" name="###PRODUCT_QUANTITY_INPUT###" value="###PRODUCT_QUANTITY###" size="2"></span> ###PRODUCT_MEASURE_UNIT###</div>					
+					<div style="float:right;width:200px;">
+						<span style="float:left;width:50px;text-align:center;">###PRODUCT_DISCOUNT###</span>
+						<span style="float:left;width:150px;text-align:right;">###PRODUCT_PRICE###</span>
+					</div>
+				</div>
+			</li>
+			<!-- ###ITEM_LAST###  end-->
+			<li style="text-align:right;list-style:none;margin-top:10px; float:right;width:100%;">
+				<div style="float:right;width:200px;">
+					<span style="font-weight:bold;margin-right:10px;"></span>###SUM_TOTAL_PRICE_NO_POSTAGE###<span style="font-weight:bold;margin-left:10px;">###SUM_TOTAL_MEMBER_PRICE_NO_POSTAGE###</span>
+				</div>
+				<!-- ###POSTAGE_PRICE### begin-->
+				<div>Poštnina:###POSTAGE###</div>
+				<div>Manjka še vam nakup v vrednosti ###PRICE_TILL_FREE_POSTAGE### do gratis poštnine.</div>
+				<!-- ###POSTAGE_PRICE### end-->
+				<div style="float:right;width:200px;">
+					<span style="font-weight:bold;margin-right:10px;">Skupaj:</span>###SUM_TOTAL_PRICE###<span style="font-weight:bold;margin-left:10px;">###SUM_TOTAL_MEMBER_PRICE###</span>
+				</div>
+			</li>
+		</ul>
+		<div style="float:right;width:100%;text-align:right;">
+			<input type="submit" name="basket_update" value="Posodobi"> <a href="###PAYMENT_LINK###"><input type="button" onclick="window.location='###PAYMENT_LINK###'" name="basket_payment" value="Na plačilo"></a>
+		</div>
+		</form>
+		<!-- ###PRODUCTS_PAGE_TEMPLATE### END-->
+	</div>
+<!-- ###PRODUCTS_BASKET_LIST_TEMPLATE### end -->
+
+
+<!-- ###BASKET_COMPACT_VIEW### begin-->
+	<div><a href="###BASKET_VIEW_LINK###">Košarica</a> <span id="basketCompactView"><!-- ###BASKET_HEADER_COUNT### begin-->[ ###BASKET_PRODUCTS_COUNT### ]<!-- ###BASKET_HEADER_COUNT### end--></span> <br/>###LOGIN_LOGOUT_URL###</div>
+	<div id="basketCompactPopup"></div>
+<!-- ###BASKET_COMPACT_VIEW### end-->
+
+<!-- ###BASKET_COMPACT_POPUP_WINDOW### begin-->
+	<script type="text/javascript">
+	var popupTimeout = null;
+	var popupDuration = 4000;
+	$(document).ready(function(){
+		$('#basketCompactPopup').html('<p>V košarico ste dodali:</p><p><strong>###PRODUCT###</strong></p><p>Količina:1</p><p>Znesek:###PRODUCT_PRICE###</p><hr/><p>Skupni znesek naročenega:###SUM_TOTAL_PRICE###</p>');
+		$('#basketCompactPopup').show();
+		popupTimeout=setTimeout('hideBasketPopup()',popupDuration);
+		$('#basketCompactPopup').mouseover(function(){clearTimeout(popupTimeout);});
+		$('#basketCompactPopup').mouseout(function(){popupTimeout=setTimeout('hideBasketPopup()',popupDuration);});
+	});
+	function hideBasketPopup(){$('#basketCompactPopup').hide();}
+	</script>
+<!-- ###BASKET_COMPACT_POPUP_WINDOW### end-->
+
+
+<!-- ###BASKET_PAYMENT_PROCESS### begin-->
+	<!-- ###PROCESS### begin-->	
+		<div>###PROCESS_MSG###</div>
+	<!-- ###PROCESS### end-->
+	<!-- ###ERROR### begin-->
+		<div>An error occurred during processing.<br/>Please correct data and retry.</div>
+		<div><a href="###BASKET_VIEW_LINK###">Nazaj na košarico</a></div>
+	<!-- ###ERROR### end-->
+	<!-- ###RESPONSE### begin-->	
+		<div>
+		<!-- ###RESPONSE_OK### begin-->
+			Transaction completed successfully.<br/>Thank you for your order.
+		<!-- ###RESPONSE_OK### end-->
+		<!-- ###RESPONSE_ERROR### begin-->
+			The transaction has been rejected.<br/>Please try again.
+			<div><a href="###BASKET_VIEW_LINK###">Nazaj na košarico</a></div>
+		<!-- ###RESPONSE_ERROR### end-->
+		</div>
+	<!-- ###RESPONSE### end-->
+<!-- ###BASKET_PAYMENT_PROCESS### end-->

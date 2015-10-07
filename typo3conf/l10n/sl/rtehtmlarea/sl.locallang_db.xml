@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="tx_rtehtmlarea_acronym">Akronim</label>
+      <label index="tx_rtehtmlarea_acronym.type">Tip</label>
+      <label index="tx_rtehtmlarea_acronym.type.I.0">Akronim</label>
+      <label index="tx_rtehtmlarea_acronym.type.I.1">Okrajšava</label>
+      <label index="tx_rtehtmlarea_acronym.term">Izraz</label>
+      <label index="tx_rtehtmlarea_acronym.acronym">Skrajšana oblika</label>
+      <label index="tx_rtehtmlarea_acronym.static_lang_isocode"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,91 +1,0 @@
-$extensionKey = div2007$uploadComment = 
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-$worker = Ext\Worker Object
-(
-)
-uploadExtensionToTer $args =  'franzholz' '47gloryofgod' 'div2007' '
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-' '/var/www/web50/web/trunk/typo3/ext/div2007'uploadExtensionToTer $this->getPathToBackend() = /var/www/web50/web/typo3conf/ext/ext1/Cool/Modules/Ext/Services/../../Typo3ExtensionUtils/bin/t3xutils.phar$extensionKey = div2007$uploadComment = 
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-$worker = Ext\Worker Object
-(
-)
-uploadExtensionToTer $args =  'franzholz' '47gloryofgod' 'div2007' '
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-' '/var/www/web50/web/trunk/typo3/ext/div2007'uploadExtensionToTer $this->getPathToBackend() = /var/www/web50/web/typo3conf/ext/ext1/Cool/Modules/Ext/Services/../../Typo3ExtensionUtils/bin/t3xutils.phar$extensionKey = div2007$uploadComment = 
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-$worker = Ext\Worker Object
-(
-)
-uploadExtensionToTer $args =  'franzholz' '47gloryofgod' 'div2007' '
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-' '/var/www/web50/web/trunk/typo3/ext/div2007'uploadExtensionToTer $this->getPathToBackend() = /var/www/web50/web/typo3conf/ext/ext1/Cool/Modules/Ext/Services/../../Typo3ExtensionUtils/bin/t3xutils.phar$extensionKey = div2007$uploadComment = 
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-$worker = Ext\Worker Object
-(
-)
-uploadExtensionToTer $args =  'franzholz' '47gloryofgod' 'div2007' '
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-' '/var/www/web50/web/trunk/typo3/ext/div2007'uploadExtensionToTer $this->getPathToBackend() = /var/www/web50/web/typo3conf/ext/ext1/Cool/Modules/Ext/Services/../../Typo3ExtensionUtils/bin/t3xutils.phar$extensionKey = div2007$uploadComment = 
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-$worker = Ext\Worker Object
-(
-)
-uploadExtensionToTer $args =  'franzholz' '47gloryofgod' 'div2007' '
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-' '/var/www/web50/web/trunk/typo3/ext/div2007'uploadExtensionToTer $this->getPathToBackend() = /var/www/web50/web/typo3conf/ext/ext1/Cool/Modules/Ext/Services/../../Typo3ExtensionUtils/bin/t3xutils.phar$extensionKey = div2007$uploadComment = 
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-$worker = Ext\Worker Object
-(
-)
-uploadExtensionToTer $args =  'franzholz' '47gloryofgod' 'div2007' '
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-' '/var/www/web50/web/trunk/typo3/ext/div2007'uploadExtensionToTer $this->getPathToBackend() = /var/www/web50/web/typo3conf/ext/ext1/Cool/Modules/Ext/Services/../../Typo3ExtensionUtils/bin/t3xutils.php$extensionKey = div2007$uploadComment = 
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-$worker = Ext\Worker Object
-(
-)
-uploadExtensionToTer $args =  'franzholz' '47gloryofgod' 'div2007' '
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-' '/var/www/web50/web/trunk/typo3/ext/div2007'uploadExtensionToTer $this->getPathToBackend() = /var/www/web50/web/typo3conf/ext/ext1/Cool/Modules/Ext/Services/../../Typo3ExtensionUtils/bin/t3xutils.php$extensionKey = div2007$uploadComment = 
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-$worker = Ext\Worker Object
-(
-)
-uploadExtensionToTer $args =  'franzholz' '47gloryofgod' 'div2007' '
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-' '/var/www/web50/web/trunk/typo3/ext/div2007'uploadExtensionToTer $this->getPathToBackend() = /var/www/web50/web/typo3conf/ext/ext1/Cool/Modules/Ext/Services/../../Typo3ExtensionUtils/bin/t3xutils.php$extensionKey = div2007$uploadComment = 
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-$worker = Ext\Worker Object
-(
-)
-uploadExtensionToTer $args =  'franzholz' '47gloryofgod#' 'div2007' '
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-' '/var/www/web50/web/trunk/typo3/ext/div2007'uploadExtensionToTer $this->getPathToBackend() = /var/www/web50/web/typo3conf/ext/ext1/Cool/Modules/Ext/Services/../../Typo3ExtensionUtils/bin/t3xutils.phar$extensionKey = div2007$uploadComment = 
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-$worker = Ext\Worker Object
-(
-)
-uploadExtensionToTer $args =  'franzholz' '47gloryofgod' 'div2007' '
-* fix bug: method getFrontEndUser must return the field inside of the FE user array
-* integrate div2007 from TYPO3 4.7.10
-' '/var/www/web50/web/trunk/typo3/ext/div2007'uploadExtensionToTer $this->getPathToBackend() = /var/www/web50/web/typo3conf/ext/ext1/Cool/Modules/Ext/Services/../../Typo3ExtensionUtils/bin/t3xutils.pharuploadExtensionToTer $username = franzholzuploadExtensionToTer $extensionKey = div2007uploadExtensionToTer $response = ArrayuploadExtensionToTer Pos 3 Successfully Uploadedr uploadExtensionToTer $username = franzholzuploadExtensionToTer $extensionKey = div2007uploadExtensionToTer Pos 1 Error Cant read "/var/www/path/web/trunk/typo3/ext/div2007/ext_emconf.php"uploadExtensionToTer $username = franzholzuploadExtensionToTer $extensionKey = div2007uploadExtensionToTer $response = ArrayuploadExtensionToTer Pos 3 Successfully Uploadedr 

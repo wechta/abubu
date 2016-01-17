@@ -1,4 +1,0 @@
-tx_ddgooglesitemap {
-	skipRootlineCheck = 0
-	forceStartPid = 0
-}

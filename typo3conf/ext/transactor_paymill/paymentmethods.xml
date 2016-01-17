@@ -1,7 +1,0 @@
-<paymentmethods>
-	<paymill_any type="array">
-		<label>LLL:EXT:transactor_paymill/locallang.xml:any</label>
-		<type>creditcard or debit</type>
-		<iconpath>EXT:transactor_paymill/res/paymill_logo.gif</iconpath>
-	</paymill_any>
-</paymentmethods>

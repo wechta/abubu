@@ -1,0 +1,14 @@
+ # cat=basic; type=boolean; label=Enable DB mode 'get': Select records with SQL-SELECT
+db.mode.get = 0
+
+ # cat=basic; type=boolean; label=Enable DB mode 'new': Creation of new records with SQL-INSERT
+db.mode.new = 0
+
+ # cat=basic; type=boolean; label=Enable DB mode 'add': Creation of new or, if they exist, modification of records with SQL-INSERT/SQL-UPDATE
+db.mode.add = 0
+
+ # cat=basic; type=boolean; label=Enable DB mode 'update': Modification of existing records with SQL-UPDATE
+db.mode.update = 0
+
+ # cat=basic; type=string; label=Allowed DB tables and fields: <table1>:<field1>,...,<fieldN>
+db.tables =

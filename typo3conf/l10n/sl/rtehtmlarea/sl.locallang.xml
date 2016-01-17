@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="Please wait">Urejevalnik se nalaga. Prosim, počakajte...</label>
+      <label index="Normal">Normalno</label>
+      <label index="Heading 1">Naslov 1</label>
+      <label index="Heading 2">Naslov 2</label>
+      <label index="Heading 3">Naslov 3</label>
+      <label index="Heading 4">Naslov 4</label>
+      <label index="Heading 5">Naslov 5</label>
+      <label index="Heading 6">Naslov 6</label>
+      <label index="Preformatted">Predoblikovano</label>
+      <label index="Address">Naslov</label>
+      <label index="No font">Brez pisave</label>
+      <label index="No size">Brez velikosti</label>
+      <label index="rteSettings"/>
+      <label index="rteWidth"/>
+      <label index="rteHeight"/>
+      <label index="rteResize"/>
+      <label index="rteMaxHeight"/>
+      <label index="deprecatedPropertyMessage"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

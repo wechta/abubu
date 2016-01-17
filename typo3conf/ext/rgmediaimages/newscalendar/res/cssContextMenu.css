@@ -1,0 +1,93 @@
+/**
+ * styling for tip content
+ * mostly for example
+ * note: canvas (the tip itself) cannot be styled here. use javascript options for that.
+ */
+.bt-content {
+  font-size: small;
+  color: #000;
+  line-height: normal;
+}
+
+/* styling for active target elements - usually for background hilighting */
+.bt-active {
+  /* example:
+  background-color: yellow !important;
+  */
+}
+
+
+/**
+ * Content related
+ */
+
+.newscalendarTooltip {
+	display: none;
+}
+.newscalendarTooltipHeader {
+	font-weight: bold;
+	font-size: 14px;
+	color:#d3300e;
+	font-family: Arial;
+	padding:0px;
+	margin:0px;
+}
+
+.newscalendarTooltipItemContainer {
+	font-size: 12px;
+	padding:0px;
+	margin:0px;
+}
+
+.newscalendar-tip {
+  /* for IE */
+  filter:alpha(opacity=100);
+  /* CSS3 standard */
+  opacity:1;
+}
+
+.newscalendar-tip-selector {
+}
+
+/*
+ * Render item related
+ */
+
+.newsCalendar_calendarItem{
+	display: table;
+	font-size:1em;
+	padding-top:5px;
+}
+.newsCalendar_calendarItem a{
+	font-weight: bold;
+}
+.newsCalendar_calendarItem_image{
+	display: table;
+	float:left;
+	padding: 3px;
+	border: 1px solid #CCC;
+	margin-top: 3px;
+	margin-right: 3px;
+	height:100%;
+}
+.newsCalendar_calendarItem_subheader{
+	float:left;
+	width:200px;
+}
+.newsCalendar_calendarItemHeader{
+}
+
+.newsCalendar_calendarItem_image_link {
+	}
+
+.newsCalendar_calendarItem_title{
+	float:left;
+	width:270px;
+	padding:5px 0px;
+	}
+
+
+
+
+
+

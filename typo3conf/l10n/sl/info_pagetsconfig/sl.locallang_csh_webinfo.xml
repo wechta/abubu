@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="tsconfig_hierarchy.alttitle"/>
+      <label index="tsconfig_hierarchy.description"/>
+      <label index="tsconfig_hierarchy.details"/>
+      <label index="_tsconfig_hierarchy.seeAlso"/>
+      <label index="_tsconfig_hierarchy.image"/>
+      <label index="tsconfig_hierarchy.image_descr"/>
+      <label index="tsconfig_edit.alttitle"/>
+      <label index="tsconfig_edit.description"/>
+      <label index="tsconfig_edit.details"/>
+      <label index="_tsconfig_edit.seeAlso"/>
+      <label index="_tsconfig_edit.image"/>
+      <label index="tsconfig_edit.image_descr"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

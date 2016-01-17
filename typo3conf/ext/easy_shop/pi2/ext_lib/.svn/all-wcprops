@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/repos/!svn/ver/8/CNS/typo3conf/ext/short_direct_mail_sub/pi1/ext_lib
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/repos/!svn/ver/8/CNS/typo3conf/ext/short_direct_mail_sub/pi1/ext_lib/class.phpmailer.php
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/repos/!svn/ver/8/CNS/typo3conf/ext/short_direct_mail_sub/pi1/ext_lib/class.smtp.php
+END

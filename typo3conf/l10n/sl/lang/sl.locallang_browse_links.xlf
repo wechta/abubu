@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:33Z" product-name="lang" target-language="sl">
+    <header/>
+    <body>
+      <trans-unit id="removeLink" xml:space="preserve" approved="yes">
+        <source>Remove link</source>
+      <target state="translated">Odstrani povezavo</target></trans-unit>
+      <trans-unit id="uploadImage" xml:space="preserve" approved="yes">
+        <source>Upload Image</source>
+      <target state="translated">Dodaj sliko</target></trans-unit>
+      <trans-unit id="update" xml:space="preserve" approved="yes">
+        <source>Update</source>
+      <target state="translated">Osveži</target></trans-unit>
+      <trans-unit id="path" xml:space="preserve" approved="yes">
+        <source>Path</source>
+      <target state="translated">Pot</target></trans-unit>
+      <trans-unit id="page" xml:space="preserve" approved="yes">
+        <source>Page</source>
+      <target state="translated">Stran</target></trans-unit>
+      <trans-unit id="file" xml:space="preserve" approved="yes">
+        <source>File</source>
+      <target state="translated">Datoteka</target></trans-unit>
+      <trans-unit id="folder" xml:space="preserve">
+        <source>Folder</source>
+      </trans-unit>
+      <trans-unit id="extUrl" xml:space="preserve" approved="yes">
+        <source>External URL</source>
+      <target state="translated">Zunanji URL</target></trans-unit>
+      <trans-unit id="email" xml:space="preserve" approved="yes">
+        <source>Email</source>
+      <target state="translated">Email</target></trans-unit>
+      <trans-unit id="special" xml:space="preserve" approved="yes">
+        <source>Special</source>
+      <target state="translated">Posebno</target></trans-unit>
+      <trans-unit id="folderTree" xml:space="preserve" approved="yes">
+        <source>Folder Tree</source>
+      <target state="translated">Drevo map</target></trans-unit>
+      <trans-unit id="files" xml:space="preserve" approved="yes">
+        <source>Files</source>
+      <target state="translated">Datoteke</target></trans-unit>
+      <trans-unit id="target" xml:space="preserve" approved="yes">
+        <source>Target</source>
+      <target state="translated">Cilj</target></trans-unit>
+      <trans-unit id="class" xml:space="preserve">
+        <source>CSS-Class</source>
+      </trans-unit>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Title</source>
+      <target state="translated">Naslov</target></trans-unit>
+      <trans-unit id="params" xml:space="preserve">
+        <source>Additional link parameters</source>
+      </trans-unit>
+      <trans-unit id="target_popUpWindow" xml:space="preserve" approved="yes">
+        <source>Open in window</source>
+      <target state="translated">Odri v oknu</target></trans-unit>
+      <trans-unit id="target_popUpWindow_width" xml:space="preserve" approved="yes">
+        <source>Width</source>
+      <target state="translated">Širina</target></trans-unit>
+      <trans-unit id="target_popUpWindow_height" xml:space="preserve" approved="yes">
+        <source>Height</source>
+      <target state="translated">Višina</target></trans-unit>
+      <trans-unit id="newWindow" xml:space="preserve" approved="yes">
+        <source>New window</source>
+      <target state="translated">Novo okno</target></trans-unit>
+      <trans-unit id="top" xml:space="preserve" approved="yes">
+        <source>Top</source>
+      <target state="translated">Vrh</target></trans-unit>
+      <trans-unit id="none" xml:space="preserve" approved="yes">
+        <source>None - new link!</source>
+      <target state="translated">Nič - nova povezava!</target></trans-unit>
+      <trans-unit id="pageTree" xml:space="preserve" approved="yes">
+        <source>Page tree</source>
+      <target state="translated">Drevo strani</target></trans-unit>
+      <trans-unit id="contentElements" xml:space="preserve" approved="yes">
+        <source>Content elements</source>
+      <target state="translated">Elementi vsebine</target></trans-unit>
+      <trans-unit id="selectRecords" xml:space="preserve" approved="yes">
+        <source>Select Records</source>
+      <target state="translated">Izberi zapise</target></trans-unit>
+      <trans-unit id="addToList" xml:space="preserve" approved="yes">
+        <source>Add to list...</source>
+      <target state="translated">Dodaj v seznam...</target></trans-unit>
+      <trans-unit id="info" xml:space="preserve" approved="yes">
+        <source>Info</source>
+      <target state="translated">Info</target></trans-unit>
+      <trans-unit id="emailAddress" xml:space="preserve" approved="yes">
+        <source>Email address</source>
+      <target state="translated">Email naslov</target></trans-unit>
+      <trans-unit id="setLink" xml:space="preserve" approved="yes">
+        <source>Set Link</source>
+      <target state="translated">Nastavi povezavo</target></trans-unit>
+      <trans-unit id="clickToRedrawFullSize" xml:space="preserve" approved="yes">
+        <source>Image is larger than shown here! Click to redraw page with full sized images.</source>
+      <target state="translated">Slika je večja kot je prikazana tukaj! Klikni za prikaz v polni velikosti.</target></trans-unit>
+      <trans-unit id="findDragDrop" xml:space="preserve" approved="yes">
+        <source>Find and click on your image then drag it into the editor in the main window!</source>
+      <target state="translated">Poišči sliko, nato jo klikni in povleci v urejevalnik v glavnem oknu!</target></trans-unit>
+      <trans-unit id="noWebFolder" xml:space="preserve" approved="yes">
+        <source>You cannot drag images from this folder (yellow) because it is internal on the server.</source>
+      <target state="translated">To ni vaša lokalna mapa (rumena), zato iz nje ne morete poveči slik.</target></trans-unit>
+      <trans-unit id="currentLink" xml:space="preserve" approved="yes">
+        <source>Current Link</source>
+      <target state="translated">Obstoječa povezava</target></trans-unit>
+      <trans-unit id="invalidChar" xml:space="preserve" approved="yes">
+        <source>ERROR: Invalid character found in file path (%s). Cannot add the file!</source>
+      <target state="translated">NAPAKA: Nepravilna črka v imenu poti do datoteke (%s). Ne morem dodati datoteke!</target></trans-unit>
+      <trans-unit id="toggleSelection" xml:space="preserve" approved="yes">
+        <source>Toggle selection</source>
+      <target state="translated">Zamenjaj izbiro</target></trans-unit>
+      <trans-unit id="importSelection" xml:space="preserve" approved="yes">
+        <source>Import selection</source>
+      <target state="translated">Uvozi izbiro</target></trans-unit>
+    </body>
+  </file>
+</xliff>

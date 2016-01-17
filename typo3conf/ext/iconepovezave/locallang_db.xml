@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'iconepovezave'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tx_iconepovezave_entry">Icone povezave</label>
+			<label index="tx_iconepovezave_entry.title">Naslov</label>
+			<label index="tx_iconepovezave_entry.title2">Opis</label>
+			<label index="tx_iconepovezave_entry.image">Slika 126x106</label>
+			<label index="tx_iconepovezave_entry.link">Povezava</label>
+			<label index="tt_content.list_type_pi1">Icone povezave</label>
+		</languageKey>
+	</data>
+</T3locallang>

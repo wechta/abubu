@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="title">Modul za analizo DBAL</label>
+      <label index="Debug_log">Dnevnik razhroščevanja</label>
+      <label index="Cached_info">Informacije o predpomnilniku</label>
+      <label index="SQL_check">Preverjanje SQL</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

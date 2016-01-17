@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description>TMailform languages</description>
+		<type>module</type>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="label_header_std">Please fill in the form and hit the button</label>
+			<label index="label_header_err">You missed some required fields</label>
+			<label index="label_multi_recipient">Choose recipient</label>
+			<label index="label_name">Your name</label>
+			<label index="label_surname">Your surname</label>
+			<label index="label_email">Your email</label>
+			<label index="label_user_type">User type</label>
+			<label index="label_level">Your Typo3 level</label>
+			<label index="label_job_description">Job description</label>
+			<label index="label_subject">Your subject</label>
+			<label index="label_message">Your message</label>
+			<label index="label_file1">Some file 1</label>
+			<label index="label_file2">Some file 2</label>
+			<label index="label_user_copy">Send copy to me?</label>
+			<label index="label_submit">Submit</label>
+			<label index="error_general">Please put something in this field</label>
+		</languageKey>
+		<languageKey index="dk" type="array">
+			<label index="label_header_std">Udfyld formen og klik på knappen</label>
+			<label index="label_header_err">Du mangler at udfylde nogle nødvendige felter</label>
+			<label index="label_multi_recipient">Vælg modtager</label>
+			<label index="label_name">Dit fornavn</label>
+			<label index="label_sirname">Dit efternavn</label>
+			<label index="label_email">Din email</label>
+			<label index="label_user_type">Brugertype</label>
+			<label index="label_level">Dit Typo3 niveau</label>
+			<label index="label_job_description">Jobbeskrivelse</label>
+			<label index="label_subject">Dit emne</label>
+			<label index="label_message">Din besked</label>
+			<label index="label_file1">En fil 1</label>
+			<label index="label_file2">En fil 2</label>
+			<label index="label_user_copy">Send kopi til mig?</label>
+			<label index="label_submit">Send</label>
+			<label index="error_general">Udfyld venligst dette felt</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+		</languageKey>
+		<languageKey index="no" type="array">
+		</languageKey>
+		<languageKey index="it" type="array">
+		</languageKey>
+		<languageKey index="fr" type="array">
+		</languageKey>
+		<languageKey index="es" type="array">
+		</languageKey>
+		<languageKey index="nl" type="array">
+		</languageKey>
+		<languageKey index="cz" type="array">
+		</languageKey>
+		<languageKey index="pl" type="array">
+		</languageKey>
+		<languageKey index="si" type="array">
+		</languageKey>
+		<languageKey index="fi" type="array">
+		</languageKey>
+		<languageKey index="tr" type="array">
+		</languageKey>
+		<languageKey index="se" type="array">
+		</languageKey>
+		<languageKey index="pt" type="array">
+		</languageKey>
+		<languageKey index="ru" type="array">
+		</languageKey>
+		<languageKey index="ro" type="array">
+		</languageKey>
+		<languageKey index="ch" type="array">
+		</languageKey>
+		<languageKey index="sk" type="array">
+		</languageKey>
+		<languageKey index="lt" type="array">
+		</languageKey>
+	</data>
+</T3locallang>

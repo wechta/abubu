@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="sl">
+    <header/>
+    <body>
+      <trans-unit id="mlang_labels_tablabel" xml:space="preserve" approved="yes">
+        <source>Workspace overview</source>
+      <target state="translated">Pregled delovnega okolja</target></trans-unit>
+      <trans-unit id="mlang_labels_tabdescr" xml:space="preserve" approved="yes">
+        <source>Workspace overview showing the changes you have made in the workspace. Here you can also publish the changes to the website if you are allowed to do that.</source>
+      <target state="translated">Pregled delovnega okolja prikazuje spremembe, ki ste jih naredili v delovnem okolju. Tukaj lahko spremembe tudi objavljate, če imate za to ustrezno dovoljenje.</target></trans-unit>
+      <trans-unit id="mlang_tabs_tab" xml:space="preserve" approved="yes">
+        <source>Workspace</source>
+      <target state="translated">Delovno okolje</target></trans-unit>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>Workspace Manager</source>
+      <target state="translated">Upravljalnik delovnega okolja</target></trans-unit>
+      <trans-unit id="menuitem_review" xml:space="preserve" approved="yes">
+        <source>Review and Publish</source>
+      <target state="translated">Pregled in objava</target></trans-unit>
+      <trans-unit id="menuitem_workspaces" xml:space="preserve" approved="yes">
+        <source>Workspace List</source>
+      <target state="translated">Seznam delovnih okolij</target></trans-unit>
+      <trans-unit id="filter_drafts" xml:space="preserve" approved="yes">
+        <source>Drafts</source>
+      <target state="translated">Načrti</target></trans-unit>
+      <trans-unit id="filter_archive" xml:space="preserve" approved="yes">
+        <source>Archive</source>
+      <target state="translated">Arhiv</target></trans-unit>
+      <trans-unit id="filter_all" xml:space="preserve" approved="yes">
+        <source>All</source>
+      <target state="translated">Vse</target></trans-unit>
+      <trans-unit id="diff_no_diff" xml:space="preserve" approved="yes">
+        <source>Do not show differences</source>
+      <target state="translated">Ne prikaži razlik</target></trans-unit>
+      <trans-unit id="diff_show_inline" xml:space="preserve" approved="yes">
+        <source>Show differences inline</source>
+      <target state="translated">Razlike prikaži vključene</target></trans-unit>
+      <trans-unit id="diff_show_popup" xml:space="preserve" approved="yes">
+        <source>Show diff. popups (branches)</source>
+      <target state="translated">Razlike prikaži v novem oknu</target></trans-unit>
+      <trans-unit id="label_errors" xml:space="preserve" approved="yes">
+        <source>Errors:</source>
+      <target state="translated">Napake:</target></trans-unit>
+      <trans-unit id="workspace_description_live" xml:space="preserve" approved="yes">
+        <source>The LIVE workspace allows changes to take effect immediately on the website. However versioning can be applied inside the live workspace and this overview shows you draft and archive versions from the various workspaces, including the LIVE workspace.</source>
+      <target state="translated">ŽIVO delovno okolje omogoča, da se spremembe takoj prikažejo na spletni strani. Vendar lahko znotraj živega delovnega okolja uporabljamo verzije in ta pregled prikazuje načrtovane in arhivirane verzije iz različnih delovnih okolij, vključno z živim delovnim okoljem.</target></trans-unit>
+      <trans-unit id="workspace_description_draft" xml:space="preserve" approved="yes">
+        <source>In the Draft workspace all changes will be made as new versions of the live content. Changes can be previewed, reviewed and eventually published live.</source>
+      <target state="translated">V načrtovalnem delovnem okolju bodo vse spremembe narejene kot nove verzije živih vsebin. Spremembe lahko potem predogledamo, pregledamo in sčasoma objavimo.</target></trans-unit>
+      <trans-unit id="workspace_description_no_access" xml:space="preserve" approved="yes">
+        <source>You have no access to any workspace which might be an error. Please contact you administrator!</source>
+      <target state="translated">Nimate dostopa do kateregakoli delovnega okolja, kar je lahko napaka. Prosimo, kontaktirajte svojega administratorja!</target></trans-unit>
+      <trans-unit id="edit_workspace_no_permission" xml:space="preserve" approved="yes">
+        <source>You have no permission to edit this workspace. Only admin users or owners of the workspace can modify its parameters.</source>
+      <target state="translated">Nimate pravic za urejanje tega delovnega okolja. Samo administratorji ali lastniki delovnega okolja lahko urejajo njegove parametre.</target></trans-unit>
+      <trans-unit id="create_workspace_no_permission" xml:space="preserve" approved="yes">
+        <source>You have no permission to create workspaces. Only admin users can create workspaces.</source>
+      <target state="translated">Nimate pravice ustvariti delovnega okolja. Samo administratorji lahko ustvarijo delovno okolje.</target></trans-unit>
+      <trans-unit id="submit_publish_workspace" xml:space="preserve" approved="yes">
+        <source>Publish workspace</source>
+      <target state="translated">Objavi delovno okolje</target></trans-unit>
+      <trans-unit id="submit_publish_workspace_confirmation_1" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to publish all content in "Publish" stage from the workspace?</source>
+      <target state="translated">Ali ste prepričani, da želite objaviti vso vsebino iz tega delovnega okolja, ki je v stanju "Objavi"?</target></trans-unit>
+      <trans-unit id="submit_publish_workspace_confirmation_2" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to publish all content from the workspace?</source>
+      <target state="translated">Ali ste prepričani, da želite objaviti vso vsebino iz tega delovnega okolja?</target></trans-unit>
+      <trans-unit id="submit_swap_workspace" xml:space="preserve" approved="yes">
+        <source>Swap workspace</source>
+      <target state="translated">Zamenjaj delovno okolje</target></trans-unit>
+      <trans-unit id="submit_swap_workspace_confirmation_1" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to publish (swap) all content in "Publish" stage from the workspace?</source>
+      <target state="translated">Ali ste prepričani, da želite objaviti (zamenjati) vso vsebino iz tega delovnega okolja, ki je v stanju "Objavi"?</target></trans-unit>
+      <trans-unit id="submit_swap_workspace_confirmation_2" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to publish (swap) all content from the workspace?</source>
+      <target state="translated">Ali ste prepričani, da želite objaviti (zamenjati) vso vsebino iz tega delovnega okolja?</target></trans-unit>
+      <trans-unit id="submit_apply_action_on_selected_elements" xml:space="preserve">
+        <source>Sure you want to perform this action with selected elements?</source>
+      </trans-unit>
+      <trans-unit id="no_publish_permission" xml:space="preserve" approved="yes">
+        <source>You are not permitted to publish from this workspace</source>
+      <target state="translated">Nimate pravic za objavo vsebin iz tega delovnega okolja.</target></trans-unit>
+      <trans-unit id="label_workspace" xml:space="preserve" approved="yes">
+        <source>Workspace:</source>
+      <target state="translated">Delovno okolje:</target></trans-unit>
+      <trans-unit id="label_description" xml:space="preserve" approved="yes">
+        <source>Description:</source>
+      <target state="translated">Opis:</target></trans-unit>
+      <trans-unit id="label_options" xml:space="preserve" approved="yes">
+        <source>Options:</source>
+      <target state="translated">Možnosti:</target></trans-unit>
+      <trans-unit id="label_status" xml:space="preserve" approved="yes">
+        <source>Status:</source>
+      <target state="translated">Status:</target></trans-unit>
+      <trans-unit id="label_pagetree" xml:space="preserve" approved="yes">
+        <source>Pagetree:</source>
+      <target state="translated">Drevo strani:</target></trans-unit>
+      <trans-unit id="label_live_version" xml:space="preserve" approved="yes">
+        <source>Live Version:</source>
+      <target state="translated">Živa verzija:</target></trans-unit>
+      <trans-unit id="label_draft_versions" xml:space="preserve" approved="yes">
+        <source>Workspace Versions:</source>
+      <target state="translated">Načrtovana verzija:</target></trans-unit>
+      <trans-unit id="label_stage" xml:space="preserve" approved="yes">
+        <source>Stage:</source>
+      <target state="translated">Stanje:</target></trans-unit>
+      <trans-unit id="label_publish" xml:space="preserve" approved="yes">
+        <source>Publish:</source>
+      <target state="translated">Objavi:</target></trans-unit>
+      <trans-unit id="label_lifecycle" xml:space="preserve" approved="yes">
+        <source>Lifecycle:</source>
+      <target state="translated">Življenjski cikel:</target></trans-unit>
+      <trans-unit id="label_access_level" xml:space="preserve" approved="yes">
+        <source>Access level:</source>
+      <target state="translated">Novi dostopa:</target></trans-unit>
+      <trans-unit id="img_title_publish" xml:space="preserve" approved="yes">
+        <source>Publish</source>
+      <target state="translated">Objavi</target></trans-unit>
+      <trans-unit id="img_title_swap" xml:space="preserve" approved="yes">
+        <source>Swap</source>
+      <target state="translated">Zamenjaj</target></trans-unit>
+      <trans-unit id="remove_from_ws_confirmation" xml:space="preserve" approved="yes">
+        <source>Remove from workspace?</source>
+      <target state="translated">Odstranim iz delovnega okolja?</target></trans-unit>
+      <trans-unit id="img_title_remove_from_ws" xml:space="preserve" approved="yes">
+        <source>Remove from workspace?</source>
+      <target state="translated">Odstranim iz delovnega okolja?</target></trans-unit>
+      <trans-unit id="img_title_edit_page" xml:space="preserve" approved="yes">
+        <source>Edit page</source>
+      <target state="translated">Uredi stran</target></trans-unit>
+      <trans-unit id="img_title_edit_element" xml:space="preserve" approved="yes">
+        <source>Edit element</source>
+      <target state="translated">Uredi element</target></trans-unit>
+      <trans-unit id="img_title_show_log" xml:space="preserve" approved="yes">
+        <source>Show Log</source>
+      <target state="translated">Prikaži dnevnik</target></trans-unit>
+      <trans-unit id="diffview_label_field_name" xml:space="preserve" approved="yes">
+        <source>Fieldname:</source>
+      <target state="translated">Ima polja:</target></trans-unit>
+      <trans-unit id="diffview_label_colored_diff_view" xml:space="preserve" approved="yes">
+        <source>Colored diff-view:</source>
+      <target state="translated">Obarvani pogled razlik:</target></trans-unit>
+      <trans-unit id="diffview_complete_match" xml:space="preserve" approved="yes">
+        <source>Complete match on editable fields.</source>
+      <target state="translated">Popolno ujemanje pri poljih za urejanje</target></trans-unit>
+      <trans-unit id="diffview_cannot_find_records" xml:space="preserve" approved="yes">
+        <source>ERROR: Records could strangely not be found!</source>
+      <target state="translated">NAPAKA: Začuda nisem našel zapisov!</target></trans-unit>
+      <trans-unit id="img_title_show_more" xml:space="preserve" approved="yes">
+        <source>Show more</source>
+      <target state="translated">Prikaži več</target></trans-unit>
+      <trans-unit id="img_title_current_workspace" xml:space="preserve" approved="yes">
+        <source>This is a current workspace!</source>
+      <target state="translated">To je trenutno delovno okolje!</target></trans-unit>
+      <trans-unit id="img_title_create_new_workspace" xml:space="preserve" approved="yes">
+        <source>Create new workspace</source>
+      <target state="translated">Ustvari novo delovno okolje</target></trans-unit>
+      <trans-unit id="link_text_create_new_workspace" xml:space="preserve" approved="yes">
+        <source>Create new workspace</source>
+      <target state="translated">Ustvari novo delovno okolje</target></trans-unit>
+      <trans-unit id="edit_workspace_go_back" xml:space="preserve" approved="yes">
+        <source>Go back</source>
+      <target state="translated">Pojdi nazaj</target></trans-unit>
+      <trans-unit id="edit_workspace_title_edit" xml:space="preserve" approved="yes">
+        <source>Edit workspace</source>
+      <target state="translated">Uredi delovno okolje</target></trans-unit>
+      <trans-unit id="edit_workspace_title_new" xml:space="preserve" approved="yes">
+        <source>Create new workspace</source>
+      <target state="translated">Ustvari novo delovno okolje</target></trans-unit>
+      <trans-unit id="workspace_list_label_current_workspace" xml:space="preserve" approved="yes">
+        <source>Current:</source>
+      <target state="translated">Trenutno:</target></trans-unit>
+      <trans-unit id="workspace_list_label_workspace_title" xml:space="preserve" approved="yes">
+        <source>Title:</source>
+      <target state="translated">Naslov:</target></trans-unit>
+      <trans-unit id="workspace_list_label_workspace_description" xml:space="preserve" approved="yes">
+        <source>Description:</source>
+      <target state="translated">Opis:</target></trans-unit>
+      <trans-unit id="workspace_list_label_owners" xml:space="preserve" approved="yes">
+        <source>Owners:</source>
+      <target state="translated">Lastniki:</target></trans-unit>
+      <trans-unit id="workspace_list_label_members" xml:space="preserve" approved="yes">
+        <source>Members:</source>
+      <target state="translated">Člani:</target></trans-unit>
+      <trans-unit id="workspace_list_label_reviewers" xml:space="preserve" approved="yes">
+        <source>Reviewers:</source>
+      <target state="translated">Pregledovalci:</target></trans-unit>
+      <trans-unit id="workspace_list_access_admins_only" xml:space="preserve" approved="yes">
+        <source>Admins only</source>
+      <target state="translated">Samo administratorji</target></trans-unit>
+      <trans-unit id="workspace_list_access_anyone" xml:space="preserve" approved="yes">
+        <source>no restrictions</source>
+      <target state="translated">brez omejitev</target></trans-unit>
+      <trans-unit id="workspace_list_label_file_mountpoints" xml:space="preserve" approved="yes">
+        <source>File mountpoints:</source>
+      <target state="translated">Priključne točke za datoteke:</target></trans-unit>
+      <trans-unit id="workspace_list_label_db_mountpoints" xml:space="preserve" approved="yes">
+        <source>Database mountpoints:</source>
+      <target state="translated">Priključne točke za podatkovno bazo:</target></trans-unit>
+      <trans-unit id="workspace_list_label_frozen" xml:space="preserve" approved="yes">
+        <source>Frozen:</source>
+      <target state="translated">Zamrznejeno:</target></trans-unit>
+      <trans-unit id="workspace_list_label_publish_date" xml:space="preserve" approved="yes">
+        <source>Publish date:</source>
+      <target state="translated">Datum objave:</target></trans-unit>
+      <trans-unit id="workspace_list_label_unpublish_date" xml:space="preserve" approved="yes">
+        <source>Unpublish date:</source>
+      <target state="translated">Datum umika objave:</target></trans-unit>
+      <trans-unit id="workspace_list_label_your_access" xml:space="preserve" approved="yes">
+        <source>Your access:</source>
+      <target state="translated">Vaš dostop</target></trans-unit>
+      <trans-unit id="workspace_list_label_workspace_users" xml:space="preserve" approved="yes">
+        <source>Workspace users:</source>
+      <target state="translated">Uporabniki delovnega okolja:</target></trans-unit>
+      <trans-unit id="workspace_list_label_frozen_yes" xml:space="preserve" approved="yes">
+        <source>Yes</source>
+      <target state="translated">Da</target></trans-unit>
+      <trans-unit id="workspace_list_label_frozen_no" xml:space="preserve" approved="yes">
+        <source>No</source>
+      <target state="translated">Ne</target></trans-unit>
+      <trans-unit id="workspace_list_icon_title_edit_workspace" xml:space="preserve" approved="yes">
+        <source>Edit workspace</source>
+      <target state="translated">Uredi delovno okolje</target></trans-unit>
+      <trans-unit id="workspace_list_icon_title_switch_workspace" xml:space="preserve" approved="yes">
+        <source>Switch workspace</source>
+      <target state="translated">Preklopi delovno okolje</target></trans-unit>
+      <trans-unit id="workspace_list_access_admin" xml:space="preserve" approved="yes">
+        <source>Admin</source>
+      <target state="translated">Administrator</target></trans-unit>
+      <trans-unit id="workspace_list_access_online" xml:space="preserve" approved="yes">
+        <source>Online</source>
+      <target state="translated">Prisoten</target></trans-unit>
+      <trans-unit id="workspace_list_access_offline" xml:space="preserve" approved="yes">
+        <source>Offline</source>
+      <target state="translated">Odsoten</target></trans-unit>
+      <trans-unit id="workspace_list_access_owner" xml:space="preserve" approved="yes">
+        <source>Owner</source>
+      <target state="translated">Lastnik</target></trans-unit>
+      <trans-unit id="workspace_list_access_member" xml:space="preserve" approved="yes">
+        <source>Member</source>
+      <target state="translated">Član</target></trans-unit>
+      <trans-unit id="workspace_list_access_reviewer" xml:space="preserve" approved="yes">
+        <source>Reviewer</source>
+      <target state="translated">Pregledovalec</target></trans-unit>
+      <trans-unit id="workspace_list_publishing_count_draft" xml:space="preserve" approved="yes">
+        <source>Draft</source>
+      <target state="translated">Načrt</target></trans-unit>
+      <trans-unit id="workspace_list_publishing_count_archive" xml:space="preserve" approved="yes">
+        <source>Archive</source>
+      <target state="translated">Arhiv</target></trans-unit>
+      <trans-unit id="workspace_list_publishing_count" xml:space="preserve" approved="yes">
+        <source>Published %d times</source>
+      <target state="translated">Objavljeno %d-krat</target></trans-unit>
+      <trans-unit id="stage_sent_to_review" xml:space="preserve" approved="yes">
+        <source>"%s" sent element to "Review"</source>
+      <target state="translated">"%s" je poslal element v "Pregled"</target></trans-unit>
+      <trans-unit id="stage_approved_for_publish" xml:space="preserve" approved="yes">
+        <source>"%s" approved for "Publish"</source>
+      <target state="translated">"%s" je odobril "Objavo"</target></trans-unit>
+      <trans-unit id="stage_rejected" xml:space="preserve" approved="yes">
+        <source>"%s" rejected element!</source>
+      <target state="translated">"%s" je zavrnil element!</target></trans-unit>
+      <trans-unit id="stage_reset_to_editing" xml:space="preserve" approved="yes">
+        <source>"%s" reset to "Editing"</source>
+      <target state="translated">"%s" je poslan v "Urejanje"</target></trans-unit>
+      <trans-unit id="stage_undefined" xml:space="preserve" approved="yes">
+        <source>[undefined]</source>
+      <target state="translated">[nedefinirano]</target></trans-unit>
+      <trans-unit id="stage_label_user_comment" xml:space="preserve" approved="yes">
+        <source>User Comment:</source>
+      <target state="translated">Komentar uporabnika:</target></trans-unit>
+      <trans-unit id="workspace_list_mount_point_inaccessible" xml:space="preserve" approved="yes">
+        <source>This mount point is defined for workspace but not accessible to you. If you need access to this mount point, ask your system administrator to give you access to it.</source>
+      <target state="translated">Te točke so določene za to delovno okolje, vendar do njih nimate dostopa. Če potrebujete dostop do njih, prosite vašega sistemskega administratorja, da vam ga dodeli.</target></trans-unit>
+      <trans-unit id="workspace_list_file_mount_point_live" xml:space="preserve" approved="yes">
+        <source>Mount points from user profile are used.</source>
+      <target state="translated">Uporabljene so priključne točke iz uporabnikovega profila.</target></trans-unit>
+      <trans-unit id="workspace_list_file_mount_point_draft" xml:space="preserve" approved="yes">
+        <source>File mount points are not available in draft workspace.</source>
+      <target state="translated">Priključne točke v delovnem okolju osnutkov niso na voljo.</target></trans-unit>
+      <trans-unit id="workspace_list_file_mount_point_custom" xml:space="preserve" approved="yes">
+        <source>File mount points are not defined for this workspace. Therefore no file mount points available in the workspace.</source>
+      <target state="translated">Za to delovno okolje ni določenih priključnih točk za datoteke. Zato tudi niso na razpolago.</target></trans-unit>
+      <trans-unit id="workspace_list_db_mount_point_live" xml:space="preserve" approved="yes">
+        <source>Mount points from user profile are used.</source>
+      <target state="translated">Uporabljene so priključne točke iz uporabnikovega profila.</target></trans-unit>
+      <trans-unit id="workspace_list_db_mount_point_draft" xml:space="preserve" approved="yes">
+        <source>Mount points from user profile are used.</source>
+      <target state="translated">Uporabljene so priključne točke iz uporabnikovega profila.</target></trans-unit>
+      <trans-unit id="workspace_list_db_mount_point_custom" xml:space="preserve" approved="yes">
+        <source>Mount points from user profile are used.</source>
+      <target state="translated">Uporabljene so priključne točke iz uporabnikovega profila.</target></trans-unit>
+      <trans-unit id="publish_title" xml:space="preserve" approved="yes">
+        <source>Publish workspace</source>
+      <target state="translated">Objavi delovno okolje</target></trans-unit>
+      <trans-unit id="swap_title" xml:space="preserve" approved="yes">
+        <source>Swap workspace</source>
+      <target state="translated">Zamenjaj delovno okolje</target></trans-unit>
+      <trans-unit id="publish_status" xml:space="preserve" approved="yes">
+        <source>Published records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</source>
+      <target state="translated">Objavljeni zapisi &lt;strong&gt;%d&lt;/strong&gt; od &lt;strong&gt;%d&lt;/strong&gt; v &lt;strong&gt;%d&lt;/strong&gt;.</target></trans-unit>
+      <trans-unit id="swap_status" xml:space="preserve" approved="yes">
+        <source>Swapped records &lt;strong&gt;%d&lt;/strong&gt; to &lt;strong&gt;%d&lt;/strong&gt; of &lt;strong&gt;%d&lt;/strong&gt;.</source>
+      <target state="translated">Zamenjani zapisi &lt;strong&gt;%d&lt;/strong&gt; od &lt;strong&gt;%d&lt;/strong&gt; v &lt;strong&gt;%d&lt;/strong&gt;.</target></trans-unit>
+      <trans-unit id="publish_prepare" xml:space="preserve" approved="yes">
+        <source>TYPO3 is preparing to publish records.</source>
+      <target state="translated">TYPO3 se pripravlja za objavo zapisov.</target></trans-unit>
+      <trans-unit id="swap_prepare" xml:space="preserve" approved="yes">
+        <source>TYPO3 is preparing to swap records.</source>
+      <target state="translated">TYPO3 se pripravlja za zamenjavo zapisov.</target></trans-unit>
+      <trans-unit id="please_wait" xml:space="preserve" approved="yes">
+        <source>Please, wait...</source>
+      <target state="translated">Prosimo, počakajte...</target></trans-unit>
+      <trans-unit id="return_to_index" xml:space="preserve" approved="yes">
+        <source>Return to Workspace module</source>
+      <target state="translated">Vrni se v modul "Delovno okolje"</target></trans-unit>
+      <trans-unit id="do_not_interrupt_publishing_1" xml:space="preserve" approved="yes">
+        <source>Do not interrupt publishing process or</source>
+      <target state="translated">Ne prekinjajte procesa objave ali</target></trans-unit>
+      <trans-unit id="do_not_interrupt_publishing_2" xml:space="preserve" approved="yes">
+        <source>workspace may be left in half-published state!</source>
+      <target state="translated">delovno okolje lahko ostane v napol objavljenem stanju!</target></trans-unit>
+      <trans-unit id="workspace_published" xml:space="preserve" approved="yes">
+        <source>Workspace has been published.</source>
+      <target state="translated">Delovno okolje je objavljeno.</target></trans-unit>
+      <trans-unit id="workspace_swapped" xml:space="preserve" approved="yes">
+        <source>Workspace has been swapped.</source>
+      <target state="translated">Delovno okolje je zamenjano.</target></trans-unit>
+      <trans-unit id="label_reject" xml:space="preserve" approved="yes">
+        <source>Reject</source>
+      <target state="translated">Zavrni</target></trans-unit>
+      <trans-unit id="label_review" xml:space="preserve" approved="yes">
+        <source>Review</source>
+      <target state="translated">Pregled</target></trans-unit>
+      <trans-unit id="label_sendtoreview" xml:space="preserve" approved="yes">
+        <source>Send to review</source>
+      <target state="translated">Pošlji v pregled</target></trans-unit>
+      <trans-unit id="label_approveforpublishing" xml:space="preserve" approved="yes">
+        <source>Approve for publishing</source>
+      <target state="translated">Odobro za objavo</target></trans-unit>
+      <trans-unit id="stage_editing" xml:space="preserve" approved="yes">
+        <source>Editing</source>
+      <target state="translated">Urejanje</target></trans-unit>
+      <trans-unit id="stage_review" xml:space="preserve" approved="yes">
+        <source>Review</source>
+      <target state="translated">Pregled</target></trans-unit>
+      <trans-unit id="stage_publish" xml:space="preserve" approved="yes">
+        <source>Publish</source>
+      <target state="translated">Objavi</target></trans-unit>
+      <trans-unit id="label_subelements" xml:space="preserve" approved="yes">
+        <source>Sub elements</source>
+      <target state="translated">Podelementi</target></trans-unit>
+      <trans-unit id="label_subelementsdetails" xml:space="preserve" approved="yes">
+        <source>Sub elements, click for details</source>
+      <target state="translated">Podelementi, pritisni za podrobnosti</target></trans-unit>
+      <trans-unit id="label_commentforreviewer" xml:space="preserve" approved="yes">
+        <source>Comment for Reviewer:</source>
+      <target state="translated">Komentar za pregledovalca:</target></trans-unit>
+      <trans-unit id="label_commentforpublisher" xml:space="preserve" approved="yes">
+        <source>Comment for Publisher:</source>
+      <target state="translated">Komentar za objavitelja:</target></trans-unit>
+      <trans-unit id="label_resetstage" xml:space="preserve" approved="yes">
+        <source>Reset stage</source>
+      <target state="translated">Povrni stadij v osnovno stanje</target></trans-unit>
+      <trans-unit id="label_undefined" xml:space="preserve" approved="yes">
+        <source>Undefined</source>
+      <target state="translated">Nedefinirano</target></trans-unit>
+      <trans-unit id="explain_reject" xml:space="preserve" approved="yes">
+        <source>Please explain why you reject:</source>
+      <target state="translated">Prosimo, pojasnite zakaj zavračate:</target></trans-unit>
+      <trans-unit id="label_element" xml:space="preserve" approved="yes">
+        <source>Element</source>
+      <target state="translated">Element</target></trans-unit>
+      <trans-unit id="label_page" xml:space="preserve" approved="yes">
+        <source>Page</source>
+      <target state="translated">Stran</target></trans-unit>
+      <trans-unit id="label_branch" xml:space="preserve" approved="yes">
+        <source>Branch</source>
+      <target state="translated">Veja</target></trans-unit>
+      <trans-unit id="label_newrecord" xml:space="preserve" approved="yes">
+        <source>New element</source>
+      <target state="translated">Now element</target></trans-unit>
+      <trans-unit id="label_deletedrecord" xml:space="preserve" approved="yes">
+        <source>Deleted element</source>
+      <target state="translated">Izbrisan element</target></trans-unit>
+      <trans-unit id="label_otherversions" xml:space="preserve" approved="yes">
+        <source>Other version(s) in workspace(s):</source>
+      <target state="translated">Druge verzije v delovnih okoljih:</target></trans-unit>
+      <trans-unit id="label_multipleversions" xml:space="preserve" approved="yes">
+        <source>Multiple versions in same workspace!</source>
+      <target state="translated">Več verzij v istem delovnem okolju!</target></trans-unit>
+      <trans-unit id="label_nestedversions" xml:space="preserve" approved="yes">
+        <source>Version inside version!</source>
+      <target state="translated">Verzija v verziji!</target></trans-unit>
+      <trans-unit id="label_rejected" xml:space="preserve" approved="yes">
+        <source>Rejected</source>
+      <target state="translated">Zavrnjeno</target></trans-unit>
+      <trans-unit id="label_showsubelements" xml:space="preserve" approved="yes">
+        <source>Show sub elements</source>
+      <target state="translated">Prikaži podelemente</target></trans-unit>
+      <trans-unit id="label_onlymychanges" xml:space="preserve" approved="yes">
+        <source>Show only my changes</source>
+      <target state="translated">Prikaži samo moje spremembe</target></trans-unit>
+      <trans-unit id="label_offlineWSes" xml:space="preserve" approved="yes">
+        <source>Draft workspaces</source>
+      <target state="translated">Načrtovalno delovno okolje</target></trans-unit>
+      <trans-unit id="label_allWSes" xml:space="preserve" approved="yes">
+        <source>All workspaces</source>
+      <target state="translated">Vsa delovna okolja</target></trans-unit>
+      <trans-unit id="label_notapplicable" xml:space="preserve" approved="yes">
+        <source>n/a</source>
+      <target state="translated">ni možno</target></trans-unit>
+      <trans-unit id="label_percentchange" xml:space="preserve" approved="yes">
+        <source>%%% change:</source>
+      <target state="translated">%%% spremembe:</target></trans-unit>
+      <trans-unit id="label_percentChange" xml:space="preserve" approved="no">
+        <source>%d%% change:</source>
+      <target state="needs-translation">%%% spremembe:</target><note>91%</note></trans-unit>
+      <trans-unit id="label_doaction_default" xml:space="preserve">
+        <source>Do:</source>
+      </trans-unit>
+      <trans-unit id="label_doaction_publish" xml:space="preserve" approved="yes">
+        <source>Publish</source>
+      <target state="translated">Objavi</target><note>100%</note></trans-unit>
+      <trans-unit id="label_doaction_swap" xml:space="preserve" approved="yes">
+        <source>Swap</source>
+      <target state="translated">Zamenjaj</target><note>100%</note></trans-unit>
+      <trans-unit id="label_doaction_release" xml:space="preserve">
+        <source>Remove this version</source>
+      </trans-unit>
+      <trans-unit id="label_doaction_stage_reject" xml:space="preserve">
+        <source>Reject changes</source>
+      </trans-unit>
+      <trans-unit id="label_doaction_stage_editing" xml:space="preserve">
+        <source>Send to stage: Editing</source>
+      </trans-unit>
+      <trans-unit id="label_doaction_stage_review" xml:space="preserve">
+        <source>Send to stage: Review</source>
+      </trans-unit>
+      <trans-unit id="label_doaction_stage_publish" xml:space="preserve">
+        <source>Send to stage: Publish</source>
+      </trans-unit>
+      <trans-unit id="label_doaction_flush" xml:space="preserve">
+        <source>Flush ALL changes/versions</source>
+      </trans-unit>
+      <trans-unit id="label_moveto_placeholder" xml:space="preserve">
+        <source>Move-to placeholder (destination)</source>
+      </trans-unit>
+      <trans-unit id="label_moveto_pointer" xml:space="preserve">
+        <source>Move-to pointer (source)</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

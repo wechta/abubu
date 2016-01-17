@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="belog" target-language="sl">
+    <header/>
+    <body>
+      <trans-unit id="adminLog" xml:space="preserve">
+        <source>Administration log</source>
+      </trans-unit>
+      <trans-unit id="allUsers" xml:space="preserve">
+        <source>[All users]</source>
+      </trans-unit>
+      <trans-unit id="any" xml:space="preserve">
+        <source>[Any]</source>
+      </trans-unit>
+      <trans-unit id="live" xml:space="preserve">
+        <source>LIVE</source>
+      </trans-unit>
+      <trans-unit id="draft" xml:space="preserve">
+        <source>Draft</source>
+      </trans-unit>
+      <trans-unit id="self" xml:space="preserve">
+        <source>Self</source>
+      </trans-unit>
+      <trans-unit id="userGroup" xml:space="preserve">
+        <source>Group:</source>
+      </trans-unit>
+      <trans-unit id="thisWeek" xml:space="preserve">
+        <source>This week</source>
+      </trans-unit>
+      <trans-unit id="lastWeek" xml:space="preserve">
+        <source>Last week</source>
+      </trans-unit>
+      <trans-unit id="last7Days" xml:space="preserve">
+        <source>Last 7 days</source>
+      </trans-unit>
+      <trans-unit id="thisMonth" xml:space="preserve">
+        <source>This month</source>
+      </trans-unit>
+      <trans-unit id="lastMonth" xml:space="preserve">
+        <source>Last month</source>
+      </trans-unit>
+      <trans-unit id="last31Days" xml:space="preserve">
+        <source>Last 31 days</source>
+      </trans-unit>
+      <trans-unit id="noLimit" xml:space="preserve">
+        <source>No limit</source>
+      </trans-unit>
+      <trans-unit id="userdefined" xml:space="preserve">
+        <source>User defined</source>
+      </trans-unit>
+      <trans-unit id="set" xml:space="preserve">
+        <source>Set</source>
+      </trans-unit>
+      <trans-unit id="20" xml:space="preserve">
+        <source>20</source>
+      </trans-unit>
+      <trans-unit id="50" xml:space="preserve">
+        <source>50</source>
+      </trans-unit>
+      <trans-unit id="100" xml:space="preserve">
+        <source>100</source>
+      </trans-unit>
+      <trans-unit id="200" xml:space="preserve">
+        <source>200</source>
+      </trans-unit>
+      <trans-unit id="500" xml:space="preserve">
+        <source>500</source>
+      </trans-unit>
+      <trans-unit id="1000" xml:space="preserve">
+        <source>1000</source>
+      </trans-unit>
+      <trans-unit id="actionAll" xml:space="preserve">
+        <source>All</source>
+      </trans-unit>
+      <trans-unit id="actionDatabase" xml:space="preserve">
+        <source>Database</source>
+      </trans-unit>
+      <trans-unit id="actionFile" xml:space="preserve">
+        <source>File</source>
+      </trans-unit>
+      <trans-unit id="actionCache" xml:space="preserve">
+        <source>Cache</source>
+      </trans-unit>
+      <trans-unit id="actionSettings" xml:space="preserve">
+        <source>Settings</source>
+      </trans-unit>
+      <trans-unit id="actionLogin" xml:space="preserve">
+        <source>Login</source>
+      </trans-unit>
+      <trans-unit id="actionErrors" xml:space="preserve">
+        <source>Errors</source>
+      </trans-unit>
+      <trans-unit id="group" xml:space="preserve">
+        <source>Group:</source>
+      </trans-unit>
+      <trans-unit id="user" xml:space="preserve">
+        <source>User:</source>
+      </trans-unit>
+      <trans-unit id="users" xml:space="preserve">
+        <source>Users:</source>
+      </trans-unit>
+      <trans-unit id="time" xml:space="preserve">
+        <source>Time:</source>
+      </trans-unit>
+      <trans-unit id="max" xml:space="preserve">
+        <source>Max:</source>
+      </trans-unit>
+      <trans-unit id="changesInFields" xml:space="preserve">
+        <source>Changes in fields: %s.</source>
+      </trans-unit>
+      <trans-unit id="showHistory" xml:space="preserve">
+        <source>Show History</source>
+      </trans-unit>
+      <trans-unit id="action" xml:space="preserve">
+        <source>Action:</source>
+      </trans-unit>
+      <trans-unit id="workspace" xml:space="preserve">
+        <source>Workspace:</source>
+      </trans-unit>
+      <trans-unit id="groupByPage" xml:space="preserve">
+        <source>Group by page:</source>
+      </trans-unit>
+      <trans-unit id="pagenameWithUID" xml:space="preserve">
+        <source>%s" [UID: %s]</source>
+      </trans-unit>
+      <trans-unit id="overview" xml:space="preserve">
+        <source>Overview</source>
+      </trans-unit>
+      <trans-unit id="timeInfo" xml:space="preserve">
+        <source>These pages have log messages from %s to %s</source>
+      </trans-unit>
+      <trans-unit id="forNonPageRelatedActions" xml:space="preserve">
+        <source>for NON-PAGE related actions</source>
+      </trans-unit>
+      <trans-unit id="forRootLevel" xml:space="preserve">
+        <source>for ROOT LEVEL</source>
+      </trans-unit>
+      <trans-unit id="forPage" xml:space="preserve">
+        <source>for PAGE "%s" (UID: %s)</source>
+      </trans-unit>
+      <trans-unit id="logForNonPageRelatedActionsOrRootLevelOrPage" xml:space="preserve">
+        <source>Log %s from %s to %s</source>
+      </trans-unit>
+      <trans-unit id="type_1" xml:space="preserve" approved="yes">
+        <source>DB</source>
+      <target state="translated">Baza podatkov</target></trans-unit>
+      <trans-unit id="action_1_1" xml:space="preserve" approved="yes">
+        <source>Insert</source>
+      <target state="translated">Vstavi</target></trans-unit>
+      <trans-unit id="action_1_2" xml:space="preserve" approved="yes">
+        <source>Update</source>
+      <target state="translated">Posodobi</target></trans-unit>
+      <trans-unit id="action_1_3" xml:space="preserve" approved="yes">
+        <source>Delete</source>
+      <target state="translated">Izbriši</target></trans-unit>
+      <trans-unit id="action_1_4" xml:space="preserve" approved="yes">
+        <source>Check</source>
+      <target state="translated">Preveri</target></trans-unit>
+      <trans-unit id="msg_1_0_1" xml:space="preserve" approved="yes">
+        <source>Referer host '%s' and server host '%s' did not match!</source>
+      <target state="translated">Gostitelj napotitelja '%s' in strežnika '%s' se ne ujemata!</target></trans-unit>
+      <trans-unit id="msg_1_1_11" xml:space="preserve" approved="yes">
+        <source>Attempt to insert record on page '%s' (%s) where this table, %s, is not allowed</source>
+      <target state="translated">Ni dovoljeno vstaviti zapisa na stran '%s' (%s), kjer je tabela %s.</target></trans-unit>
+      <trans-unit id="msg_1_1_12" xml:space="preserve" approved="yes">
+        <source>Attempt to insert a record on page '%s' (%s) from table '%s' without permissions. Or non-existing page.</source>
+      <target state="translated">Poskus vstavitve zapisa na stran '%s' (%s) iz tabele '%s' brez dovoljenja ali pa stran ne obstaja.</target></trans-unit>
+      <trans-unit id="msg_1_2_1" xml:space="preserve" approved="yes">
+        <source>Attempt to modify table '%s' without permission</source>
+      <target state="translated">Poskus spremembe tabele '%s' brez dovoljenja</target></trans-unit>
+      <trans-unit id="msg_1_2_2" xml:space="preserve" approved="yes">
+        <source>Attempt to modify record '%s' (%s) without permission. Or non-existing page.</source>
+      <target state="translated">Poskušali ste spremeniti zapis '%s' (%s) brez dovoljenja ali pa stran ne obstaja.</target></trans-unit>
+      <trans-unit id="msg_1_2_10" xml:space="preserve" approved="yes">
+        <source>Record '%s' (%s) was updated.</source>
+      <target state="translated">Zapis '%s' (%s) je bil posodobljen.</target></trans-unit>
+      <trans-unit id="msg_1_2_12" xml:space="preserve" approved="yes">
+        <source>MySQL error: '%s' (%s)</source>
+      <target state="translated">Napaka v bazi MySQL: '%s' (%s)</target></trans-unit>
+      <trans-unit id="msg_1_4_1" xml:space="preserve" approved="yes">
+        <source>Attempt to move record '%s' (%s) to after a non-existing record (uid=%s)</source>
+      <target state="translated">Poskus premika zapisa '%s' (%s) za neobstoječi zapis (uid=%s)</target></trans-unit>
+      <trans-unit id="msg_1_4_2" xml:space="preserve" approved="yes">
+        <source>Moved record '%s' (%s) to page '%s' (%s)</source>
+      <target state="translated">Zapis '%s' (%s) je bil premaknjen na stran '%s' (%s)</target></trans-unit>
+      <trans-unit id="msg_1_4_3" xml:space="preserve" approved="yes">
+        <source>Moved record '%s' (%s) from page '%s' (%s)</source>
+      <target state="translated">Zapis '%s' (%s) je bil premaknjen s strani '%s' (%s)</target></trans-unit>
+      <trans-unit id="msg_1_4_4" xml:space="preserve" approved="yes">
+        <source>Moved record '%s' (%s) on page '%s' (%s)</source>
+      <target state="translated">Zapis '%s' (%s) je bil premaknjen na strani '%s' (%s)</target></trans-unit>
+      <trans-unit id="msg_1_4_10" xml:space="preserve" approved="yes">
+        <source>Attempt to move page '%s' (%s) to inside of its own rootline (at page '%s' (%s))</source>
+      <target state="translated">Poskus premika strani '%s' (%s) samo vase (na strani '%s' (%s))</target></trans-unit>
+      <trans-unit id="msg_1_4_11" xml:space="preserve" approved="yes">
+        <source>Attempt to insert record on page '%s' (%s) where this table, %s, is not allowed</source>
+      <target state="translated">Poskus vstavitve zapisa na stran '%s' (%s), kjer tabela %s ni dovoljena</target></trans-unit>
+      <trans-unit id="msg_1_4_12" xml:space="preserve" approved="yes">
+        <source>Attempt to insert a record on page '%s' (%s) from table '%s' without permissions. Or non-existing page.</source>
+      <target state="translated">Poskus vstavitve zapisa na stran '%s' (%s) iz tabele '%s' brez dovoljenja ali pa stran ne obstaja.</target></trans-unit>
+      <trans-unit id="msg_1_4_13" xml:space="preserve" approved="yes">
+        <source>Attempt to move record '%s' (%s) to after another record, although the table has no sorting row.</source>
+      <target state="translated">Poskus premika zapisa '%s' (%s) za drug zapis, čeprav tabela nima vrstice za razvrščanje.</target></trans-unit>
+      <trans-unit id="msg_1_4_14" xml:space="preserve" approved="yes">
+        <source>Attempt to move record '%s' (%s) without having permissions to do so</source>
+      <target state="translated">Poskus premika zapisa '%s' (%s) brez dovoljenja</target></trans-unit>
+      <trans-unit id="msg_1_5_1" xml:space="preserve" approved="yes">
+        <source>You cannot change the 'doktype' of page '%s' to the desired value.</source>
+      <target state="translated">Vrste 'doktype' za to stran ne smete spremeniti iz '%s' v želeno vrednost.</target></trans-unit>
+      <trans-unit id="msg_1_5_2" xml:space="preserve" approved="yes">
+        <source>'doktype' of page '%s' could not be changed because the page contains records from disallowed tables; %s</source>
+      <target state="translated">Vrste 'doktype' strani '%s' ni mogoče spremeniti, ker stran vsebuje zapise iz tabel, do katerih nimate dostopa; %s</target></trans-unit>
+      <trans-unit id="msg_1_5_3" xml:space="preserve" approved="yes">
+        <source>Too few items in the list of values. (%s)</source>
+      <target state="translated">Premalo elementov v seznamu vrednosti. (%s)</target></trans-unit>
+      <trans-unit id="msg_1_5_10" xml:space="preserve" approved="yes">
+        <source>Could not delete file '%s' (does not exist). (%s)</source>
+      <target state="translated">Ni mogoče izbrisati datoteke '%s' (ne obstaja). (%s)</target></trans-unit>
+      <trans-unit id="msg_1_5_11" xml:space="preserve" approved="yes">
+        <source>Copying file '%s' failed!: No destination file (%s) possible!. (%s)</source>
+      <target state="translated">Kopiranje datoteke '%s' ni uspelo! Ni ciljne datoteke (%s). (%s)</target></trans-unit>
+      <trans-unit id="msg_1_5_12" xml:space="preserve" approved="yes">
+        <source>File extension '%s' is not allowed. (%s)</source>
+      <target state="translated">Datotečna pripona '%' ni dovoljena. (%s)</target></trans-unit>
+      <trans-unit id="msg_1_5_13" xml:space="preserve" approved="yes">
+        <source>File size (%s) of file '%s' exceeds limit (%s). (%s)</source>
+      <target state="translated">Velikost datoteke '%s' (%s) je prekoračila omejitev (%s). (%s)</target></trans-unit>
+      <trans-unit id="msg_1_5_14" xml:space="preserve" approved="yes">
+        <source>The destination (%s) or the source file (%s) does not exist. (%s)</source>
+      <target state="translated">Ciljna (%s) ali izvorna (%s) datoteka ne obstaja. (%s)</target></trans-unit>
+      <trans-unit id="msg_1_5_15" xml:space="preserve" approved="yes">
+        <source>Copying to file '%s' failed! (%s)</source>
+      <target state="translated">Kopiranje v datoteko '%s' ni uspelo! (%s)</target></trans-unit>
+      <trans-unit id="msg_1_5_16" xml:space="preserve" approved="yes">
+        <source>Copying file '%s' failed!: The destination path (%s) may be write protected. Please make it write enabled!. (%s)</source>
+      <target state="translated">Kopiranje datoteke '%s' ni uspelo!: Morda je cilj (%s) zaščiten pred pisanjem. Najprej mu dajte dostop za pisanje!. (%s)</target></trans-unit>
+      <trans-unit id="type_2" xml:space="preserve" approved="yes">
+        <source>FILE</source>
+      <target state="translated">DATOTEKA</target></trans-unit>
+      <trans-unit id="action_2_1" xml:space="preserve" approved="yes">
+        <source>Upload</source>
+      <target state="translated">Naloži</target></trans-unit>
+      <trans-unit id="action_2_2" xml:space="preserve" approved="yes">
+        <source>Copy</source>
+      <target state="translated">Kopiraj</target></trans-unit>
+      <trans-unit id="action_2_3" xml:space="preserve" approved="yes">
+        <source>Move</source>
+      <target state="translated">Premakni</target></trans-unit>
+      <trans-unit id="action_2_4" xml:space="preserve" approved="yes">
+        <source>Delete</source>
+      <target state="translated">Izbriši</target></trans-unit>
+      <trans-unit id="action_2_5" xml:space="preserve" approved="yes">
+        <source>Rename</source>
+      <target state="translated">Preimenuj</target></trans-unit>
+      <trans-unit id="action_2_6" xml:space="preserve" approved="yes">
+        <source>New</source>
+      <target state="translated">Nova</target></trans-unit>
+      <trans-unit id="action_2_7" xml:space="preserve" approved="yes">
+        <source>Unzip</source>
+      <target state="translated">Razpakiraj</target></trans-unit>
+      <trans-unit id="action_2_8" xml:space="preserve" approved="yes">
+        <source>New file</source>
+      <target state="translated">Nova datoteka</target></trans-unit>
+      <trans-unit id="action_2_9" xml:space="preserve" approved="yes">
+        <source>Edit</source>
+      <target state="translated">Uredi</target></trans-unit>
+      <trans-unit id="msg_2_9_1" xml:space="preserve" approved="yes">
+        <source>File saved to '%s', bytes: %s, MD5: %s </source>
+      <target state="translated">Datoteka shranjena kot '%s', bajtov: %s, MD5: %s</target></trans-unit>
+      <trans-unit id="type_3" xml:space="preserve">
+        <source>CACHE</source>
+      </trans-unit>
+      <trans-unit id="action_3_1" xml:space="preserve">
+        <source>Clear Cache</source>
+      </trans-unit>
+      <trans-unit id="type_254" xml:space="preserve" approved="yes">
+        <source>SETTING</source>
+      <target state="translated">NASTAVITEV</target></trans-unit>
+      <trans-unit id="action_254_1" xml:space="preserve" approved="yes">
+        <source>Change</source>
+      <target state="translated">Spremeni</target></trans-unit>
+      <trans-unit id="type_255" xml:space="preserve" approved="yes">
+        <source>LOGIN</source>
+      <target state="translated">PRIJAVA</target></trans-unit>
+      <trans-unit id="action_255_1" xml:space="preserve" approved="yes">
+        <source>LOGIN</source>
+      <target state="translated">PRIJAVA</target></trans-unit>
+      <trans-unit id="action_255_2" xml:space="preserve" approved="yes">
+        <source>LOGOUT</source>
+      <target state="translated">ODJAVA</target></trans-unit>
+      <trans-unit id="action_255_3" xml:space="preserve" approved="yes">
+        <source>ATTEMPT</source>
+      <target state="translated">POSKUS</target></trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="title">Informacije o strani</label>
+      <label index="depth_0">Ta stran</label>
+      <label index="depth_1">1 nivo</label>
+      <label index="depth_2">2 nivoja</label>
+      <label index="depth_3">3 nivoji</label>
+      <label index="mlang_labels_tablabel">Informacije o straneh, npr. statistika obiskov, dnevnik sprememb, število zapisov</label>
+      <label index="mlang_labels_tabdescr">Info modul je prikazuje predvsem statistične informacije o straneh. To vključuje statistiko obiska strani in dnevnik sprememb, preko katerega imate vpogled v zgodovino strani. Ogledate si lahko ša seznam zapisov na posamezni strani ter nastavitve.</label>
+      <label index="mlang_tabs_tab">Info</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

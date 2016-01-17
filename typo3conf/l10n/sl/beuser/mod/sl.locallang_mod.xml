@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="mlang_labels_tablabel">Administracija sistemskih uporabnikov</label>
+      <label index="mlang_labels_tabdescr">Modul za administracijo sistemskih uporabnikov vam omogoča nadzor nad uporabniki sistema. Lahko jih razvrstite po značilnostih in jim glede na to spremljati dostopne pravice, konfiguracijo TS, članstvo v skupinah, itd. Ta modul je nepogrešljivo orodje za administracijo.&lt;BR&gt;&lt;em&gt;Uporaba dovoljena le 'admin' uporabnikom!&lt;/em&gt;</label>
+      <label index="mlang_tabs_tab">Administracija uporabnikov</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

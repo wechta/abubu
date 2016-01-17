@@ -1,0 +1,59 @@
+plugin.tx_pilmailform_pi1 {
+#
+#	### General ###
+#	testmode = 1
+#	staticSubject = Mail from TMailform
+#	overrideSubject = 1
+#	userSubjectPrefix = Mail from TMailform: 
+#	typeofRecipient = 0
+#	staticRecipient (
+#		user1@mail.domain.tld
+#		user2@mail.domain.tld
+#	)
+#	dynamicRecipient (
+#		user1@mail.domain.tld
+#		user2@mail.domain.tld
+#	)
+#	copyToUser = 2
+#	userCopySubject = We have recieved these informations from you
+#	template = fileadmin/templates/tmailform.tmpl
+#	useLL = 1
+#	LLFile = fileadmin/lang/ll_tmailform.xml
+#
+#	### Field settings ###
+#	errorSubstitution = 
+#	requiredValues (
+#		subject; notEmpty; text: Please fill in subject field
+#		subject; regex:/^test.*/; text: Subject must start with "test"
+#		message; notEmpty; text: Please fill in message field
+#		file1; notEmpty; text: Please send file
+#		file1; inList: image/png, text/plain; text: Filetype not allowed
+#		user_type; notEmpty;
+#		level; notEmpty; text: Please select level
+#	)
+#	defaultValues (
+#	)
+#	dateMarker = Y-m-d
+#	timeMarker = H:i
+#	### Mail header ###
+#	fromName = Your name
+#	fromMail = Your email
+#	overrideFromHeader = 1
+#	replyToName = Your name
+#	replyToMail = Your email
+#	overrideReplyToHeader = 1
+#	Cc =
+#	Bcc =
+#	contentTransferEncoding = 0
+#	contentType = 0
+#	charset = utf-8
+#
+#	### SMTP settings ###
+#	useMailer = 0
+#	sendmailPath = /usr/bin/sendmail
+#	smtpHost = localhost
+#	smtpPort = 25
+#	smtpAuth = 0
+#	smtpUser = username
+#	smtpPasswd = password
+}

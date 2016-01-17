@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_rgmediaimages_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="warning_noImages">Error:No images selected in the backend</label>
+			<label index="warning_noTS">Error:No TS has been included. Take a look at the manual</label>
+			<label index="noflash">Flash is required!</label>			
+		</languageKey>
+
+	</data>
+</T3locallang>

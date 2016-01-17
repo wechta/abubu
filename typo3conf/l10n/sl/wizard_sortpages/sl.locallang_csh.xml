@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="tx_wizardsortpages.alttitle"/>
+      <label index="tx_wizardsortpages.description"/>
+      <label index="tx_wizardsortpages.details"/>
+      <label index="_tx_wizardsortpages.image"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

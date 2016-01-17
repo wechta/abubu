@@ -1,0 +1,804 @@
+
+.productList {
+	width:780px;
+	float:left;
+	position:relative;
+	}
+
+#featured2 .ui-tabs-panel a, .productList .productListItem{
+	width:220px;
+	height:430px;
+	background-color:#FFF;
+	border:1px solid #ededed;
+	float:left;
+	margin:0px 27px 27px 0px;
+	text-decoration:none;
+	position:relative;
+	}
+	
+#featured2 .ui-tabs-panel a div, .productList .productListItem div{
+	width:220px;
+	height:200px;
+	display: table-cell;
+    text-align: center;
+	float:left;
+	}
+	
+#featured2 .ui-tabs-panel a div span, .productList .productListItem div span{
+	width:220px;
+	height:200px;
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+	}
+
+#featured2 .ui-tabs-panel a div span img, .productList .productListItem div span img{
+	max-width:200px !important;
+	max-height:190px !important;
+	}
+	
+#featured2 .ui-tabs-panel a .listH1, .productList .productListItem .listH1{
+	color:#000000;
+	font-size:20px;
+	font-weight:bold;
+	padding:0px 15px;
+	position:absolute;
+	top:200px;
+	left:0px;
+	font-family: 'Life Savers', cursive;
+	}
+	
+#featured2 .ui-tabs-panel a h2, .productList .productListItem h2{
+	color:#149207;
+	font-size:14px;
+	font-weight:normal;
+	padding:0px 5px;
+	text-transform:uppercase;
+	font-family:'PT Sans Narrow', sans-serif;
+	position:absolute;
+	top:255px;
+	left:15px;
+	border-left:7px solid #149207;
+	}
+
+
+#featured2 .ui-tabs-panel a p, .productList .productListItem p{
+	color:#7c7c7c;
+	font-size:15px;
+	font-weight:normal;
+	padding:0px 15px;
+	font-family:'PT Sans Narrow', sans-serif;
+	position:absolute;
+	top:280px;
+	left:0px;
+	}
+
+#featured2 .ui-tabs-panel a h3 span, .productList .productListItem h3 span {
+	font-family:'PT Sans Narrow', sans-serif;
+	font-size:18px;
+	color:#000;
+	font-weight:bold;
+	padding-left:5px;
+	}
+
+	
+#featured2 .ui-tabs-panel a h3, .productList .productListItem h3 {
+	float:left;
+	font-family:'PT Sans Narrow', sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#808080;
+	font-weight:normal;
+	padding:15px 5px 5px 5px;
+	position:absolute;
+	bottom:10px;
+	left:10px;
+	width:200px;
+	height:50px;
+	border-top:1px dotted #d9d9d9;
+	background-image:url(../images/iconKosara.png);
+	background-repeat:no-repeat;
+	background-position:right bottom;
+	}
+	
+#featured2 .ui-tabs-panel a h4, .productList .productListItem h4{
+	color:#fff;
+	font-size:15px;
+	font-weight:normal;
+	text-align:center;
+	padding:5px 0px;
+	position:absolute;
+	top:160px;
+	left:10px;
+	font-family:Dosis;
+	background-color:#149207;
+	width:200px;
+	}
+	
+/*
+#featured2 .ui-tabs-panel a h5, .productList a h5 {
+	float:left;
+	color:#D21717;
+	font-weight:bold;
+	padding:7px 12px 3px 12px;
+	width:17px;
+	height:20px;
+	position:absolute;
+	bottom:15px;
+	right:17px;
+	background-color:#0062ae;
+	}
+*/
+
+
+#featured2 .ui-tabs-panel a .triangle, .productList .productListItem .triangle {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 12px 12px 0 0;
+	border-color: #fff transparent transparent transparent;
+	position:absolute;
+	top:1px;
+	left:1px;
+	}
+
+
+#featured2 .ui-tabs-panel a .popust, .productList .productListItem .popust, #featured3 .popust {
+	width:64px;
+	height:59px;
+	position:absolute;
+	top:-6px;
+	right:-5px;
+	background-image:url(../images/akcijaListBg.png);
+	background-repeat:no-repeat;	
+	font-family: 'Life Savers', cursive;
+	font-weight:bold;
+	font-size:12px;
+	color:#fff;
+	text-align:center;
+	padding-top:10px;
+	z-index:2;
+	}
+#featured2 .ui-tabs-panel a .popust span, .productList .productListItem .popust span, #featured3 .popust span{
+	font-size:18px;
+	font-family: 'Life Savers', cursive;
+	font-weight:bold;
+	color:#fff;
+	}
+	
+
+#featured2 .ui-tabs-panel a .bioSticker, .productList .productListItem .bioSticker {
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:5px;
+	right:5px;
+	}
+	
+#featured2 .ui-tabs-panel a .fullPrice, .productList .productListItem .fullPrice {
+	position:absolute;
+	bottom: 3px;
+left: 73px;
+	color:#777777;
+	font-family:'PT Sans Narrow', sans-serif;
+	font-size:15px;
+	text-decoration:line-through;
+	}
+	
+/*	
+.popust div {
+	background-repeat:no-repeat;
+	}
+
+.action1{background-image:url(../images/akcije/1.png);}
+.action2{background-image:url(../images/akcije/2.png);}
+.action3{background-image:url(../images/akcije/3.png);}
+.action4{background-image:url(../images/akcije/4.png);}
+.action5{background-image:url(../images/akcije/5.png);}
+.action6{background-image:url(../images/akcije/6.png);}
+.action7{background-image:url(../images/akcije/7.png);}
+.action8{background-image:url(../images/akcije/8.png);}
+.action9{background-image:url(../images/akcije/9.png);}
+.action10{background-image:url(../images/akcije/10.png);}
+.action11{background-image:url(../images/akcije/11.png);}
+.action12{background-image:url(../images/akcije/12.png);}
+.action13{background-image:url(../images/akcije/13.png);}
+.action14{background-image:url(../images/akcije/14.png);}
+.action15{background-image:url(../images/akcije/15.png);}
+.action16{background-image:url(../images/akcije/16.png);}
+.action17{background-image:url(../images/akcije/17.png);}
+.action18{background-image:url(../images/akcije/18.png);}
+.action19{background-image:url(../images/akcije/19.png);}
+.action20{background-image:url(../images/akcije/20.png);}
+.action21{background-image:url(../images/akcije/21.png);}
+.action22{background-image:url(../images/akcije/22.png);}
+.action23{background-image:url(../images/akcije/23.png);}
+.action24{background-image:url(../images/akcije/24.png);}
+.action25{background-image:url(../images/akcije/25.png);}
+.action26{background-image:url(../images/akcije/26.png);}
+.action27{background-image:url(../images/akcije/27.png);}
+.action28{background-image:url(../images/akcije/28.png);}
+.action29{background-image:url(../images/akcije/29.png);}
+.action30{background-image:url(../images/akcije/30.png);}
+.action31{background-image:url(../images/akcije/31.png);}
+.action32{background-image:url(../images/akcije/32.png);}
+.action33{background-image:url(../images/akcije/33.png);}
+.action34{background-image:url(../images/akcije/34.png);}
+.action35{background-image:url(../images/akcije/35.png);}
+.action36{background-image:url(../images/akcije/36.png);}
+.action37{background-image:url(../images/akcije/37.png);}
+.action38{background-image:url(../images/akcije/38.png);}
+.action39{background-image:url(../images/akcije/39.png);}
+.action40{background-image:url(../images/akcije/40.png);}
+.action41{background-image:url(../images/akcije/41.png);}
+.action42{background-image:url(../images/akcije/42.png);}
+.action43{background-image:url(../images/akcije/43.png);}
+.action44{background-image:url(../images/akcije/44.png);}
+.action45{background-image:url(../images/akcije/45.png);}
+.action46{background-image:url(../images/akcije/46.png);}
+.action47{background-image:url(../images/akcije/47.png);}
+.action48{background-image:url(../images/akcije/48.png);}
+.action49{background-image:url(../images/akcije/49.png);}
+.action50{background-image:url(../images/akcije/50.png);}
+.action51{background-image:url(../images/akcije/51.png);}
+.action52{background-image:url(../images/akcije/52.png);}
+.action53{background-image:url(../images/akcije/53.png);}
+.action54{background-image:url(../images/akcije/54.png);}
+.action55{background-image:url(../images/akcije/55.png);}
+.action56{background-image:url(../images/akcije/56.png);}
+.action57{background-image:url(../images/akcije/57.png);}
+.action58{background-image:url(../images/akcije/58.png);}
+.action59{background-image:url(../images/akcije/59.png);}
+.action60{background-image:url(../images/akcije/60.png);}
+.action61{background-image:url(../images/akcije/61.png);}
+.action62{background-image:url(../images/akcije/62.png);}
+.action63{background-image:url(../images/akcije/63.png);}
+.action64{background-image:url(../images/akcije/64.png);}
+.action65{background-image:url(../images/akcije/65.png);}
+.action66{background-image:url(../images/akcije/66.png);}
+.action67{background-image:url(../images/akcije/67.png);}
+.action68{background-image:url(../images/akcije/68.png);}
+.action69{background-image:url(../images/akcije/69.png);}
+.action70{background-image:url(../images/akcije/70.png);}
+.action71{background-image:url(../images/akcije/71.png);}
+.action72{background-image:url(../images/akcije/72.png);}
+.action73{background-image:url(../images/akcije/73.png);}
+.action74{background-image:url(../images/akcije/74.png);}
+.action75{background-image:url(../images/akcije/75.png);}
+.action76{background-image:url(../images/akcije/76.png);}
+.action77{background-image:url(../images/akcije/77.png);}
+.action78{background-image:url(../images/akcije/78.png);}
+.action79{background-image:url(../images/akcije/79.png);}
+.action80{background-image:url(../images/akcije/80.png);}
+.action81{background-image:url(../images/akcije/81.png);}
+.action82{background-image:url(../images/akcije/82.png);}
+.action83{background-image:url(../images/akcije/83.png);}
+.action84{background-image:url(../images/akcije/84.png);}
+.action85{background-image:url(../images/akcije/85.png);}
+.action86{background-image:url(../images/akcije/86.png);}
+.action87{background-image:url(../images/akcije/87.png);}
+.action88{background-image:url(../images/akcije/88.png);}
+.action89{background-image:url(../images/akcije/89.png);}
+.action90{background-image:url(../images/akcije/90.png);}
+.action91{background-image:url(../images/akcije/91.png);}
+.action92{background-image:url(../images/akcije/92.png);}
+.action93{background-image:url(../images/akcije/93.png);}
+.action94{background-image:url(../images/akcije/94.png);}
+.action95{background-image:url(../images/akcije/95.png);}
+.action96{background-image:url(../images/akcije/96.png);}
+.action97{background-image:url(../images/akcije/97.png);}
+.action98{background-image:url(../images/akcije/98.png);}
+.action99{background-image:url(../images/akcije/99.png);}
+*/
+
+
+.listCe {
+	float:left;
+	width:710px;
+	padding-bottom:20px;
+	}
+	
+.listCe .csc-default {
+	float:left;
+	}
+	
+
+/**********************************PAGE NAVI***********************************************************/
+
+
+.pageNavi {
+	position:relative;
+	left:50%;
+	float:left;
+	clear:both;
+	margin:10px 0;
+	text-align:left;
+	}
+
+.pageNavi span{
+	position:relative;
+	left:-50%;
+	text-align:left;
+	width:100%;
+	float:left;
+	}
+
+.pageNavi a {
+	font-family:Dosis;
+	font-weight:bold;
+	font-size:16px;
+	color:#524c4c;
+	float:left;
+	padding:3px 10px;
+	margin:0px 3px;
+	text-decoration:none;
+	width:10px;
+	height:21px;
+	background-color:transparent;
+	text-align:center;
+	}
+
+.pageNavi p {
+	background-color:#524c4c;
+	font-family:Dosis;
+	font-weight:bold;
+	text-align:center;
+	font-size:16px;
+	color:#FFF;
+	float:left;
+	padding:3px 10px;
+	margin:0px 3px;
+	text-decoration:none;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+	behavior: url(border-radius.htc);
+	width:10px;
+	height:21px;
+	}
+	
+.pageNavi a:hover{
+	background-color:#524c4c;
+	font-family:Dosis;
+	font-weight:bold;
+	font-size:16px;
+	color:#FFF;
+	float:left;
+	padding:3px 10px;
+	margin:0px 3px;
+	text-decoration:none;
+	-moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+	behavior: url(border-radius.htc);
+	width:10px;
+	height:21px;
+	-moz-box-shadow:none;
+   -webkit-box-shadow:none;
+    box-shadow:none;
+	}
+
+.pageNavi a:first-child {
+	background-image:url(../images/backIcon.png);
+	background-repeat:no-repeat;
+	background-position:center 4px;
+	width:15px;
+	height:18px;
+	}
+.pageNavi a:last-child {
+	background-image:url(../images/nextIcon.png);
+	background-repeat:no-repeat;
+	background-position:center 4px;
+	width:15px;
+	height:18px;
+	}
+.pageNavi a:first-child:hover, .pageNavi a:last-child:hover {
+	background-color:transparent !important;
+	}
+
+/*****************************SINGLE**************************************/
+
+.subSingle {
+	float:left;
+	width:960px;
+	}
+	
+.subSingle h1{
+	width:100%;
+	float:left;
+	padding-bottom:20px;	
+	}
+
+.singleVsebina {
+	float:left;
+	position:relative;
+	width:265px;
+	height:360px;
+	padding:0px 0px 0px 0px;
+	}
+	
+.singleVsebina h1 {
+	padding:5px 0px;
+	font-weight:500;
+	font-size:25px;
+	color:#000;
+	}
+	
+.singleVsebina h4{
+	padding-bottom:5px;
+	}
+	
+.singleVsebina p {
+	font-size:15px;
+	color:#000;
+	}
+	
+.singleVsebina ul{
+	list-style:inside;
+	color:#757575;
+	font-size:11px;
+	padding:10px;
+	}
+	
+.singleVsebina ul li{
+	font-size:14px;
+	}
+	
+.singlePriporocamo h2{
+	float:left;
+	padding:0px 0px 15px 10px;
+	}
+
+.singleNextP {
+	display:none;
+	float:right;
+	padding:0px 25px 0px 0px;
+	}
+	
+.singleNextP a {
+	width:28px;
+	height:28px;
+	float:left;
+	background-color:#0062ae;
+	background-repeat:no-repeat;
+	background-position:center 5px;
+	margin: 0px 3px;
+	}
+	
+.singleNextP a:hover {
+	background-color:#FFF;
+	}
+
+.singleNextP .prev{
+	background-image:url(../images/backIcon2.png);	
+	
+	}
+.singleNextP .next {
+	background-image:url(../images/nextIcon2.png);
+	}
+
+.singleNextP .prev:hover{
+	background-image:url(../images/backIcon.png);	
+	
+	}
+.singleNextP .next:hover {
+	background-image:url(../images/nextIcon.png);
+	}
+
+.breadCrumpsSingle p, .breadCrumps p {
+	padding-top:5px;
+	}
+
+.singleCena {
+	float:right;
+	width:245px;
+	}
+	
+.singleCena .akcijaNo {
+	display:none;
+	}
+
+.singleCena .singlePrice{
+	float:left;
+	color:#000;
+	font-size:16px;
+	padding-top:10px;
+	}
+	
+.singleCena .singlePrice span{
+	font-family:"PT Sans";
+	color:#000;
+	font-weight:bold;
+	font-size:22px;
+	}
+
+.singleCena a{
+	}
+	
+.priceAkcijaYes{
+	display:none;
+	text-decoration:line-through;
+	}
+	
+.singleCena .akcijaYes, .singleCena .akcijaYes span {
+	color:#000;
+	}
+	
+	
+
+	
+.singlePriceSelect {
+	width:125px;
+    height:49px;
+   overflow: hidden;
+   border: 1px solid #ccc;
+   background-image:url(../images/singlePriceSelect.png);
+   background-repeat:no-repeat;
+   background-position:right;
+   background-color:#f6f6f6;
+   font-family:'PT Sans Narrow', sans-serif;
+   -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+	behavior: url(border-radius.htc);
+	float:right;
+	position:relative;
+	}
+
+.singlePriceSelect select {
+   background: transparent;
+   width:155px;
+   font-size:18px;
+   border:none;
+   outline:none;
+   border-radius: 0;
+   font-family:'PT Sans Narrow', sans-serif;
+   font-weight:bold;
+   cursor:pointer;
+   padding:10px 0px 10px 10px;
+   }
+   
+.checkTester {
+	margin-top:15px;
+	width:245px;
+	float: left;
+	}
+	
+.addToBasket {
+	border-top:1px dotted #d9d9d9;
+	padding:10px 0px 5px 0px;
+	margin-top:10px;
+	float:left;
+	}
+
+.addToBasket:hover {
+	cursor:pointer;
+	}
+
+.addToBasketDDV {
+	float:right;
+	color:#afafaf;
+	font-size:14px;
+	}
+	
+.addToBasketTester {
+	padding:10px 0px 5px 0px;
+	float:left;
+	}
+
+.addToBasketTester:hover {
+	cursor:pointer;
+	}
+p.addToBasketSpodaj {
+	color: #afafaf;
+	font-size:13px;
+	text-align:left;
+	}
+p.addToBasketSpodaj a {
+	color: #afafaf;
+	font-size:13px;
+	font-weight:bold;
+	}
+	
+
+.singleSelect {
+   width:160px;
+   height:40px;
+   overflow: hidden;
+   background-color:#534d4d;
+   border:none;
+   color:#FFF;
+   float:left;
+   margin:10px 20px 10px 0px;   
+}
+
+.singleSelectSize {
+	margin:10px 0px 10px 0px !important;
+	}
+
+.singleSelect select {
+   background-color:#534d4d;
+   width:160px;
+   height:35px;
+   font-size: 15px;
+   border:none;
+   outline:none;
+   color:#FFF;
+   padding:5px 5px 0px 5px;
+   font-family:'PT Sans', sans-serif;
+   font-weight:normal;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   background-image:url(../images/arrowDown.png);
+   background-repeat:no-repeat;
+   background-position:130px 16px;
+}
+.singleSelect select:hover { cursor:pointer;}
+
+.oneColor {
+   color:#FFF;
+   padding:8px 30px 10px 30px;
+   font-family:Dosis;
+   overflow: hidden;
+   background-color:#534d4d;
+   border:none;
+   color:#FFF;
+   float:left;
+   margin:10px 20px 10px 0px;   
+	}
+	
+.singleOpis footer {
+	background-image:url(../images/singleInfoPriprava.png);
+	background-repeat:no-repeat;
+	background-position:center 10px;
+	float:left;
+	width:100%;
+	padding:10px 0px;
+	border-top:1px dotted #d9d9d9;
+	position:relative;
+	min-height:80px;
+	}
+	
+.singleOpis footer p{
+	float:left;
+	font-size:16px;
+	padding:30px 15px 0px 30px;
+	}
+	
+.singleOpis footer p.bodytext:nth-child(1) {
+	position:absolute;
+	width:80px;
+	left:10px;
+	padding:30px 0px 0px 0px;
+	text-align:center;
+	}
+	
+.singleOpis footer p.bodytext:nth-child(2) {
+	position:absolute;
+	width:80px;
+	left:95px;
+	padding:30px 0px 0px 0px;
+	text-align:center;
+	}
+	
+.singleOpis footer p.bodytext:nth-child(3) {
+	position:absolute;
+	width:80px;
+	left:185px;
+	padding:30px 0px 0px 0px;
+	text-align:center;
+	}
+	
+	
+.singleInfoLinks {
+	border-bottom:1px dotted #d9d9d9;
+	border-top:1px dotted #d9d9d9;
+	float:left;
+	width:100%;
+	padding:10px 0px;
+	}
+	
+.singleInfoLinks a {
+	color:#149207;
+	font-family:Dosis;
+	}
+
+.singleZalogaYes {
+	float:right;
+	color:#149207;
+	background-image:url(../images/kljukicaIcon.png);
+	background-repeat:no-repeat;
+	background-position:right 2px;
+	padding:0px 25px 0px 0px;
+	font-size:14px;
+	font-family:Dosis;
+	}
+
+.singleZalogaNo {
+	float:right;
+	color:#534d4d;
+	background-image:url(../images/krizecIcon.png);
+	background-repeat:no-repeat;
+	background-position:0px 1px;
+	padding:0px 0px 0px 25px;
+	font-size:14px;
+	}
+	
+.singleDostava {
+	position:absolute;
+	bottom:110px;
+	left:8px;
+	color:#534d4d;
+	background-image:url(../images/dostavaIconSmall.png);
+	background-repeat:no-repeat;
+	background-position:0px 8px;
+	padding:10px 0px 10px 30px;
+	font-size:14px;
+	}
+
+.subSingleOpis2 {
+	width:960px;
+	float:left;
+	padding:0px 0px 20px 0px;
+	}
+
+.subSingleOpis2 h2 {
+	font-size:30px;
+	padding:10px 0px;
+	}
+
+.subSingleOpis2 .opis {
+	border:1px solid #ededed;
+	background-color:#f2f2f2;
+	width:960px;
+	padding:10px 20px 50px 20px;
+	float:left;
+	}
+	
+.subSingleOpis2 .opis table{
+	float:left;
+	}
+
+.cajMesecaSingle {
+	color:#fff;
+	font-size:15px;
+	font-weight:normal;
+	text-align:center;
+	padding:5px 0px;
+	position:absolute;
+	top:310px;
+	left:30px;
+	font-family:Dosis;
+	background-color:#149207;
+	width:300px;
+	z-index:5;
+	}
+
+.pridobiKodoSingle {
+	padding:10px 0px;
+	border-bottom: 1px dotted #D9D9D9;
+	float:left;
+	width:265px;
+	
+	}
+
+.pridobiKodoSingle a {
+	color:#F00;
+	}
+
+
+.connectedProductList {
+	width: 1000px !important;
+	float: left;
+	position: relative;
+	display: block;
+	margin: 0px 0px 0px 0px;
+	}
+
+.connectedProductList .titleBorderList {
+	margin-bottom:30px;
+	}
+
+
+
+

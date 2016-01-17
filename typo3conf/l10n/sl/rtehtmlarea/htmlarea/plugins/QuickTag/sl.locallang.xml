@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="Quick Tag Editor">Vstavi značko</label>
+      <label index="Enter the TAG you want to insert">Vnesi ZNAČKO, ki jo želite vstaviti</label>
+      <label index="You have to select some text">Izbrati morate nekaj besedila</label>
+      <label index="There are some unclosed quote">Obstajajo nezaključeni narekovaji</label>
+      <label index="This attribute already exists in the TAG">Ta označba že obstaja v tej ZNAČKI</label>
+      <label index="No CSS class avaiable">Noben CSS razred ni na voljo</label>
+      <label index="OPTIONS">MOŽNOSTI</label>
+      <label index="ATTRIBUTES">OZNAČBE</label>
+      <label index="TAGs">ZNAČKE</label>
+      <label index="Colors">Barve</label>
+      <label index="Ok">V redu</label>
+      <label index="Cancel">Prekliči</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

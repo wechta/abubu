@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:34Z" product-name="lang" target-language="sl">
+    <header/>
+    <body>
+      <trans-unit id="details" xml:space="preserve" approved="yes">
+        <source>Details</source>
+      <target state="translated">Podrobnosti</target></trans-unit>
+      <trans-unit id="syntax" xml:space="preserve" approved="yes">
+        <source>Syntax</source>
+      <target state="translated">Sintaksa</target></trans-unit>
+      <trans-unit id="seeAlso" xml:space="preserve" approved="yes">
+        <source>See also</source>
+      <target state="translated">Glej tudi</target></trans-unit>
+      <trans-unit id="goBack" xml:space="preserve" approved="yes">
+        <source>Go back</source>
+      <target state="translated">Pojdi nazaj</target></trans-unit>
+      <trans-unit id="fullDescription" xml:space="preserve" approved="yes">
+        <source>See full description of table</source>
+      <target state="translated">Poglej poln opis tabele</target></trans-unit>
+      <trans-unit id="fullDescription_module" xml:space="preserve" approved="yes">
+        <source>See full description of module</source>
+      <target state="translated">Prikaži poln opis modula</target></trans-unit>
+      <trans-unit id="goToToc" xml:space="preserve" approved="yes">
+        <source>&lt;&lt; go to Manual Index</source>
+      <target state="translated">Pojdi na kazalo</target></trans-unit>
+      <trans-unit id="to_top" xml:space="preserve" approved="yes">
+        <source>To top</source>
+      <target state="translated">Na vrh</target></trans-unit>
+      <trans-unit id="TOC" xml:space="preserve" approved="yes">
+        <source>Table Of Contents</source>
+      <target state="translated">Kazalo</target></trans-unit>
+      <trans-unit id="TOC_core" xml:space="preserve" approved="yes">
+        <source>TYPO3 Core Features</source>
+      <target state="translated">Značilnosti jedra TYPO3</target></trans-unit>
+      <trans-unit id="TOC_modules" xml:space="preserve" approved="yes">
+        <source>Backend Modules</source>
+      <target state="translated">Administrativni moduli</target></trans-unit>
+      <trans-unit id="TOC_tables" xml:space="preserve" approved="yes">
+        <source>Database Tables</source>
+      <target state="translated">Podatkovne tabele</target></trans-unit>
+      <trans-unit id="TOC_extensions" xml:space="preserve" approved="yes">
+        <source>Extensions</source>
+      <target state="translated">Razširitve</target></trans-unit>
+      <trans-unit id="TOC_glossary" xml:space="preserve" approved="yes">
+        <source>Glossary</source>
+      <target state="translated">Slovar</target></trans-unit>
+      <trans-unit id="TOC_other" xml:space="preserve" approved="yes">
+        <source>Other</source>
+      <target state="translated">Drugo</target></trans-unit>
+      <trans-unit id="close" xml:space="preserve" approved="yes">
+        <source>Close</source>
+      <target state="translated">Zapri</target></trans-unit>
+      <trans-unit id="title" xml:space="preserve" approved="yes">
+        <source>TYPO3 Inline Help</source>
+      <target state="translated">Vključen priročnik za TYPO3</target></trans-unit>
+      <trans-unit id="manual_title" xml:space="preserve" approved="yes">
+        <source>TYPO3 Inline User Manual</source>
+      <target state="translated">Vključena uporabniška navodila za TYPO3</target></trans-unit>
+      <trans-unit id="introduction" xml:space="preserve" approved="yes">
+        <source>Introduction</source>
+      <target state="translated">Uvod</target></trans-unit>
+      <trans-unit id="description" xml:space="preserve" approved="yes">
+        <source>The TYPO3 Inline User Manual is composed from the available help in this TYPO3 Installation (Context Sensitive Help). Here you will find a general description of the TYPO3 Core modules, installation specific Backend Modules and Database Tables that are available based on your login credentials.</source>
+      <target state="translated">Vključen priročnik za TYPO3 je sestavljen iz besedil za kontekstno pomoč, ki je na voljo v tej TYPO3 namestitvi. Tukaj najdete splošne opise modulov TYPO3 jedra, administracijskih modulov, ki so pomembni za namestitev in podatkovnih tabel, ki so na voljo, glede na vašo prijavo.</target></trans-unit>
+      <trans-unit id="full_manual" xml:space="preserve" approved="yes">
+        <source>Full Manual (in one page)</source>
+      <target state="translated">Celoten priročnik (ena stran)</target></trans-unit>
+      <trans-unit id="full_manual_chapters" xml:space="preserve" approved="yes">
+        <source>Manual Chapters</source>
+      <target state="translated">Poglavja priročnika</target></trans-unit>
+    </body>
+  </file>
+</xliff>

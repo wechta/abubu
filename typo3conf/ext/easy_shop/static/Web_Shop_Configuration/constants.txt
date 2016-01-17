@@ -1,0 +1,58 @@
+plugin.tx_easyshop_pi1 = USER_INT
+#plugin.tx_easyshop_pi1 = USER
+plugin.tx_easyshop_pi1 {
+    payment{
+       merchandID=
+       merchandPass=
+       merchandAction=4
+       url=
+    }
+    jQueryFrameworkFile=typo3conf/ext/easy_shop/frameworks/jQuery/jquery-1.3.2.min.js
+    jsPaginationFile=typo3conf/ext/easy_shop/js/jquery.pagination.js
+    cssPaginationFile=typo3conf/ext/easy_shop/css/pagination.css
+    includeJQueryFramework=1
+    pageTitlePrependText=Eterna&nbsp;-&nbsp;
+    pageTitleAppendText=&nbsp;|&nbsp;Eterna
+    categoryPathTrackDelimiter = ->
+    categoryPathTrackWrap = <b>|</b>
+    categoryMenuSortOrder = title
+    categoryMenuSortOrderAscDesc = ASC
+    productsDefaultSortOrder = sorting
+    productsDefaultSortOrderAscDesc = ASC
+    discountWrap=| %
+    ajax {
+		typeNum = 112
+		languageParameter = L
+		templateFile = typo3conf/ext/easy_shop/templates/shop.html
+    }
+    pageBrowser {
+	    maxPages = 10
+	    resultsAtATime = 6
+	    showResultCount = 1
+	    showPBrowserText = 0
+	    dontLinkActivePage = 1
+	    showFirstLast = 0
+	    pagefloat = center
+	    showRange = 0
+	    disabledLinkWrap = 
+	    inactiveLinkWrap = <li class="number">|</li>
+	    activeLinkWrap =<li class="activenumber">|</li>
+	    showResultsWrap = |<br />
+	    browseBoxWrap = <div class="top">|</div>
+	    browseLinksWrap = <ul class="moreIcons">|</ul>
+    }
+    image{
+       maxW=200
+       maxH=300
+       class=imgList
+    }
+    thumbnail{
+       maxW=50
+       maxH=70
+       class=imgList
+    }
+    file{
+       icon.show=1
+       stdWrap.wrap=<dd>|</dd>
+    }
+}

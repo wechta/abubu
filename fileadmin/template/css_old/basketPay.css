@@ -1,0 +1,604 @@
+
+.basketIzdelki {
+	float:left;
+	width:960px;
+	margin-bottom:30px;
+	}
+
+.basketPay {
+	}
+	
+.basketLineTop {
+	float:left;
+	width:100%;
+	margin:0px 0px;
+	padding:5px 10px;
+	}
+	
+.basketLineTop p {
+	color:#636363;
+	font-family:Dosis;
+	font-size:16px;
+	font-weight:bold;
+	}
+	
+.basketLineTop {
+	}
+
+.basketIzdelek {
+	float:left;
+	width:440px;
+	padding:0px 100px 0px 0px;
+	}
+	
+.basketKolicina{
+	float:left;
+	width:120px;
+	}
+	
+.basketCena{
+	float:left;
+	width:120px;
+	}
+	
+.basketPopust{
+	float:left;
+	width:120px;
+	}
+	
+.basketSkupaj{
+	float:left;
+	width:120px;
+	}
+
+.basketLine {
+	float:left;
+	border-top:1px solid #ecebeb;
+	width:100%;
+	margin:0px 0px;
+	padding:20px 10px;
+	position:relative;
+	}
+
+.basketIzdelek a div{
+	width:125px;
+	height:105px;
+	display: table-cell;
+    text-align: center;
+	float:left;
+	border:1px solid #ecebeb;
+	margin:0px 15px 0px 0px;
+	}
+	
+.basketIzdelek a div span{
+	width:125px;
+	height:105px;
+	display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+	}
+
+.basketIzdelek a  div span img{
+	max-width:120px !important;
+	max-height:90px !important;
+	}
+
+.basketIzdelek a {
+	text-decoration:none;
+	}
+
+.basketIzdelek h1{
+	color:#373737;
+	font-size:18px;
+	font-family: 'Life Savers', cursive;
+	font-weight:normal;
+	}
+	
+.basketIzdelek h2{
+	color:#7d7d7d;
+	font-size:14px;
+	font-family:PT Sans Narrow;
+	font-weight:normal;
+	}
+
+
+.basketKolicina input {
+	-moz-box-shadow:    inset 0 0 30px 5px #d2d0d0;
+    -webkit-box-shadow: inset 0 0 30px 5px #d2d0d0;
+    box-shadow:         inset 0 0 30px 5px #d2d0d0;
+	border:none;
+	outline:none;
+	float:left;
+	width:50px;
+	text-align:center;
+	padding:10px;
+	color:#514b4b;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Dosis;
+	}
+	
+.basketKolicina input:hover {
+	cursor:pointer;
+	}
+
+.basketLine p {
+	color:#757575;
+	font-family:Dosis;
+	font-size:18px;
+	}
+
+.basketLine .basketSkupaj p {
+	font-weight:bold;
+	}
+
+.basketRemove {
+	position:absolute;
+	right:20px;
+	bottom:10px;
+	color:#494949;
+	background-image:url(../images/krizecIconSmall.png);
+	background-repeat:no-repeat;
+	background-position:0px 4px;
+	padding:0px 0px 0px 15px;
+	font-size:14px;
+	}
+
+.basketRemove:hover{
+	text-decoration:underline;
+	cursor:pointer;
+	}
+	
+.basketProperty {
+	position:absolute;
+	right:150px;
+	bottom:10px;
+	}
+	
+.basketProperty p{
+	float:left;
+	font-size:14px;
+	color:#494949;
+	padding:0px 0px 0px 20px;
+	}
+
+.basketZaloga {
+	display:none;
+	position:absolute;
+	right:150px;
+	bottom:10px;
+	}
+
+.basketZaloga .ZalogaNo {
+	color:#494949;
+	background-image:url(../images/krizecIconSmall.png);
+	background-repeat:no-repeat;
+	background-position:7px 4px;
+	padding:0px 0px 0px 25px;
+	font-size:14px;
+	}
+
+.basketZaloga .ZalogaYes {
+	color:#494949;
+	background-image:url(../images/kljukicaIconSiva.png);
+	background-repeat:no-repeat;
+	background-position:0px 1px;
+	padding:0px 0px 0px 25px;
+	font-size:14px;
+	}
+	
+.basketBarva {
+	position:absolute;
+	right:280px;
+	bottom:10px;
+	}
+.basketBarva p{
+	color:#494949;
+	padding:0px 0px 0px 0px;
+	font-size:14px;
+	}
+
+.basketOptions {
+	background-color:#ecebeb;
+	float:left;
+	width:100%;
+	margin:0px 0px 10px 0px;
+	padding:7px 10px;
+	}
+.basketOptions a:hover {
+	text-decoration:underline;
+	}
+.toIndex, .basketKoda a {
+	background-color:#534d4d;
+	float:left;
+	padding:5px 15px;
+	color:#fff;
+	text-decoration:none;
+	font-family:Dosis;
+	font-size:16px;
+	font-weight:600;
+	}
+	
+.refreshBasket {
+	float:right;
+	padding:5px 15px;
+	color:#fff;
+	text-decoration:none;
+	font-size:14px;
+	}
+
+.basketInfoPush{
+	float:left;
+	width:312px;
+	margin:0px 10px 0px 0px;
+	}
+
+.basketKoda{
+	width:275px;
+	text-decoration:none;
+	background-color:#ecebeb;
+	border:1px solid #e4e4e4;
+	background-repeat:no-repeat;
+	float:left;
+	display:block;
+	margin-bottom:5px;
+	margin-right:8px;
+	padding:15px 20px 15px 20px;
+	}
+
+.basketKoda h1 {
+	color:#514b4b;
+	font-size:17px;
+	}
+
+.basketKoda p{
+	color:#717070;
+	font-size:15px;
+	padding:5px 0px 10px 0px;
+	}
+
+.basketKoda .inputKoda{
+	border:1px solid #d4d4d4;
+	outline:none;
+	float:left;
+	width:100px;
+	height:35px;
+	padding:4px 10px 5px 10px;
+	color:#514b4b;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Dosis;
+	margin:0px 5px 0px 0px;
+	}
+	
+	
+.basketBlagajnaBox {
+	width:312px;
+	background-color:#85C531;
+	float:left;
+	padding:10px 10px 10px 10px;
+	}
+
+.basketBlagajnaBox ul {
+	float:left;
+	list-style:none;
+	width:146px;
+	padding:0px !important;
+	margin:0px 0px 0px 0px !important;
+	}
+	
+.basketBlagajnaBox ul li {
+	color:#FFF;
+	border-bottom:1px solid #fff;
+	float:left;
+	text-align:right;
+	width:146px;
+	font-family:PT Sans;
+	font-size:15px;
+	padding:5px 10px;
+	}
+	
+.basketBlagajnaBox ul li.bold{
+	font-weight:bold;
+	font-size:20px;
+	}
+	
+.basketBlagajnaBox .flehaPink{
+	float:right;
+	margin-top:10px;
+	}
+
+
+.basketBlagajna {
+	width:355px;
+	background-color:#85C531;
+	float:left;
+	padding:10px 10px 10px 10px;
+	}
+
+.basketBlagajna ul {
+	float:left;
+	list-style:none;
+	width:155px;
+	padding:0px !important;
+	margin:0px 0px 0px 12px !important;
+	}
+	
+.basketBlagajna ul li {
+	color:#FFF;
+	border-bottom:1px solid #fff;
+	float:left;
+	text-align:right;
+	width:155px;
+	font-family:PT Sans;
+	font-size:16px;
+	padding:5px 10px;
+	}
+	
+.basketBlagajna ul li:last-child {
+	font-weight:bold;
+	font-size:20px;
+	}
+
+.basketBlagajna p {
+	width:320px;
+	float:left;
+	color:#fff;
+	background-image:url(../images/zvezdicaBigIconWhite.png);
+	background-repeat:no-repeat;
+	background-position:10px 9px;
+	padding:10px 0px 10px 40px;
+	font-size:14px;
+	font-family:'PT Sans Narrow', sans-serif;
+	}
+
+.basketBlagajna p a{
+	color:#fff;
+	font-size:14px;
+	}
+
+.basketBlagajna  .flehaPink {
+	font-size: 18px;
+	float:right;
+	margin:15px 0 0 0;
+	}
+
+/*BLAGAJNA*************************************************************************************************************************************/
+.blagajna{
+	float:left;
+	width:960px;
+	padding:5px 0px 30px 0px;
+	margin-top:15px;
+	}
+	
+.blagajna h2 {
+	color:#85C531;
+	}
+	
+.blagajnaCifre {
+	float:left;
+	width:960px;
+	padding-bottom:20px;
+	}
+	
+.blagajnaCifre p{
+	float:left;
+	width:41px;
+	height:41px;
+	border:3px solid #dfdfdf;
+	background-color:#85C531;
+	color:#fff;
+	text-align:center;
+	-moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+	behavior: url(border-radius.htc);
+	font-family:Dosis;
+	font-weight:bold;
+	font-size:20px;
+	padding:4px 0px 0px 0px;
+	}
+	
+.blagajnaCifre span{
+	float:left;
+	width:272px;
+	border-bottom:0px solid #dfdfdf;
+	background-image:url(../images/dottedLine.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+	margin-right:10px;
+	padding-top:20px;
+	}
+
+.blagajnaStolp {
+	float:left;
+	width:314px;
+	}
+	
+.blagajnaBox {
+	border:1px solid #eaeaea;
+	background-color:#f4f4f4;
+	width:312px;
+	padding:10px 12px 20px 12px;
+	margin-bottom:10px;
+	float:left;
+	}
+	
+.blagajnaBox p {
+	color:#8c8686;
+	font-size:15px;
+	padding-bottom:10px;
+	}
+	
+.blagajnaBox p a{
+	color:#8c8686;
+	font-size:15px;
+	}
+
+.has-js label.c_on, .has-js label.r_on { background-image:url(../images/krogIconActive.png);background-repeat:no-repeat; }
+.has-js .label_check input, .has-js .label_radio input  { margin-left:130px; position:relative; z-index:-1; height:1px !important; top:-20px;}
+
+.pravnachecked {
+	display:block;
+	}
+
+.pravnanocheck {
+	display:none;
+	}	
+
+.label_check, .label_radio {
+	background-image:url(../images/krogIcon.png);
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+	float:left;
+	padding:1px 0px 0px 25px;
+	margin:5px 0px;
+	width:260px;
+	}
+
+.label_check:hover, .label_radio:hover {
+	cursor:pointer;
+	text-decoration:underline;
+	}
+
+.blagajnaBox .label_check p, .blagajnaBox .label_radio p {
+	font-family:PT Sans;
+	font-size:13px;
+	color:#000000;
+	padding:0px;
+	}
+	
+.blagajnaInputS {
+	float:left;
+	width:143px;
+	padding:10px 5px 0px 5px;
+	}
+	
+.blagajnaInputS label {
+	width:122px;
+	float:left;
+	padding:0px 0px 0px 4px;
+	}
+	
+.blagajnaInputS input{
+	width:132px;
+	margin:0px;
+	border:1px solid #d4d4d4;
+	outline:none;
+	float:left;
+	padding:4px 5px 5px 5px;
+	color:#514b4b;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Dosis;
+	}
+
+.blagajnaBox input:focus
+{ 
+color:#544F4F;
+}	
+
+.blagajnaInputL {
+	float:left;
+	width:268px;
+	padding:10px 5px 0px 5px;
+	}
+	
+.blagajnaInputL label {
+	width:266px;
+	float:left;
+	padding:0px 0px 0px 4px;
+	}
+	
+.blagajnaInputL input{
+	width:275px;
+	margin:0px;
+	border:1px solid #d4d4d4;
+	outline:none;
+	float:left;
+	padding:4px 5px 5px 5px;
+	color:#514b4b;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Dosis;
+	}
+	
+.blagajnaInputL textarea {
+	width:275px;
+	height:100px;
+	margin:0px;
+	border:1px solid #d4d4d4;
+	outline:none;
+	float:left;
+	padding:4px 5px 5px 5px;
+	color:#514b4b;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Dosis;
+	}
+
+.blagajnaStolp .flehaSiva {
+	width:252px;
+	margin-top:10px;
+	}
+
+.blagajnaBox ul {
+	list-style:none;
+	float:left;
+	padding:6px 0px 8px 0px;
+	margin:0px;
+	width:288px;
+	border-bottom:1px solid #d4d4d4;
+	}
+	
+.blagajnaBox .first {
+	padding:10px 0px 2px 0px;
+	}
+	
+.blagajnaBox .first li {
+	color:#606060;
+	font-weight:bold;
+	}
+
+.blagajnaBox ul li {
+	float:left;
+	width:80px;
+	text-align:right;
+	color:#737373;
+	font-size:15px;
+	padding:0px 2px 0px 2px;
+	}
+
+.blagajnaBox ul li:first-child {
+	width:110px;
+	text-align:left;
+	}
+
+.blagajnaBox ul li a {
+	text-decoration:none;
+	color:#737373;
+	font-size:15px;
+	}
+
+.blagajnaBox ul li p{
+	margin:0px;
+	padding:2px 0px;
+	font-size:13px;
+	}
+	/*
+
+.povzetjuformError {
+	margin:0 auto !important;
+	margin-top:500px !important;
+	position:static !important;
+	width:174px;
+	height:38px !important;
+	top:500px !important;
+	}
+
+.povzetjuformError .formErrorContent{
+	height:25px !important;
+	}
+*/
+
+

@@ -1,0 +1,86 @@
+
+
+.povprasevanjeGlavni {
+	float:left;
+	padding:20px 0px;
+	}
+
+.povprasevanjeInputBox {
+	float:left;
+	width:630px;
+	padding:2px 0px;
+	}
+
+.povprasevanjeInputBox label {
+	color:#222222;
+	font-size:13px;
+	float:left;
+	width:130px;
+	text-align:right;
+	padding:12px 10px 0px 0px;
+	}
+
+.povprasevanjeInputBox .povprasevanjeInput {
+	width:353px;
+	height:43px;
+	float:left;
+	border:1px solid #d4d4d4;
+	outline:none;
+	padding:4px 5px 5px 15px;
+	color:#514b4b;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Dosis;
+	}
+	
+
+.povprasevanjeInputBox .povprasevanjeTextArea {
+	width:353px;
+	height:160px;
+	display:block;
+	background:transparent;
+	color:#222222;
+	font-size:13px;
+	line-height:16px;
+	border:1px solid #d4d4d4;
+	outline:none;
+	padding:10px 5px 5px 15px;
+	color:#514b4b;
+	font-size:16px;
+	font-weight:bold;
+	font-family:Dosis;
+	}
+
+.povprasevanjeGlavni .inputFlehaCrna  {
+	display:block;
+	float:left;
+	margin:5px 0px 0px 0px;
+	padding:10px 30px !important;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

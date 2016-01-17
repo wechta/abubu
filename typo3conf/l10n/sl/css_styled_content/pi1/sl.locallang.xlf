@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" target-language="si" datatype="plaintext" original="messages" date="Tue Jul 12 18:34:16 UTC 2011" product-name="css_styled_content">
+    <header/>
+    <body>
+      <trans-unit id="label.toTop" approved="yes">
+        <source>To top</source>
+        <target state="translated">Na vrh</target>
+      </trans-unit>
+      <trans-unit id="login.username" approved="yes">
+        <source>Username:</source>
+        <target state="translated">Uporabniško ime:</target>
+      </trans-unit>
+      <trans-unit id="login.password" approved="yes">
+        <source>Password:</source>
+        <target state="translated">Geslo:</target>
+      </trans-unit>
+      <trans-unit id="login.login" approved="yes">
+        <source>Login</source>
+        <target state="translated">Prijava</target>
+      </trans-unit>
+      <trans-unit id="login.logout" approved="yes">
+        <source>Logout</source>
+        <target state="translated">Odjava</target>
+      </trans-unit>
+      <trans-unit id="search.emptySearch" approved="yes">
+        <source>Sorry, your search was empty!</source>
+        <target state="translated">Oprostite, iskanje ni vrnilo rezultatov!</target>
+      </trans-unit>
+      <trans-unit id="search.resultRange" approved="yes">
+        <source>Searchresult: ###RANGELOW###-###RANGEHIGH### of ###TOTAL###</source>
+        <target state="translated">Rezultati iskanja: ###RANGELOW###-###RANGEHIGH### od ###TOTAL###</target>
+      </trans-unit>
+      <trans-unit id="search.searchResultNext" approved="yes">
+        <source>Next</source>
+        <target state="translated">Naslednji</target>
+      </trans-unit>
+      <trans-unit id="search.searchResultPrev" approved="yes">
+        <source>Prev</source>
+        <target state="translated">Prejšnji</target>
+      </trans-unit>
+      <trans-unit id="search.searchWord" approved="yes">
+        <source>Searchword:</source>
+        <target state="translated">Iskana beseda:</target>
+      </trans-unit>
+      <trans-unit id="search.searchIn" approved="yes">
+        <source>Search in:</source>
+        <target state="translated">Išči v:</target>
+      </trans-unit>
+      <trans-unit id="search.headersKeywords" approved="yes">
+        <source>Headers and keywords</source>
+        <target state="translated">Naslovih in ključnih besedah</target>
+      </trans-unit>
+      <trans-unit id="search.pageContent" approved="yes">
+        <source>Page content</source>
+        <target state="translated">Vsebini strani</target>
+      </trans-unit>
+      <trans-unit id="search.searchButton" approved="yes">
+        <source>Search now!</source>
+        <target state="translated">Poišči!</target>
+      </trans-unit>
+      <trans-unit id="eIcon.html" approved="yes">
+        <source>Edit pure HTML content</source>
+        <target state="translated">Uredi HTML vsebino</target>
+      </trans-unit>
+      <trans-unit id="eIcon.header" approved="yes">
+        <source>Edit header</source>
+        <target state="translated">Uredi naslov</target>
+      </trans-unit>
+      <trans-unit id="eIcon.subheader" approved="yes">
+        <source>Edit subheader</source>
+        <target state="translated">Uredi podnaslov</target>
+      </trans-unit>
+      <trans-unit id="eIcon.bodytext" approved="yes">
+        <source>Edit bodytext</source>
+        <target state="translated">Uredi telo besedila</target>
+      </trans-unit>
+      <trans-unit id="eIcon.images" approved="yes">
+        <source>Edit images</source>
+        <target state="translated">Uredi slike</target>
+      </trans-unit>
+      <trans-unit id="eIcon.caption" approved="yes">
+        <source>Edit image caption</source>
+        <target state="translated">Uredi podnapis slike</target>
+      </trans-unit>
+      <trans-unit id="eIcon.bullets" approved="yes">
+        <source>Edit bullet list</source>
+        <target state="translated">Uredi neoštevilčen seznam</target>
+      </trans-unit>
+      <trans-unit id="eIcon.table" approved="yes">
+        <source>Edit table</source>
+        <target state="translated">Uredi tabelo</target>
+      </trans-unit>
+      <trans-unit id="eIcon.filelist" approved="yes">
+        <source>Edit file list</source>
+        <target state="translated">Uredi seznam datotek</target>
+      </trans-unit>
+      <trans-unit id="eIcon.menuSitemap" approved="yes">
+        <source>Edit menu / sitemap</source>
+        <target state="translated">Uredi meni / kazalo strani</target>
+      </trans-unit>
+      <trans-unit id="eIcon.recordList" approved="yes">
+        <source>Edit recordlist</source>
+        <target state="translated">Uredi seznam zapisov</target>
+      </trans-unit>
+      <trans-unit id="eIcon.plugin" approved="yes">
+        <source>Change/configure plugin</source>
+        <target state="translated">Spremeni/konfiguriraj vtičnik</target>
+      </trans-unit>
+      <trans-unit id="eIcon.multimedia" approved="yes">
+        <source>Edit multimedia element</source>
+        <target state="translated">Uredi multimedijsko vsebino</target>
+      </trans-unit>
+      <trans-unit id="eIcon.form" approved="yes">
+        <source>Edit email form</source>
+        <target state="translated">Uredi e-poštni obrazec</target>
+      </trans-unit>
+      <trans-unit id="eIcon.search" approved="yes">
+        <source>Edit search element</source>
+        <target state="translated">Uredi iskanje</target>
+      </trans-unit>
+      <trans-unit id="eIcon.login" approved="yes">
+        <source>Edit login element</source>
+        <target state="translated">Uredi prijavo</target>
+      </trans-unit>
+      <trans-unit id="eIcon.page" approved="yes">
+        <source>Page:</source>
+        <target state="translated">Stran:</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

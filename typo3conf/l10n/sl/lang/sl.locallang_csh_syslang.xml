@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="title.description">Vnesite ime dodatnega sistemskega jezika.</label>
+      <label index="hidden.description">Ta možnost skrije sistemski jezik tako, da ni na voljo v administracijskem vmesniku.</label>
+      <label index=".description">Določa kateri jeziki so na voljo na posamezni spletni strani.</label>
+      <label index=".details">Modul Web&gt;Stran omogoča uporabnikom, da lahko urejajo vsebino razdeljeno ne samo na stolpce, ampak tudi na jezike. Število jezikov, v katere lahko prevedemo stran, je določeno s številom zapisov "Jezik spletne strani". Če želite, da je stran na voljo v drugem jeziku, morate na njej ustvariti zapis "Alternativni jezik strani".</label>
+      <label index="_.seeAlso"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

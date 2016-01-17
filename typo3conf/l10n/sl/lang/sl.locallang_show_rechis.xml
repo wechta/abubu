@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="title">Pokaži zgodovino zapisov</label>
+      <label index="time">Čas</label>
+      <label index="age">Starost</label>
+      <label index="user">Uporabnik</label>
+      <label index="tableUid">Tabela/Uid</label>
+      <label index="differences">Razlike</label>
+      <label index="changes">Dnevnik sprememb</label>
+      <label index="return">Nazaj</label>
+      <label index="returnLink">Tukaj kliknite za nazaj</label>
+      <label index="revertAll">Razveljavi vse prikazane spremembe</label>
+      <label index="revertRecord">Razveljavi spremembo zapisa</label>
+      <label index="revertField">Razveljavi spremembo polja</label>
+      <label index="externalChange">Vmes je prišlo do zunanje spremembe!</label>
+      <label index="sumUpChanges">Razveljavi spremembe (predogled)</label>
+      <label index="markState">označi to spremembo</label>
+      <label index="unmarkState">odznači to spremembo</label>
+      <label index="elementHistory">Trenutno vidite zgodovino za element.</label>
+      <label index="elementHistory_link">Prikaži popolno zgodovino strani!</label>
+      <label index="linkRecordHistory">Omeji zgodovino na ta zapis</label>
+      <label index="differenceMsg">V stolpcu razlik lahko vidite razlike ob vsaki spremembi zapisov. &lt;span class="diff-g"&gt;Nove spremembe&lt;/span&gt; so obarvane zeleno, &lt;span class="diff-r"&gt;stare vrednosti&lt;/span&gt;, ki so odstranjenem, pa so rdeče.</label>
+      <label index="fullView">Vrni se na polni pogled</label>
+      <label index="insert">vstavi</label>
+      <label index="delete">izbriši</label>
+      <label index="mergedDifferences">Predogled za razveljavitev sprememb</label>
+      <label index="settings">Nastavitve</label>
+      <label index="maxSteps">Prikaži vnose:</label>
+      <label index="maxSteps_all">VSE</label>
+      <label index="maxSteps_marked">označene</label>
+      <label index="showDiff">Prikaži razlike:</label>
+      <label index="showDiff_no">Ne</label>
+      <label index="showDiff_inline">Vključeno</label>
+      <label index="showSubElements">Prikaži podelemente:</label>
+      <label index="no">Ne</label>
+      <label index="yes">Da</label>
+      <label index="showInsertDelete">Prikaži vstavitve/brisanja zapisov:</label>
+      <label index="consistenceWarning">Od tega trenutka dalje ni garancija, da bo razveljavitev sprememb razveljavila vse spremembe, saj spremembe pred tem sporočilom navadno niso ohranjene.</label>
+      <label index="noDifferences">Ni razlik za trenutno stran!</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

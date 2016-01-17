@@ -1,0 +1,35 @@
+2.8.3
+bugfix: wrong renaming
+
+2.8.2.
+cosmetic bugfix, missed a fallback to TS
+
+2.8.1.
+Bugfix to check for empty $config param before doing an implode, thx to Edward Lenssen
+Bugfix add the missing stop button, thx to Sergej Lenenko
+
+....
+
+2.4.1. 
+Bugfix with tt_news & Mootools, 1pxixelout mp3 player, manual
+Some cleanup
+2.4.0.
+Add the 1pixelout-mp3-player
+Code /manual cleanup
+Create a nice API to use the extension everywhere else
+2.3.0.
+New translation “French”, thanks Jean-François de Locht!
+Added a hook to manipulate the shown video/media/whatsoever
+Update manual
+2.2.0.
+Reorganize the code
+Include video support for clipfish & sevenload
+Include tt_news support
+Update manual
+2.1.0. 
+Check for Mootools on the page to prevent IE from crashing
+Include video support for MyVideo
+DAM support
+Manual update
+1.0.0. Initial release
+2.0.0. Major updates: Videos from video hosters, wmv & mov files

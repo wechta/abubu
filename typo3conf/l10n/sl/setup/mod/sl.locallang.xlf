@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:37Z" product-name="setup" target-language="sl">
+    <header/>
+    <body>
+      <trans-unit id="UserSettings" xml:space="preserve" approved="yes">
+        <source>User Settings</source>
+      <target state="translated">Uporabniške nastavitve</target></trans-unit>
+      <trans-unit id="language" xml:space="preserve" approved="yes">
+        <source>Language</source>
+      <target state="translated">Jezik</target></trans-unit>
+      <trans-unit id="lang_default" xml:space="preserve" approved="yes">
+        <source>English</source>
+      <target state="translated">Angleško</target></trans-unit>
+      <trans-unit id="lang_ar" xml:space="preserve" approved="yes">
+        <source>Arabic</source>
+      <target state="translated">Arabsko</target></trans-unit>
+      <trans-unit id="lang_ba" xml:space="preserve" approved="yes">
+        <source>Bosnian</source>
+      <target state="translated">Bosansko</target></trans-unit>
+      <trans-unit id="lang_bs" xml:space="preserve" approved="yes">
+        <source>Bosnian</source>
+      <target state="translated">Bosansko</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_bg" xml:space="preserve" approved="yes">
+        <source>Bulgarian</source>
+      <target state="translated">Bolgarsko</target></trans-unit>
+      <trans-unit id="lang_ca" xml:space="preserve" approved="yes">
+        <source>Catalan</source>
+      <target state="translated">Katalonsko</target></trans-unit>
+      <trans-unit id="lang_ch" xml:space="preserve" approved="yes">
+        <source>Chinese (Simpl)</source>
+      <target state="translated">Kitajsko</target></trans-unit>
+      <trans-unit id="lang_cs" xml:space="preserve" approved="yes">
+        <source>Czech</source>
+      <target state="translated">Češko</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_cz" xml:space="preserve" approved="yes">
+        <source>Czech</source>
+      <target state="translated">Češko</target></trans-unit>
+      <trans-unit id="lang_da" xml:space="preserve" approved="yes">
+        <source>Danish</source>
+      <target state="translated">Dansko</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_dk" xml:space="preserve" approved="yes">
+        <source>Danish</source>
+      <target state="translated">Dansko</target></trans-unit>
+      <trans-unit id="lang_de" xml:space="preserve" approved="yes">
+        <source>German</source>
+      <target state="translated">Nemško</target></trans-unit>
+      <trans-unit id="lang_el" xml:space="preserve" approved="yes">
+        <source>Greek</source>
+      <target state="translated">Grško</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_gr" xml:space="preserve" approved="yes">
+        <source>Greek</source>
+      <target state="translated">Grško</target></trans-unit>
+      <trans-unit id="lang_eo" xml:space="preserve" approved="yes">
+        <source>Esperanto</source>
+      <target state="translated">Esperanto</target></trans-unit>
+      <trans-unit id="lang_es" xml:space="preserve" approved="yes">
+        <source>Spanish</source>
+      <target state="translated">Špansko</target></trans-unit>
+      <trans-unit id="lang_et" xml:space="preserve" approved="yes">
+        <source>Estonian</source>
+      <target state="translated">Estonsko</target></trans-unit>
+      <trans-unit id="lang_eu" xml:space="preserve" approved="yes">
+        <source>Basque</source>
+      <target state="translated">Baskovsko</target></trans-unit>
+      <trans-unit id="lang_fa" xml:space="preserve" approved="yes">
+        <source>Persian</source>
+      <target state="translated">Perzijsko</target></trans-unit>
+      <trans-unit id="lang_fi" xml:space="preserve" approved="yes">
+        <source>Finnish</source>
+      <target state="translated">Finsko</target></trans-unit>
+      <trans-unit id="lang_fo" xml:space="preserve" approved="yes">
+        <source>Faroese</source>
+      <target state="translated">Fersko</target></trans-unit>
+      <trans-unit id="lang_fr" xml:space="preserve" approved="yes">
+        <source>French</source>
+      <target state="translated">Francosko</target></trans-unit>
+      <trans-unit id="lang_fr_CA" xml:space="preserve">
+        <source>French (Canada)</source>
+      </trans-unit>
+      <trans-unit id="lang_qc" xml:space="preserve">
+        <source>French (Canada)</source>
+      </trans-unit>
+      <trans-unit id="lang_ga" xml:space="preserve" approved="yes">
+        <source>Galician</source>
+      <target state="translated">Galsko</target></trans-unit>
+      <trans-unit id="lang_gl" xml:space="preserve" approved="yes">
+        <source>Galician</source>
+      <target state="translated">Grenlandsko</target></trans-unit>
+      <trans-unit id="lang_he" xml:space="preserve" approved="yes">
+        <source>Hebrew</source>
+      <target state="translated">Hebrejsko</target></trans-unit>
+      <trans-unit id="lang_hi" xml:space="preserve" approved="yes">
+        <source>Hindi</source>
+      <target state="translated">Hindujsko</target></trans-unit>
+      <trans-unit id="lang_hr" xml:space="preserve" approved="yes">
+        <source>Croatian</source>
+      <target state="translated">Hrvaško</target></trans-unit>
+      <trans-unit id="lang_hu" xml:space="preserve" approved="yes">
+        <source>Hungarian</source>
+      <target state="translated">Madžarsko</target></trans-unit>
+      <trans-unit id="lang_is" xml:space="preserve" approved="yes">
+        <source>Icelandic</source>
+      <target state="translated">Islandsko</target></trans-unit>
+      <trans-unit id="lang_it" xml:space="preserve" approved="yes">
+        <source>Italian</source>
+      <target state="translated">Italijansko</target></trans-unit>
+      <trans-unit id="lang_ja" xml:space="preserve" approved="yes">
+        <source>Japanese</source>
+      <target state="translated">Japonsko</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_jp" xml:space="preserve" approved="yes">
+        <source>Japanese</source>
+      <target state="translated">Japonsko</target></trans-unit>
+      <trans-unit id="lang_ge" xml:space="preserve" approved="yes">
+        <source>Georgian</source>
+      <target state="translated">Gruzijsko</target></trans-unit>
+      <trans-unit id="lang_ka" xml:space="preserve" approved="yes">
+        <source>Georgian</source>
+      <target state="translated">Gruzijsko</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_kl" xml:space="preserve" approved="yes">
+        <source>Greenlandic</source>
+      <target state="translated">Grenlandsko</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_km" xml:space="preserve">
+        <source>Khmer</source>
+      </trans-unit>
+      <trans-unit id="lang_ko" xml:space="preserve" approved="yes">
+        <source>Korean</source>
+      <target state="translated">Korejsko</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_kr" xml:space="preserve" approved="yes">
+        <source>Korean</source>
+      <target state="translated">Korejsko</target></trans-unit>
+      <trans-unit id="lang_lt" xml:space="preserve" approved="yes">
+        <source>Lithuanian</source>
+      <target state="translated">Litovsko</target></trans-unit>
+      <trans-unit id="lang_lv" xml:space="preserve" approved="yes">
+        <source>Latvian</source>
+      <target state="translated">Latvijsko</target></trans-unit>
+      <trans-unit id="lang_ms" xml:space="preserve" approved="yes">
+        <source>Bahasa Malaysia</source>
+      <target state="translated">Malesijsko</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_my" xml:space="preserve" approved="yes">
+        <source>Bahasa Malaysia</source>
+      <target state="translated">Malesijsko</target></trans-unit>
+      <trans-unit id="lang_nl" xml:space="preserve" approved="yes">
+        <source>Dutch</source>
+      <target state="translated">Nizozemsko</target></trans-unit>
+      <trans-unit id="lang_no" xml:space="preserve" approved="yes">
+        <source>Norwegian</source>
+      <target state="translated">Norveško</target></trans-unit>
+      <trans-unit id="lang_pl" xml:space="preserve" approved="yes">
+        <source>Polish</source>
+      <target state="translated">Poljsko</target></trans-unit>
+      <trans-unit id="lang_pt" xml:space="preserve" approved="yes">
+        <source>Portuguese</source>
+      <target state="translated">Portugalsko</target></trans-unit>
+      <trans-unit id="lang_br" xml:space="preserve" approved="yes">
+        <source>Brazilian Portuguese</source>
+      <target state="translated">Brazilsko Portugalsko</target></trans-unit>
+      <trans-unit id="lang_pt_BR" xml:space="preserve" approved="yes">
+        <source>Brazilian Portuguese</source>
+      <target state="translated">Brazilsko Portugalsko</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_ro" xml:space="preserve" approved="yes">
+        <source>Romanian</source>
+      <target state="translated">Romunsko</target></trans-unit>
+      <trans-unit id="lang_ru" xml:space="preserve" approved="yes">
+        <source>Russian</source>
+      <target state="translated">Rusko</target></trans-unit>
+      <trans-unit id="lang_sk" xml:space="preserve" approved="yes">
+        <source>Slovak</source>
+      <target state="translated">Slovaško</target></trans-unit>
+      <trans-unit id="lang_si" xml:space="preserve" approved="yes">
+        <source>Slovenian</source>
+      <target state="translated">Slovensko</target></trans-unit>
+      <trans-unit id="lang_sl" xml:space="preserve" approved="yes">
+        <source>Slovenian</source>
+      <target state="translated">Slovensko</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_sq" xml:space="preserve" approved="yes">
+        <source>Albanian</source>
+      <target state="translated">Albansko</target></trans-unit>
+      <trans-unit id="lang_sr" xml:space="preserve" approved="yes">
+        <source>Serbian</source>
+      <target state="translated">Srbsko</target></trans-unit>
+      <trans-unit id="lang_se" xml:space="preserve" approved="yes">
+        <source>Swedish</source>
+      <target state="translated">Švedsko</target></trans-unit>
+      <trans-unit id="lang_sv" xml:space="preserve" approved="yes">
+        <source>Swedish</source>
+      <target state="translated">Švedsko</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_th" xml:space="preserve" approved="yes">
+        <source>Thai</source>
+      <target state="translated">Tajsko</target></trans-unit>
+      <trans-unit id="lang_tr" xml:space="preserve" approved="yes">
+        <source>Turkish</source>
+      <target state="translated">Turško</target></trans-unit>
+      <trans-unit id="lang_ua" xml:space="preserve" approved="yes">
+        <source>Ukrainian</source>
+      <target state="translated">Ukrajinsko</target></trans-unit>
+      <trans-unit id="lang_uk" xml:space="preserve" approved="yes">
+        <source>Ukrainian</source>
+      <target state="translated">Ukrajinsko</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_vi" xml:space="preserve" approved="yes">
+        <source>Vietnamese</source>
+      <target state="translated">Vietnamsko</target><note>100%</note></trans-unit>
+      <trans-unit id="lang_vn" xml:space="preserve" approved="yes">
+        <source>Vietnamese</source>
+      <target state="translated">Vietnamsko</target></trans-unit>
+      <trans-unit id="lang_hk" xml:space="preserve" approved="yes">
+        <source>Chinese (Trad)</source>
+      <target state="translated">Kitajsko (trad.)</target></trans-unit>
+      <trans-unit id="lang_zh" xml:space="preserve" approved="yes">
+        <source>Chinese (Trad)</source>
+      <target state="translated">Kitajsko (trad.)</target><note>100%</note></trans-unit>
+      <trans-unit id="default" xml:space="preserve" approved="yes">
+        <source>Default</source>
+      <target state="translated">Privzeto</target></trans-unit>
+      <trans-unit id="simulate" xml:space="preserve" approved="yes">
+        <source>Simulate backend user</source>
+      <target state="translated">Simuliraj sistemskega uporabnika</target></trans-unit>
+      <trans-unit id="opening" xml:space="preserve" approved="yes">
+        <source>Startup</source>
+      <target state="translated">Začetek</target></trans-unit>
+      <trans-unit id="personal_data" xml:space="preserve" approved="yes">
+        <source>Personal data</source>
+      <target state="translated">Osebni podatki</target></trans-unit>
+      <trans-unit id="showThumbs" xml:space="preserve" approved="yes">
+        <source>Show Thumbnails by default</source>
+      <target state="translated">Privzeto pokaži zavihke</target></trans-unit>
+      <trans-unit id="condensedMode" xml:space="preserve" approved="yes">
+        <source>Use condensed mode in backend&lt;br /&gt;(for small screens)</source>
+      <target state="translated">V bacnekdu uporabi zgoščeni način &lt;br /&gt;(za majhne zaslone)</target></trans-unit>
+      <trans-unit id="noMenuMode" xml:space="preserve" approved="yes">
+        <source>Select navigation mode</source>
+      <target state="translated">Izberite alternativno krmarjenje po sistemu</target></trans-unit>
+      <trans-unit id="noMenuMode_def" xml:space="preserve" approved="yes">
+        <source>Left frame menu (default)</source>
+      <target state="translated">Meni v levek okviru (privzeto)</target></trans-unit>
+      <trans-unit id="noMenuMode_sel" xml:space="preserve" approved="yes">
+        <source>Selectorbox in top frame</source>
+      <target state="translated">Izbirno polje v zgornjem okviru</target></trans-unit>
+      <trans-unit id="noMenuMode_icons" xml:space="preserve" approved="yes">
+        <source>Icons in top frame</source>
+      <target state="translated">Ikone v zgornjem okviru</target></trans-unit>
+      <trans-unit id="startModule" xml:space="preserve" approved="yes">
+        <source>Start up in the following module</source>
+      <target state="translated">Po prijavi prikaži naslednji modul</target></trans-unit>
+      <trans-unit id="emailMeAtLogin" xml:space="preserve" approved="yes">
+        <source>Notify me by email, when somebody logs in &lt;br /&gt;from my account</source>
+      <target state="translated">Opozori me po e-pošti, ko se kdo &lt;BR&gt;prijavi z mojim imenom</target></trans-unit>
+      <trans-unit id="helpText" xml:space="preserve" approved="yes">
+        <source>Show help text when applicable</source>
+      <target state="translated">Prikaži pomoč, kadar je na voljo</target></trans-unit>
+      <trans-unit id="maxTitleLen" xml:space="preserve" approved="yes">
+        <source>Max. Title Length</source>
+      <target state="translated">Največja dolžina naslova</target></trans-unit>
+      <trans-unit id="edit_showFieldHelp" xml:space="preserve" approved="yes">
+        <source>Context Sensitive Help mode</source>
+      <target state="translated">Način pomoči v poljih</target></trans-unit>
+      <trans-unit id="edit_showFieldHelp_none" xml:space="preserve" approved="yes">
+        <source>Display no help information</source>
+      <target state="translated">Ne prikaži pomoči</target></trans-unit>
+      <trans-unit id="edit_showFieldHelp_icon" xml:space="preserve" approved="yes">
+        <source>Display help icon only</source>
+      <target state="translated">Prikaži samo ikono za pomoč</target></trans-unit>
+      <trans-unit id="edit_showFieldHelp_message" xml:space="preserve" approved="yes">
+        <source>Display full text message</source>
+      <target state="translated">Prikaži celotno besedilo pomoči</target></trans-unit>
+      <trans-unit id="edit_wideDocument" xml:space="preserve" approved="yes">
+        <source>Wide document background</source>
+      <target state="translated">Široko ozadje dokumenta</target></trans-unit>
+      <trans-unit id="edit_RTE" xml:space="preserve" approved="yes">
+        <source>Enable Rich Text Editor (if available)</source>
+      <target state="translated">Napredni urejevalnik besedila (samo v MSIE)</target></trans-unit>
+      <trans-unit id="edit_docModuleUpload" xml:space="preserve" approved="yes">
+        <source>File upload directly in Doc-module</source>
+      <target state="translated">Naloži datoteke neposredno v modul Doc</target></trans-unit>
+      <trans-unit id="enableFlashUploader" xml:space="preserve">
+        <source>Enable Flash Uploader (requires Flash 9+)</source>
+      </trans-unit>
+      <trans-unit id="resizeTextareas" xml:space="preserve">
+        <source>Make Textareas resizable</source>
+      </trans-unit>
+      <trans-unit id="resizeTextareas_MaxHeight" xml:space="preserve">
+        <source>Maximal Height of resizable Textarea in Pixel</source>
+      </trans-unit>
+      <trans-unit id="flexibleTextareas_MaxHeight" xml:space="preserve">
+        <source>Maximal Height of flexible Textareas in Pixel</source>
+      </trans-unit>
+      <trans-unit id="resizeTextareas_Flexible" xml:space="preserve">
+        <source>Make Textareas flexible</source>
+      </trans-unit>
+      <trans-unit id="editFunctionsTab" xml:space="preserve">
+        <source>Edit &amp; Advanced functions</source>
+      </trans-unit>
+      <trans-unit id="edit_functions" xml:space="preserve" approved="yes">
+        <source>Edit</source>
+      <target state="translated">Uredi</target></trans-unit>
+      <trans-unit id="disableCMlayers" xml:space="preserve" approved="yes">
+        <source>Disable Popup Context Menus</source>
+      <target state="translated">Onemogoči pojavne kontekstne menije</target></trans-unit>
+      <trans-unit id="setToStandard" xml:space="preserve" approved="yes">
+        <source>Reset all Values to default</source>
+      <target state="translated">Ponastavi vse na privzete vrednosti</target></trans-unit>
+      <trans-unit id="resetConfiguration" xml:space="preserve">
+        <source>Reset Configuration and Clear Temporary Data</source>
+      </trans-unit>
+      <trans-unit id="setToStandardQuestion" xml:space="preserve" approved="yes">
+        <source>Are you sure you want to reset all values to default?</source>
+      <target state="translated">Ste prepričani, da želite ponastaviti vse na privzete vrednosti?</target></trans-unit>
+      <trans-unit id="clearSessionVars" xml:space="preserve">
+        <source>Clear Temporary Data</source>
+      </trans-unit>
+      <trans-unit id="clearSessionVarsQuestion" xml:space="preserve">
+        <source>Are you sure you want to clear the temporary data?</source>
+      </trans-unit>
+      <trans-unit id="functions" xml:space="preserve" approved="yes">
+        <source>Advanced functions</source>
+      <target state="translated">Napredne funkcije</target></trans-unit>
+      <trans-unit id="copyLevels" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Recursive Copy:&lt;/b&gt; Enter the number of page&lt;br /&gt;sublevels to include, when a page is copied</source>
+      <target state="translated">&lt;b&gt;Rekurzivno kopiranje:&lt;/b&gt; Vpišite število podravni strani,&lt;BR&gt;ki bodo vključeni pri kopiranju</target></trans-unit>
+      <trans-unit id="recursiveDelete" xml:space="preserve" approved="yes">
+        <source>&lt;b&gt;Recursive Delete(!):&lt;/b&gt; Allow ALL subpages&lt;br /&gt;to be deleted when deleting a page</source>
+      <target state="translated">&lt;b&gt;Rekurzivno brisanje(!):&lt;/b&gt; Pri brisanju strani &lt;br /&gt;odstrani VSE podstrani</target></trans-unit>
+      <trans-unit id="activateChanges" xml:space="preserve" approved="yes">
+        <source>Notice! In order to activate most of these changes, please reload the backend (eg. logout and login again).</source>
+      <target state="translated">Pozor! Če želite aktivirati te spremembe, se morate odjaviti in ponovno prijaviti v TYPO3.</target></trans-unit>
+      <trans-unit id="levels" xml:space="preserve" approved="yes">
+        <source>levels</source>
+      <target state="translated">ravni</target></trans-unit>
+      <trans-unit id="beUser_realName" xml:space="preserve" approved="yes">
+        <source>Your name</source>
+      <target state="translated">Vaše ime</target></trans-unit>
+      <trans-unit id="beUser_email" xml:space="preserve" approved="yes">
+        <source>Your email address</source>
+      <target state="translated">Vaš e-poštni naslov</target></trans-unit>
+      <trans-unit id="save" xml:space="preserve" approved="yes">
+        <source>Save Configuration</source>
+      <target state="translated">Shrani nastavitve</target></trans-unit>
+      <trans-unit id="newPassword" xml:space="preserve" approved="yes">
+        <source>New password</source>
+      <target state="translated">Novo geslo</target></trans-unit>
+      <trans-unit id="newPasswordAgain" xml:space="preserve" approved="yes">
+        <source>New password, again</source>
+      <target state="translated">Novo geslo, ponovi</target></trans-unit>
+      <trans-unit id="newPassword_ok" xml:space="preserve" approved="yes">
+        <source>Password was updated.</source>
+      <target state="translated">Geslo je posodobljeno</target></trans-unit>
+      <trans-unit id="setupWasUpdated" xml:space="preserve">
+        <source>User settings were updated.</source>
+      </trans-unit>
+      <trans-unit id="newPassword_failed" xml:space="preserve" approved="yes">
+        <source>Password was NOT updated because you didn't enter the same password twice.</source>
+      <target state="translated">Geslo NI posodobljeno, ker se vnešeni gesli ne ujemata.</target></trans-unit>
+      <trans-unit id="adminFunctions" xml:space="preserve" approved="yes">
+        <source>Admin functions</source>
+      <target state="translated">Administratorske funkcije</target></trans-unit>
+      <trans-unit id="enableInstallTool.label" xml:space="preserve">
+        <source>Install Tool Access</source>
+      </trans-unit>
+      <trans-unit id="enableInstallTool.createFile" xml:space="preserve">
+        <source>Create Install Tool Enable File</source>
+      </trans-unit>
+      <trans-unit id="enableInstallTool.file" xml:space="preserve">
+        <source>Install Tool Enable file</source>
+      </trans-unit>
+      <trans-unit id="enableInstallTool.fileCreate_ok" xml:space="preserve">
+        <source>The Install Tool Enable file has been created.</source>
+      </trans-unit>
+      <trans-unit id="enableInstallTool.fileCreate_failed" xml:space="preserve">
+        <source>The Install Tool Enable file could not be created.</source>
+      </trans-unit>
+      <trans-unit id="enableInstallTool.deleteFile" xml:space="preserve">
+        <source>Delete Install Tool Enable File</source>
+      </trans-unit>
+      <trans-unit id="enableInstallTool.fileDelete_ok" xml:space="preserve">
+        <source>The Install Tool Enable file has been deleted.</source>
+      </trans-unit>
+      <trans-unit id="enableInstallTool.fileDelete_failed" xml:space="preserve">
+        <source>The Install Tool Enable file could not be deleted!</source>
+      </trans-unit>
+      <trans-unit id="enableInstallTool.fileHasKeep" xml:space="preserve">
+        <source>The Install Tool file has the content "KEEP_FILE" and can not be deleted!</source>
+      </trans-unit>
+      <trans-unit id="tempDataCleared" xml:space="preserve">
+        <source>Temporary data cleared</source>
+      </trans-unit>
+      <trans-unit id="tempDataClearedFlashMessage" xml:space="preserve">
+        <source>The temporary data has been cleared.</source>
+      </trans-unit>
+      <trans-unit id="tempDataClearedLog" xml:space="preserve">
+        <source>Temporary data cleared</source>
+      </trans-unit>
+      <trans-unit id="settingsAreReset" xml:space="preserve">
+        <source>The user settings have been reset to default values and temporary data has been cleared.</source>
+      </trans-unit>
+      <trans-unit id="debugInWindow" xml:space="preserve">
+        <source>Display debug messages in a new browser window</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

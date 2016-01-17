@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="Substitute this occurrence?">Zamenjam ta zadetek?</label>
+      <label index="Enter the text you want to find">Vnesite besedilo, ki ga želite najti</label>
+      <label index="Inform a replacement word">Izbrisali boste vse zadetke.</label>
+      <label index="found items">najdenih postavk</label>
+      <label index="replaced items">izbrisanih postavk</label>
+      <label index="found item">najdena postavka</label>
+      <label index="replaced item">zamenjana postavka</label>
+      <label index="not found">ni najdeno</label>
+      <label index="Find and Replace">Poišči in zamenjaj</label>
+      <label index="Options">Možnosti:</label>
+      <label index="Whole words only">Samo celotne besede</label>
+      <label index="Case sensitive search">Iskanje, občutljivo na velikost črk</label>
+      <label index="Substitute all occurrences">Zamenjaj vse zadetke</label>
+      <label index="Search for:">Išči:</label>
+      <label index="Replace with:">Zamenjaj z:</label>
+      <label index="Actions">Akcije:</label>
+      <label index="Clear">Počisti</label>
+      <label index="Highlight">Poudarek</label>
+      <label index="Undo">Razveljavi</label>
+      <label index="Next">Naslednji</label>
+      <label index="Done">Dokončano</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

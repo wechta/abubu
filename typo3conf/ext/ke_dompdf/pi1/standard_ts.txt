@@ -1,0 +1,18 @@
+Standard TS-Setup:
+plugin.tx_kedompdf_pi1.mode = icon
+plugin.tx_kedompdf_pi1.activate_pdf = 1
+page.10.marks.CONTENT.111 < plugin.tx_kedompdf_pi1
+
+nurinhalt = PAGE
+nurinhalt.includeCSS.maincss = typo3conf/ext/ke_dompdf/res/nurinhalt.css
+nurinhalt {
+  typeNum = 101
+  #entfernt diverse header angaben
+  #disableAllHeaderCode = 1
+  #standard doctype deaktivieren
+  #disableCharsetHeader = 1
+  #entfern die HTML Kommentare
+  #disablePrefixComment = 1
+}
+nurinhalt.10 < page.10
+nurinhalt.10.template.file = typo3conf/ext/ke_dompdf/res/nurinhalt.html

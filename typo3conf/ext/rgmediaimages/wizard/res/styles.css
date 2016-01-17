@@ -1,0 +1,110 @@
+/***************************
+*  Default styles for the
+*    EXT rgmediaimages
+* by Ringer Georg (just2b)
+*  http://www.ringer.it/
+***************************/  
+
+.singlefile {
+	padding:5px;
+	margin:5px;
+	border:1px solid #ccc;
+	background:#eee;
+}
+
+.singlefile fieldset {
+	border:0;
+	border-top:1px solid #c3d0a2;
+}
+
+.singlefile legend {
+	padding:1px 4px;
+	margin:0px 10px;
+	cursor:pointer;
+	border-bottom:1px solid #8EBF17;
+}
+
+.singlefileWrong {
+	padding:5px;
+	margin:5px;
+	border:1px solid #ccc;
+	opacity:0.5;
+}
+
+.field {
+	padding:2px 0;
+}
+
+.field input {
+	width:100px;
+	border:1px solid #666;
+}
+
+.fieldlong input {
+	width:200px;
+}
+
+.fieldsmall input {
+	width:60px;
+	margin-bottom:2px;
+}
+
+.checkbox input {
+	width:16px;
+}
+
+.fieldsmall .colorpicker {
+	margin-top:4px;
+}
+
+.fieldsmall .colorpicker img{
+	margin:0px 0 0 0; 
+	padding:0px 0 0 0;
+	cursor:pointer;
+}
+
+.field label {
+	display:block;
+	width:150px;
+	float:left;
+	font-weight:bold;
+	color:#666;
+}
+
+/* HELP section */
+.help {
+	padding:5px 10px;
+}
+
+.help div {
+color:#333;
+
+}
+
+.help fieldset {
+	border:0;
+}
+
+.help legend {
+	cursor:help;
+	font-weight:bold;
+	letter-spacing:1px;
+	color:#669900;
+}
+
+.help legend:hover {
+	text-decoration:underline;
+}
+
+.help h2 {
+	background:none;
+	border:0;
+	padding:0;
+	color:#333;
+}
+
+.help a {
+	color:#FA8800;
+	text-decoration:underline;
+}
+

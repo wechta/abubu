@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="No font"/>
+      <label index="No size"/>
+      <label index="Default font"/>
+      <label index="Default size"/>
+      <label index="Extra small"/>
+      <label index="Very small"/>
+      <label index="Small"/>
+      <label index="Medium"/>
+      <label index="Large"/>
+      <label index="Very large"/>
+      <label index="Extra large"/>
+      <label index="Arial"/>
+      <label index="Arial Black"/>
+      <label index="Verdana"/>
+      <label index="Times New Roman"/>
+      <label index="Garamond"/>
+      <label index="Lucida Handwriting"/>
+      <label index="Courier"/>
+      <label index="Webdings"/>
+      <label index="Wingdings"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

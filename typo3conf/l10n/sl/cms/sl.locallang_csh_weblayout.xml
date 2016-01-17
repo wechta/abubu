@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index=".alttitle">Splet &gt; Modul Stran</label>
+      <label index=".description">Modul stran se aktivira iz administracijskega vmesnika in je primarni modul za vse osnovne operacije pri urejanju spletne strani.</label>
+      <label index=".details">Izbira tega modula prikaže drevo strani. Če želite urejati vsebino strani, kliknite na njen naslov in v desnem oknu se vam bo prikazala vsebina te strani. Modul omogoča različne načine prikaza vsebine; &lt;b&gt;Stolpci&lt;/b&gt; Način prikaže vsebinske elemente v stolpcih in vrstem redu, kot se prikazujejo na spletni strani. Gumbi vam omogočajo enostavno prikazovanje/skrivanje, premikanje in urejanje vsebinskih elementov. &lt;b&gt;Hitro urejanje&lt;/b&gt; V načinu "Hitro urejanje" se bo prvi element na strani takoj naložil v obrazec v desnem okviru. Uporabnost tega načina je odvisna od izvedbe vaše spletne strani in vaših osebnih preferenc. &lt;b&gt;Jeziki&lt;/b&gt; Če vaša stran podpira večjezičnost in pri tem uporablja koncept "vse-v-enem-drevesu", boste ta način potrebovali za nadzor prevodov vsebinskih elementov na strani. &lt;b&gt;Informacije o strani&lt;/b&gt; Način prikazuje nekatere statistične podatke o strani. Podatki vsebujejo tudi statistiko zadetkov, če je ta na voljo. &lt;b&gt;Splošne možnosti&lt;/b&gt; Na vrhu modula Stran boste našli vrstico ikon, ki vas privedejo neposredno do nekaterih značilnosti, kot so Zgodovina/Razveljavi (1), Ustvari nov vsebinski element (2), Premakni stran (3), Ustvari novo stran (4) in Uredi lastnosti strani (5). Glej sliko spodaj. &lt;b&gt;Določi število prikazanih stolpcev [Administrator]&lt;/b&gt; Administratorji lahko določijo, da modul Stran prikazuje samo stolpce, ki jih uporablja spletna stran. Nastavitev se določa v polju "TSconfig strani" (zato jo lahko spreminjamo za posamezno vejo drevesa) in v našem primeru spreminja "mod.web_layout.tt_content.colPos_list". Na primer "mod.web_layout.tt_content.colPos_list = 0,3" prikaže samo stolpca "Normalni" in "Rob". Za prilagoditev modula stran obstaja še precej drugih možnosti v objektu "mod.web_layout", ki jih lahko najdete v dokumentu "TSconfig reference" na spodnji povezavi.</label>
+      <label index="_.seeAlso"/>
+      <label index="_.image"/>
+      <label index=".image_descr">Kliknite modul Stran, nato pa naslov strani v drevesu. Modul je sedaj aktiviran v desnem okviru in prikazuje vsebino strani, na katero ste kliknili v drevesu. Gumbi so neposredne povezave do funkcije Zgodovina/Razveljavi (1), čarovnika Ustvari nov vsebinski element (2), čarovnika Premakni stran (3), čarovnika Ustvari novo stran (4) in obrazca Uredi lastnosti strani (5). Za več podrobnosti glej spodnje povezave.</label>
+      <label index="quickEdit.alttitle">Hitro urejanje</label>
+      <label index="quickEdit.description">Hitri urejevalnik ponuja neposreden dostop do polj obrazca za urejanje vsebine strani.</label>
+      <label index="quickEdit.details">Hitri urejevalnik je zasnovan tako, da zmanjša število klikov na poti do urejanja vsebine strani. S klikom na naziv strani v drevesu strani dostopate neposredno do obrazca za urejanje prve vsebine v normalnem stolpcu. v izbirniku na vrhu strani lahko izberete druge vsebinske elemente na tej strani.</label>
+      <label index="_quickEdit.seeAlso"/>
+      <label index="_quickEdit.image"/>
+      <label index="quickEdit.image_descr">Pogled "Hitro urejanje" zmanjša število klikov za dostod do urejanja vsebin tako, da uporabnika po kliku na naziv strani privede neposredno v obrazec za urejanje. Prikazan je vedno prvi zapis v normalnem stolpcu.</label>
+      <label index="quickEdit_selElement.alttitle">Vsebinski elementi</label>
+      <label index="quickEdit_selElement.description"/>
+      <label index="_quickEdit_selElement.seeAlso"/>
+      <label index="_quickEdit_selElement.image"/>
+      <label index="quickEdit_selElement.image_descr"/>
+      <label index="columns_1.alttitle"/>
+      <label index="columns_1.description"/>
+      <label index="columns_2.alttitle"/>
+      <label index="columns_2.description"/>
+      <label index="_columns_2.seeAlso"/>
+      <label index="columns_3.alttitle"/>
+      <label index="columns_3.description"/>
+      <label index="columns_3.details"/>
+      <label index="_columns_3.image"/>
+      <label index="language_list.alttitle"/>
+      <label index="language_list.description"/>
+      <label index="_language_list.seeAlso"/>
+      <label index="_language_list.image"/>
+      <label index="language_list.image_descr"/>
+      <label index="columns_single.alttitle"/>
+      <label index="columns_single.description"/>
+      <label index="columns_single.details"/>
+      <label index="_columns_single.seeAlso"/>
+      <label index="_columns_single.image"/>
+      <label index="columns_single.image_descr"/>
+      <label index="columns_multi.alttitle"/>
+      <label index="columns_multi.description"/>
+      <label index="_columns_multi.seeAlso"/>
+      <label index="_columns_multi.image"/>
+      <label index="columns_multi.image_descr"/>
+      <label index="button_panel.alttitle"/>
+      <label index="button_panel.description"/>
+      <label index="_button_panel.seeAlso"/>
+      <label index="_button_panel.image"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

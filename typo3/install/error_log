@@ -1,0 +1,1 @@
+[26-Mar-2012 15:50:10] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/hrastnik/public_html/typo3/sysext/dbal/class.ux_t3lib_db.php on line 3057

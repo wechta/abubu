@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="introtext">sistem za urejanje spletne vsebine</label>
+      <label index="introtext2">To je kratek opis modulov, ki so na voljo:</label>
+      <label index="endText">Možnosti se lahko razlikujejo glede na vašo verzijo in privilegije</label>
+      <label index="userInfo">Prijavljeni ste kot uporabnik:</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

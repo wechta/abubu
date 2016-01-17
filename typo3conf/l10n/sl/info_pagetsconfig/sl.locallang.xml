@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="tsconf_title">TSconfig strani</label>
+      <label index="tsconf_parts_0">Vse</label>
+      <label index="tsconf_parts_1">Ključ modula ('mod') s prekrivajočimi uporabniškimi pravicami</label>
+      <label index="tsconf_parts_1a">Modul: Web&gt;Stran</label>
+      <label index="tsconf_parts_1b">Modul: Web&gt;Prikaz</label>
+      <label index="tsconf_parts_1c">Modul: Web&gt;Moduli</label>
+      <label index="tsconf_parts_1d">Modul: Web&gt;Seznam</label>
+      <label index="tsconf_parts_1e">Modul: Web&gt;Info</label>
+      <label index="tsconf_parts_1f">Modul: Web&gt;Funkcije</label>
+      <label index="tsconf_parts_1g">Modul: Web&gt;Predloge</label>
+      <label index="tsconf_configFields">Preglej vsebino polja TSconfig</label>
+      <label index="editThisColumn">Uredi polje '%s' za vse naštete strani</label>
+      <label index="editTSconfig">Uredi polje TSconfig za to stran</label>
+      <label index="editTSconfig_all">Uredi polje TSconfig za vse prikazane strani</label>
+      <label index="editTSconfig_default">Konfiguracija privzeta iz TYPO3_CONF_VARS</label>
+      <label index="mod_pagetsconfig">TSconfig strani</label>
+      <label index="sort_alphabetic"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

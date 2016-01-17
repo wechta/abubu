@@ -1,0 +1,1043 @@
+<?xml version='1.0' encoding='utf-8'?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2011-10-17T20:22:32Z" product-name="cms" target-language="sl">
+    <header/>
+    <body>
+      <trans-unit id="CType_formlabel" xml:space="preserve">
+        <source>Type</source>
+      </trans-unit>
+      <trans-unit id="CType.I.0" xml:space="preserve" approved="yes">
+        <source>Header</source>
+      <target state="translated">Naslov</target></trans-unit>
+      <trans-unit id="CType.I.1" xml:space="preserve" approved="yes">
+        <source>Text</source>
+      <target state="translated">Besedilo</target></trans-unit>
+      <trans-unit id="CType.I.2" xml:space="preserve" approved="yes">
+        <source>Text &amp; Images</source>
+      <target state="translated">Besedilo s sliko</target></trans-unit>
+      <trans-unit id="CType.I.3" xml:space="preserve" approved="yes">
+        <source>Images</source>
+      <target state="translated">Slike</target></trans-unit>
+      <trans-unit id="CType.I.4" xml:space="preserve" approved="yes">
+        <source>Bullet List</source>
+      <target state="translated">Grafični seznam</target></trans-unit>
+      <trans-unit id="CType.I.5" xml:space="preserve" approved="yes">
+        <source>Table</source>
+      <target state="translated">Tabela</target></trans-unit>
+      <trans-unit id="CType.I.6" xml:space="preserve" approved="yes">
+        <source>File Links</source>
+      <target state="translated">Povezave na datoteke</target></trans-unit>
+      <trans-unit id="CType.I.7" xml:space="preserve" approved="yes">
+        <source>Multimedia</source>
+      <target state="translated">Multimedija</target></trans-unit>
+      <trans-unit id="CType.I.8" xml:space="preserve" approved="yes">
+        <source>Form</source>
+      <target state="translated">Obrazec</target></trans-unit>
+      <trans-unit id="CType.I.9" xml:space="preserve" approved="yes">
+        <source>Search</source>
+      <target state="translated">Iskanje</target></trans-unit>
+      <trans-unit id="CType.I.10" xml:space="preserve" approved="yes">
+        <source>Login</source>
+      <target state="translated">Prijava</target></trans-unit>
+      <trans-unit id="CType.I.11" xml:space="preserve" approved="yes">
+        <source>Textbox</source>
+      <target state="translated">Polje z besedilom</target></trans-unit>
+      <trans-unit id="CType.I.12" xml:space="preserve" approved="yes">
+        <source>Menu/Sitemap</source>
+      <target state="translated">Meni/Kazalo strani</target></trans-unit>
+      <trans-unit id="CType.I.13" xml:space="preserve" approved="yes">
+        <source>Insert Records</source>
+      <target state="translated">Vstavi zapise</target></trans-unit>
+      <trans-unit id="CType.I.14" xml:space="preserve" approved="yes">
+        <source>Insert Plugin</source>
+      <target state="translated">Vstavi vtičnik</target></trans-unit>
+      <trans-unit id="CType.I.15" xml:space="preserve" approved="yes">
+        <source>Script</source>
+      <target state="translated">Skript</target></trans-unit>
+      <trans-unit id="CType.I.16" xml:space="preserve" approved="yes">
+        <source>Divider</source>
+      <target state="translated">Ločilo</target></trans-unit>
+      <trans-unit id="CType.I.17" xml:space="preserve" approved="yes">
+        <source>HTML</source>
+      <target state="translated">HTML</target></trans-unit>
+      <trans-unit id="CType.I.18" xml:space="preserve" approved="no">
+        <source>Media</source>
+      <target state="needs-translation">Medija</target><note>100%</note></trans-unit>
+      <trans-unit id="CType.div.standard" xml:space="preserve" approved="yes">
+        <source>Standard</source>
+      <target state="translated">Standardno</target></trans-unit>
+      <trans-unit id="CType.div.lists" xml:space="preserve" approved="yes">
+        <source>Lists</source>
+      <target state="translated">Seznami</target></trans-unit>
+      <trans-unit id="CType.div.forms" xml:space="preserve" approved="yes">
+        <source>Forms</source>
+      <target state="translated">Oblike</target></trans-unit>
+      <trans-unit id="CType.div.special" xml:space="preserve" approved="yes">
+        <source>Special</source>
+      <target state="translated">Posebno</target></trans-unit>
+      <trans-unit id="layout.I.1" xml:space="preserve" approved="yes">
+        <source>Layout 1</source>
+      <target state="translated">Postavitev 1</target></trans-unit>
+      <trans-unit id="layout.I.2" xml:space="preserve" approved="yes">
+        <source>Layout 2</source>
+      <target state="translated">Postavitev 2</target></trans-unit>
+      <trans-unit id="layout.I.3" xml:space="preserve" approved="yes">
+        <source>Layout 3</source>
+      <target state="translated">Postavitev 3</target></trans-unit>
+      <trans-unit id="colPos" xml:space="preserve" approved="yes">
+        <source>Columns:</source>
+      <target state="translated">Stolpci:</target></trans-unit>
+      <trans-unit id="colPos_formlabel" xml:space="preserve" approved="no">
+        <source>Column</source>
+      <target state="needs-translation">Stolpci tabele:</target><note>85%</note></trans-unit>
+      <trans-unit id="colPos.I.0" xml:space="preserve" approved="yes">
+        <source>Left</source>
+      <target state="translated">Levo</target></trans-unit>
+      <trans-unit id="colPos.I.2" xml:space="preserve" approved="yes">
+        <source>Right</source>
+      <target state="translated">Desno</target></trans-unit>
+      <trans-unit id="colPos.I.3" xml:space="preserve" approved="yes">
+        <source>Border</source>
+      <target state="translated">Rob</target></trans-unit>
+      <trans-unit id="date" xml:space="preserve" approved="yes">
+        <source>Date</source>
+      <target state="translated">Datum:</target></trans-unit>
+      <trans-unit id="date_formlabel" xml:space="preserve" approved="yes">
+        <source>Date</source>
+      <target state="translated">Datum:</target><note>100%</note></trans-unit>
+      <trans-unit id="header" xml:space="preserve" approved="yes">
+        <source>Header:</source>
+      <target state="translated">Naslov:</target></trans-unit>
+      <trans-unit id="header_formlabel" xml:space="preserve" approved="yes">
+        <source>Header</source>
+      <target state="translated">Naslov</target><note>100%</note></trans-unit>
+      <trans-unit id="header.ALT.shortcut_formlabel" xml:space="preserve">
+        <source>Name (not visible in frontend)</source>
+      </trans-unit>
+      <trans-unit id="header.ALT.script_formlabel" xml:space="preserve">
+        <source>Name (not visible in frontend)</source>
+      </trans-unit>
+      <trans-unit id="header.ALT.div_formlabel" xml:space="preserve">
+        <source>Name (not visible in frontend)</source>
+      </trans-unit>
+      <trans-unit id="header.ALT.html_formlabel" xml:space="preserve">
+        <source>Name (not visible in frontend)</source>
+      </trans-unit>
+      <trans-unit id="header_position" xml:space="preserve" approved="yes">
+        <source>Align:</source>
+      <target state="translated">Poravnava:</target></trans-unit>
+      <trans-unit id="header_position_formlabel" xml:space="preserve">
+        <source>Alignment</source>
+      </trans-unit>
+      <trans-unit id="header_position.I.1" xml:space="preserve" approved="yes">
+        <source>Center</source>
+      <target state="translated">Na sredino</target></trans-unit>
+      <trans-unit id="header_position.I.2" xml:space="preserve" approved="yes">
+        <source>Right</source>
+      <target state="translated">Desno</target></trans-unit>
+      <trans-unit id="header_position.I.3" xml:space="preserve" approved="yes">
+        <source>Left</source>
+      <target state="translated">Levo</target></trans-unit>
+      <trans-unit id="header_link" xml:space="preserve" approved="yes">
+        <source>Link:</source>
+      <target state="translated">Povezava:</target></trans-unit>
+      <trans-unit id="header_link_formlabel" xml:space="preserve" approved="no">
+        <source>Link</source>
+      <target state="needs-translation">Povezava:</target><note>80%</note></trans-unit>
+      <trans-unit id="header_layout_formlabel" xml:space="preserve">
+        <source>Type</source>
+      </trans-unit>
+      <trans-unit id="header_layout.I.1" xml:space="preserve" approved="yes">
+        <source>Layout 1</source>
+      <target state="translated">Postavitev 1</target></trans-unit>
+      <trans-unit id="header_layout.I.2" xml:space="preserve" approved="yes">
+        <source>Layout 2</source>
+      <target state="translated">Postavitev 2</target></trans-unit>
+      <trans-unit id="header_layout.I.3" xml:space="preserve" approved="yes">
+        <source>Layout 3</source>
+      <target state="translated">Postavitev 3</target></trans-unit>
+      <trans-unit id="header_layout.I.4" xml:space="preserve" approved="yes">
+        <source>Layout 4</source>
+      <target state="translated">Postavitev 4</target></trans-unit>
+      <trans-unit id="header_layout.I.5" xml:space="preserve" approved="yes">
+        <source>Layout 5</source>
+      <target state="translated">Postavitev 5</target></trans-unit>
+      <trans-unit id="header_layout.I.6" xml:space="preserve" approved="yes">
+        <source>Hidden</source>
+      <target state="translated">Skrito</target></trans-unit>
+      <trans-unit id="text_align" xml:space="preserve" approved="yes">
+        <source>Align:</source>
+      <target state="translated">Poravnava:</target></trans-unit>
+      <trans-unit id="text_align_formlabel" xml:space="preserve">
+        <source>Text Alignment</source>
+      </trans-unit>
+      <trans-unit id="text_align.I.1" xml:space="preserve" approved="yes">
+        <source>Center</source>
+      <target state="translated">Na sredino</target></trans-unit>
+      <trans-unit id="text_align.I.2" xml:space="preserve" approved="yes">
+        <source>Right</source>
+      <target state="translated">Desno</target></trans-unit>
+      <trans-unit id="text_align.I.3" xml:space="preserve" approved="yes">
+        <source>Left</source>
+      <target state="translated">Levo</target></trans-unit>
+      <trans-unit id="text_face" xml:space="preserve" approved="yes">
+        <source>Fontface:</source>
+      <target state="translated">Pisava:</target></trans-unit>
+      <trans-unit id="text_face_formlabel" xml:space="preserve">
+        <source>Text Face</source>
+      </trans-unit>
+      <trans-unit id="text_size" xml:space="preserve" approved="yes">
+        <source>Size:</source>
+      <target state="translated">Velikost:</target></trans-unit>
+      <trans-unit id="text_size_formlabel" xml:space="preserve">
+        <source>Text Size</source>
+      </trans-unit>
+      <trans-unit id="text_size.I.1" xml:space="preserve" approved="yes">
+        <source>1: Small</source>
+      <target state="translated">1: Majhna</target></trans-unit>
+      <trans-unit id="text_size.I.2" xml:space="preserve" approved="yes">
+        <source>2: Medium</source>
+      <target state="translated">2: Srednja</target></trans-unit>
+      <trans-unit id="text_size.I.3" xml:space="preserve" approved="yes">
+        <source>3: Large</source>
+      <target state="translated">3: Velika</target></trans-unit>
+      <trans-unit id="text_size.I.4" xml:space="preserve" approved="yes">
+        <source>4: Header 1</source>
+      <target state="translated">4: Naslov 1</target></trans-unit>
+      <trans-unit id="text_size.I.5" xml:space="preserve" approved="yes">
+        <source>5: Header 2</source>
+      <target state="translated">5: Naslov 2</target></trans-unit>
+      <trans-unit id="text_size.I.6" xml:space="preserve" approved="yes">
+        <source>Default +1</source>
+      <target state="translated">Privzeto +1</target></trans-unit>
+      <trans-unit id="text_size.I.7" xml:space="preserve" approved="yes">
+        <source>Default -1</source>
+      <target state="translated">Privzeto -1</target></trans-unit>
+      <trans-unit id="text_color" xml:space="preserve" approved="yes">
+        <source>Color:</source>
+      <target state="translated">Barva:</target></trans-unit>
+      <trans-unit id="text_color_formlabel" xml:space="preserve">
+        <source>Text Color</source>
+      </trans-unit>
+      <trans-unit id="text_color.I.1" xml:space="preserve" approved="yes">
+        <source>Color 1</source>
+      <target state="translated">Barva 1</target></trans-unit>
+      <trans-unit id="text_color.I.2" xml:space="preserve" approved="yes">
+        <source>Color 2</source>
+      <target state="translated">Barva 2</target></trans-unit>
+      <trans-unit id="text_color.I.3" xml:space="preserve" approved="yes">
+        <source>None</source>
+      <target state="translated">Brez</target></trans-unit>
+      <trans-unit id="text_color.I.5" xml:space="preserve" approved="yes">
+        <source>Black</source>
+      <target state="translated">Črna</target></trans-unit>
+      <trans-unit id="text_color.I.6" xml:space="preserve" approved="yes">
+        <source>White</source>
+      <target state="translated">Bela</target></trans-unit>
+      <trans-unit id="text_color.I.7" xml:space="preserve" approved="yes">
+        <source>Dark Gray</source>
+      <target state="translated">Temno siva</target></trans-unit>
+      <trans-unit id="text_color.I.8" xml:space="preserve" approved="yes">
+        <source>Gray</source>
+      <target state="translated">Siva</target></trans-unit>
+      <trans-unit id="text_color.I.9" xml:space="preserve" approved="yes">
+        <source>Silver</source>
+      <target state="translated">Srebrna</target></trans-unit>
+      <trans-unit id="text_color.I.10" xml:space="preserve" approved="yes">
+        <source>Red</source>
+      <target state="translated">Rdeča</target></trans-unit>
+      <trans-unit id="text_color.I.11" xml:space="preserve" approved="yes">
+        <source>Navy Blue</source>
+      <target state="translated">Modra</target></trans-unit>
+      <trans-unit id="text_color.I.12" xml:space="preserve" approved="yes">
+        <source>Yellow</source>
+      <target state="translated">Rumena</target></trans-unit>
+      <trans-unit id="text_color.I.13" xml:space="preserve" approved="yes">
+        <source>Green</source>
+      <target state="translated">Zelena</target></trans-unit>
+      <trans-unit id="text_color.I.14" xml:space="preserve" approved="yes">
+        <source>Olive</source>
+      <target state="translated">Olivna</target></trans-unit>
+      <trans-unit id="text_color.I.15" xml:space="preserve" approved="yes">
+        <source>Maroon</source>
+      <target state="translated">Kostanjevo rjava</target></trans-unit>
+      <trans-unit id="text_properties" xml:space="preserve" approved="yes">
+        <source>Properties:</source>
+      <target state="translated">Lastnosti:</target></trans-unit>
+      <trans-unit id="text_properties_formlabel" xml:space="preserve">
+        <source>Text Decoration</source>
+      </trans-unit>
+      <trans-unit id="text_properties.I.0" xml:space="preserve" approved="yes">
+        <source>Bold</source>
+      <target state="translated">Krepko</target></trans-unit>
+      <trans-unit id="text_properties.I.1" xml:space="preserve" approved="yes">
+        <source>Italics</source>
+      <target state="translated">Ležeče</target></trans-unit>
+      <trans-unit id="text_properties.I.2" xml:space="preserve" approved="yes">
+        <source>Underline</source>
+      <target state="translated">Podčrtano</target></trans-unit>
+      <trans-unit id="text_properties.I.3" xml:space="preserve" approved="yes">
+        <source>Uppercase</source>
+      <target state="translated">Velike črke</target></trans-unit>
+      <trans-unit id="bodytext.W.RTE" xml:space="preserve" approved="yes">
+        <source>Fullscreen Rich Text Editing</source>
+      <target state="translated">Celozaslonski način urejanja besedila</target></trans-unit>
+      <trans-unit id="bodytext.W.table" xml:space="preserve">
+        <source>Table Wizard</source>
+      </trans-unit>
+      <trans-unit id="bodytext.W.forms" xml:space="preserve">
+        <source>Forms wizard</source>
+      </trans-unit>
+      <trans-unit id="imagewidth" xml:space="preserve" approved="yes">
+        <source>Width (pixels):</source>
+      <target state="translated">Širina (slikovne pike):</target></trans-unit>
+      <trans-unit id="imagewidth_formlabel" xml:space="preserve">
+        <source>Width (px)</source>
+      </trans-unit>
+      <trans-unit id="imageheight" xml:space="preserve" approved="yes">
+        <source>Height (pixels):</source>
+      <target state="translated">Višina (slikovne pike):</target></trans-unit>
+      <trans-unit id="imageheight_formlabel" xml:space="preserve">
+        <source>Height (px)</source>
+      </trans-unit>
+      <trans-unit id="imageorient" xml:space="preserve" approved="yes">
+        <source>Position:</source>
+      <target state="translated">Položaj:</target></trans-unit>
+      <trans-unit id="imageorient_formlabel" xml:space="preserve">
+        <source>Position and Alignment</source>
+      </trans-unit>
+      <trans-unit id="imageorient.I.0" xml:space="preserve" approved="yes">
+        <source>Above, center</source>
+      <target state="translated">Zgoraj, sredina</target></trans-unit>
+      <trans-unit id="imageorient.I.1" xml:space="preserve" approved="yes">
+        <source>Above, right</source>
+      <target state="translated">Zgoraj, desno</target></trans-unit>
+      <trans-unit id="imageorient.I.2" xml:space="preserve" approved="yes">
+        <source>Above, left</source>
+      <target state="translated">Zgoraj, levo</target></trans-unit>
+      <trans-unit id="imageorient.I.3" xml:space="preserve" approved="yes">
+        <source>Below, center</source>
+      <target state="translated">Spodaj, sredina</target></trans-unit>
+      <trans-unit id="imageorient.I.4" xml:space="preserve" approved="yes">
+        <source>Below, right</source>
+      <target state="translated">Spodaj, desno</target></trans-unit>
+      <trans-unit id="imageorient.I.5" xml:space="preserve" approved="yes">
+        <source>Below, left</source>
+      <target state="translated">Spodaj, levo</target></trans-unit>
+      <trans-unit id="imageorient.I.6" xml:space="preserve" approved="yes">
+        <source>In text, right</source>
+      <target state="translated">V besedilu, desno</target></trans-unit>
+      <trans-unit id="imageorient.I.7" xml:space="preserve" approved="yes">
+        <source>In text, left</source>
+      <target state="translated">V besedilu, levo</target></trans-unit>
+      <trans-unit id="imageorient.I.8" xml:space="preserve" approved="yes">
+        <source>__No wrap:__</source>
+      <target state="translated">__Brez preloma:__</target></trans-unit>
+      <trans-unit id="imageorient.I.9" xml:space="preserve" approved="yes">
+        <source>Beside Text, Right</source>
+      <target state="translated">Ob besedilu, desno</target></trans-unit>
+      <trans-unit id="imageorient.I.10" xml:space="preserve" approved="yes">
+        <source>Beside Text, Left</source>
+      <target state="translated">Ob besedilu, levo</target></trans-unit>
+      <trans-unit id="imageborder" xml:space="preserve" approved="yes">
+        <source>Border:</source>
+      <target state="translated">Rob:</target></trans-unit>
+      <trans-unit id="imageborder_formlabel" xml:space="preserve" approved="yes">
+        <source>Border</source>
+      <target state="translated">Rob</target><note>100%</note></trans-unit>
+      <trans-unit id="image_noRows" xml:space="preserve" approved="yes">
+        <source>No Rows:</source>
+      <target state="translated">Brez vrstic:</target></trans-unit>
+      <trans-unit id="image_noRows_formlabel" xml:space="preserve">
+        <source>Horizontal Rows</source>
+      </trans-unit>
+      <trans-unit id="image_noRows.I.0" xml:space="preserve">
+        <source>Deactivate</source>
+      </trans-unit>
+      <trans-unit id="image_noRows_formlabel" xml:space="preserve">
+        <source>Display as Rows</source>
+      </trans-unit>
+      <trans-unit id="image_link" xml:space="preserve" approved="yes">
+        <source>Link:</source>
+      <target state="translated">Povezava:</target></trans-unit>
+      <trans-unit id="image_link_formlabel" xml:space="preserve">
+        <source>Links (one per line, one link per image)</source>
+      </trans-unit>
+      <trans-unit id="image_zoom" xml:space="preserve" approved="yes">
+        <source>Click-enlarge:</source>
+      <target state="translated">Povečaj na klik:</target></trans-unit>
+      <trans-unit id="image_zoom_formlabel" xml:space="preserve">
+        <source>Enlarge on Click</source>
+      </trans-unit>
+      <trans-unit id="image_effects" xml:space="preserve" approved="yes">
+        <source>Effects:</source>
+      <target state="translated">Učinki:</target></trans-unit>
+      <trans-unit id="image_effects_formlabel" xml:space="preserve" approved="no">
+        <source>Effect</source>
+      <target state="needs-translation">Učinki:</target><note>75%</note></trans-unit>
+      <trans-unit id="image_effects.I.0" xml:space="preserve" approved="yes">
+        <source>None</source>
+      <target state="translated">(Brez)</target></trans-unit>
+      <trans-unit id="image_effects.I.1" xml:space="preserve" approved="yes">
+        <source>Rotate 90 CW</source>
+      <target state="translated">Zasukaj za 90 stopinj v smeri urinega kazalca</target></trans-unit>
+      <trans-unit id="image_effects.I.2" xml:space="preserve" approved="yes">
+        <source>Rotate -90 CCW</source>
+      <target state="translated">Zasukaj za 90 stopinj v nasprotni smeri urinega kazalca</target></trans-unit>
+      <trans-unit id="image_effects.I.3" xml:space="preserve" approved="yes">
+        <source>Rotate 180</source>
+      <target state="translated">Zasukaj za 180 stopinj</target></trans-unit>
+      <trans-unit id="image_effects.I.4" xml:space="preserve" approved="yes">
+        <source>Grayscale</source>
+      <target state="translated">Sivine</target></trans-unit>
+      <trans-unit id="image_effects.I.5" xml:space="preserve" approved="yes">
+        <source>Sharpen</source>
+      <target state="translated">Izostri</target></trans-unit>
+      <trans-unit id="image_effects.I.6" xml:space="preserve" approved="yes">
+        <source>Normalize</source>
+      <target state="translated">Normaliziraj</target></trans-unit>
+      <trans-unit id="image_effects.I.7" xml:space="preserve" approved="yes">
+        <source>Contrast</source>
+      <target state="translated">Kontrast</target></trans-unit>
+      <trans-unit id="image_effects.I.8" xml:space="preserve" approved="yes">
+        <source>Brighter</source>
+      <target state="translated">Svetlejše</target></trans-unit>
+      <trans-unit id="image_effects.I.9" xml:space="preserve" approved="yes">
+        <source>Darker</source>
+      <target state="translated">Temnejše</target></trans-unit>
+      <trans-unit id="image_frames" xml:space="preserve" approved="yes">
+        <source>Frames:</source>
+      <target state="translated">Okvirji:</target></trans-unit>
+      <trans-unit id="image_frames_formlabel" xml:space="preserve">
+        <source>Graphical Frames</source>
+      </trans-unit>
+      <trans-unit id="image_frames.I.0" xml:space="preserve" approved="yes">
+        <source>(None)</source>
+      <target state="translated">(Brez)</target></trans-unit>
+      <trans-unit id="image_frames.I.1" xml:space="preserve" approved="yes">
+        <source>Frame 1</source>
+      <target state="translated">Okvir 1</target></trans-unit>
+      <trans-unit id="image_frames.I.2" xml:space="preserve" approved="yes">
+        <source>Frame 2</source>
+      <target state="translated">Okvir 2</target></trans-unit>
+      <trans-unit id="image_frames.I.3" xml:space="preserve" approved="yes">
+        <source>Frame 3</source>
+      <target state="translated">Okvir 3</target></trans-unit>
+      <trans-unit id="image_frames.I.4" xml:space="preserve" approved="yes">
+        <source>Frame 4</source>
+      <target state="translated">Okvir 4</target></trans-unit>
+      <trans-unit id="image_frames.I.5" xml:space="preserve" approved="yes">
+        <source>Frame 5</source>
+      <target state="translated">Okvir 5</target></trans-unit>
+      <trans-unit id="image_frames.I.6" xml:space="preserve" approved="yes">
+        <source>Frame 6</source>
+      <target state="translated">Okvir 6</target></trans-unit>
+      <trans-unit id="image_frames.I.7" xml:space="preserve" approved="yes">
+        <source>Frame 7</source>
+      <target state="translated">Okvir 7</target></trans-unit>
+      <trans-unit id="image_frames.I.8" xml:space="preserve" approved="yes">
+        <source>Frame 8</source>
+      <target state="translated">Okvir 8</target></trans-unit>
+      <trans-unit id="image_compression" xml:space="preserve" approved="yes">
+        <source>Image Quality/Processing:</source>
+      <target state="translated">Kvaliteta slike/obdelava:</target></trans-unit>
+      <trans-unit id="image_compression_formlabel" xml:space="preserve">
+        <source>Quality and Type</source>
+      </trans-unit>
+      <trans-unit id="image_compression.I.1" xml:space="preserve" approved="yes">
+        <source>None (ignores all other options)</source>
+      <target state="translated">Nič (ignoriraj vse ostale možnosti)!</target></trans-unit>
+      <trans-unit id="image_compression.I.15" xml:space="preserve" approved="yes">
+        <source>JPG/Very High</source>
+      <target state="translated">JPG/Zelo dober</target></trans-unit>
+      <trans-unit id="image_compression.I.16" xml:space="preserve" approved="yes">
+        <source>JPG/High</source>
+      <target state="translated">JPG/Dober</target></trans-unit>
+      <trans-unit id="image_compression.I.17" xml:space="preserve" approved="yes">
+        <source>JPG/Medium</source>
+      <target state="translated">JPG/Srednji</target></trans-unit>
+      <trans-unit id="image_compression.I.18" xml:space="preserve" approved="yes">
+        <source>JPG/Low</source>
+      <target state="translated">JPG/Slab</target></trans-unit>
+      <trans-unit id="image_compression.I.19" xml:space="preserve" approved="yes">
+        <source>JPG/Very Low</source>
+      <target state="translated">JPG/Zelo slab</target></trans-unit>
+      <trans-unit id="imagecols" xml:space="preserve" approved="yes">
+        <source>Columns:</source>
+      <target state="translated">Stolpci:</target></trans-unit>
+      <trans-unit id="imagecols_formlabel" xml:space="preserve">
+        <source>Number of Columns</source>
+      </trans-unit>
+      <trans-unit id="imagecaption_position" xml:space="preserve" approved="yes">
+        <source>Align:</source>
+      <target state="translated">Poravnava:</target></trans-unit>
+      <trans-unit id="imagecaption_position_formlabel" xml:space="preserve">
+        <source>Caption Alignment</source>
+      </trans-unit>
+      <trans-unit id="imagecaption_position.I.1" xml:space="preserve" approved="yes">
+        <source>Center</source>
+      <target state="translated">Sredina</target></trans-unit>
+      <trans-unit id="imagecaption_position.I.2" xml:space="preserve" approved="yes">
+        <source>Right</source>
+      <target state="translated">Desno</target></trans-unit>
+      <trans-unit id="imagecaption_position.I.3" xml:space="preserve" approved="yes">
+        <source>Left</source>
+      <target state="translated">Levo</target></trans-unit>
+      <trans-unit id="image_altText" xml:space="preserve" approved="yes">
+        <source>Alternative Text:</source>
+      <target state="translated">Alternativno besedilo:</target></trans-unit>
+      <trans-unit id="altText_formlabel" xml:space="preserve">
+        <source>Alternative Labels (one per line)</source>
+      </trans-unit>
+      <trans-unit id="image_titleText" xml:space="preserve" approved="yes">
+        <source>Title Text:</source>
+      <target state="translated">Naslov:</target></trans-unit>
+      <trans-unit id="titleText_formlabel" xml:space="preserve">
+        <source>Titles (one per line)</source>
+      </trans-unit>
+      <trans-unit id="image_longdescURL" xml:space="preserve" approved="yes">
+        <source>Long Description URL:</source>
+      <target state="translated">URL z dolgim opisom</target></trans-unit>
+      <trans-unit id="longdescURL_formlabel" xml:space="preserve">
+        <source>Long Description URLs (one per line)</source>
+      </trans-unit>
+      <trans-unit id="cols" xml:space="preserve" approved="yes">
+        <source>Columns</source>
+      <target state="translated">Stolpci tabele:</target></trans-unit>
+      <trans-unit id="cols.I.0" xml:space="preserve" approved="yes">
+        <source>Auto</source>
+      <target state="translated">Avto</target></trans-unit>
+      <trans-unit id="recursive.I.0" xml:space="preserve">
+        <source>0 levels (only selected page)</source>
+      </trans-unit>
+      <trans-unit id="recursive.I.1" xml:space="preserve" approved="yes">
+        <source>1 level</source>
+      <target state="translated">1 nivo</target></trans-unit>
+      <trans-unit id="recursive.I.2" xml:space="preserve" approved="yes">
+        <source>2 levels</source>
+      <target state="translated">2 nivoja</target></trans-unit>
+      <trans-unit id="recursive.I.3" xml:space="preserve" approved="yes">
+        <source>3 levels</source>
+      <target state="translated">3 nivoji</target></trans-unit>
+      <trans-unit id="recursive.I.4" xml:space="preserve" approved="yes">
+        <source>4 levels</source>
+      <target state="translated">4 nivoji</target></trans-unit>
+      <trans-unit id="recursive.I.5" xml:space="preserve" approved="yes">
+        <source>Infinite</source>
+      <target state="translated">Neskončno</target></trans-unit>
+      <trans-unit id="menu_type" xml:space="preserve" approved="yes">
+        <source>Menu Type</source>
+      <target state="translated">Vrsta menija:</target></trans-unit>
+      <trans-unit id="menu_type_formlabel" xml:space="preserve" approved="yes">
+        <source>Menu Type</source>
+      <target state="translated">Vrsta menija:</target><note>100%</note></trans-unit>
+      <trans-unit id="menu_type.I.0" xml:space="preserve" approved="yes">
+        <source>Menu of selected pages</source>
+      <target state="translated">Meni teh strani</target></trans-unit>
+      <trans-unit id="menu_type.I.1" xml:space="preserve" approved="yes">
+        <source>Menu of subpages of selected pages</source>
+      <target state="translated">Meni podstrani teh strani</target></trans-unit>
+      <trans-unit id="menu_type.I.2" xml:space="preserve" approved="yes">
+        <source>Menu of subpages of selected pages including abstracts</source>
+      <target state="translated">Meni podstrani teh strani (z izvlečkom)</target></trans-unit>
+      <trans-unit id="menu_type.I.3" xml:space="preserve" approved="yes">
+        <source>Menu of subpages of selected pages including sections</source>
+      <target state="translated">Meni podstrani teh strani in sekcij</target></trans-unit>
+      <trans-unit id="menu_type.I.4" xml:space="preserve" approved="yes">
+        <source>Sitemap</source>
+      <target state="translated">Kazalo strani</target></trans-unit>
+      <trans-unit id="menu_type.I.5" xml:space="preserve" approved="yes">
+        <source>Section index (page content marked for section menus)</source>
+      <target state="translated">Kazalo sekcij (vsebina strani z označenim kazalom)</target></trans-unit>
+      <trans-unit id="menu_type.I.6" xml:space="preserve" approved="yes">
+        <source>Recently updated pages</source>
+      <target state="translated">Nedavno osvežene strani</target></trans-unit>
+      <trans-unit id="menu_type.I.7" xml:space="preserve" approved="yes">
+        <source>Related pages (based on keywords)</source>
+      <target state="translated">Sorodne strani (glede na ključne besede)</target></trans-unit>
+      <trans-unit id="list_type" xml:space="preserve" approved="yes">
+        <source>Plugin:</source>
+      <target state="translated">Vtičnik:</target></trans-unit>
+      <trans-unit id="list_type_formlabel" xml:space="preserve">
+        <source>Selected Plugin</source>
+      </trans-unit>
+      <trans-unit id="table_bgColor" xml:space="preserve" approved="yes">
+        <source>Backgr. Color:</source>
+      <target state="translated">Barva ozadja:</target></trans-unit>
+      <trans-unit id="table_bgColor_formlabel" xml:space="preserve">
+        <source>Background color</source>
+      </trans-unit>
+      <trans-unit id="table_bgColor.I.1" xml:space="preserve" approved="yes">
+        <source>Color 1</source>
+      <target state="translated">Barva 1</target></trans-unit>
+      <trans-unit id="table_bgColor.I.2" xml:space="preserve" approved="yes">
+        <source>Color 2</source>
+      <target state="translated">Barva 2</target></trans-unit>
+      <trans-unit id="table_bgColor.I.3" xml:space="preserve" approved="yes">
+        <source>None</source>
+      <target state="translated">Brez</target></trans-unit>
+      <trans-unit id="table_bgColor.I.5" xml:space="preserve" approved="yes">
+        <source>Black</source>
+      <target state="translated">Črna</target></trans-unit>
+      <trans-unit id="table_bgColor.I.6" xml:space="preserve" approved="yes">
+        <source>White</source>
+      <target state="translated">Bela</target></trans-unit>
+      <trans-unit id="table_bgColor.I.7" xml:space="preserve" approved="yes">
+        <source>Dark Gray</source>
+      <target state="translated">Temno siva</target></trans-unit>
+      <trans-unit id="table_bgColor.I.8" xml:space="preserve" approved="yes">
+        <source>Gray</source>
+      <target state="translated">Siva</target></trans-unit>
+      <trans-unit id="table_bgColor.I.9" xml:space="preserve" approved="yes">
+        <source>Silver</source>
+      <target state="translated">Srebrna</target></trans-unit>
+      <trans-unit id="table_border" xml:space="preserve" approved="yes">
+        <source>Border:</source>
+      <target state="translated">Rob:</target></trans-unit>
+      <trans-unit id="table_border_formlabel" xml:space="preserve">
+        <source>Border Size (px)</source>
+      </trans-unit>
+      <trans-unit id="table_cellspacing" xml:space="preserve" approved="yes">
+        <source>Cellspacing:</source>
+      <target state="translated">Razmik med celicami:</target></trans-unit>
+      <trans-unit id="table_cellspacing_formlabel" xml:space="preserve">
+        <source>Cellspacing (px)</source>
+      </trans-unit>
+      <trans-unit id="table_cellpadding" xml:space="preserve" approved="yes">
+        <source>Cellpadding:</source>
+      <target state="translated">Razmik okrog celice:</target></trans-unit>
+      <trans-unit id="table_cellpadding_formlabel" xml:space="preserve">
+        <source>Cellpadding (px)</source>
+      </trans-unit>
+      <trans-unit id="media" xml:space="preserve" approved="yes">
+        <source>Files</source>
+      <target state="translated">Datoteke:</target></trans-unit>
+      <trans-unit id="media.ALT.uploads_formlabel" xml:space="preserve">
+        <source>Select Files</source>
+      </trans-unit>
+      <trans-unit id="multimedia" xml:space="preserve" approved="yes">
+        <source>File:</source>
+      <target state="translated">Datoteka:</target></trans-unit>
+      <trans-unit id="multimedia_formlabel" xml:space="preserve">
+        <source>Selected Media File</source>
+      </trans-unit>
+      <trans-unit id="filelink_size" xml:space="preserve" approved="yes">
+        <source>Show File Size:</source>
+      <target state="translated">Velikost datoteke:</target></trans-unit>
+      <trans-unit id="filelink_size_formlabel" xml:space="preserve">
+        <source>Display File Size Information</source>
+      </trans-unit>
+      <trans-unit id="records" xml:space="preserve" approved="yes">
+        <source>Items:</source>
+      <target state="translated">Predmeti:</target></trans-unit>
+      <trans-unit id="records_formlabel" xml:space="preserve">
+        <source>Records</source>
+      </trans-unit>
+      <trans-unit id="spaceBefore" xml:space="preserve" approved="yes">
+        <source>Before:</source>
+      <target state="translated">Pred:</target></trans-unit>
+      <trans-unit id="spaceBefore_formlabel" xml:space="preserve">
+        <source>Top Margin</source>
+      </trans-unit>
+      <trans-unit id="spaceAfter" xml:space="preserve" approved="yes">
+        <source>After:</source>
+      <target state="translated">Po:</target></trans-unit>
+      <trans-unit id="spaceAfter_formlabel" xml:space="preserve">
+        <source>Bottom Margin</source>
+      </trans-unit>
+      <trans-unit id="section_frame" xml:space="preserve" approved="yes">
+        <source>Frame:</source>
+      <target state="translated">Okvir:</target></trans-unit>
+      <trans-unit id="section_frame_formlabel" xml:space="preserve">
+        <source>Indentation and Frames</source>
+      </trans-unit>
+      <trans-unit id="section_frame.I.1" xml:space="preserve" approved="yes">
+        <source>Invisible</source>
+      <target state="translated">Nevidno</target></trans-unit>
+      <trans-unit id="section_frame.I.2" xml:space="preserve" approved="yes">
+        <source>Ruler Before</source>
+      <target state="translated">Ravnilo pred</target></trans-unit>
+      <trans-unit id="section_frame.I.3" xml:space="preserve" approved="yes">
+        <source>Ruler After</source>
+      <target state="translated">Ravnilo za</target></trans-unit>
+      <trans-unit id="section_frame.I.4" xml:space="preserve" approved="yes">
+        <source>Indent</source>
+      <target state="translated">Zamik</target></trans-unit>
+      <trans-unit id="section_frame.I.5" xml:space="preserve" approved="yes">
+        <source>Indent, 33/66%</source>
+      <target state="translated">Zamik 33/66%</target></trans-unit>
+      <trans-unit id="section_frame.I.6" xml:space="preserve" approved="yes">
+        <source>Indent, 66/33%</source>
+      <target state="translated">Zamik 66/33%</target></trans-unit>
+      <trans-unit id="section_frame.I.7" xml:space="preserve" approved="yes">
+        <source>Frame 1</source>
+      <target state="translated">Okvir 1</target></trans-unit>
+      <trans-unit id="section_frame.I.8" xml:space="preserve" approved="yes">
+        <source>Frame 2</source>
+      <target state="translated">Okvir 2</target></trans-unit>
+      <trans-unit id="splash_layout" xml:space="preserve" approved="yes">
+        <source>Textbox Type:</source>
+      <target state="translated">Vrsta besedilnega polja:</target></trans-unit>
+      <trans-unit id="splash_layout_formlabel" xml:space="preserve">
+        <source>Type</source>
+      </trans-unit>
+      <trans-unit id="splash_layout.I.1" xml:space="preserve" approved="yes">
+        <source>Image Shadow</source>
+      <target state="translated">Senca slike</target></trans-unit>
+      <trans-unit id="splash_layout.I.2" xml:space="preserve" approved="yes">
+        <source>Image Frame 1</source>
+      <target state="translated">Okvir za sliko 1</target></trans-unit>
+      <trans-unit id="splash_layout.I.3" xml:space="preserve" approved="yes">
+        <source>Image Frame 2</source>
+      <target state="translated">Okvir za sliko 2</target></trans-unit>
+      <trans-unit id="splash_layout.I.4" xml:space="preserve" approved="yes">
+        <source>__Graphical:__</source>
+      <target state="translated">__Grafično:__</target></trans-unit>
+      <trans-unit id="splash_layout.I.5" xml:space="preserve" approved="yes">
+        <source>Postit 1</source>
+      <target state="translated">Nalepka 1</target></trans-unit>
+      <trans-unit id="sectionIndex" xml:space="preserve" approved="yes">
+        <source>Index:</source>
+      <target state="translated">Kazalo:</target></trans-unit>
+      <trans-unit id="sectionIndex_formlabel" xml:space="preserve">
+        <source>Show in Section Menus</source>
+      </trans-unit>
+      <trans-unit id="linkToTop" xml:space="preserve" approved="yes">
+        <source>To top:</source>
+      <target state="translated">Na vrh:</target></trans-unit>
+      <trans-unit id="linkToTop_formlabel" xml:space="preserve">
+        <source>Append with Link to Top of Page</source>
+      </trans-unit>
+      <trans-unit id="rte_enabled" xml:space="preserve" approved="yes">
+        <source>Disable Rich Text Editor:</source>
+      <target state="translated">Izklopi urejevalnik oblikovanega besedila:</target></trans-unit>
+      <trans-unit id="rte_enabled_formlabel" xml:space="preserve">
+        <source>Rich Text Editor</source>
+      </trans-unit>
+      <trans-unit id="rte_enabled.I.0" xml:space="preserve">
+        <source>Disable</source>
+      </trans-unit>
+      <trans-unit id="pi_flexform" xml:space="preserve" approved="yes">
+        <source>Plugin Options</source>
+      <target state="translated">Nastavitve vtičnika:</target></trans-unit>
+      <trans-unit id="ALT.imgOptions" xml:space="preserve" approved="yes">
+        <source>Image Options</source>
+      <target state="translated">Možnosti za slike</target></trans-unit>
+      <trans-unit id="ALT.imgLinks" xml:space="preserve" approved="yes">
+        <source>Image Links</source>
+      <target state="translated">Povezave na slike</target></trans-unit>
+      <trans-unit id="ALT.imgDimensions" xml:space="preserve" approved="yes">
+        <source>Image Dimensions</source>
+      <target state="translated">Dimenzije slike</target></trans-unit>
+      <trans-unit id="select_key_formlabel" xml:space="preserve">
+        <source>Plugin Mode</source>
+      </trans-unit>
+      <trans-unit id="select_key.ALT.uploads" xml:space="preserve" approved="yes">
+        <source>Read from Path:</source>
+      <target state="translated">Beri s poti:</target></trans-unit>
+      <trans-unit id="select_key.ALT.uploads_formlabel" xml:space="preserve">
+        <source>Path</source>
+      </trans-unit>
+      <trans-unit id="select_key.ALT.script_formlabel" xml:space="preserve">
+        <source>PHP Code</source>
+      </trans-unit>
+      <trans-unit id="imagecaption.ALT.uploads" xml:space="preserve" approved="yes">
+        <source>Descriptions:</source>
+      <target state="translated">Opisi:</target></trans-unit>
+      <trans-unit id="imagecaption.ALT.uploads_formlabel" xml:space="preserve">
+        <source>File Descriptions (one per line)</source>
+      </trans-unit>
+      <trans-unit id="imagecaption.ALT.script" xml:space="preserve" approved="yes">
+        <source>Comments:</source>
+      <target state="translated">Opombe:</target></trans-unit>
+      <trans-unit id="bodytext.ALT.mailform" xml:space="preserve" approved="yes">
+        <source>Configuration:</source>
+      <target state="translated">Nastavitve:</target></trans-unit>
+      <trans-unit id="bodytext.ALT.mailform_formlabel" xml:space="preserve">
+        <source>Form Structure</source>
+      </trans-unit>
+      <trans-unit id="pages.ALT.mailform" xml:space="preserve" approved="yes">
+        <source>Target Page</source>
+      <target state="translated">Pojdi na stran:</target></trans-unit>
+      <trans-unit id="pages.ALT.searchform" xml:space="preserve" approved="no">
+        <source>Target page</source>
+      <target state="needs-translation">Pojdi na stran:</target><note>90%</note></trans-unit>
+      <trans-unit id="pages.ALT.loginform" xml:space="preserve">
+        <source>Selected pages: Target (1st), Frontend user container (2nd)</source>
+      </trans-unit>
+      <trans-unit id="pages.ALT.search" xml:space="preserve" approved="yes">
+        <source>Send to Page:</source>
+      <target state="translated">Pošlji na stran:</target></trans-unit>
+      <trans-unit id="pages.ALT.login" xml:space="preserve" approved="yes">
+        <source>Send to Page:</source>
+      <target state="translated">Pošlji na stran:</target></trans-unit>
+      <trans-unit id="pages.ALT.menu_formlabel" xml:space="preserve">
+        <source>Selected Pages</source>
+      </trans-unit>
+      <trans-unit id="pages.ALT.list_formlabel" xml:space="preserve">
+        <source>Record Storage Page</source>
+      </trans-unit>
+      <trans-unit id="pages.ALT.script_formlabel" xml:space="preserve">
+        <source>Starting Point for This Script</source>
+      </trans-unit>
+      <trans-unit id="subheader.ALT.mailform" xml:space="preserve" approved="yes">
+        <source>Recipient Email:</source>
+      <target state="translated">E-pošta prejemnika:</target></trans-unit>
+      <trans-unit id="subheader.ALT.mailform_formlabel" xml:space="preserve" approved="no">
+        <source>Recipient Email</source>
+      <target state="needs-translation">E-pošta prejemnika:</target><note>93%</note></trans-unit>
+      <trans-unit id="bodytext.ALT.html" xml:space="preserve" approved="yes">
+        <source>HTML:</source>
+      <target state="translated">HTML:</target></trans-unit>
+      <trans-unit id="tabs.text" xml:space="preserve" approved="yes">
+        <source>Text</source>
+      <target state="translated">Besedilo</target></trans-unit>
+      <trans-unit id="tabs.media" xml:space="preserve" approved="no">
+        <source>Media</source>
+      <target state="needs-translation">Medija</target></trans-unit>
+      <trans-unit id="tabs.plugin" xml:space="preserve" approved="yes">
+        <source>Plugin</source>
+      <target state="translated">Vtičnik</target></trans-unit>
+      <trans-unit id="media.options" xml:space="preserve">
+        <source>Media Options</source>
+      </trans-unit>
+      <trans-unit id="media.url" xml:space="preserve">
+        <source>Path or URL</source>
+      </trans-unit>
+      <trans-unit id="media.browseUrlTitle" xml:space="preserve">
+        <source>Select File or URL</source>
+      </trans-unit>
+      <trans-unit id="media.width" xml:space="preserve">
+        <source>Media Width</source>
+      </trans-unit>
+      <trans-unit id="media.height" xml:space="preserve">
+        <source>Media Height</source>
+      </trans-unit>
+      <trans-unit id="media.forcePlayer" xml:space="preserve">
+        <source>Use Player (Flash only)</source>
+      </trans-unit>
+      <trans-unit id="media.type" xml:space="preserve">
+        <source>Media Type</source>
+      </trans-unit>
+      <trans-unit id="media.type.video" xml:space="preserve">
+        <source>Video</source>
+      </trans-unit>
+      <trans-unit id="media.type.audio" xml:space="preserve">
+        <source>Audio</source>
+      </trans-unit>
+      <trans-unit id="media.renderType" xml:space="preserve">
+        <source>Render Type</source>
+      </trans-unit>
+      <trans-unit id="media.renderType.auto" xml:space="preserve" approved="yes">
+        <source>Auto</source>
+      <target state="translated">Avto</target><note>100%</note></trans-unit>
+      <trans-unit id="media.renderType.swf" xml:space="preserve">
+        <source>Flash Browser Plugin</source>
+      </trans-unit>
+      <trans-unit id="media.renderType.qt" xml:space="preserve">
+        <source>QuickTime Browser Plugin</source>
+      </trans-unit>
+      <trans-unit id="media.renderType.embed" xml:space="preserve">
+        <source>Native HTML Embed Element</source>
+      </trans-unit>
+      <trans-unit id="media.additionalOptions" xml:space="preserve">
+        <source>Additional Parameters</source>
+      </trans-unit>
+      <trans-unit id="media.params" xml:space="preserve">
+        <source>Media Parameter</source>
+      </trans-unit>
+      <trans-unit id="media.params.option" xml:space="preserve">
+        <source>Option</source>
+      </trans-unit>
+      <trans-unit id="media.params.setTo" xml:space="preserve">
+        <source>Set to</source>
+      </trans-unit>
+      <trans-unit id="media.params.on" xml:space="preserve">
+        <source>On</source>
+      </trans-unit>
+      <trans-unit id="media.params.off" xml:space="preserve">
+        <source>Off</source>
+      </trans-unit>
+      <trans-unit id="media.params.valueEntry" xml:space="preserve">
+        <source>Value Entry</source>
+      </trans-unit>
+      <trans-unit id="media.params.value" xml:space="preserve">
+        <source>Value</source>
+      </trans-unit>
+      <trans-unit id="media.params.autoPlay" xml:space="preserve">
+        <source>AutoPlay</source>
+      </trans-unit>
+      <trans-unit id="media.params.loop" xml:space="preserve">
+        <source>Loop</source>
+      </trans-unit>
+      <trans-unit id="media.params.quality" xml:space="preserve">
+        <source>Quality</source>
+      </trans-unit>
+      <trans-unit id="media.params.preview" xml:space="preserve">
+        <source>Preview Video</source>
+      </trans-unit>
+      <trans-unit id="media.params.bgColor" xml:space="preserve">
+        <source>Background Color</source>
+      </trans-unit>
+      <trans-unit id="media.params.allowScriptAccess" xml:space="preserve">
+        <source>Allow ScriptAccess</source>
+      </trans-unit>
+      <trans-unit id="media.params.allowFullScreen" xml:space="preserve">
+        <source>Allow Fullscreen</source>
+      </trans-unit>
+      <trans-unit id="media.alternativeContent" xml:space="preserve">
+        <source>Alternative Content</source>
+      </trans-unit>
+      <trans-unit id="media.params.customEntry" xml:space="preserve">
+        <source>Custom Parameters</source>
+      </trans-unit>
+      <trans-unit id="media.params.customEntryLabel" xml:space="preserve">
+        <source>Enter flashvars, params or attributes</source>
+      </trans-unit>
+      <trans-unit id="media.noFile" xml:space="preserve">
+        <source>ERROR: Missing URL or File!</source>
+      </trans-unit>
+      <trans-unit id="sys_language_uid_formlabel" xml:space="preserve">
+        <source>Language</source>
+      </trans-unit>
+      <trans-unit id="subheader_formlabel" xml:space="preserve">
+        <source>Subheader</source>
+      </trans-unit>
+      <trans-unit id="hidden_formlabel" xml:space="preserve">
+        <source>Content Element</source>
+      </trans-unit>
+      <trans-unit id="hidden.I.0" xml:space="preserve">
+        <source>Disable</source>
+      </trans-unit>
+      <trans-unit id="starttime_formlabel" xml:space="preserve">
+        <source>Publish Date</source>
+      </trans-unit>
+      <trans-unit id="endtime_formlabel" xml:space="preserve">
+        <source>Expiration Date</source>
+      </trans-unit>
+      <trans-unit id="fe_group_formlabel" xml:space="preserve">
+        <source>Usergroup Access Rights</source>
+      </trans-unit>
+      <trans-unit id="layout_formlabel" xml:space="preserve" approved="no">
+        <source>Layout</source>
+      <target state="needs-translation">Postavitev 1</target><note>75%</note></trans-unit>
+      <trans-unit id="bodytext_formlabel" xml:space="preserve" approved="yes">
+        <source>Text</source>
+      <target state="translated">Besedilo</target><note>100%</note></trans-unit>
+      <trans-unit id="bodytext.ALT.bulletlist_formlabel" xml:space="preserve" approved="yes">
+        <source>Bullet List</source>
+      <target state="translated">Grafični seznam</target><note>100%</note></trans-unit>
+      <trans-unit id="bodytext.ALT.table_formlabel" xml:space="preserve">
+        <source>Table Structure</source>
+      </trans-unit>
+      <trans-unit id="bodytext.ALT.media_formlabel" xml:space="preserve">
+        <source>Alternative Content</source>
+      </trans-unit>
+      <trans-unit id="bodytext.ALT.multimedia_formlabel" xml:space="preserve">
+        <source>Parameters</source>
+      </trans-unit>
+      <trans-unit id="bodytext.ALT.textbox_formlabel" xml:space="preserve" approved="yes">
+        <source>Text</source>
+      <target state="translated">Besedilo</target><note>100%</note></trans-unit>
+      <trans-unit id="bodytext.ALT.script_formlabel" xml:space="preserve">
+        <source>Parameters to pass to the script</source>
+      </trans-unit>
+      <trans-unit id="bodytext.ALT.html_formlabel" xml:space="preserve">
+        <source>HTML Code</source>
+      </trans-unit>
+      <trans-unit id="image_formlabel" xml:space="preserve" approved="yes">
+        <source>Images</source>
+      <target state="translated">Slike</target><note>100%</note></trans-unit>
+      <trans-unit id="image.ALT.textbox_formlabel" xml:space="preserve">
+        <source>Image Files</source>
+      </trans-unit>
+      <trans-unit id="imagecaption_formlabel" xml:space="preserve">
+        <source>Captions (one per line)</source>
+      </trans-unit>
+      <trans-unit id="imagecaption.ALT.script_formlabel" xml:space="preserve" approved="no">
+        <source>Comments</source>
+      <target state="needs-translation">Opombe:</target><note>88%</note></trans-unit>
+      <trans-unit id="palette.general" xml:space="preserve">
+        <source>Content Element</source>
+      </trans-unit>
+      <trans-unit id="palette.headers" xml:space="preserve">
+        <source>Headlines</source>
+      </trans-unit>
+      <trans-unit id="palette.header" xml:space="preserve" approved="yes">
+        <source>Header</source>
+      <target state="translated">Naslov</target><note>100%</note></trans-unit>
+      <trans-unit id="palette.visibility" xml:space="preserve">
+        <source>Visibility</source>
+      </trans-unit>
+      <trans-unit id="palette.access" xml:space="preserve">
+        <source>Publish Dates and Access Rights</source>
+      </trans-unit>
+      <trans-unit id="palette.frames" xml:space="preserve">
+        <source>Content Element Layout</source>
+      </trans-unit>
+      <trans-unit id="palette.textlayout" xml:space="preserve">
+        <source>Text Layout</source>
+      </trans-unit>
+      <trans-unit id="palette.imagefiles" xml:space="preserve">
+        <source>Images and Captions</source>
+      </trans-unit>
+      <trans-unit id="palette.imagelinks" xml:space="preserve">
+        <source>Behavior</source>
+      </trans-unit>
+      <trans-unit id="palette.image_accessibility" xml:space="preserve">
+        <source>Accessibility</source>
+      </trans-unit>
+      <trans-unit id="palette.image_settings" xml:space="preserve">
+        <source>Image Adjustments</source>
+      </trans-unit>
+      <trans-unit id="palette.imageblock" xml:space="preserve">
+        <source>Image Alignment</source>
+      </trans-unit>
+      <trans-unit id="palette.mailform" xml:space="preserve">
+        <source>Target and Recipient</source>
+      </trans-unit>
+      <trans-unit id="palette.searchform" xml:space="preserve">
+        <source>Search Results</source>
+      </trans-unit>
+      <trans-unit id="palette.loginform" xml:space="preserve">
+        <source>Redirect Target and Frontend User Container</source>
+      </trans-unit>
+      <trans-unit id="palette.multimediafiles" xml:space="preserve">
+        <source>Media Files and Parameters</source>
+      </trans-unit>
+      <trans-unit id="palette.textbox" xml:space="preserve">
+        <source>Render Text into Images</source>
+      </trans-unit>
+      <trans-unit id="palette.menu" xml:space="preserve">
+        <source>Menu and Sitemap</source>
+      </trans-unit>
+      <trans-unit id="palette.uploads_layout" xml:space="preserve">
+        <source>Filelinks Layout</source>
+      </trans-unit>
+      <trans-unit id="palette.table_layout" xml:space="preserve">
+        <source>Table Layout</source>
+      </trans-unit>
+      <trans-unit id="tabs.access" xml:space="preserve">
+        <source>Access</source>
+      </trans-unit>
+      <trans-unit id="tabs.appearance" xml:space="preserve">
+        <source>Appearance</source>
+      </trans-unit>
+      <trans-unit id="tabs.behaviour" xml:space="preserve">
+        <source>Behaviour</source>
+      </trans-unit>
+      <trans-unit id="tabs.script" xml:space="preserve" approved="yes">
+        <source>Script</source>
+      <target state="translated">Skript</target><note>100%</note></trans-unit>
+      <trans-unit id="tabs.media" xml:space="preserve" approved="no">
+        <source>Media</source>
+      <target state="needs-translation">Medija</target></trans-unit>
+      <trans-unit id="tabs.images" xml:space="preserve" approved="yes">
+        <source>Images</source>
+      <target state="translated">Slike</target><note>100%</note></trans-unit>
+      <trans-unit id="tabs.extended" xml:space="preserve">
+        <source>Extended</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

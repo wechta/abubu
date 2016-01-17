@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="mlang_labels_tablabel">Osebne nastavitve uporabnika</label>
+      <label index="mlang_labels_tabdescr">Ta modul vam omogoča urejanje vaših uporabniških nastavitev. Tu lahko spremenite jezik vmesnika, svoje ime in email naslov, kot tudi številne druge možnosti.</label>
+      <label index="mlang_tabs_tab">Nastavitve uporabnika</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

@@ -1,0 +1,519 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:pil_mailform/locallang.php:fsheet.sDEF</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<testmode>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.testmode</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</testmode>
+					<template>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.template</label>
+							<config>
+								<type>input</type>
+								<eval>trim</eval>
+								<size>15</size>
+								<wizards type="array">
+									<link type="array">
+										<type>popup</type>
+										<title>Link</title>
+										<icon>link_popup.gif</icon>
+										<script>browse_links.php?mode=wizard</script>
+										<JSopenParams>height=300,width=500,status=0,menubar=0,scrollbars=1</JSopenParams>
+									</link>
+								</wizards>
+							</config>
+						</TCEforms>
+					</template>
+					<useLL>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.useLL</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</useLL>
+					<LLFile>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.LLFile</label>
+							<config>
+								<type>input</type>
+								<eval>trim</eval>
+								<size>15</size>
+								<wizards type="array">
+									<link type="array">
+										<type>popup</type>
+										<title>Link</title>
+										<icon>link_popup.gif</icon>
+										<script>browse_links.php?mode=wizard</script>
+										<JSopenParams>height=300,width=500,status=0,menubar=0,scrollbars=1</JSopenParams>
+									</link>
+								</wizards>
+							</config>
+						</TCEforms>
+					</LLFile>
+				</el>
+			</ROOT>
+		</sDEF>
+		<sVALIDATION>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:pil_mailform/locallang.php:fsheet.sVALIDATION</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<errorSubstitution>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.errorSubstitution</label>
+							<config>
+								<type>input</type>
+								<size>50</size>
+							</config>
+						</TCEforms>
+					</errorSubstitution>
+					<requiredValues>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.requiredValues</label>
+							<config>
+								<type>text</type>
+								<cols>50</cols>
+								<rows>6</rows>
+							</config>
+						</TCEforms>
+					</requiredValues>
+					<defaultValues>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.defaultValues</label>
+							<config>
+								<type>text</type>
+								<cols>50</cols>
+								<rows>6</rows>
+							</config>
+						</TCEforms>
+					</defaultValues>
+					<storeValues>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.storeValues</label>
+							<config>
+								<type>text</type>
+								<cols>50</cols>
+								<rows>6</rows>
+							</config>
+						</TCEforms>
+					</storeValues>
+					<dateMarkerFormat>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.dateMarker</label>
+							<config>
+								<type>input</type>
+								<size>50</size>
+								<default>%Y-%m-%d</default>
+							</config>
+						</TCEforms>
+					</dateMarkerFormat>
+					<timeMarkerFormat>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.dateMarker</label>
+							<config>
+								<type>input</type>
+								<size>50</size>
+								<default>%T</default>
+							</config>
+						</TCEforms>
+					</timeMarkerFormat>
+				</el>
+			</ROOT>
+		</sVALIDATION>
+		<sMAIL>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:pil_mailform/locallang.php:fsheet.sMAIL</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<staticSubject>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.staticSubject</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</staticSubject>
+					<overrideSubject>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.overrideSubject</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</overrideSubject>
+					<userSubjectPrefix>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.userSubjectPrefix</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</userSubjectPrefix>
+					<typeofRecipient>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.typeofRecipient</label>
+							<config>
+								<type>radio</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.typeofRecipient.0</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.typeofRecipient.1</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<default>0</default>
+							</config>
+						</TCEforms>
+					</typeofRecipient>
+					<staticRecipient>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.staticRecipient</label>
+							<config>
+								<type>text</type>
+								<cols>30</cols>
+								<rows>3</rows>
+							</config>
+						</TCEforms>
+					</staticRecipient>
+					<dynamicRecipient>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.dynamicRecipient</label>
+							<config>
+								<type>text</type>
+								<cols>30</cols>
+								<rows>5</rows>
+							</config>
+						</TCEforms>
+					</dynamicRecipient>
+					<copyToUser>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.copyToUser</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">No</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">Yes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">User select</numIndex>
+										<numIndex index="1">2</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+								<multiple>0</multiple>
+								<selectedListStyle>width:150px</selectedListStyle>
+								<itemListStyle>width:150px</itemListStyle>
+							</config>
+						</TCEforms>
+					</copyToUser>
+					<userCopySubject>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.userCopySubject</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</userCopySubject>
+					<subMailHeader>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.subMailHeader</label>
+							<config>
+								<type>none</type>
+								<default>-------------------------------------------------------------------------------------------</default>
+							</config>
+						</TCEforms>						
+					</subMailHeader>
+					<fromName>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.fromName</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</fromName>
+					<fromMail>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.fromMail</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</fromMail>
+					<overrideFromHeader>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.overrideFromHeader</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</overrideFromHeader>
+					<replyToName>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.replyToName</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</replyToName>
+					<replyToMail>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.replyToMail</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+							</config>
+						</TCEforms>
+					</replyToMail>
+					<overrideReplyToHeader>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.overrideReplyToHeader</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</overrideReplyToHeader>
+					<overrideHeaderNameFormat>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.overrideHeaderNameFormat</label>
+							<config>
+								<type>radio</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.overrideHeaderNameFormat.0</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.overrideHeaderNameFormat.1</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<default>0</default>
+							</config>
+						</TCEforms>
+					</overrideHeaderNameFormat>
+					<discloseRecipient>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.discloseRecipient</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</discloseRecipient>
+					<Cc>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.Cc</label>
+							<config>
+								<type>text</type>
+								<cols>30</cols>
+								<rows>3</rows>
+							</config>
+						</TCEforms>
+					</Cc>
+					<Bcc>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.Bcc</label>
+							<config>
+								<type>text</type>
+								<cols>30</cols>
+								<rows>3</rows>
+							</config>
+						</TCEforms>
+					</Bcc>
+					<contentTransferEncoding>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.contentTransferEncoding</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.contentTransferEncoding.0</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.contentTransferEncoding.1</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.contentTransferEncoding.2</numIndex>
+										<numIndex index="1">2</numIndex>
+									</numIndex>
+									<numIndex index="3" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.contentTransferEncoding.3</numIndex>
+										<numIndex index="1">3</numIndex>
+									</numIndex>
+									<numIndex index="4" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.contentTransferEncoding.4</numIndex>
+										<numIndex index="1">4</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+								<multiple>0</multiple>
+								<selectedListStyle>width:150px</selectedListStyle>
+								<itemListStyle>width:150px</itemListStyle>
+							</config>
+						</TCEforms>
+					</contentTransferEncoding>
+					<contentType>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.contentType</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.contentType.0</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.contentType.1</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+								<multiple>0</multiple>
+								<selectedListStyle>width:150px</selectedListStyle>
+								<itemListStyle>width:150px</itemListStyle>
+							</config>
+						</TCEforms>
+					</contentType>
+					<charset>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.charset</label>
+							<config>
+								<type>input</type>
+								<size>16</size>
+								<default>ISO-8859-1</default>
+							</config>
+						</TCEforms>
+					</charset>
+					<subMailServer>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.subMailServer</label>
+							<config>
+								<type>none</type>
+								<default>-------------------------------------------------------------------------------------------</default>
+							</config>
+						</TCEforms>						
+					</subMailServer>
+					<useMailer>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.useMailer</label>
+							<config>
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.useMailer.0</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.useMailer.1</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:pil_mailform/locallang.php:ffield.useMailer.2</numIndex>
+										<numIndex index="1">2</numIndex>
+									</numIndex>
+								</items>
+								<maxitems>1</maxitems>
+								<size>1</size>
+								<multiple>0</multiple>
+								<selectedListStyle>width:150px</selectedListStyle>
+								<itemListStyle>width:150px</itemListStyle>
+							</config>
+						</TCEforms>
+					</useMailer>
+					<sendmailPath>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.sendmailPath</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+								<default>/usr/sbin/sendmail</default>
+							</config>
+						</TCEforms>
+					</sendmailPath>
+					<smtpHost>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.smtpHost</label>
+							<config>
+								<type>input</type>
+								<size>30</size>
+								<default>localhost</default>
+							</config>
+						</TCEforms>
+					</smtpHost>
+					<smtpPort>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.smtpPort</label>
+							<config>
+								<type>input</type>
+								<size>6</size>
+								<default>25</default>
+							</config>
+						</TCEforms>
+					</smtpPort>
+					<smtpAuth>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.smtpAuth</label>
+							<config>
+								<type>check</type>
+							</config>
+						</TCEforms>
+					</smtpAuth>
+					<smtpUser>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.smtpUser</label>
+							<config>
+								<type>input</type>
+								<size>16</size>
+							</config>
+						</TCEforms>
+					</smtpUser>
+					<smtpPasswd>
+						<TCEforms>
+							<label>LLL:EXT:pil_mailform/locallang.php:ffield.smtpPasswd</label>
+							<config>
+								<type>input</type>
+								<size>16</size>
+							</config>
+						</TCEforms>
+					</smtpPasswd>
+				</el>
+			</ROOT>
+		</sMAIL>
+	</sheets>
+</T3DataStructure>

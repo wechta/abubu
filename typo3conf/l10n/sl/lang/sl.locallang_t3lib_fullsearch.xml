@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="query_loaded"/>
+      <label index="query_from_action_loaded"/>
+      <label index="query_saved"/>
+      <label index="query_notsaved"/>
+      <label index="query_removed"/>
+    </languageKey>
+  </data>
+</T3locallangExt>

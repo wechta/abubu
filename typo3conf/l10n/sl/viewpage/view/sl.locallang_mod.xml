@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<T3locallangExt>
+  <data type="array">
+    <languageKey index="sl" type="array">
+      <label index="mlang_labels_tablabel">Ogled strani</label>
+      <label index="mlang_labels_tabdescr">Pokaže izgled trenutne strani in omogoča neposredno urejanje le-te.</label>
+      <label index="mlang_tabs_tab">Prikaz</label>
+    </languageKey>
+  </data>
+</T3locallangExt>

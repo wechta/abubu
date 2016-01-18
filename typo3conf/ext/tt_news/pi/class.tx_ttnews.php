@@ -2236,17 +2236,21 @@ class tx_ttnews extends tslib_pibase {
 						$lConf['image.']['titleText'] = $imgsTitleTexts[$cc];
 						$lConf['image.']['file'] = 'uploads/pics/' . $val;
 
-						$theImgCode .= $this->local_cObj->IMAGE($lConf['image.']) . $this->local_cObj->stdWrap($imgsCaptions[$cc], $lConf['caption_stdWrap.']);
+						//$theImgCode .= $this->local_cObj->IMAGE($lConf['image.']) . $this->local_cObj->stdWrap($imgsCaptions[$cc], $lConf['caption_stdWrap.']);
+						$theImgCode =$lConf['image.']['file'];
 					}
 					$cc++;
 				}
 
 				if ($cc) {
-					$markerArray['###NEWS_IMAGE###'] = $this->local_cObj->wrap($theImgCode, $lConf['imageWrapIfAny']);
+					//peterw	
+					$markerArray['###NEWS_IMAGE###'] = $theImgCode;
+					//$markerArray['###NEWS_IMAGE###'] = $this->local_cObj->wrap($theImgCode, $lConf['imageWrapIfAny']);
 				} else {
 					$markerArray['###NEWS_IMAGE###'] = $this->local_cObj->stdWrap($markerArray['###NEWS_IMAGE###'], $lConf['image.']['noImage_stdWrap.']);
 				}
 			}
+
 		}
 		if ($this->debugTimes) {
 			$this->hObj->getParsetime(__METHOD__);

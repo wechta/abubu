@@ -102,6 +102,31 @@ LINK_NEXT - used in the pagebrowser
 	This is the template for the latest news, typically displayed on a frontpage 
 -->
 
+	<!-- ###CONTENT### begin
+		  This is the part of the template substituted with the list of news: 
+	-->
+		<!-- ###NEWS### begin 
+			Template for a single item 
+		-->
+        	<div class="col-xs-12 col-sm-6 col-md-3">
+                <!--###LINK_ITEM###--><img class="img-responsive" src="###NEWS_IMAGE###" alt="###NEWS_TITLE###">
+                <div class="bottom__a_caption">
+                    <h3 class="bottom__a_title">###NEWS_TITLE###</h3>
+                    <p>###NEWS_SUBHEADER### 
+                        <span class="readmore">Več ></span>
+                    </p>
+                </div>
+                <!--###LINK_ITEM###-->
+            </div>
+		<!-- ###NEWS### end-->		
+	<!-- ###CONTENT###  end -->
+
+<!-- ###TEMPLATE_LATEST### end -->
+
+<!-- ###TEMPLATE_LATESTx### begin
+	This is the template for the latest news, typically displayed on a frontpage 
+-->
+
 <div class="lateNewsList">
 
 	<!-- ###CONTENT### begin
@@ -123,7 +148,7 @@ LINK_NEXT - used in the pagebrowser
 	<!-- ###CONTENT###  end -->
     </div>
 <div class="latestLinkArhiv"><!--###LINK_ARCHIVE###-->###GOTOARCHIVE###<!--###LINK_ARCHIVE###--></div>
-<!-- ###TEMPLATE_LATEST### end -->
+<!-- ###TEMPLATE_LATESTx### end -->
 
 
 

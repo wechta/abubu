@@ -6,6 +6,20 @@
     <title>Abubu Kids</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+  	<script src="scripts/jquery.min.js"></script>
+  	<script src="scripts/jquery-ui.min.js"></script>
+  	
+  	
+  	<link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+  	
+  	<script>
+	  $(function() {
+	    $("#featured2").tabs();
+	  });
+	  </script>
+    
     <!-- Fonts -->
     <link href='https://fonts.googleapis.com/css?family=Arimo:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -16,6 +30,7 @@
     <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
     <!-- Template -->
     <link href="css/style.css" rel="stylesheet">
+    
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -101,37 +116,8 @@
         <section class="menu">
             <div class="container">
                 <nav class="navbar navbar-default">
-                    <div class="collapse navbar-collapse" id="navigation">
+                    <div class="collapse navbar-collapse" id="dropDownMenu">
                         ###NAVIGATION###
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a href="#"><span>Dojenčki</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Dečki 1-8 let</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Deklice 1-8 let</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Igrače</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Bižuterija</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Darila</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Akcije</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Obutev</span></a>
-                            </li>
-                            <li>
-                                <a href="#"><span>Ženske</span></a>
-                            </li>
-                        </ul>
                     </div>
                 </nav>
             </div>
@@ -147,212 +133,30 @@
                 </div>
             </div>
         </section>
+
+        
         <div class="main productlist">
             <div class="container">       
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="productlist__tabs">
-                            <ul class="nav nav-pills nav-justified productlist__nav">
-                                <li>
-                                    <a href="#">Novi izdelki</a>
-                                </li>
-                                <li>
-                                    <a href="#">Izdelki v akciji</a>
-                                </li>
-                                <li>
-                                    <a href="#">Najbolj prodajani</a>
-                                </li>
+                    	<script type="text/javascript">
+			                $(document).ready(function(){
+			                $("#featured2").tabs();
+			                });
+		                </script>
+                        <div class="productlist__tabs" id="featured2">
+                            <ul class="nav nav-pills nav-justified productlist__nav ui-tabs-nav">
+                            	<li class="ui-tabs-nav-item" id="nav-fragment-1"><a href="#fragment2-1" class="">Novi izdelki</a></li>
+			                    <li class="ui-tabs-nav-item" id="nav-fragment-2"><a href="#fragment2-2" class="">Izdelki v akciji</a></li>
+			                    <li class="ui-tabs-nav-item" id="nav-fragment-3"><a href="#fragment2-3" class="">Najbolj prodajani</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
-
-                <div class="row row--productlist bs-margin-remove-top">
-                    <div class="col-xs-6 col-md-3">
-                        <div class="productlist__item">
-                            <div class="overlay overlay-hover">
-                                <img src="images/izdelki/izdelek_1_thumb.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva">
-                                <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                                    <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                        <span></span>
-                                        <span>V košarico</span>
-                                    </a>
-                                    <span class="separator"></span>
-                                    <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                        <span></span>
-                                        <span>Podrobnosti</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="caption productlist__item_caption">
-                                <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                                <p class="productlist__item_price">14,90 €</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-6 col-md-3">
-                        <div class="productlist__item">
-                            <div class="overlay overlay-hover">
-                                <img src="images/izdelki/izdelek_1_thumb.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva">
-                                <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                                    <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                        <span></span>
-                                        <span>V košarico</span>
-                                    </a>
-                                    <span class="separator"></span>
-                                    <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                        <span></span>
-                                        <span>Podrobnosti</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="caption productlist__item_caption">
-                                <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                                <p class="productlist__item_price">14,90 €</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-6 col-md-3">
-                        <div class="productlist__item">
-                            <div class="overlay overlay-hover">
-                                <img src="images/izdelki/izdelek_1_thumb.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva">
-                                <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                                    <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                        <span></span>
-                                        <span>V košarico</span>
-                                    </a>
-                                    <span class="separator"></span>
-                                    <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                        <span></span>
-                                        <span>Podrobnosti</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="caption productlist__item_caption">
-                                <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                                <p class="productlist__item_price">14,90 €</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-6 col-md-3">
-                        <div class="productlist__item">
-                            <div class="overlay overlay-hover">
-                                <img src="images/izdelki/izdelek_1_thumb.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva">
-                                <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                                    <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                        <span></span>
-                                        <span>V košarico</span>
-                                    </a>
-                                    <span class="separator"></span>
-                                    <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                        <span></span>
-                                        <span>Podrobnosti</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="caption productlist__item_caption">
-                                <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                                <p class="productlist__item_price">14,90 €</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row row--productlist">
-                    <div class="col-xs-6 col-md-3">
-                        <div class="productlist__item">
-                            <div class="overlay overlay-hover">
-                                <img src="images/izdelki/izdelek_1_thumb.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva">
-                                <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                                    <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                        <span></span>
-                                        <span>V košarico</span>
-                                    </a>
-                                    <span class="separator"></span>
-                                    <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                        <span></span>
-                                        <span>Podrobnosti</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="caption productlist__item_caption">
-                                <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                                <p class="productlist__item_price">14,90 €</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-6 col-md-3">
-                        <div class="productlist__item">
-                            <div class="overlay overlay-hover">
-                                <img src="images/izdelki/izdelek_1_thumb.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva">
-                                <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                                    <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                        <span></span>
-                                        <span>V košarico</span>
-                                    </a>
-                                    <span class="separator"></span>
-                                    <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                        <span></span>
-                                        <span>Podrobnosti</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="caption productlist__item_caption">
-                                <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                                <p class="productlist__item_price">14,90 €</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-6 col-md-3">
-                        <div class="productlist__item">
-                            <div class="overlay overlay-hover">
-                                <img src="images/izdelki/izdelek_1_thumb.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva">
-                                <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                                    <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                        <span></span>
-                                        <span>V košarico</span>
-                                    </a>
-                                    <span class="separator"></span>
-                                    <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                        <span></span>
-                                        <span>Podrobnosti</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="caption productlist__item_caption">
-                                <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                                <p class="productlist__item_price">14,90 €</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xs-6 col-md-3">
-                        <div class="productlist__item">
-                            <div class="overlay overlay-hover">
-                                <img src="images/izdelki/izdelek_1_thumb.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva">
-                                <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                                    <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                        <span></span>
-                                        <span>V košarico</span>
-                                    </a>
-                                    <span class="separator"></span>
-                                    <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                        <span></span>
-                                        <span>Podrobnosti</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="caption productlist__item_caption">
-                                <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                                <p class="productlist__item_price">14,90 €</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+				<div id="fragment2-1" class="ui-tabs-panel ui-tabs-hide">####NAJBOLJPRODAJANI###</div>
+                <div id="fragment2-2" class="ui-tabs-panel ui-tabs-hide">####AKCIJSKIIZDELKI###</div>
+                <div id="fragment2-3" class="ui-tabs-panel ui-tabs-hide">####IZBRANIIZDELKI###</div>
+				
 
                 <div class="row row--newsletter">
                     <div class="col-md-12 text-center">
@@ -368,46 +172,13 @@
             <div class="arrow_box text-center"></div>
 
         </div>
-
+		
+		
+		
         <section class="bottom__a">
             <div class="container">
-                <div class="row row--zerogutter">
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=40&bg=e5cd82&txtclr=ffffff&txt=300%C3%97165&w=300&h=165" alt="">
-                        <div class="bottom__a_caption">
-                            <h3 class="bottom__a_title">Naslov in še en daljši naslov</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium ex in risus sollicitudin rhoncus nec quis urna. Sed non imperdiet augue. Cras et lacus urna. Donec tincidunt sagittis. 
-                                <span class="readmore">Več ></span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=40&bg=d85f2f&txtclr=ffffff&txt=300%C3%97165&w=300&h=165" alt="">
-                        <div class="bottom__a_caption">
-                            <h3 class="bottom__a_title">Naslov in še en naslov</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium ex in risus sollicitudin rhoncus nec quis urna. Sed non imperdiet augue. Cras et lacus urna. Donec tincidunt sagittis. 
-                                <span class="readmore">Več ></span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=40&bg=1cbc5f&txtclr=ffffff&txt=300%C3%97165&w=300&h=165" alt="">
-                        <div class="bottom__a_caption">
-                            <h3 class="bottom__a_title">Naslov in še en  naslov</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium ex in risus sollicitudin rhoncus nec quis urna. Sed non imperdiet augue. Cras et lacus urna. Donec tincidunt sagittis. 
-                                <span class="readmore">Več ></span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-3">
-                        <img class="img-responsive" src="https://placeholdit.imgix.net/~text?txtsize=40&bg=1697b7&txtclr=ffffff&txt=300%C3%97165&w=300&h=165" alt="">
-                        <div class="bottom__a_caption">
-                            <h3 class="bottom__a_title">Naslov in še en naslov</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pretium ex in risus sollicitudin rhoncus nec quis urna. Sed non imperdiet augue. Cras et lacus urna. Donec tincidunt sagittis. 
-                                <span class="readmore">Več ></span>
-                            </p>
-                        </div>
-                    </div>
+                <div class="row row--zerogutter" id="latestNews">
+                    ###LATEST_NEWS###
                 </div>
             </div>
         </section>
@@ -460,15 +231,16 @@
                             <h3 class="footer__block_title">E-novice</h3>
                             <div class="footer__block_content narrow">
                                 <p>Prijavi se na naše e-novice in bodi ves čas na tekočem z novostmi.</p>
-                                <form class="newsletter__form">
-                                  <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Ime">
-                                  </div>
-                                  <div class="form-group">
-                                    <input type="email" class="form-control" id="email" placeholder="E-poštni naslov">
-                                  </div>
-                                  <button type="submit" class="btn btn-dark">Pošlji</button>
-                                </form>
+                                <form class="newsletter__form" action="http://www.nottyfly.com/sendy/subscribe" method="POST" accept-charset="utf-8">
+									<div class="form-group">
+	                                    <input type="text" class="form-control" name="name" id="name" placeholder="Ime">
+	                                  </div>
+	                                  <div class="form-group">
+	                                    <input type="email" class="form-control" name="email" id="email" placeholder="E-poštni naslov">
+	                                  </div>
+	                                  <input type="hidden" name="list" value="763v763YdM6d5763g3AFHTbY892xdw"/>
+	                                  <button type="submit" class="btn btn-dark">Pošlji</button>
+								</form>
                             </div>
                         </div>
                     </div>
@@ -515,15 +287,15 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-6">
                         <div>
-                            <p>&copy; 2015 Abubu Kids</p>
+                            <p>&copy; 2016 Abubu Kids</p>
                         </div>
                     </div>
                     <div class="col-xs-12 col-sm-6">
                         <div class="bs-pull-right bs-position-relative">
                             <a class="totop" href="#top"></a>
                             <p>
-                                <a href="#" class="bs-margin-right">Produkcija: Naprej.net</a>
-                                <a href="#">Splošni pogoji</a>
+                                <a href="http://naprej.net" target="_blank" class="bs-margin-right">Produkcija: Naprej.net</a>
+                                <a href="/pogoji_poslovanja/">Splošni pogoji</a>
                             </p>
                         </div>
                     </div>

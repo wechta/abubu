@@ -8,45 +8,17 @@
 </div>
 <!-- ###CAT_MENU_TEMPLATE### begin-->
 
+
 <!-- ###TOP_MENU### begin-->
-<ul>
+<ul class="nav navbar-nav">
 	<!-- ###TOP_MENU_LVL1### begin-->
-	<li class="###NEK_ID/COUNTER###">
-		<a href="###LVL1_LINK###" class="link1 ###ACTIVE###">###LVL1_TITLE###</a>
-		<!-- ###TOP_MENU_LVL2_ITEMS### begin-->
-		<ul class="show">
-			<div class="showStuff">
-				<div class="dropItems">
-					<!-- ###TOP_MENU_LVL2### begin-->
-					<div class="dropNavi">
-						<h2><a href="###LVL2_LINK###">###LVL2_TITLE###</a></h2>
-						<!-- ###TOP_MENU_LVL3_ITEMS### begin-->
-						<ul>
-							<!-- ###TOP_MENU_LVL3### begin-->
-							<li><a href="###LVL3_LINK###">###LVL3_TITLE###</a></li>
-							<!-- ###TOP_MENU_LVL3### end-->
-							<!-- ###SHOW_LVL3_MORE### begin--><li><a href="###MORE_LINK###" class="more">Več ...</a></li><!-- ###SHOW_LVL3_MORE### end-->
-						</ul>
-						<!-- ###TOP_MENU_LVL3_ITEMS### end-->
-					</div>
-					<!-- ###TOP_MENU_LVL2### end-->
-				</div> 
-				<div class="catNaviDescription">
-                	<h2>###LVL1_SUBTITLE###</h2>
-                    <p>
-                    ###LVL1_DESCRIPTION###
-                    </p>
-                </div>
-                <div class="catNaviImage">
-                	<img src="###LVL1_IMAGE###" />
-                </div> 
-			</div>
-		</ul>
-		<!-- ###TOP_MENU_LVL2_ITEMS### end-->
+	<li class="###ACTIVE###">
+	    <a href="###LVL1_LINK###"><span>###LVL1_TITLE###</span></a>
 	</li>
 	<!-- ###TOP_MENU_LVL1### end-->
 </ul>
 <!-- ###TOP_MENU### end-->
+
 
 <!-- ###PRODUCT_TITLE_TEMPLATE### begin-->
 <h1>###TITLE###</h1>
@@ -59,33 +31,36 @@
 <!-- ###CAT_TITLE_TEMPLATE### begin-->
 
 <!-- ###PRODUCTS_SPECIAL_LIST_TEMPLATE### begin-->
-<a href="###PRODUCT_SINGLE_LINK###" title="###PRODUCT###" class="shadowH productListItem">
-	<div><span><img src="###IMAGE###" alt="###PRODUCT###"></span></div>
-    <span class="listH1">###PRODUCT###</span>
-    <p>###PRODUCT_SUBTITLE###</p>
-    
-    <!--###VRSTA_CAJA_NONE###-->
-    <h2 class="color_###CAT_UID###">###VRSTA_CAJA###</h2>
-    <!--###VRSTA_CAJA_NONE###-->
-    
-    <!--###MESEC_CAJA_NONE###-->
-    <h4 class="color_###CAT_UID###">###MESEC_CAJA###</h4>
-    <!--###MESEC_CAJA_NONE###-->
-    
-    <!--###BIOSTICKER_NONE###-->
-    <span class="bioSticker"><img src="fileadmin/template/images/biosticker.png" /></span>
-    <!--###BIOSTICKER_NONE###-->
-    
-    <!--###AKCIJSKA_NONE###-->
-    <h3>Vaša cena:<span>###PRODUCT_PRICE###&nbsp;€</span></h3>
-    <!--###AKCIJSKA_NONE###-->
-    <!--###AKCIJSKA_NAVADNA###-->
-    <h3>Vaša cena:<span>###PRODUCT_ACTION_PRICE###&nbsp;€</span></h3>
-    <span class="fullPrice">###PRODUCT_PRICE###&nbsp;€</span>
-	<span class="popust"><span>###PRODUCT_ACTION_DISCOUNT###% <br /></span>popust</span>
-	<!--###AKCIJSKA_NAVADNA###-->
-    <span class="triangle color_###CAT_UID###"></span>
-</a>
+<div class="col-xs-6 col-md-3">
+    <div class="productlist__item">
+        <div class="overlay overlay-hover">
+            <img src="###IMAGE###" alt="###PRODUCT###">
+            <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
+                <a class="productlist__item_addtocart" href="###PRODUCT_SINGLE_LINK###" title="V košarico">
+                    <span></span>
+                    <span>V košarico</span>
+                </a>
+                <span class="separator"></span>
+                <a class="productlist__item_details" href="###PRODUCT_SINGLE_LINK###" title="Podrobnosti">
+                    <span></span>
+                    <span>Podrobnosti</span>
+                </a>
+            </div>
+        </div>
+        <div class="caption productlist__item_caption">
+            <p class="productlist__item_title">###PRODUCT###</p>
+            
+            <!--###AKCIJSKA_NONE###-->
+		    <p class="productlist__item_price">###PRODUCT_PRICE###&nbsp;€</p>
+		    <!--###AKCIJSKA_NONE###-->
+		    <!--###AKCIJSKA_NAVADNA###-->
+		    <p class="productlist__item_price">###PRODUCT_PRICE###&nbsp;€</p>
+		    <!--<span class="fullPrice">###PRODUCT_PRICE###&nbsp;€</span>
+			<span class="popust"><span>###PRODUCT_ACTION_DISCOUNT###% <br /></span>popust</span>-->
+			<!--###AKCIJSKA_NAVADNA###-->
+        </div>
+    </div>
+</div>
 <!-- ###PRODUCTS_SPECIAL_LIST_TEMPLATE### end-->
 
 <!-- ###CAT_MENU_TEMPLATE### begin-->
@@ -132,6 +107,16 @@
 <!-- ###PRODUCTS_LIST_BREAD_TEMPLATE### end-->
 
 <!-- ###PRODUCTS_LIST_CE_TEMPLATE### begin-->
+<div class="row">
+    <div class="col-md-12">
+        <div class="productlist__subpage-intro text-center">
+           <p class="subpage-intro-top">Dečki 1-8 let</p>
+           <h1 class="title-secondary">Zgornji deli</h1>
+           <p class="subpage-intro-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius accumsan vulputate. Phasellus lorem sem, lobortis in urna vel, consectetur laoreet diam. Integer fringilla pharetra massa ornare varius. Pellentesque habitant morbi tristique senectus et  scelerisque, nulla sit amet eleifend dictum, felis magna bibendum sapien, netus et malesuada fames ac turpis egestas.</p>
+        </div>
+    </div>
+</div>
+
 <div class="listCe">
 ###CE_ELEMENT###
 </div>

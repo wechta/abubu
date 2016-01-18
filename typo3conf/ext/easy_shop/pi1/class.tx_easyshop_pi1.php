@@ -51,8 +51,8 @@ class tx_easyshop_pi1 extends tslib_pibase {
 		$GLOBALS['TSFE']->config['config']['forceTypeValue']=0;
 		$GLOBALS['TSFE']->additionalHeaderData['web_shop_script'].= '<script type="text/javascript">';
 		//$GLOBALS['TSFE']->additionalHeaderData['web_shop_script'].= "jQuery(document).ready(function(){jQuery(\"A[name='addToBasket']\").click(function(){jQuery('#basketCompactView').load('".$basketLink."&tx_easyshop_pi1[addToBasket]='+jQuery(this).attr('rel'));});})";
-		
-		
+
+		//t3lib_utility_Debug::debug($this->conf['display']);
 		foreach(explode(',',$this->conf['display']) as $display){
 			switch($display){
 				case 1:
@@ -203,7 +203,7 @@ class tx_easyshop_pi1 extends tslib_pibase {
 				break;
 				case 9:
 					if(!$this->piVars['prod']){
-						$content.=$this->displayCatTitle($arg);;
+						$content.=$this->displayCatTitle();;
 					}
 					
 				break;
@@ -805,7 +805,6 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		
 		$this->allProp3 = $this->getProperties3();
 		$this->allProp4 = $this->getProperties4();
-		$currentCat=array();
 		foreach($this->allCategoriesSorted as $c){
 			if($c['uid']==$this->piVars['cat']){
 				$currentCat=$c;
@@ -834,7 +833,6 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		$params['next_prev']=true;
 		
 		$template = $this->loadTemplate('###PRODUCTS_LIST_TEMPLATE###');
-		$templateCE = $this->loadTemplate('###PRODUCTS_LIST_CE_TEMPLATE###');
 		if(!$template){return $this->pi_getLL('no_template_error');}
 		
 		//$template = $this->loadTemplate('###PRODUCTS_SPECIAL_LIST_TEMPLATE###');
@@ -846,17 +844,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		if(!$template){return $this->pi_getLL('no_template_error');}
 		$singleMark=array();
 		$singleMarkCE=array();
-		
-					
-		$CEElement = $this->getCE($currentCat['cat_element']);
-		if($CEElement) {
-			$singleMarkCE['###CE_ELEMENT###'] = $CEElement;
-			$ceOut = $this->cObj->substituteMarkerArrayCached($templateCE,$singleMarkCE,array(),array());
-		} else {
-			$ceOut = '';
-		}
-		//t3lib_utility_Debug::debug($CEElement);
-		//cat_element
+
 		
 		$products = $this->getProducts($params);
 		
@@ -945,7 +933,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 			$returnContent .= $this->cObj->substituteMarkerArrayCached($template,$singleMarkProduct,$multieMarkProduct,array());
 		}
 		
-		return $ceOut.$returnContent;
+		return $returnContent;
 	}
 	function displayProductsListAjax(){
 		$params=array();
@@ -1117,24 +1105,18 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		return $this->cObj->substituteMarkerArrayCached($template,$singleMark,array(),array());
 	}
 	
-	function displayCatTitle($arg){
-		$template = $this->loadTemplate('###CAT_TITLE_TEMPLATE###');
-		//echo $template;
-		if(!$template){return $this->pi_getLL('no_template_error');}
-		$singleMark=array();
-		if(!$this->piVars['cat']){
+	function displayCatTitle(){
+		$cat = $this->getCategory($this->piVars['cat']);
+		if($cat){
+			$template = $this->loadTemplate('###CAT_TITLE_TEMPLATE###');
+			if(!$template){return $this->pi_getLL('no_template_error');}
+			$parentCat = $this->getCategory($cat['parrent']);
+			$singleMark['###CAT_TITLE###'] = $cat['title_front'];
+			$singleMark['###CAT_DESC###']=$this->cObj->parseFunc($cat['description'], $GLOBALS['TSFE']->tmpl->setup['tt_content.']['text.']['20.']['parseFunc.']);
+			$singleMark['###PARENT_CAT_TITLE###'] = $parentCat['title_front'];
+		}else{
 			$singleMark['###TITLE###']=$this->pi_getLL('no_category_error');
 			$singleMark['###DESCRIPTION###']='';
-		}else{
-			$categories = $this->getAllCategories($arg);
-			foreach($categories as $category){
-				if($this->piVars['cat']==$category['uid']){
-					$selCat=$category;
-					break;
-				}	
-			}
-			$singleMark['###TITLE###']=$selCat['title_front'];
-			$singleMark['###DESCRIPTION###']=$this->cObj->parseFunc($selCat['description'], $GLOBALS['TSFE']->tmpl->setup['tt_content.']['text.']['20.']['parseFunc.']);
 		}
 		return $this->cObj->substituteMarkerArrayCached($template,$singleMark,array(),array());
 	}
@@ -1958,6 +1940,18 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 				$this->allCategories[$row['uid']] = $row;
 			}
 			$GLOBALS['TYPO3_DB']->sql_free_result($res);
+		}
+	}
+	function getCategory($uid){
+		$queryParts = array();
+		$queryParts['SELECT'] = '*';
+		$queryParts['FROM'] = 'tx_easyshop_categories';
+		$queryParts['WHERE'] = 'tx_easyshop_categories.uid='.$uid;
+		$res = $GLOBALS['TYPO3_DB']->exec_SELECT_queryArray($queryParts);
+		if ($res) {
+			$row = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($res);
+			$GLOBALS['TYPO3_DB']->sql_free_result($res);
+			return $row;
 		}
 	}
 	function getAllCategoriesWithProducts($arg){

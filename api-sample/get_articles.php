@@ -21,7 +21,7 @@ var_dump($result);
 echo "</pre>";*/
 
 //dobis vse GLAVNE izdelke.. zraven imas kateri kategoriji spadajo
-/*echo "<pre>";
+echo "<pre>";
 $i = 0;
 $result = mt_api_call("getArticles", array("all" => "1"));
 foreach ($result['data'] as $single) {
@@ -31,7 +31,7 @@ foreach ($result['data'] as $single) {
   }
 }
 var_dump('SKUPAJ GLAVNIH IZDELKOV: '.$i);
-echo "</pre>";*/
+echo "</pre>";
 
 
 //dobis podrejene izdelke za posamezen glavni izdelek, te potem zdruzis v en izdelek..

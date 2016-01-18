@@ -25,10 +25,11 @@
 <!--<p>###SUBTITLE###</p>-->
 <!-- ###PRODUCT_TITLE_TEMPLATE### begin-->
 
-<!-- ###CAT_TITLE_TEMPLATE### begin-->
-<h1>###TITLE###</h1><span></span>
-<!-- <p>###DESCRIPTION###</p>-->
-<!-- ###CAT_TITLE_TEMPLATE### begin-->
+<!-- ###CAT_TITLE_TEMPLATE### start -->
+<p class="subpage-intro-top">###PARENT_CAT_TITLE###</p>
+<h1 class="title-secondary">###CAT_TITLE###</h1>
+<p class="subpage-intro-bottom">###CAT_DESC###</p>
+<!-- ###CAT_TITLE_TEMPLATE### end -->
 
 <!-- ###PRODUCTS_SPECIAL_LIST_TEMPLATE### begin-->
 <div class="col-xs-6 col-md-3">
@@ -97,60 +98,91 @@
 <!-- ###CAT_MENU_WITH_PRODUCTS_TEMPLATE### end -->
 
 <!-- ###PRODUCTS_LIST_BREAD_TEMPLATE### begin-->
-<div itemscope itemtype="http://schema.org/WebPage">
-	<div itemprop="breadcrumb">
-	<!-- ###PRODUCT_BREAD_CAT### begin-->
-	<p>&nbsp;&nbsp/&nbsp;&nbsp;<a href="###CAT_LINK###" title="###CAT_TITLE###">###CAT_TITLE###</a></p>
-	<!-- ###PRODUCT_BREAD_CAT### end-->
-    </div>
-</div>
+<ol class="breadcrumb" >
+    <li><a href="">Domov</a></li>
+    <!-- ###PRODUCT_BREAD_CAT### begin-->
+    <li><a href="###CAT_LINK###" title="###CAT_TITLE###">###CAT_TITLE###</a></li>
+    <!-- ###PRODUCT_BREAD_CAT### end-->
+</ol>
 <!-- ###PRODUCTS_LIST_BREAD_TEMPLATE### end-->
 
 <!-- ###PRODUCTS_LIST_CE_TEMPLATE### begin-->
 <div class="row">
     <div class="col-md-12">
         <div class="productlist__subpage-intro text-center">
-           <p class="subpage-intro-top">Dečki 1-8 let</p>
-           <h1 class="title-secondary">Zgornji deli</h1>
-           <p class="subpage-intro-bottom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius accumsan vulputate. Phasellus lorem sem, lobortis in urna vel, consectetur laoreet diam. Integer fringilla pharetra massa ornare varius. Pellentesque habitant morbi tristique senectus et  scelerisque, nulla sit amet eleifend dictum, felis magna bibendum sapien, netus et malesuada fames ac turpis egestas.</p>
+           <p class="subpage-intro-top">###PARENT_CAT_TITLE###</p>
+           <h1 class="title-secondary">###CAT_TITLE###</h1>
+           <p class="subpage-intro-bottom">###CAT_DESC###</p>
         </div>
     </div>
-</div>
-
-<div class="listCe">
-###CE_ELEMENT###
 </div>
 <!-- ###PRODUCTS_LIST_CE_TEMPLATE### end-->
 
 <!-- ###PRODUCTS_LIST_TEMPLATE### begin-->
+<div class="col-xs-6 col-md-4">
+    <div class="productlist__item">
+        <div class="overlay overlay-hover">
+            <img src="###IMAGE###" alt="###PRODUCT###">
+            <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
+                <a class="productlist__item_addtocart" href="###PRODUCT_SINGLE_LINK###" title="V košarico">
+                    <span></span>
+                    <span>V košarico</span>
+                </a>
+                <span class="separator"></span>
+                <a class="productlist__item_details" href="###PRODUCT_SINGLE_LINK###" title="Podrobnosti">
+                    <span></span>
+                    <span>Podrobnosti</span>
+                </a>
+            </div>
+        </div>
+        <div class="caption productlist__item_caption">
+            <p class="productlist__item_title">###PRODUCT###</p>
+            <!--###AKCIJSKA_NONE###-->
+            <p class="productlist__item_price price_discount">###PRODUCT_ACTION_PRICE### €</p>
+            <!--###AKCIJSKA_NONE###-->
+            <!--###AKCIJSKA_NAVADNA###-->
+            <p class="productlist__item_price price_discount">###PRODUCT_ACTION_PRICE### €</p>
+            <span class="separator_discount"></span>
+            <p class="productlist__item_price">###PRODUCT_PRICE### €</p>
+            <!--###AKCIJSKA_NAVADNA###-->
+        </div>
+    </div>
+</div>
+
+<!-- ###PRODUCTS_LIST_TEMPLATE### end -->
+
+
+
+
+<!-- ###PRODUCTS_LIST_TEMPLATE_OLD### end -->
 <a href="###PRODUCT_SINGLE_LINK###" title="###PRODUCT###" class="shadowH productListItem">
-	<div><span><img src="###IMAGE###" alt="###PRODUCT###"></span></div>
+    <div><span><img src="###IMAGE###" alt="###PRODUCT###"></span></div>
     <span class="listH1">###PRODUCT###</span>
     <p>###PRODUCT_SUBTITLE###</p>
-    
+
     <!--###VRSTA_CAJA_NONE###-->
     <h2 class="color_###CAT_UID###">###VRSTA_CAJA###</h2>
     <!--###VRSTA_CAJA_NONE###-->
-    
+
     <!--###MESEC_CAJA_NONE###-->
     <h4 class="color_###CAT_UID###">###MESEC_CAJA###</h4>
     <!--###MESEC_CAJA_NONE###-->
-    
+
     <!--###BIOSTICKER_NONE###-->
     <span class="bioSticker"><img src="fileadmin/template/images/biosticker.png" /></span>
     <!--###BIOSTICKER_NONE###-->
-    
+
     <!--###AKCIJSKA_NONE###-->
     <h3>Vaša cena:<span>###PRODUCT_PRICE###&nbsp;€</span></h3>
     <!--###AKCIJSKA_NONE###-->
     <!--###AKCIJSKA_NAVADNA###-->
     <h3>Vaša cena:<span>###PRODUCT_ACTION_PRICE###&nbsp;€</span></h3>
     <span class="fullPrice">###PRODUCT_PRICE###&nbsp;€</span>
-	<span class="popust"><span>###PRODUCT_ACTION_DISCOUNT###% <br /></span>popust</span>
-	<!--###AKCIJSKA_NAVADNA###-->
+    <span class="popust"><span>###PRODUCT_ACTION_DISCOUNT###% <br /></span>popust</span>
+    <!--###AKCIJSKA_NAVADNA###-->
     <span class="triangle color_###CAT_UID###"></span>
 </a>
-<!-- ###PRODUCTS_LIST_TEMPLATE### end -->
+<!-- ###PRODUCTS_LIST_TEMPLATE_OLD### end -->
 
 
 <!-- ###PRODUCTS_SINGLE_TEMPLATE### begin-->

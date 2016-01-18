@@ -1,4 +1,4 @@
-<html>
+﻿??<html>
 <head>
 <link href="../css/featured.css" rel="stylesheet" type="text/css">
 <link href="../css/master.css" rel="stylesheet" type="text/css">
@@ -6,21 +6,222 @@
 
 <body>
 
-<div class="breadCrumps">
-	<div class="breadCrumpsNavi">
-        <p><a href="" title="Domov">Domov</a></p>
-        <div id="pathTrack">###BREADNAVI###</div>
+<section class="breadcrumbs">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9" id="pathTrack">
+                <ol class="breadcrumb" >
+                    ###BREADNAVI###
+                </ol>
+            </div>
+            <div class="col-sm-3 category__backlink">
+                <span>
+                    <a href="#">TODO: Nazaj na dojenčki</a>
+                </span>
+            </div>
+        </div>
     </div>
-</div>	
+</section>
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="productlist__subpage-intro text-center" id="cattitle">
+                ###CAT_TITLE###
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <!-- Start Main Content -->
+        <div class="main-content col-xs-12 col-sm-8 col-sm-push-4 col-md-9 col-md-push-3">
+
+            <div class="productlist__subpage-toolbar">
+                <div class="bs-pull-left">
+                    <select class="selectpicker">
+                        <option>Najbolj priljubljeni</option>
+                        <option>Imenu (A - Ž)</option>
+                        <option>Imenu (Ž - A)</option>
+                        <option>Ceni (nižja &gt; višja)</option>
+                        <option>Ceni (višja &gt; nižja)</option>
+                    </select>
+                </div>
+                <div class="limiter bs-pull-right">
+                    <span>Prikaz št. artiklov:</span>
+                    <ul class="list-inline">
+                        <li><a href="#" class="active">20</a> / </li>
+                        <li><a href="#">60</a> / </li>
+                        <li><a href="#">120</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row row--productlist bs-margin-remove-top" id="normal">
+                ###PRODUCT_LISTINGS###
+            </div>
+
+        </div>
+        <!-- //End Main Content -->
+
+        <!-- Start Sidbar -->
+        <div class="sidebar-left col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9">
+
+            <p class="sidebar-left-intro">Išči po filtrih</p>
+
+            <div class="sidebar__module mod-categories">
+                <div class="sidebar__module-title">
+                    <h3>KATEGORIJE</h3>
+                </div>
+                <div class="sidebar__module-content">
+                    <div class="checkbox">
+                        <input type="checkbox" id="category-1">
+                        <label for="category-1">Zgornji deli</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="category-2">
+                        <label for="category-2">Spodnji deli</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="category-3">
+                        <label for="category-3">Nogavice / žabice</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="category-4">
+                        <label for="category-4">Spodnje perilo</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="category-5">
+                        <label for="category-5">Spalni programi</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="category-6">
+                        <label for="category-6">Kapice / Rokavice / Šali</label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" id="category-7">
+                        <label for="category-7">Ostalo</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar__module mod-size">
+                <div class="sidebar__module-title">
+                    <h3>VELIKOST</h3>
+                </div>
+                <div class="sidebar__module-content">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="checkbox">
+                                <input type="checkbox" id="size-1">
+                                <label for="size-1">XS</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="size-2">
+                                <label for="size-2">S</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="size-3">
+                                <label for="size-3">M</label>
+                            </div>
+                        </div>
+                        <div class="col-xs-6">
+                            <div class="checkbox">
+                                <input type="checkbox" id="size-4">
+                                <label for="size-4">L</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="size-5">
+                                <label for="size-5">XL</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="size-6">
+                                <label for="size-6">XXL</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+            <div class="sidebar__module mod-color">
+                <div class="sidebar__module-title">
+                    <h3>BARVA</h3>
+                </div>
+                <div class="sidebar__module-content">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="checkbox">
+                                <input type="checkbox" id="color-1">
+                                <label for="color-1">Modra</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="color-2">
+                                <label for="color-2">Bela</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="color-3">
+                                <label for="color-3">Roza</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="color-4">
+                                <label for="color-4">Črna</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="color-5">
+                                <label for="color-5">Zelena</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="color-6">
+                                <label for="color-6">Rumena</label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="checkbox">
+                                <input type="checkbox" id="color-7">
+                                <label for="color-7">Oranžna</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="color-8">
+                                <label for="color-8">Vijolična</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="color-9">
+                                <label for="color-9">Oker</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="color-10">
+                                <label for="color-10">Siva</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="color-11">
+                                <label for="color-11">Rjava</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="color-12">
+                                <label for="color-12">Turkizna</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            -->
+
+        </div>
+        <!-- //End Sidebar -->
+    </div>
+
+    <div class="row row-separator"></div>
+
+</div>
+
 
 <div class="subLeft">
-    <div id="normalLeft">###CONTENT_LEFT###</div>
+    <div id="normalLeftXXX">###CONTENT_LEFT###</div>
 </div>
 
-<div class="subNormal">
-	
-	<div id="normal" class="subContent productList">###CONTENT###</div>
-</div>
+
 
 
 

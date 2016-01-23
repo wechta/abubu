@@ -1,12 +1,12 @@
 <?php
 
 
-$GLOBALS['TYPO3_LOADED_EXT'] = unserialize(stripslashes('a:51:{s:3:\"cms\";a:6:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:17:\"typo3/sysext/cms/\";s:12:\"typo3RelPath\";s:11:\"sysext/cms/\";s:17:\"ext_localconf.php\";s:58:\"C:/wserver/htdocs/abubu/typo3/sysext/cms/ext_localconf.php\";s:14:\"ext_tables.php\";s:55:\"C:/wserver/htdocs/abubu/typo3/sysext/cms/ext_tables.php\";s:14:\"ext_tables.sql\";s:55:\"C:/wserver/htdocs/abubu/typo3/sysext/cms/ext_tables.sql\";}s:4:\"lang\";a:4:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:18:\"typo3/sysext/lang/\";s:12:\"typo3RelPath\";s:12:\"sysext/lang/\";s:17:\"ext_localconf.php\";s:59:\"C:/wserver/htdocs/abubu/typo3/sysext/lang/ext_localconf.php\";}s:2:\"sv\";a:5:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:16:\"typo3/sysext/sv/\";s:12:\"typo3RelPath\";s:10:\"sysext/sv/\";s:17:\"ext_localconf.php\";s:57:\"C:/wserver/htdocs/abubu/typo3/sysext/sv/ext_localconf.php\";s:14:\"ext_tables.php\";s:54:\"C:/wserver/htdocs/abubu/typo3/sysext/sv/ext_tables.php\";}s:2:\"em\";a:7:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:16:\"typo3/sysext/em/\";s:12:\"typo3RelPath\";s:10:\"sysext/em/\";s:17:\"ext_localconf.php\";s:57:\"C:/wserver/htdocs/abubu/typo3/sysext/em/ext_localconf.php\";s:14:\"ext_tables.php\";s:54:\"C:/wserver/htdocs/abubu/typo3/sysext/em/ext_tables.php\";s:14:\"ext_tables.sql\";s:54:\"C:/wserver/htdocs/abubu/typo3/sysext/em/ext_tables.sql\";s:25:\"ext_tables_static+adt.sql\";s:65:\"C:/wserver/htdocs/abubu/typo3/sysext/em/ext_tables_static+adt.sql\";}s:10:\"recordlist\";a:4:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:24:\"typo3/sysext/recordlist/\";s:12:\"typo3RelPath\";s:18:\"sysext/recordlist/\";s:14:\"ext_tables.php\";s:62:\"C:/wserver/htdocs/abubu/typo3/sysext/recordlist/ext_tables.php\";}s:7:\"extbase\";a:7:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:21:\"typo3/sysext/extbase/\";s:12:\"typo3RelPath\";s:15:\"sysext/extbase/\";s:17:\"ext_localconf.php\";s:62:\"C:/wserver/htdocs/abubu/typo3/sysext/extbase/ext_localconf.php\";s:14:\"ext_tables.php\";s:59:\"C:/wserver/htdocs/abubu/typo3/sysext/extbase/ext_tables.php\";s:14:\"ext_tables.sql\";s:59:\"C:/wserver/htdocs/abubu/typo3/sysext/extbase/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:69:\"C:/wserver/htdocs/abubu/typo3/sysext/extbase/ext_typoscript_setup.txt\";}s:18:\"css_styled_content\";a:5:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:32:\"typo3/sysext/css_styled_content/\";s:12:\"typo3RelPath\";s:26:\"sysext/css_styled_content/\";s:17:\"ext_localconf.php\";s:73:\"C:/wserver/htdocs/abubu/typo3/sysext/css_styled_content/ext_localconf.php\";s:14:\"ext_tables.php\";s:70:\"C:/wserver/htdocs/abubu/typo3/sysext/css_styled_content/ext_tables.php\";}s:7:\"version\";a:6:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:21:\"typo3/sysext/version/\";s:12:\"typo3RelPath\";s:15:\"sysext/version/\";s:17:\"ext_localconf.php\";s:62:\"C:/wserver/htdocs/abubu/typo3/sysext/version/ext_localconf.php\";s:14:\"ext_tables.php\";s:59:\"C:/wserver/htdocs/abubu/typo3/sysext/version/ext_tables.php\";s:14:\"ext_tables.sql\";s:59:\"C:/wserver/htdocs/abubu/typo3/sysext/version/ext_tables.sql\";}s:7:\"install\";a:5:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:21:\"typo3/sysext/install/\";s:12:\"typo3RelPath\";s:15:\"sysext/install/\";s:17:\"ext_localconf.php\";s:62:\"C:/wserver/htdocs/abubu/typo3/sysext/install/ext_localconf.php\";s:14:\"ext_tables.php\";s:59:\"C:/wserver/htdocs/abubu/typo3/sysext/install/ext_tables.php\";}s:11:\"rtehtmlarea\";a:6:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:25:\"typo3/sysext/rtehtmlarea/\";s:12:\"typo3RelPath\";s:19:\"sysext/rtehtmlarea/\";s:17:\"ext_localconf.php\";s:66:\"C:/wserver/htdocs/abubu/typo3/sysext/rtehtmlarea/ext_localconf.php\";s:14:\"ext_tables.php\";s:63:\"C:/wserver/htdocs/abubu/typo3/sysext/rtehtmlarea/ext_tables.php\";s:14:\"ext_tables.sql\";s:63:\"C:/wserver/htdocs/abubu/typo3/sysext/rtehtmlarea/ext_tables.sql\";}s:6:\"t3skin\";a:5:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:20:\"typo3/sysext/t3skin/\";s:12:\"typo3RelPath\";s:14:\"sysext/t3skin/\";s:17:\"ext_localconf.php\";s:61:\"C:/wserver/htdocs/abubu/typo3/sysext/t3skin/ext_localconf.php\";s:14:\"ext_tables.php\";s:58:\"C:/wserver/htdocs/abubu/typo3/sysext/t3skin/ext_tables.php\";}s:7:\"felogin\";a:7:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:21:\"typo3/sysext/felogin/\";s:12:\"typo3RelPath\";s:15:\"sysext/felogin/\";s:17:\"ext_localconf.php\";s:62:\"C:/wserver/htdocs/abubu/typo3/sysext/felogin/ext_localconf.php\";s:14:\"ext_tables.php\";s:59:\"C:/wserver/htdocs/abubu/typo3/sysext/felogin/ext_tables.php\";s:14:\"ext_tables.sql\";s:59:\"C:/wserver/htdocs/abubu/typo3/sysext/felogin/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:69:\"C:/wserver/htdocs/abubu/typo3/sysext/felogin/ext_typoscript_setup.txt\";}s:4:\"form\";a:5:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:18:\"typo3/sysext/form/\";s:12:\"typo3RelPath\";s:12:\"sysext/form/\";s:17:\"ext_localconf.php\";s:59:\"C:/wserver/htdocs/abubu/typo3/sysext/form/ext_localconf.php\";s:14:\"ext_tables.php\";s:56:\"C:/wserver/htdocs/abubu/typo3/sysext/form/ext_tables.php\";}s:5:\"adodb\";a:4:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:19:\"typo3/sysext/adodb/\";s:12:\"typo3RelPath\";s:13:\"sysext/adodb/\";s:17:\"ext_localconf.php\";s:60:\"C:/wserver/htdocs/abubu/typo3/sysext/adodb/ext_localconf.php\";}s:4:\"dbal\";a:6:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:18:\"typo3/sysext/dbal/\";s:12:\"typo3RelPath\";s:12:\"sysext/dbal/\";s:17:\"ext_localconf.php\";s:59:\"C:/wserver/htdocs/abubu/typo3/sysext/dbal/ext_localconf.php\";s:14:\"ext_tables.php\";s:56:\"C:/wserver/htdocs/abubu/typo3/sysext/dbal/ext_tables.php\";s:14:\"ext_tables.sql\";s:56:\"C:/wserver/htdocs/abubu/typo3/sysext/dbal/ext_tables.sql\";}s:6:\"feedit\";a:4:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:20:\"typo3/sysext/feedit/\";s:12:\"typo3RelPath\";s:14:\"sysext/feedit/\";s:17:\"ext_localconf.php\";s:61:\"C:/wserver/htdocs/abubu/typo3/sysext/feedit/ext_localconf.php\";}s:5:\"fluid\";a:6:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:19:\"typo3/sysext/fluid/\";s:12:\"typo3RelPath\";s:13:\"sysext/fluid/\";s:17:\"ext_localconf.php\";s:60:\"C:/wserver/htdocs/abubu/typo3/sysext/fluid/ext_localconf.php\";s:14:\"ext_tables.php\";s:57:\"C:/wserver/htdocs/abubu/typo3/sysext/fluid/ext_tables.php\";s:24:\"ext_typoscript_setup.txt\";s:67:\"C:/wserver/htdocs/abubu/typo3/sysext/fluid/ext_typoscript_setup.txt\";}s:10:\"workspaces\";a:6:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:24:\"typo3/sysext/workspaces/\";s:12:\"typo3RelPath\";s:18:\"sysext/workspaces/\";s:17:\"ext_localconf.php\";s:65:\"C:/wserver/htdocs/abubu/typo3/sysext/workspaces/ext_localconf.php\";s:14:\"ext_tables.php\";s:62:\"C:/wserver/htdocs/abubu/typo3/sysext/workspaces/ext_tables.php\";s:14:\"ext_tables.sql\";s:62:\"C:/wserver/htdocs/abubu/typo3/sysext/workspaces/ext_tables.sql\";}s:17:\"rlmp_tmplselector\";a:7:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:32:\"typo3conf/ext/rlmp_tmplselector/\";s:12:\"typo3RelPath\";s:35:\"../typo3conf/ext/rlmp_tmplselector/\";s:17:\"ext_localconf.php\";s:73:\"C:/wserver/htdocs/abubu/typo3conf/ext/rlmp_tmplselector/ext_localconf.php\";s:14:\"ext_tables.php\";s:70:\"C:/wserver/htdocs/abubu/typo3conf/ext/rlmp_tmplselector/ext_tables.php\";s:14:\"ext_tables.sql\";s:70:\"C:/wserver/htdocs/abubu/typo3conf/ext/rlmp_tmplselector/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:80:\"C:/wserver/htdocs/abubu/typo3conf/ext/rlmp_tmplselector/ext_typoscript_setup.txt\";}s:16:\"automaketemplate\";a:4:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:31:\"typo3conf/ext/automaketemplate/\";s:12:\"typo3RelPath\";s:34:\"../typo3conf/ext/automaketemplate/\";s:17:\"ext_localconf.php\";s:72:\"C:/wserver/htdocs/abubu/typo3conf/ext/automaketemplate/ext_localconf.php\";}s:11:\"kickstarter\";a:5:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:26:\"typo3conf/ext/kickstarter/\";s:12:\"typo3RelPath\";s:29:\"../typo3conf/ext/kickstarter/\";s:17:\"ext_localconf.php\";s:67:\"C:/wserver/htdocs/abubu/typo3conf/ext/kickstarter/ext_localconf.php\";s:14:\"ext_tables.php\";s:64:\"C:/wserver/htdocs/abubu/typo3conf/ext/kickstarter/ext_tables.php\";}s:10:\"phpmyadmin\";a:4:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:25:\"typo3conf/ext/phpmyadmin/\";s:12:\"typo3RelPath\";s:28:\"../typo3conf/ext/phpmyadmin/\";s:14:\"ext_tables.php\";s:63:\"C:/wserver/htdocs/abubu/typo3conf/ext/phpmyadmin/ext_tables.php\";}s:7:\"tt_news\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:22:\"typo3conf/ext/tt_news/\";s:12:\"typo3RelPath\";s:25:\"../typo3conf/ext/tt_news/\";s:17:\"ext_localconf.php\";s:63:\"C:/wserver/htdocs/abubu/typo3conf/ext/tt_news/ext_localconf.php\";s:14:\"ext_tables.php\";s:60:\"C:/wserver/htdocs/abubu/typo3conf/ext/tt_news/ext_tables.php\";s:14:\"ext_tables.sql\";s:60:\"C:/wserver/htdocs/abubu/typo3conf/ext/tt_news/ext_tables.sql\";}s:10:\"css_select\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:25:\"typo3conf/ext/css_select/\";s:12:\"typo3RelPath\";s:28:\"../typo3conf/ext/css_select/\";s:17:\"ext_localconf.php\";s:66:\"C:/wserver/htdocs/abubu/typo3conf/ext/css_select/ext_localconf.php\";s:14:\"ext_tables.php\";s:63:\"C:/wserver/htdocs/abubu/typo3conf/ext/css_select/ext_tables.php\";s:14:\"ext_tables.sql\";s:63:\"C:/wserver/htdocs/abubu/typo3conf/ext/css_select/ext_tables.sql\";}s:9:\"moderntab\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:24:\"typo3conf/ext/moderntab/\";s:12:\"typo3RelPath\";s:27:\"../typo3conf/ext/moderntab/\";s:17:\"ext_localconf.php\";s:65:\"C:/wserver/htdocs/abubu/typo3conf/ext/moderntab/ext_localconf.php\";s:14:\"ext_tables.php\";s:62:\"C:/wserver/htdocs/abubu/typo3conf/ext/moderntab/ext_tables.php\";s:14:\"ext_tables.sql\";s:62:\"C:/wserver/htdocs/abubu/typo3conf/ext/moderntab/ext_tables.sql\";}s:10:\"rzcolorbox\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:25:\"typo3conf/ext/rzcolorbox/\";s:12:\"typo3RelPath\";s:28:\"../typo3conf/ext/rzcolorbox/\";s:17:\"ext_localconf.php\";s:66:\"C:/wserver/htdocs/abubu/typo3conf/ext/rzcolorbox/ext_localconf.php\";s:14:\"ext_tables.php\";s:63:\"C:/wserver/htdocs/abubu/typo3conf/ext/rzcolorbox/ext_tables.php\";s:14:\"ext_tables.sql\";s:63:\"C:/wserver/htdocs/abubu/typo3conf/ext/rzcolorbox/ext_tables.sql\";}s:18:\"doc_indexed_search\";a:3:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:33:\"typo3conf/ext/doc_indexed_search/\";s:12:\"typo3RelPath\";s:36:\"../typo3conf/ext/doc_indexed_search/\";}s:14:\"indexed_search\";a:7:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:28:\"typo3/sysext/indexed_search/\";s:12:\"typo3RelPath\";s:22:\"sysext/indexed_search/\";s:17:\"ext_localconf.php\";s:69:\"C:/wserver/htdocs/abubu/typo3/sysext/indexed_search/ext_localconf.php\";s:14:\"ext_tables.php\";s:66:\"C:/wserver/htdocs/abubu/typo3/sysext/indexed_search/ext_tables.php\";s:14:\"ext_tables.sql\";s:66:\"C:/wserver/htdocs/abubu/typo3/sysext/indexed_search/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:76:\"C:/wserver/htdocs/abubu/typo3/sysext/indexed_search/ext_typoscript_setup.txt\";}s:13:\"rgmediaimages\";a:5:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:28:\"typo3conf/ext/rgmediaimages/\";s:12:\"typo3RelPath\";s:31:\"../typo3conf/ext/rgmediaimages/\";s:17:\"ext_localconf.php\";s:69:\"C:/wserver/htdocs/abubu/typo3conf/ext/rgmediaimages/ext_localconf.php\";s:14:\"ext_tables.php\";s:66:\"C:/wserver/htdocs/abubu/typo3conf/ext/rgmediaimages/ext_tables.php\";}s:13:\"povprasevanje\";a:5:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:28:\"typo3conf/ext/povprasevanje/\";s:12:\"typo3RelPath\";s:31:\"../typo3conf/ext/povprasevanje/\";s:17:\"ext_localconf.php\";s:69:\"C:/wserver/htdocs/abubu/typo3conf/ext/povprasevanje/ext_localconf.php\";s:14:\"ext_tables.php\";s:66:\"C:/wserver/htdocs/abubu/typo3conf/ext/povprasevanje/ext_tables.php\";}s:16:\"dropdown_sitemap\";a:5:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:31:\"typo3conf/ext/dropdown_sitemap/\";s:12:\"typo3RelPath\";s:34:\"../typo3conf/ext/dropdown_sitemap/\";s:17:\"ext_localconf.php\";s:72:\"C:/wserver/htdocs/abubu/typo3conf/ext/dropdown_sitemap/ext_localconf.php\";s:14:\"ext_tables.php\";s:69:\"C:/wserver/htdocs/abubu/typo3conf/ext/dropdown_sitemap/ext_tables.php\";}s:11:\"api_macmade\";a:5:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:26:\"typo3conf/ext/api_macmade/\";s:12:\"typo3RelPath\";s:29:\"../typo3conf/ext/api_macmade/\";s:28:\"ext_typoscript_constants.txt\";s:78:\"C:/wserver/htdocs/abubu/typo3conf/ext/api_macmade/ext_typoscript_constants.txt\";s:24:\"ext_typoscript_setup.txt\";s:74:\"C:/wserver/htdocs/abubu/typo3conf/ext/api_macmade/ext_typoscript_setup.txt\";}s:12:\"pil_mailform\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:27:\"typo3conf/ext/pil_mailform/\";s:12:\"typo3RelPath\";s:30:\"../typo3conf/ext/pil_mailform/\";s:17:\"ext_localconf.php\";s:68:\"C:/wserver/htdocs/abubu/typo3conf/ext/pil_mailform/ext_localconf.php\";s:14:\"ext_tables.php\";s:65:\"C:/wserver/htdocs/abubu/typo3conf/ext/pil_mailform/ext_tables.php\";s:24:\"ext_typoscript_setup.txt\";s:75:\"C:/wserver/htdocs/abubu/typo3conf/ext/pil_mailform/ext_typoscript_setup.txt\";}s:12:\"jb_gd_resize\";a:4:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:27:\"typo3conf/ext/jb_gd_resize/\";s:12:\"typo3RelPath\";s:30:\"../typo3conf/ext/jb_gd_resize/\";s:17:\"ext_localconf.php\";s:68:\"C:/wserver/htdocs/abubu/typo3conf/ext/jb_gd_resize/ext_localconf.php\";}s:7:\"realurl\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:22:\"typo3conf/ext/realurl/\";s:12:\"typo3RelPath\";s:25:\"../typo3conf/ext/realurl/\";s:17:\"ext_localconf.php\";s:63:\"C:/wserver/htdocs/abubu/typo3conf/ext/realurl/ext_localconf.php\";s:14:\"ext_tables.php\";s:60:\"C:/wserver/htdocs/abubu/typo3conf/ext/realurl/ext_tables.php\";s:14:\"ext_tables.sql\";s:60:\"C:/wserver/htdocs/abubu/typo3conf/ext/realurl/ext_tables.sql\";}s:10:\"seo_basics\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:25:\"typo3conf/ext/seo_basics/\";s:12:\"typo3RelPath\";s:28:\"../typo3conf/ext/seo_basics/\";s:17:\"ext_localconf.php\";s:66:\"C:/wserver/htdocs/abubu/typo3conf/ext/seo_basics/ext_localconf.php\";s:14:\"ext_tables.php\";s:63:\"C:/wserver/htdocs/abubu/typo3conf/ext/seo_basics/ext_tables.php\";s:14:\"ext_tables.sql\";s:63:\"C:/wserver/htdocs/abubu/typo3conf/ext/seo_basics/ext_tables.sql\";}s:9:\"easy_shop\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:24:\"typo3conf/ext/easy_shop/\";s:12:\"typo3RelPath\";s:27:\"../typo3conf/ext/easy_shop/\";s:17:\"ext_localconf.php\";s:65:\"C:/wserver/htdocs/abubu/typo3conf/ext/easy_shop/ext_localconf.php\";s:14:\"ext_tables.php\";s:62:\"C:/wserver/htdocs/abubu/typo3conf/ext/easy_shop/ext_tables.php\";s:14:\"ext_tables.sql\";s:62:\"C:/wserver/htdocs/abubu/typo3conf/ext/easy_shop/ext_tables.sql\";}s:6:\"footer\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:21:\"typo3conf/ext/footer/\";s:12:\"typo3RelPath\";s:24:\"../typo3conf/ext/footer/\";s:17:\"ext_localconf.php\";s:62:\"C:/wserver/htdocs/abubu/typo3conf/ext/footer/ext_localconf.php\";s:14:\"ext_tables.php\";s:59:\"C:/wserver/htdocs/abubu/typo3conf/ext/footer/ext_tables.php\";s:14:\"ext_tables.sql\";s:59:\"C:/wserver/htdocs/abubu/typo3conf/ext/footer/ext_tables.sql\";}s:21:\"web_shop_registration\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:36:\"typo3conf/ext/web_shop_registration/\";s:12:\"typo3RelPath\";s:39:\"../typo3conf/ext/web_shop_registration/\";s:17:\"ext_localconf.php\";s:77:\"C:/wserver/htdocs/abubu/typo3conf/ext/web_shop_registration/ext_localconf.php\";s:14:\"ext_tables.php\";s:74:\"C:/wserver/htdocs/abubu/typo3conf/ext/web_shop_registration/ext_tables.php\";s:14:\"ext_tables.sql\";s:74:\"C:/wserver/htdocs/abubu/typo3conf/ext/web_shop_registration/ext_tables.sql\";}s:9:\"kenslider\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:24:\"typo3conf/ext/kenslider/\";s:12:\"typo3RelPath\";s:27:\"../typo3conf/ext/kenslider/\";s:17:\"ext_localconf.php\";s:65:\"C:/wserver/htdocs/abubu/typo3conf/ext/kenslider/ext_localconf.php\";s:14:\"ext_tables.php\";s:62:\"C:/wserver/htdocs/abubu/typo3conf/ext/kenslider/ext_tables.php\";s:14:\"ext_tables.sql\";s:62:\"C:/wserver/htdocs/abubu/typo3conf/ext/kenslider/ext_tables.sql\";}s:14:\"cookie_control\";a:7:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:29:\"typo3conf/ext/cookie_control/\";s:12:\"typo3RelPath\";s:32:\"../typo3conf/ext/cookie_control/\";s:17:\"ext_localconf.php\";s:70:\"C:/wserver/htdocs/abubu/typo3conf/ext/cookie_control/ext_localconf.php\";s:14:\"ext_tables.php\";s:67:\"C:/wserver/htdocs/abubu/typo3conf/ext/cookie_control/ext_tables.php\";s:14:\"ext_tables.sql\";s:67:\"C:/wserver/htdocs/abubu/typo3conf/ext/cookie_control/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:77:\"C:/wserver/htdocs/abubu/typo3conf/ext/cookie_control/ext_typoscript_setup.txt\";}s:13:\"iconepovezave\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:28:\"typo3conf/ext/iconepovezave/\";s:12:\"typo3RelPath\";s:31:\"../typo3conf/ext/iconepovezave/\";s:17:\"ext_localconf.php\";s:69:\"C:/wserver/htdocs/abubu/typo3conf/ext/iconepovezave/ext_localconf.php\";s:14:\"ext_tables.php\";s:66:\"C:/wserver/htdocs/abubu/typo3conf/ext/iconepovezave/ext_tables.php\";s:14:\"ext_tables.sql\";s:66:\"C:/wserver/htdocs/abubu/typo3conf/ext/iconepovezave/ext_tables.sql\";}s:11:\"easycontact\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:26:\"typo3conf/ext/easycontact/\";s:12:\"typo3RelPath\";s:29:\"../typo3conf/ext/easycontact/\";s:17:\"ext_localconf.php\";s:67:\"C:/wserver/htdocs/abubu/typo3conf/ext/easycontact/ext_localconf.php\";s:14:\"ext_tables.php\";s:64:\"C:/wserver/htdocs/abubu/typo3conf/ext/easycontact/ext_tables.php\";s:14:\"ext_tables.sql\";s:64:\"C:/wserver/htdocs/abubu/typo3conf/ext/easycontact/ext_tables.sql\";}s:16:\"dd_googlesitemap\";a:7:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:31:\"typo3conf/ext/dd_googlesitemap/\";s:12:\"typo3RelPath\";s:34:\"../typo3conf/ext/dd_googlesitemap/\";s:17:\"ext_localconf.php\";s:72:\"C:/wserver/htdocs/abubu/typo3conf/ext/dd_googlesitemap/ext_localconf.php\";s:14:\"ext_tables.php\";s:69:\"C:/wserver/htdocs/abubu/typo3conf/ext/dd_googlesitemap/ext_tables.php\";s:14:\"ext_tables.sql\";s:69:\"C:/wserver/htdocs/abubu/typo3conf/ext/dd_googlesitemap/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:79:\"C:/wserver/htdocs/abubu/typo3conf/ext/dd_googlesitemap/ext_typoscript_setup.txt\";}s:20:\"dd_googlesitemap_dmf\";a:7:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:35:\"typo3conf/ext/dd_googlesitemap_dmf/\";s:12:\"typo3RelPath\";s:38:\"../typo3conf/ext/dd_googlesitemap_dmf/\";s:17:\"ext_localconf.php\";s:76:\"C:/wserver/htdocs/abubu/typo3conf/ext/dd_googlesitemap_dmf/ext_localconf.php\";s:14:\"ext_tables.php\";s:73:\"C:/wserver/htdocs/abubu/typo3conf/ext/dd_googlesitemap_dmf/ext_tables.php\";s:14:\"ext_tables.sql\";s:73:\"C:/wserver/htdocs/abubu/typo3conf/ext/dd_googlesitemap_dmf/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:83:\"C:/wserver/htdocs/abubu/typo3conf/ext/dd_googlesitemap_dmf/ext_typoscript_setup.txt\";}s:19:\"jh_opengraph_ttnews\";a:5:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:34:\"typo3conf/ext/jh_opengraph_ttnews/\";s:12:\"typo3RelPath\";s:37:\"../typo3conf/ext/jh_opengraph_ttnews/\";s:17:\"ext_localconf.php\";s:75:\"C:/wserver/htdocs/abubu/typo3conf/ext/jh_opengraph_ttnews/ext_localconf.php\";s:24:\"ext_typoscript_setup.txt\";s:82:\"C:/wserver/htdocs/abubu/typo3conf/ext/jh_opengraph_ttnews/ext_typoscript_setup.txt\";}s:9:\"ke_dompdf\";a:4:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:24:\"typo3conf/ext/ke_dompdf/\";s:12:\"typo3RelPath\";s:27:\"../typo3conf/ext/ke_dompdf/\";s:17:\"ext_localconf.php\";s:65:\"C:/wserver/htdocs/abubu/typo3conf/ext/ke_dompdf/ext_localconf.php\";}s:7:\"div2007\";a:4:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:22:\"typo3conf/ext/div2007/\";s:12:\"typo3RelPath\";s:25:\"../typo3conf/ext/div2007/\";s:17:\"ext_localconf.php\";s:63:\"C:/wserver/htdocs/abubu/typo3conf/ext/div2007/ext_localconf.php\";}s:10:\"transactor\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:25:\"typo3conf/ext/transactor/\";s:12:\"typo3RelPath\";s:28:\"../typo3conf/ext/transactor/\";s:17:\"ext_localconf.php\";s:66:\"C:/wserver/htdocs/abubu/typo3conf/ext/transactor/ext_localconf.php\";s:14:\"ext_tables.php\";s:63:\"C:/wserver/htdocs/abubu/typo3conf/ext/transactor/ext_tables.php\";s:14:\"ext_tables.sql\";s:63:\"C:/wserver/htdocs/abubu/typo3conf/ext/transactor/ext_tables.sql\";}s:18:\"transactor_paymill\";a:4:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:33:\"typo3conf/ext/transactor_paymill/\";s:12:\"typo3RelPath\";s:36:\"../typo3conf/ext/transactor_paymill/\";s:17:\"ext_localconf.php\";s:74:\"C:/wserver/htdocs/abubu/typo3conf/ext/transactor_paymill/ext_localconf.php\";}s:10:\"_CACHEFILE\";s:21:\"temp_CACHED_FE_psb697\";}'));
+$GLOBALS['TYPO3_LOADED_EXT'] = unserialize(stripslashes('a:52:{s:3:\"cms\";a:6:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:17:\"typo3/sysext/cms/\";s:12:\"typo3RelPath\";s:11:\"sysext/cms/\";s:17:\"ext_localconf.php\";s:63:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/cms/ext_localconf.php\";s:14:\"ext_tables.php\";s:60:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/cms/ext_tables.php\";s:14:\"ext_tables.sql\";s:60:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/cms/ext_tables.sql\";}s:4:\"lang\";a:4:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:18:\"typo3/sysext/lang/\";s:12:\"typo3RelPath\";s:12:\"sysext/lang/\";s:17:\"ext_localconf.php\";s:64:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/lang/ext_localconf.php\";}s:2:\"sv\";a:5:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:16:\"typo3/sysext/sv/\";s:12:\"typo3RelPath\";s:10:\"sysext/sv/\";s:17:\"ext_localconf.php\";s:62:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/sv/ext_localconf.php\";s:14:\"ext_tables.php\";s:59:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/sv/ext_tables.php\";}s:2:\"em\";a:7:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:16:\"typo3/sysext/em/\";s:12:\"typo3RelPath\";s:10:\"sysext/em/\";s:17:\"ext_localconf.php\";s:62:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/em/ext_localconf.php\";s:14:\"ext_tables.php\";s:59:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/em/ext_tables.php\";s:14:\"ext_tables.sql\";s:59:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/em/ext_tables.sql\";s:25:\"ext_tables_static+adt.sql\";s:70:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/em/ext_tables_static+adt.sql\";}s:10:\"recordlist\";a:4:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:24:\"typo3/sysext/recordlist/\";s:12:\"typo3RelPath\";s:18:\"sysext/recordlist/\";s:14:\"ext_tables.php\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/recordlist/ext_tables.php\";}s:7:\"extbase\";a:7:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:21:\"typo3/sysext/extbase/\";s:12:\"typo3RelPath\";s:15:\"sysext/extbase/\";s:17:\"ext_localconf.php\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/extbase/ext_localconf.php\";s:14:\"ext_tables.php\";s:64:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/extbase/ext_tables.php\";s:14:\"ext_tables.sql\";s:64:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/extbase/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:74:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/extbase/ext_typoscript_setup.txt\";}s:18:\"css_styled_content\";a:5:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:32:\"typo3/sysext/css_styled_content/\";s:12:\"typo3RelPath\";s:26:\"sysext/css_styled_content/\";s:17:\"ext_localconf.php\";s:78:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/css_styled_content/ext_localconf.php\";s:14:\"ext_tables.php\";s:75:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/css_styled_content/ext_tables.php\";}s:7:\"version\";a:6:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:21:\"typo3/sysext/version/\";s:12:\"typo3RelPath\";s:15:\"sysext/version/\";s:17:\"ext_localconf.php\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/version/ext_localconf.php\";s:14:\"ext_tables.php\";s:64:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/version/ext_tables.php\";s:14:\"ext_tables.sql\";s:64:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/version/ext_tables.sql\";}s:7:\"install\";a:5:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:21:\"typo3/sysext/install/\";s:12:\"typo3RelPath\";s:15:\"sysext/install/\";s:17:\"ext_localconf.php\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/install/ext_localconf.php\";s:14:\"ext_tables.php\";s:64:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/install/ext_tables.php\";}s:11:\"rtehtmlarea\";a:6:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:25:\"typo3/sysext/rtehtmlarea/\";s:12:\"typo3RelPath\";s:19:\"sysext/rtehtmlarea/\";s:17:\"ext_localconf.php\";s:71:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/rtehtmlarea/ext_localconf.php\";s:14:\"ext_tables.php\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/rtehtmlarea/ext_tables.php\";s:14:\"ext_tables.sql\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/rtehtmlarea/ext_tables.sql\";}s:6:\"t3skin\";a:5:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:20:\"typo3/sysext/t3skin/\";s:12:\"typo3RelPath\";s:14:\"sysext/t3skin/\";s:17:\"ext_localconf.php\";s:66:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/t3skin/ext_localconf.php\";s:14:\"ext_tables.php\";s:63:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/t3skin/ext_tables.php\";}s:7:\"felogin\";a:7:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:21:\"typo3/sysext/felogin/\";s:12:\"typo3RelPath\";s:15:\"sysext/felogin/\";s:17:\"ext_localconf.php\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/felogin/ext_localconf.php\";s:14:\"ext_tables.php\";s:64:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/felogin/ext_tables.php\";s:14:\"ext_tables.sql\";s:64:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/felogin/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:74:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/felogin/ext_typoscript_setup.txt\";}s:4:\"form\";a:5:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:18:\"typo3/sysext/form/\";s:12:\"typo3RelPath\";s:12:\"sysext/form/\";s:17:\"ext_localconf.php\";s:64:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/form/ext_localconf.php\";s:14:\"ext_tables.php\";s:61:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/form/ext_tables.php\";}s:5:\"adodb\";a:4:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:19:\"typo3/sysext/adodb/\";s:12:\"typo3RelPath\";s:13:\"sysext/adodb/\";s:17:\"ext_localconf.php\";s:65:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/adodb/ext_localconf.php\";}s:4:\"dbal\";a:6:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:18:\"typo3/sysext/dbal/\";s:12:\"typo3RelPath\";s:12:\"sysext/dbal/\";s:17:\"ext_localconf.php\";s:64:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/dbal/ext_localconf.php\";s:14:\"ext_tables.php\";s:61:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/dbal/ext_tables.php\";s:14:\"ext_tables.sql\";s:61:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/dbal/ext_tables.sql\";}s:6:\"feedit\";a:4:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:20:\"typo3/sysext/feedit/\";s:12:\"typo3RelPath\";s:14:\"sysext/feedit/\";s:17:\"ext_localconf.php\";s:66:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/feedit/ext_localconf.php\";}s:5:\"fluid\";a:6:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:19:\"typo3/sysext/fluid/\";s:12:\"typo3RelPath\";s:13:\"sysext/fluid/\";s:17:\"ext_localconf.php\";s:65:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/fluid/ext_localconf.php\";s:14:\"ext_tables.php\";s:62:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/fluid/ext_tables.php\";s:24:\"ext_typoscript_setup.txt\";s:72:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/fluid/ext_typoscript_setup.txt\";}s:10:\"workspaces\";a:6:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:24:\"typo3/sysext/workspaces/\";s:12:\"typo3RelPath\";s:18:\"sysext/workspaces/\";s:17:\"ext_localconf.php\";s:70:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/workspaces/ext_localconf.php\";s:14:\"ext_tables.php\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/workspaces/ext_tables.php\";s:14:\"ext_tables.sql\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/workspaces/ext_tables.sql\";}s:17:\"rlmp_tmplselector\";a:7:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:32:\"typo3conf/ext/rlmp_tmplselector/\";s:12:\"typo3RelPath\";s:35:\"../typo3conf/ext/rlmp_tmplselector/\";s:17:\"ext_localconf.php\";s:78:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/rlmp_tmplselector/ext_localconf.php\";s:14:\"ext_tables.php\";s:75:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/rlmp_tmplselector/ext_tables.php\";s:14:\"ext_tables.sql\";s:75:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/rlmp_tmplselector/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:85:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/rlmp_tmplselector/ext_typoscript_setup.txt\";}s:16:\"automaketemplate\";a:4:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:31:\"typo3conf/ext/automaketemplate/\";s:12:\"typo3RelPath\";s:34:\"../typo3conf/ext/automaketemplate/\";s:17:\"ext_localconf.php\";s:77:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/automaketemplate/ext_localconf.php\";}s:11:\"kickstarter\";a:5:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:26:\"typo3conf/ext/kickstarter/\";s:12:\"typo3RelPath\";s:29:\"../typo3conf/ext/kickstarter/\";s:17:\"ext_localconf.php\";s:72:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/kickstarter/ext_localconf.php\";s:14:\"ext_tables.php\";s:69:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/kickstarter/ext_tables.php\";}s:10:\"phpmyadmin\";a:4:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:25:\"typo3conf/ext/phpmyadmin/\";s:12:\"typo3RelPath\";s:28:\"../typo3conf/ext/phpmyadmin/\";s:14:\"ext_tables.php\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/phpmyadmin/ext_tables.php\";}s:7:\"tt_news\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:22:\"typo3conf/ext/tt_news/\";s:12:\"typo3RelPath\";s:25:\"../typo3conf/ext/tt_news/\";s:17:\"ext_localconf.php\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/tt_news/ext_localconf.php\";s:14:\"ext_tables.php\";s:65:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/tt_news/ext_tables.php\";s:14:\"ext_tables.sql\";s:65:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/tt_news/ext_tables.sql\";}s:10:\"css_select\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:25:\"typo3conf/ext/css_select/\";s:12:\"typo3RelPath\";s:28:\"../typo3conf/ext/css_select/\";s:17:\"ext_localconf.php\";s:71:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/css_select/ext_localconf.php\";s:14:\"ext_tables.php\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/css_select/ext_tables.php\";s:14:\"ext_tables.sql\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/css_select/ext_tables.sql\";}s:9:\"moderntab\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:24:\"typo3conf/ext/moderntab/\";s:12:\"typo3RelPath\";s:27:\"../typo3conf/ext/moderntab/\";s:17:\"ext_localconf.php\";s:70:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/moderntab/ext_localconf.php\";s:14:\"ext_tables.php\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/moderntab/ext_tables.php\";s:14:\"ext_tables.sql\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/moderntab/ext_tables.sql\";}s:10:\"rzcolorbox\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:25:\"typo3conf/ext/rzcolorbox/\";s:12:\"typo3RelPath\";s:28:\"../typo3conf/ext/rzcolorbox/\";s:17:\"ext_localconf.php\";s:71:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/rzcolorbox/ext_localconf.php\";s:14:\"ext_tables.php\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/rzcolorbox/ext_tables.php\";s:14:\"ext_tables.sql\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/rzcolorbox/ext_tables.sql\";}s:18:\"doc_indexed_search\";a:3:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:33:\"typo3conf/ext/doc_indexed_search/\";s:12:\"typo3RelPath\";s:36:\"../typo3conf/ext/doc_indexed_search/\";}s:14:\"indexed_search\";a:7:{s:4:\"type\";s:1:\"S\";s:11:\"siteRelPath\";s:28:\"typo3/sysext/indexed_search/\";s:12:\"typo3RelPath\";s:22:\"sysext/indexed_search/\";s:17:\"ext_localconf.php\";s:74:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/indexed_search/ext_localconf.php\";s:14:\"ext_tables.php\";s:71:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/indexed_search/ext_tables.php\";s:14:\"ext_tables.sql\";s:71:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/indexed_search/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:81:\"C:/wserver/htdocs/prod_abubu/typo3/sysext/indexed_search/ext_typoscript_setup.txt\";}s:13:\"rgmediaimages\";a:5:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:28:\"typo3conf/ext/rgmediaimages/\";s:12:\"typo3RelPath\";s:31:\"../typo3conf/ext/rgmediaimages/\";s:17:\"ext_localconf.php\";s:74:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/rgmediaimages/ext_localconf.php\";s:14:\"ext_tables.php\";s:71:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/rgmediaimages/ext_tables.php\";}s:13:\"povprasevanje\";a:5:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:28:\"typo3conf/ext/povprasevanje/\";s:12:\"typo3RelPath\";s:31:\"../typo3conf/ext/povprasevanje/\";s:17:\"ext_localconf.php\";s:74:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/povprasevanje/ext_localconf.php\";s:14:\"ext_tables.php\";s:71:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/povprasevanje/ext_tables.php\";}s:16:\"dropdown_sitemap\";a:5:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:31:\"typo3conf/ext/dropdown_sitemap/\";s:12:\"typo3RelPath\";s:34:\"../typo3conf/ext/dropdown_sitemap/\";s:17:\"ext_localconf.php\";s:77:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/dropdown_sitemap/ext_localconf.php\";s:14:\"ext_tables.php\";s:74:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/dropdown_sitemap/ext_tables.php\";}s:11:\"api_macmade\";a:5:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:26:\"typo3conf/ext/api_macmade/\";s:12:\"typo3RelPath\";s:29:\"../typo3conf/ext/api_macmade/\";s:28:\"ext_typoscript_constants.txt\";s:83:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/api_macmade/ext_typoscript_constants.txt\";s:24:\"ext_typoscript_setup.txt\";s:79:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/api_macmade/ext_typoscript_setup.txt\";}s:12:\"pil_mailform\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:27:\"typo3conf/ext/pil_mailform/\";s:12:\"typo3RelPath\";s:30:\"../typo3conf/ext/pil_mailform/\";s:17:\"ext_localconf.php\";s:73:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/pil_mailform/ext_localconf.php\";s:14:\"ext_tables.php\";s:70:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/pil_mailform/ext_tables.php\";s:24:\"ext_typoscript_setup.txt\";s:80:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/pil_mailform/ext_typoscript_setup.txt\";}s:12:\"jb_gd_resize\";a:4:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:27:\"typo3conf/ext/jb_gd_resize/\";s:12:\"typo3RelPath\";s:30:\"../typo3conf/ext/jb_gd_resize/\";s:17:\"ext_localconf.php\";s:73:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/jb_gd_resize/ext_localconf.php\";}s:7:\"realurl\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:22:\"typo3conf/ext/realurl/\";s:12:\"typo3RelPath\";s:25:\"../typo3conf/ext/realurl/\";s:17:\"ext_localconf.php\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/realurl/ext_localconf.php\";s:14:\"ext_tables.php\";s:65:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/realurl/ext_tables.php\";s:14:\"ext_tables.sql\";s:65:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/realurl/ext_tables.sql\";}s:10:\"seo_basics\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:25:\"typo3conf/ext/seo_basics/\";s:12:\"typo3RelPath\";s:28:\"../typo3conf/ext/seo_basics/\";s:17:\"ext_localconf.php\";s:71:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/seo_basics/ext_localconf.php\";s:14:\"ext_tables.php\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/seo_basics/ext_tables.php\";s:14:\"ext_tables.sql\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/seo_basics/ext_tables.sql\";}s:9:\"easy_shop\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:24:\"typo3conf/ext/easy_shop/\";s:12:\"typo3RelPath\";s:27:\"../typo3conf/ext/easy_shop/\";s:17:\"ext_localconf.php\";s:70:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/easy_shop/ext_localconf.php\";s:14:\"ext_tables.php\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/easy_shop/ext_tables.php\";s:14:\"ext_tables.sql\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/easy_shop/ext_tables.sql\";}s:6:\"footer\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:21:\"typo3conf/ext/footer/\";s:12:\"typo3RelPath\";s:24:\"../typo3conf/ext/footer/\";s:17:\"ext_localconf.php\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/footer/ext_localconf.php\";s:14:\"ext_tables.php\";s:64:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/footer/ext_tables.php\";s:14:\"ext_tables.sql\";s:64:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/footer/ext_tables.sql\";}s:21:\"web_shop_registration\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:36:\"typo3conf/ext/web_shop_registration/\";s:12:\"typo3RelPath\";s:39:\"../typo3conf/ext/web_shop_registration/\";s:17:\"ext_localconf.php\";s:82:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/web_shop_registration/ext_localconf.php\";s:14:\"ext_tables.php\";s:79:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/web_shop_registration/ext_tables.php\";s:14:\"ext_tables.sql\";s:79:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/web_shop_registration/ext_tables.sql\";}s:9:\"kenslider\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:24:\"typo3conf/ext/kenslider/\";s:12:\"typo3RelPath\";s:27:\"../typo3conf/ext/kenslider/\";s:17:\"ext_localconf.php\";s:70:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/kenslider/ext_localconf.php\";s:14:\"ext_tables.php\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/kenslider/ext_tables.php\";s:14:\"ext_tables.sql\";s:67:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/kenslider/ext_tables.sql\";}s:14:\"cookie_control\";a:7:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:29:\"typo3conf/ext/cookie_control/\";s:12:\"typo3RelPath\";s:32:\"../typo3conf/ext/cookie_control/\";s:17:\"ext_localconf.php\";s:75:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/cookie_control/ext_localconf.php\";s:14:\"ext_tables.php\";s:72:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/cookie_control/ext_tables.php\";s:14:\"ext_tables.sql\";s:72:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/cookie_control/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:82:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/cookie_control/ext_typoscript_setup.txt\";}s:13:\"iconepovezave\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:28:\"typo3conf/ext/iconepovezave/\";s:12:\"typo3RelPath\";s:31:\"../typo3conf/ext/iconepovezave/\";s:17:\"ext_localconf.php\";s:74:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/iconepovezave/ext_localconf.php\";s:14:\"ext_tables.php\";s:71:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/iconepovezave/ext_tables.php\";s:14:\"ext_tables.sql\";s:71:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/iconepovezave/ext_tables.sql\";}s:11:\"easycontact\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:26:\"typo3conf/ext/easycontact/\";s:12:\"typo3RelPath\";s:29:\"../typo3conf/ext/easycontact/\";s:17:\"ext_localconf.php\";s:72:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/easycontact/ext_localconf.php\";s:14:\"ext_tables.php\";s:69:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/easycontact/ext_tables.php\";s:14:\"ext_tables.sql\";s:69:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/easycontact/ext_tables.sql\";}s:16:\"dd_googlesitemap\";a:7:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:31:\"typo3conf/ext/dd_googlesitemap/\";s:12:\"typo3RelPath\";s:34:\"../typo3conf/ext/dd_googlesitemap/\";s:17:\"ext_localconf.php\";s:77:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/dd_googlesitemap/ext_localconf.php\";s:14:\"ext_tables.php\";s:74:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/dd_googlesitemap/ext_tables.php\";s:14:\"ext_tables.sql\";s:74:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/dd_googlesitemap/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:84:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/dd_googlesitemap/ext_typoscript_setup.txt\";}s:20:\"dd_googlesitemap_dmf\";a:7:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:35:\"typo3conf/ext/dd_googlesitemap_dmf/\";s:12:\"typo3RelPath\";s:38:\"../typo3conf/ext/dd_googlesitemap_dmf/\";s:17:\"ext_localconf.php\";s:81:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/dd_googlesitemap_dmf/ext_localconf.php\";s:14:\"ext_tables.php\";s:78:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/dd_googlesitemap_dmf/ext_tables.php\";s:14:\"ext_tables.sql\";s:78:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/dd_googlesitemap_dmf/ext_tables.sql\";s:24:\"ext_typoscript_setup.txt\";s:88:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/dd_googlesitemap_dmf/ext_typoscript_setup.txt\";}s:19:\"jh_opengraph_ttnews\";a:5:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:34:\"typo3conf/ext/jh_opengraph_ttnews/\";s:12:\"typo3RelPath\";s:37:\"../typo3conf/ext/jh_opengraph_ttnews/\";s:17:\"ext_localconf.php\";s:80:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/jh_opengraph_ttnews/ext_localconf.php\";s:24:\"ext_typoscript_setup.txt\";s:87:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/jh_opengraph_ttnews/ext_typoscript_setup.txt\";}s:9:\"ke_dompdf\";a:4:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:24:\"typo3conf/ext/ke_dompdf/\";s:12:\"typo3RelPath\";s:27:\"../typo3conf/ext/ke_dompdf/\";s:17:\"ext_localconf.php\";s:70:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/ke_dompdf/ext_localconf.php\";}s:7:\"div2007\";a:4:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:22:\"typo3conf/ext/div2007/\";s:12:\"typo3RelPath\";s:25:\"../typo3conf/ext/div2007/\";s:17:\"ext_localconf.php\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/div2007/ext_localconf.php\";}s:10:\"transactor\";a:6:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:25:\"typo3conf/ext/transactor/\";s:12:\"typo3RelPath\";s:28:\"../typo3conf/ext/transactor/\";s:17:\"ext_localconf.php\";s:71:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/transactor/ext_localconf.php\";s:14:\"ext_tables.php\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/transactor/ext_tables.php\";s:14:\"ext_tables.sql\";s:68:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/transactor/ext_tables.sql\";}s:18:\"transactor_paymill\";a:4:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:33:\"typo3conf/ext/transactor_paymill/\";s:12:\"typo3RelPath\";s:36:\"../typo3conf/ext/transactor_paymill/\";s:17:\"ext_localconf.php\";s:79:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/transactor_paymill/ext_localconf.php\";}s:11:\"hubtie_sync\";a:5:{s:4:\"type\";s:1:\"L\";s:11:\"siteRelPath\";s:26:\"typo3conf/ext/hubtie_sync/\";s:12:\"typo3RelPath\";s:29:\"../typo3conf/ext/hubtie_sync/\";s:17:\"ext_localconf.php\";s:72:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/hubtie_sync/ext_localconf.php\";s:14:\"ext_tables.php\";s:69:\"C:/wserver/htdocs/prod_abubu/typo3conf/ext/hubtie_sync/ext_tables.php\";}s:10:\"_CACHEFILE\";s:21:\"temp_CACHED_FE_ps6b2d\";}'));
 
 
 ###########################
 ## EXTENSION: cms
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/cms/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/cms/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'cms';
@@ -214,7 +214,7 @@ $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['tslib/class.tslib_fe.php']['hook_prev
 
 ###########################
 ## EXTENSION: lang
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/lang/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/lang/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'lang';
@@ -248,7 +248,7 @@ $GLOBALS['TYPO3_CONF_VARS']['BE']['AJAX']['lang::clearCache'] = 'EXT:lang/hooks/
 
 ###########################
 ## EXTENSION: sv
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/sv/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/sv/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'sv';
@@ -285,7 +285,7 @@ $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['typo3/index.php']['loginScriptHook'][
 
 ###########################
 ## EXTENSION: em
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/em/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/em/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'em';
@@ -306,7 +306,7 @@ $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['tx_em_Tasks_Upd
 
 ###########################
 ## EXTENSION: extbase
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/extbase/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/extbase/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'extbase';
@@ -361,7 +361,7 @@ if (TYPO3_MODE === 'BE') {
 
 ###########################
 ## EXTENSION: css_styled_content
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/css_styled_content/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/css_styled_content/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'css_styled_content';
@@ -423,7 +423,7 @@ $TYPO3_CONF_VARS['FE']['contentRenderingTemplates'] = array(
 
 ###########################
 ## EXTENSION: version
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/version/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/version/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'version';
@@ -459,7 +459,7 @@ t3lib_extMgm::addPageTSconfig('
 
 ###########################
 ## EXTENSION: install
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/install/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/install/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'install';
@@ -526,7 +526,7 @@ $TYPO3_CONF_VARS['SC_OPTIONS']['ext/install']['update']['mediaElementFlexform'] 
 
 ###########################
 ## EXTENSION: rtehtmlarea
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/rtehtmlarea/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/rtehtmlarea/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'rtehtmlarea';
@@ -787,7 +787,7 @@ $TYPO3_CONF_VARS['EXTCONF'][$_EXTKEY]['plugins']['CopyPaste']['mozillaAllowClipb
 
 ###########################
 ## EXTENSION: t3skin
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/t3skin/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/t3skin/ext_localconf.php
 ###########################
 
 $_EXTKEY = 't3skin';
@@ -805,7 +805,7 @@ t3lib_extMgm::addPageTSConfig('
 
 ###########################
 ## EXTENSION: felogin
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/felogin/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/felogin/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'felogin';
@@ -862,7 +862,7 @@ if (t3lib_extMgm::isLoaded('kb_md5fepw') && (TYPO3_MODE == 'FE')) {
 
 ###########################
 ## EXTENSION: form
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/form/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/form/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'form';
@@ -879,7 +879,7 @@ tx_form_Common::getInstance()
 
 ###########################
 ## EXTENSION: adodb
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/adodb/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/adodb/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'adodb';
@@ -900,7 +900,7 @@ if (t3lib_extMgm::isLoaded ('datasources')) {
 
 ###########################
 ## EXTENSION: dbal
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/dbal/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/dbal/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'dbal';
@@ -933,7 +933,7 @@ if (!is_array($GLOBALS['TYPO3_CONF_VARS']['SYS']['caching']['cacheConfigurations
 
 ###########################
 ## EXTENSION: feedit
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/feedit/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/feedit/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'feedit';
@@ -948,7 +948,7 @@ $TYPO3_CONF_VARS['SC_OPTIONS']['typo3/classes/class.frontendedit.php']['edit'] =
 
 ###########################
 ## EXTENSION: fluid
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/fluid/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/fluid/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'fluid';
@@ -967,7 +967,7 @@ if (!is_array($GLOBALS['TYPO3_CONF_VARS']['SYS']['caching']['cacheConfigurations
 
 ###########################
 ## EXTENSION: workspaces
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/workspaces/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/workspaces/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'workspaces';
@@ -1019,7 +1019,7 @@ t3lib_extMgm::addUserTSConfig('options.workspaces.considerReferences = 1');
 
 ###########################
 ## EXTENSION: rlmp_tmplselector
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/rlmp_tmplselector/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/rlmp_tmplselector/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'rlmp_tmplselector';
@@ -1034,7 +1034,7 @@ t3lib_extMgm::addPItoST43($_EXTKEY,"pi1/class.tx_rlmptmplselector_pi1.php","_pi1
 
 ###########################
 ## EXTENSION: automaketemplate
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/automaketemplate/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/automaketemplate/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'automaketemplate';
@@ -1047,7 +1047,7 @@ t3lib_extMgm::addPItoST43($_EXTKEY, 'pi1/class.tx_automaketemplate_pi1.php', '_p
 
 ###########################
 ## EXTENSION: kickstarter
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/kickstarter/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/kickstarter/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'kickstarter';
@@ -1151,7 +1151,7 @@ $TYPO3_CONF_VARS['EXTCONF']['kickstarter']['sections']['tsconfig'] = array(
 
 ###########################
 ## EXTENSION: tt_news
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/tt_news/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/tt_news/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'tt_news';
@@ -1245,7 +1245,7 @@ if (tx_ttnews_compatibility::getInstance()->int_from_ver(TYPO3_version) >= 60000
 
 ###########################
 ## EXTENSION: css_select
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/css_select/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/css_select/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'css_select';
@@ -1274,7 +1274,7 @@ $GLOBALS[ 'TYPO3_CONF_VARS' ][ 'FE' ][ 'addRootLineFields' ] .= ',tx_cssselect_s
 
 ###########################
 ## EXTENSION: moderntab
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/moderntab/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/moderntab/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'moderntab';
@@ -1292,7 +1292,7 @@ t3lib_extMgm::addUserTSConfig('
 
 ###########################
 ## EXTENSION: rzcolorbox
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/rzcolorbox/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/rzcolorbox/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'rzcolorbox';
@@ -1307,7 +1307,7 @@ t3lib_extMgm::addPItoST43($_EXTKEY, 'pi2/class.tx_rzcolorbox_pi2.php', '_pi2', '
 
 ###########################
 ## EXTENSION: indexed_search
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/indexed_search/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/indexed_search/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'indexed_search';
@@ -1400,7 +1400,7 @@ $TYPO3_CONF_VARS['EXTCONF']['indexed_search']['pi1_hooks'] = array (
 
 ###########################
 ## EXTENSION: rgmediaimages
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/rgmediaimages/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/rgmediaimages/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'rgmediaimages';
@@ -1420,7 +1420,7 @@ t3lib_extMgm::addPItoST43($_EXTKEY,'pi1/class.tx_rgmediaimages_pi1.php','_pi1','
 
 ###########################
 ## EXTENSION: povprasevanje
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/povprasevanje/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/povprasevanje/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'povprasevanje';
@@ -1435,7 +1435,7 @@ t3lib_extMgm::addPItoST43($_EXTKEY, 'pi1/class.tx_povprasevanje_pi1.php', '_pi1'
 
 ###########################
 ## EXTENSION: dropdown_sitemap
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/dropdown_sitemap/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/dropdown_sitemap/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'dropdown_sitemap';
@@ -1457,7 +1457,7 @@ t3lib_extMgm::addPItoST43(
 
 ###########################
 ## EXTENSION: pil_mailform
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/pil_mailform/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/pil_mailform/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'pil_mailform';
@@ -1470,7 +1470,7 @@ t3lib_extMgm::addTypoScript($_EXTKEY,"setup","plugin.".t3lib_extMgm::getCN($_EXT
 
 ###########################
 ## EXTENSION: jb_gd_resize
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/jb_gd_resize/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/jb_gd_resize/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'jb_gd_resize';
@@ -1496,7 +1496,7 @@ $TYPO3_CONF_VARS['BE']['XCLASS']['t3lib/class.t3lib_stdgraphic.php']=t3lib_extMg
 
 ###########################
 ## EXTENSION: realurl
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/realurl/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/realurl/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'realurl';
@@ -1543,7 +1543,7 @@ define('TX_REALURL_SEGTITLEFIELDLIST_PLO', 'tx_realurl_pathsegment,nav_title,tit
 
 ###########################
 ## EXTENSION: seo_basics
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/seo_basics/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/seo_basics/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'seo_basics';
@@ -1587,7 +1587,7 @@ if ($extconf['xmlSitemap'] == '1') {
 }
 ###########################
 ## EXTENSION: easy_shop
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/easy_shop/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/easy_shop/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'easy_shop';
@@ -1612,7 +1612,7 @@ t3lib_extMgm::addUserTSConfig('
 
 ###########################
 ## EXTENSION: footer
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/footer/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/footer/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'footer';
@@ -1630,7 +1630,7 @@ t3lib_extMgm::addPItoST43($_EXTKEY, 'pi1/class.tx_footer_pi1.php', '_pi1', 'list
 
 ###########################
 ## EXTENSION: web_shop_registration
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/web_shop_registration/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/web_shop_registration/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'web_shop_registration';
@@ -1645,7 +1645,7 @@ t3lib_extMgm::addPItoST43($_EXTKEY, 'pi1/class.tx_webshopregistration_pi1.php', 
 
 ###########################
 ## EXTENSION: kenslider
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/kenslider/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/kenslider/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'kenslider';
@@ -1664,7 +1664,7 @@ t3lib_extMgm::addUserTSConfig('
 
 ###########################
 ## EXTENSION: cookie_control
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/cookie_control/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/cookie_control/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'cookie_control';
@@ -1682,7 +1682,7 @@ $TYPO3_CONF_VARS['FE']['eID_include']['cookieDelete'] = 'typo3conf/ext/cookie_co
 
 ###########################
 ## EXTENSION: iconepovezave
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/iconepovezave/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/iconepovezave/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'iconepovezave';
@@ -1700,7 +1700,7 @@ t3lib_extMgm::addPItoST43($_EXTKEY, 'pi1/class.tx_iconepovezave_pi1.php', '_pi1'
 
 ###########################
 ## EXTENSION: easycontact
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/easycontact/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/easycontact/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'easycontact';
@@ -1715,7 +1715,7 @@ t3lib_extMgm::addPItoST43($_EXTKEY, 'pi1/class.tx_easycontact_pi1.php', '_pi1', 
 
 ###########################
 ## EXTENSION: dd_googlesitemap
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/dd_googlesitemap/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/dd_googlesitemap/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'dd_googlesitemap';
@@ -1746,7 +1746,7 @@ $GLOBALS['TYPO3_CONF_VARS']['EXTCONF']['dd_googlesitemap']['sitemap']['news'] = 
 
 ###########################
 ## EXTENSION: dd_googlesitemap_dmf
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/dd_googlesitemap_dmf/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/dd_googlesitemap_dmf/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'dd_googlesitemap_dmf';
@@ -1764,7 +1764,7 @@ $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['extbase']['commandControllers'][] = '
 
 ###########################
 ## EXTENSION: jh_opengraph_ttnews
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/jh_opengraph_ttnews/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/jh_opengraph_ttnews/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'jh_opengraph_ttnews';
@@ -1782,7 +1782,7 @@ t3lib_extMgm::addPItoST43($_EXTKEY, 'pi1/class.tx_jhopengraphttnews_pi1.php', '_
 
 ###########################
 ## EXTENSION: ke_dompdf
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/ke_dompdf/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/ke_dompdf/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'ke_dompdf';
@@ -1795,7 +1795,7 @@ t3lib_extMgm::addPItoST43($_EXTKEY,'pi1/class.tx_kedompdf_pi1.php','_pi1','',0);
 
 ###########################
 ## EXTENSION: div2007
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/div2007/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/div2007/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'div2007';
@@ -1827,7 +1827,7 @@ if (!defined ('STATIC_INFO_TABLES_EXT')) {
 
 ###########################
 ## EXTENSION: transactor
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/transactor/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/transactor/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'transactor';
@@ -1879,7 +1879,7 @@ if (
 
 ###########################
 ## EXTENSION: transactor_paymill
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/transactor_paymill/ext_localconf.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/transactor_paymill/ext_localconf.php
 ###########################
 
 $_EXTKEY = 'transactor_paymill';
@@ -1893,4 +1893,19 @@ if (!defined ('TYPO3_MODE')) {
 
 $GLOBALS['TYPO3_CONF_VARS']['FE']['eID_include']['paymill'] =  'EXT:transactor_paymill/class.tx_transactorpaymill_request.php' ;
 
+
+###########################
+## EXTENSION: hubtie_sync
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/hubtie_sync/ext_localconf.php
+###########################
+
+$_EXTKEY = 'hubtie_sync';
+$_EXTCONF = $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY];
+
+
+if (!defined('TYPO3_MODE')) {
+	die ('Access denied.');
+}
+
+t3lib_extMgm::addPItoST43($_EXTKEY, 'pi1/class.tx_hubtiesync_pi1.php', '_pi1', 'list_type', 0);
 ?>

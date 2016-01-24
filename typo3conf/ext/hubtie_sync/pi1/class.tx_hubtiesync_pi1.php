@@ -223,8 +223,8 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 		$GLOBALS['TYPO3_DB']->exec_UPDATEquery('tx_easyshop_products','uid=' . $prodId, $updArray);
 		$GLOBALS['TYPO3_DB']->exec_DELETEquery('tx_easyshop_products_categories_mm','uid_local=' . $prodId);
 		$GLOBALS['TYPO3_DB']->exec_DELETEquery('tx_easyshop_products_properities_mm','uid_local=' . $prodId);
-		$this->insertCatMM($insId, $propCats);
-		$this->insertPropMM($insId, $prodProp);
+		$this->insertCatMM($prodId, $propCats);
+		$this->insertPropMM($prodId, $prodProp);
 	}
 
 	private function insertProd($prod, $prodProp, $propCats) {

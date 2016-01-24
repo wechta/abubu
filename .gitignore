@@ -1,2 +1,4 @@
 /typo3temp/**
 /typo3temp
+/typo3conf/**
+/typo3conf

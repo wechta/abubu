@@ -213,8 +213,8 @@
                     <p class="productpage__item_price text-small text-uppercase">Na zalogi</p>
                 </div>
                 <div class="product-select">
-                    <form class="bs-pull-left">
-                        <select class="selectpicker">
+                    <form class="bs-pull-left" id="singleForm">
+                        <select class="validate[required] selectpicker" id="prop1">
                             <option>Izberi velikost</option>
                             <option>XS</option>
                             <option>S</option>
@@ -224,38 +224,9 @@
                             <option>XXL</option>
                         </select>
                     </form>
-                    <button class="btn btn-default add-to-cart">Dodaj v košarico</button>
                     <!-- ###ADD_TO_BASKET### begin-->
-                    <div id="prizeWrap" itemprop="offerDetails" itemscope itemtype="http://data-vocabulary.org/Offer">
-                        <!-- ###PRIZE_WRAP### begin-->
-                        <meta itemprop="currency" content="EUR" />
-                        <p class="singlePrice ###AKCIJSKA_YES###">Cena: <span><span itemprop="price">###PRODUCT_PRICE###</span>€</span></p>
-                        <p class="singlePrice ###AKCIJSKA_NO###">Cena: <span><span itemprop="price">###PRODUCT_ACTION_PRICE###</span>€</span></p>
-                        <!-- ###PRIZE_WRAP### end-->
-                    </div>
-
-
-
-                    <!-- ###MULTIE_PROPERTIES2### begin-->
-                    <!-- ###NO_MONO_PROPERTIES2### begin-->
-                    <div class="singlePriceSelect">
-                        <select class="validate[required] radius" id="prop2">
-                            <!-- ###SINGLE_PROPERTIES2### begin-->
-                            <option value="###SINGLE_PROPERTY_UID###">###SINGLE_PROPERTY2_TITLE###</option>
-                            <!-- ###SINGLE_PROPERTIES2### end -->
-                        </select>
-                    </div>
-                    <!-- ###NO_MONO_PROPERTIES2### end-->
-                    <!-- ###MONO_PROPERTIES2### begin-->
-                    <div class="oneColor">###SINGLE_PROPERTY2_TITLE###</div>
-                    <input type="hidden" id="prop2mono" value="###SINGLE_PROPERTY_UID###">
-                    <!-- ###MONO_PROPERTIES2### end-->
-                    <!-- ###MULTIE_PROPERTIES2### end-->
-
-
-                    <a name="addToBasket" rel="###UID###" class="addToBasket" onmousedown="$('#singleForm').validationEngine('validate')"><img src="fileadmin/template/images/addToBasket.png" /></a>
+                    <button rel="###UID###" class="btn btn-default add-to-cart" id="addToBasket" onmousedown="$('#singleForm').validationEngine('validate')">Dodaj v košarico</button>
                     <input type="hidden" id="prod_uid" value="###UID###">
-                    <p class="addToBasketDDV">Vse cene že vsebujejo DDV</p>
                     <!-- ###ADD_TO_BASKET### end-->
                 </div>
                 <div class="product-links">

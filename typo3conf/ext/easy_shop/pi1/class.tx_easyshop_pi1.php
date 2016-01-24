@@ -78,14 +78,15 @@ class tx_easyshop_pi1 extends tslib_pibase {
 					if(!$this->piVars['prod']){
 						$content.=$this->displayProductsList($arg);
 					}else{
-						$GLOBALS['TSFE']->additionalHeaderData['web_shop_script'].= "jQuery(document).ready(function(){jQuery(\"A[name='addToBasket']\").click(function(){
+						$GLOBALS['TSFE']->additionalHeaderData['web_shop_script'].= "jQuery(document).ready(function(){
+							jQuery(\"#addToBasket\").click(function(){
 							var prop1 = parseInt($(\"#prop1\").val());
 							var prop2 = parseInt($(\"#prop2\").val());
 							var prop1mono = parseInt($(\"#prop1mono\").val());
 							var prop2mono = parseInt($(\"#prop2mono\").val());
 							var selprop1;
-							var selprop2;
-													
+							var selprop2;									
+
 							if(prop1) {
 								selprop1 = prop1;
 							} else if(prop1mono){
@@ -100,11 +101,14 @@ class tx_easyshop_pi1 extends tslib_pibase {
 							} else {
 								selprop2 = 0;
 							}
-							//alert('selprop1:'+selprop1);
+							console.log('rel', jQuery(this).attr('rel'));
+							console.log('prop1->', selprop1);
+							console.log('prop2->', selprop2);
 							if($('#singleForm').validationEngine('validate')) {
 								jQuery('#topBasket').load('".$basketLink."&tx_easyshop_pi1[addToBasket]='+jQuery(this).attr('rel')+'&tx_easyshop_pi1[prop1]='+selprop1+'&tx_easyshop_pi1[prop2]='+selprop2, function() {
-								  jQuery('#basketDropID').show().delay(5000).fadeOut();
-								  jQuery('html, body').animate({ scrollTop: 0 }, 'slow');
+								  //jQuery('#basketDropID').show().delay(5000).fadeOut();
+								  //jQuery('html, body').animate({ scrollTop: 0 }, 'slow');
+								console.log('callback');	
 								});
 							}
 							
@@ -1133,7 +1137,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		//t3lib_utility_Debug::debug($GLOBALS['TSFE']->loginUser);
 		//t3lib_utility_Debug::debug($this->feUserGroup);
 		//t3lib_utility_Debug::debug($GLOBALS['TSFE']->fe_user);
-	
+		//t3lib_utility_Debug::debug($GLOBALS["TSFE"]->fe_user->getKey('ses','web_shop'));
 		//$GLOBALS["TSFE"]->fe_user->setKey('ses','web_shop','');
 		/*
 		$singleMark['###CATEGORY_PATHTRACK###']='';

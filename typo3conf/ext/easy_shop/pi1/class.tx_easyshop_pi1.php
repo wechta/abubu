@@ -101,14 +101,10 @@ class tx_easyshop_pi1 extends tslib_pibase {
 							} else {
 								selprop2 = 0;
 							}
-							console.log('rel', jQuery(this).attr('rel'));
-							console.log('prop1->', selprop1);
-							console.log('prop2->', selprop2);
 							if($('#singleForm').validationEngine('validate')) {
 								jQuery('#topBasket').load('".$basketLink."&tx_easyshop_pi1[addToBasket]='+jQuery(this).attr('rel')+'&tx_easyshop_pi1[prop1]='+selprop1+'&tx_easyshop_pi1[prop2]='+selprop2, function() {
 								  //jQuery('#basketDropID').show().delay(5000).fadeOut();
 								  //jQuery('html, body').animate({ scrollTop: 0 }, 'slow');
-								console.log('callback');	
 								});
 							}
 							
@@ -936,8 +932,10 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 			//t3lib_utility_Debug::debug($singleMarkProduct);
 			$returnContent .= $this->cObj->substituteMarkerArrayCached($template,$singleMarkProduct,$multieMarkProduct,array());
 		}
-		
-		return $returnContent;
+		$templateWrap = $this->loadTemplate('###PRODUCTS_LIST_TEMPLATE_WRAP###');
+		$singleWrap['###LIST_ELEMENTS###']=$returnContent;
+		$retStr = $this->cObj->substituteMarkerArrayCached($templateWrap,$singleWrap,array(),array());
+		return $retStr;
 	}
 	function displayProductsListAjax(){
 		$params=array();

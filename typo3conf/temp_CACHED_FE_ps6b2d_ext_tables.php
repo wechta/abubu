@@ -2,7 +2,7 @@
 
 ###########################
 ## EXTENSION: cms
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/cms/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/cms/ext_tables.php
 ###########################
 
 $_EXTKEY = 'cms';
@@ -299,7 +299,7 @@ $TCA['backend_layout'] = array (
 
 ###########################
 ## EXTENSION: sv
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/sv/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/sv/ext_tables.php
 ###########################
 
 $_EXTKEY = 'sv';
@@ -319,7 +319,7 @@ if (TYPO3_MODE == 'BE') {
 
 ###########################
 ## EXTENSION: em
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/em/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/em/ext_tables.php
 ###########################
 
 $_EXTKEY = 'em';
@@ -359,7 +359,7 @@ if (TYPO3_MODE === 'BE') {
 
 ###########################
 ## EXTENSION: recordlist
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/recordlist/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/recordlist/ext_tables.php
 ###########################
 
 $_EXTKEY = 'recordlist';
@@ -377,7 +377,7 @@ if (TYPO3_MODE === 'BE') {
 
 ###########################
 ## EXTENSION: extbase
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/extbase/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/extbase/ext_tables.php
 ###########################
 
 $_EXTKEY = 'extbase';
@@ -451,7 +451,7 @@ $GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['scheduler']['tasks']['Tx_Extbase_Sche
 
 ###########################
 ## EXTENSION: css_styled_content
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/css_styled_content/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/css_styled_content/ext_tables.php
 ###########################
 
 $_EXTKEY = 'css_styled_content';
@@ -482,7 +482,7 @@ $TCA['tt_content']['columns']['section_frame']['config']['items'][9] = array('LL
 
 ###########################
 ## EXTENSION: version
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/version/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/version/ext_tables.php
 ###########################
 
 $_EXTKEY = 'version';
@@ -504,7 +504,7 @@ if (TYPO3_MODE=='BE')	{
 
 ###########################
 ## EXTENSION: install
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/install/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/install/ext_tables.php
 ###########################
 
 $_EXTKEY = 'install';
@@ -523,7 +523,7 @@ if (TYPO3_MODE === 'BE') {
 
 ###########################
 ## EXTENSION: rtehtmlarea
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/rtehtmlarea/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/rtehtmlarea/ext_tables.php
 ###########################
 
 $_EXTKEY = 'rtehtmlarea';
@@ -613,7 +613,7 @@ if (TYPO3_MODE === 'BE' && t3lib_extMgm::isLoaded('setup') && is_array($GLOBALS[
 
 ###########################
 ## EXTENSION: t3skin
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/t3skin/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/t3skin/ext_tables.php
 ###########################
 
 $_EXTKEY = 't3skin';
@@ -822,7 +822,7 @@ if (TYPO3_MODE == 'BE' || (TYPO3_MODE == 'FE' && isset($GLOBALS['BE_USER']))) {
 
 ###########################
 ## EXTENSION: felogin
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/felogin/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/felogin/ext_tables.php
 ###########################
 
 $_EXTKEY = 'felogin';
@@ -924,7 +924,7 @@ t3lib_extMgm::addToAllTCAtypes('fe_users', 'felogin_redirectPid;;;;1-1-1', '', '
 
 ###########################
 ## EXTENSION: form
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/form/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/form/ext_tables.php
 ###########################
 
 $_EXTKEY = 'form';
@@ -966,7 +966,7 @@ $TCA['tt_content']['types']['mailform']['showitem'] = '
 
 ###########################
 ## EXTENSION: dbal
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/dbal/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/dbal/ext_tables.php
 ###########################
 
 $_EXTKEY = 'dbal';
@@ -983,7 +983,7 @@ if (TYPO3_MODE === 'BE') {
 
 ###########################
 ## EXTENSION: fluid
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/fluid/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/fluid/ext_tables.php
 ###########################
 
 $_EXTKEY = 'fluid';
@@ -996,7 +996,7 @@ t3lib_extMgm::addStaticFile($_EXTKEY, 'Configuration/TypoScript', 'Fluid: (Optio
 
 ###########################
 ## EXTENSION: workspaces
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/workspaces/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/workspaces/ext_tables.php
 ###########################
 
 $_EXTKEY = 'workspaces';
@@ -1115,7 +1115,7 @@ t3lib_extMgm::addLLrefForTCAdescr('sys_workspace_stage','EXT:workspaces/Resource
 
 ###########################
 ## EXTENSION: rlmp_tmplselector
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/rlmp_tmplselector/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/rlmp_tmplselector/ext_tables.php
 ###########################
 
 $_EXTKEY = 'rlmp_tmplselector';
@@ -1157,7 +1157,7 @@ t3lib_extMgm::addToAllTCAtypes("pages","tx_rlmptmplselector_main_tmpl;;;;1-1-1, 
 
 ###########################
 ## EXTENSION: kickstarter
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/kickstarter/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/kickstarter/ext_tables.php
 ###########################
 
 $_EXTKEY = 'kickstarter';
@@ -1184,7 +1184,7 @@ if (TYPO3_MODE=="BE")	{
 
 ###########################
 ## EXTENSION: phpmyadmin
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/phpmyadmin/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/phpmyadmin/ext_tables.php
 ###########################
 
 $_EXTKEY = 'phpmyadmin';
@@ -1230,7 +1230,7 @@ $TYPO3_CONF_VARS['EXTCONF']['phpmyadmin']['pmaDirname'] = 'phpMyAdmin-3.5.8.2-al
 
 ###########################
 ## EXTENSION: tt_news
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/tt_news/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/tt_news/ext_tables.php
 ###########################
 
 $_EXTKEY = 'tt_news';
@@ -1522,7 +1522,7 @@ $GLOBALS['TBE_STYLES']['htmlTemplates']['mod_ttnews_admin.html'] = t3lib_extMgm:
 
 ###########################
 ## EXTENSION: css_select
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/css_select/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/css_select/ext_tables.php
 ###########################
 
 $_EXTKEY = 'css_select';
@@ -1600,7 +1600,7 @@ unset( $tempColumns );
 
 ###########################
 ## EXTENSION: moderntab
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/moderntab/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/moderntab/ext_tables.php
 ###########################
 
 $_EXTKEY = 'moderntab';
@@ -1649,7 +1649,7 @@ $_EXTCONF = $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY];
 				
 ###########################
 ## EXTENSION: rzcolorbox
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/rzcolorbox/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/rzcolorbox/ext_tables.php
 ###########################
 
 $_EXTKEY = 'rzcolorbox';
@@ -1722,7 +1722,7 @@ include_once(t3lib_extMgm::extPath($_EXTKEY).'lib/class.tx_rzcolorbox_dbrelation
 
 ###########################
 ## EXTENSION: indexed_search
-## FILE:      C:/wserver/htdocs/abubu/typo3/sysext/indexed_search/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3/sysext/indexed_search/ext_tables.php
 ###########################
 
 $_EXTKEY = 'indexed_search';
@@ -1799,7 +1799,7 @@ $TCA['index_config'] = array(
 
 ###########################
 ## EXTENSION: rgmediaimages
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/rgmediaimages/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/rgmediaimages/ext_tables.php
 ###########################
 
 $_EXTKEY = 'rgmediaimages';
@@ -1866,7 +1866,7 @@ $_EXTCONF = $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY];
 
 ###########################
 ## EXTENSION: povprasevanje
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/povprasevanje/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/povprasevanje/ext_tables.php
 ###########################
 
 $_EXTKEY = 'povprasevanje';
@@ -1893,7 +1893,7 @@ t3lib_extMgm::addPlugin(array(
 
 ###########################
 ## EXTENSION: dropdown_sitemap
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/dropdown_sitemap/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/dropdown_sitemap/ext_tables.php
 ###########################
 
 $_EXTKEY = 'dropdown_sitemap';
@@ -1942,7 +1942,7 @@ if( TYPO3_MODE == 'BE' ) {
 
 ###########################
 ## EXTENSION: pil_mailform
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/pil_mailform/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/pil_mailform/ext_tables.php
 ###########################
 
 $_EXTKEY = 'pil_mailform';
@@ -1964,7 +1964,7 @@ if (TYPO3_MODE=="BE") $TBE_MODULES_EXT["xMOD_db_new_content_el"]["addElClasses"]
 
 ###########################
 ## EXTENSION: realurl
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/realurl/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/realurl/ext_tables.php
 ###########################
 
 $_EXTKEY = 'realurl';
@@ -2072,7 +2072,7 @@ t3lib_extMgm::addToAllTCAtypes('pages_language_overlay', 'tx_realurl_pathsegment
 
 ###########################
 ## EXTENSION: seo_basics
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/seo_basics/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/seo_basics/ext_tables.php
 ###########################
 
 $_EXTKEY = 'seo_basics';
@@ -2135,7 +2135,7 @@ $TCA['pages_language_overlay']['interface']['showRecordFieldList'] .= ',tx_seo_t
 t3lib_extMgm::addStaticFile($_EXTKEY, 'static', 'Metatags and XML Sitemap');
 ###########################
 ## EXTENSION: easy_shop
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/easy_shop/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/easy_shop/ext_tables.php
 ###########################
 
 $_EXTKEY = 'easy_shop';
@@ -2392,7 +2392,7 @@ if (TYPO3_MODE === 'BE') {
 
 ###########################
 ## EXTENSION: footer
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/footer/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/footer/ext_tables.php
 ###########################
 
 $_EXTKEY = 'footer';
@@ -2441,7 +2441,7 @@ t3lib_extMgm::addPlugin(array(
 
 ###########################
 ## EXTENSION: web_shop_registration
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/web_shop_registration/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/web_shop_registration/ext_tables.php
 ###########################
 
 $_EXTKEY = 'web_shop_registration';
@@ -2497,7 +2497,7 @@ t3lib_extMgm::addToAllTCAtypes('fe_users','tx_webshopregistration_id_ddv;;;;1-1-
 
 ###########################
 ## EXTENSION: kenslider
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/kenslider/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/kenslider/ext_tables.php
 ###########################
 
 $_EXTKEY = 'kenslider';
@@ -2542,7 +2542,7 @@ $TCA['tx_kenslider_entry'] = array(
 
 ###########################
 ## EXTENSION: cookie_control
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/cookie_control/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/cookie_control/ext_tables.php
 ###########################
 
 $_EXTKEY = 'cookie_control';
@@ -2593,7 +2593,7 @@ $TCA['tx_cookiecontrol_data'] = array (
 
 ###########################
 ## EXTENSION: iconepovezave
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/iconepovezave/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/iconepovezave/ext_tables.php
 ###########################
 
 $_EXTKEY = 'iconepovezave';
@@ -2645,7 +2645,7 @@ t3lib_extMgm::addPlugin(array(
 
 ###########################
 ## EXTENSION: easycontact
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/easycontact/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/easycontact/ext_tables.php
 ###########################
 
 $_EXTKEY = 'easycontact';
@@ -2689,7 +2689,7 @@ t3lib_extMgm::addPlugin(array(
 
 ###########################
 ## EXTENSION: dd_googlesitemap
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/dd_googlesitemap/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/dd_googlesitemap/ext_tables.php
 ###########################
 
 $_EXTKEY = 'dd_googlesitemap';
@@ -2741,7 +2741,7 @@ unset($tempColumn);
 
 ###########################
 ## EXTENSION: dd_googlesitemap_dmf
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/dd_googlesitemap_dmf/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/dd_googlesitemap_dmf/ext_tables.php
 ###########################
 
 $_EXTKEY = 'dd_googlesitemap_dmf';
@@ -2756,7 +2756,7 @@ if (!defined ('TYPO3_MODE')) {
 
 ###########################
 ## EXTENSION: transactor
-## FILE:      C:/wserver/htdocs/abubu/typo3conf/ext/transactor/ext_tables.php
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/transactor/ext_tables.php
 ###########################
 
 $_EXTKEY = 'transactor';
@@ -2785,4 +2785,27 @@ if (TYPO3_MODE == 'BE') {
 	);
 }
 
+
+###########################
+## EXTENSION: hubtie_sync
+## FILE:      C:/wserver/htdocs/prod_abubu/typo3conf/ext/hubtie_sync/ext_tables.php
+###########################
+
+$_EXTKEY = 'hubtie_sync';
+$_EXTCONF = $GLOBALS['TYPO3_CONF_VARS']['EXT']['extConf'][$_EXTKEY];
+
+
+if (!defined('TYPO3_MODE')) {
+	die ('Access denied.');
+}
+
+t3lib_div::loadTCA('tt_content');
+$TCA['tt_content']['types']['list']['subtypes_excludelist'][$_EXTKEY.'_pi1'] = 'layout,select_key,pages';
+
+
+t3lib_extMgm::addPlugin(array(
+	'LLL:EXT:hubtie_sync/locallang_db.xml:tt_content.list_type_pi1',
+	$_EXTKEY . '_pi1',
+	t3lib_extMgm::extRelPath($_EXTKEY) . 'ext_icon.gif'
+),'list_type');
 ?>

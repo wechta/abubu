@@ -1,5 +1,0 @@
-Dostop do backenda  je na naslovu:
-
-https://secure.minitron.si/
-user:abubu.peter
-pass:abu123peter

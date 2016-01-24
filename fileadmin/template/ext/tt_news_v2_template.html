@@ -216,36 +216,52 @@ LINK_NEXT - used in the pagebrowser
 <!-- ###TEMPLATE_SINGLE### begin
 	This subpart is used to display single news items
 -->
+
+<!-- Start Main Content -->
+<article class="articlelist__item">
+	<!--  <img src="images/blog_1.jpg" alt="Image" class="img-responsive"> -->
+	<!--  <h4 class="article__subheading">###NEWS_SUBHEADER###</h4> -->
+	<h2 class="article__heading">###NEWS_TITLE###</h2>
+	<div class="article__text">
+		###NEWS_CONTENT###
+	</div>
+</article>
+
+<!-- //End Main Content -->
+
+<!-- ###TEMPLATE_SINGLE### end -->
+
+
+
+
 <script>
-$( document ).ready(function() {
+	$( document ).ready(function() {
 		document.getElementById("fbComments").innerHTML = "<div class='fb-comments' data-href='"+document.URL+"' data-numposts='5'></div>";
 		document.getElementById("fbShare").innerHTML = "<div class='fb-share-button' data-href='"+document.URL+"' data-type='box_count'></div>";
-	});	
+	});
 </script>
 <div class="newsSingle" itemscope itemtype="http://schema.org/Article">
 	<p style="font-size:14px; color:#999;">Objavljeno dne: <span itemprop="datePublished">###NEWS_DATE###</span> - Avtor prispevka: <a href="https://plus.google.com/u/0/106241294134413461262?rel=author" target="_blank">Marko Lorber</a></p>
 	<h1 itemprop="name">###NEWS_TITLE###</h1>
-    <span itemprop="articleBody">###NEWS_CONTENT###</span>
-    <div class="newsSingleFoto">###NEWS_IMAGE###</div>
-    
-    <div class="newsListSingleMore">
+	<span itemprop="articleBody">###NEWS_CONTENT###</span>
+	<div class="newsSingleFoto">###NEWS_IMAGE###</div>
+
+	<div class="newsListSingleMore">
 		<!--###LINK_ITEM###-->###BACK_TO_LIST###<!--###LINK_ITEM###-->
-		
+
 	</div>
-    <div class="newsComments">
-    	<div class="titleBorder titleBorderList" style="margin-bottom:20px;"><h1 style="padding:0px 10px 35px 0px;">Komentiraj in deli novico</h1><span></span></div>
-        <div id="fbComments"></div> 
-        <div id="fbShare"></div>
-        <div class="twit"><a href="https://twitter.com/share" data-count="vertical" class="twitter-share-button">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
-    
+	<div class="newsComments">
+		<div class="titleBorder titleBorderList" style="margin-bottom:20px;"><h1 style="padding:0px 10px 35px 0px;">Komentiraj in deli novico</h1><span></span></div>
+		<div id="fbComments"></div>
+		<div id="fbShare"></div>
+		<div class="twit"><a href="https://twitter.com/share" data-count="vertical" class="twitter-share-button">Tweet</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></div>
 
-    </div>
-<p>&nbsp;</p> 
-<p>&nbsp;</p>    
+
+	</div>
+	<p>&nbsp;</p>
+	<p>&nbsp;</p>
 </div>
-<!-- ###TEMPLATE_SINGLE### end -->
-
 
 
 

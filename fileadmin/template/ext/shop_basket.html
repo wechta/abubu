@@ -215,6 +215,145 @@ jQuery("#form_blagajna").validationEngine({promptPosition : "topRight", scroll: 
 <!-- ###PRODUCTS_BASKET_CHECKOUT_TEMPLATE### begin-->
 
 <!-- ###PRODUCTS_BASKET_LIST_TEMPLATE### begin-->
+  <div class="row">
+
+	  <!-- Start Main Title Block -->
+	  <div class="intro-block text-center">
+		  <h1 class="title-secondary">
+			  <span>Vaša</span>
+			  <span>košarica</span>
+		  </h1>
+	  </div>
+	  <!-- //End Main Title Block -->
+
+	  <!-- Start Main Content -->
+	  <div class="main-content col-md-12">
+		  <form id="cart">
+			  <div class="table-responsive">
+				  <table class="table bs-table table__cart">
+					  <thead>
+					  <tr>
+						  <th class="cart__headers-image">Artikel</th>
+						  <th class="cart__headers-info">&nbsp;</th>
+						  <th class="cart__headers-quantity">Količina</th>
+						  <th class="cart__headers-price">Cena</th>
+						  <th class="cart__headers-discount">Popust</th>
+						  <th class="cart__headers-change">Odstrani</th>
+					  </tr>
+					  </thead>
+					  <tbody>
+					  <!--###BASKET_SINGLE_PRODUCT###-->
+					  <div class="basketLine">
+						  <div class="basketIzdelek">
+							  <a href="###PRODUCT_SINGLE_LINK###" title="###PRODUCT###">
+								  <div class="radius"><span><img src="###IMAGE_THUMBNAIL_SRC###"></span></div>
+								  <h1>###PRODUCT###</h1>
+								  <h2>###PRODUCT_SUBTITLE###</h2>
+							  </a>
+						  </div>
+						  <div class="basketKolicina"><input class="radius" title="Spremeni količino" maxlength="2" id="basketKolicina" type="text" name="###PRODUCT_QUANTITY_INPUT###" value="###PRODUCT_QUANTITY###"></div>
+						  <div class="basketCena"><p>###PRODUCT_PRICE### €</p></div>
+						  <div class="basketPopust"><p>###PRODUCT_ACTION_DISCOUNT### %</p></div>
+						  <div class="basketSkupaj"><p>###PRODUCT_TOTAL_PRICE### €</p></div>
+						  <div class="basketProperty">
+							  <!-- ###SINGLE_PROPERTY_DISPLAY### begin--><p>Barva: ###SINGLE_PROPERTY_TITLE###</p><!-- ###SINGLE_PROPERTY_DISPLAY### end-->
+							  <!-- ###SINGLE_PROPERTY2_DISPLAY### begin--><p>Velikost: ###SINGLE_PROPERTY2_TITLE###</p><!-- ###SINGLE_PROPERTY2_DISPLAY### end-->
+						  </div>
+						  <div class="basketZaloga">
+							  <!--###ZALOGAYES###--><div class="ZalogaYes">Izdelek na zalogi</div><!--###ZALOGAYES###-->
+							  <!--###ZALOGANO###--><div class="ZalogaNo">Izdelek ni na zalogi</div><!--###ZALOGANO###-->
+						  </div>
+						  <a href="###REMOVE_PRODUCT_LINK###" class="basketRemove">Odstrani izdelek</a>
+					  </div>
+
+
+
+
+					  <!--###BASKET_SINGLE_PRODUCT###-->
+					  <tr>
+						  <td class="cart__data-image">
+							  <img class="img-responsive" src="###IMAGE_THUMBNAIL_SRC###" alt="###PRODUCT###">
+						  </td>
+						  <td class="cart__data-info">
+							  <p>###PRODUCT###</p>
+							  <!-- ###SINGLE_PROPERTY_DISPLAY### begin--><p>Barva: ###SINGLE_PROPERTY_TITLE###</p><!-- ###SINGLE_PROPERTY_DISPLAY### end-->
+							  <!-- ###SINGLE_PROPERTY2_DISPLAY### begin--><p>Velikost: ###SINGLE_PROPERTY2_TITLE###</p><!-- ###SINGLE_PROPERTY2_DISPLAY### end-->
+						  </td>
+						  <td class="cart__data-quantity">
+							  ###PRODUCT_QUANTITY###
+						  </td>
+						  <td class="cart__data-price">
+							  ###PRODUCT_QUANTITY### x ###PRODUCT_PRICE### € = ###PRODUCT_TOTAL_PRICE### €
+						  </td>
+						  <td class="cart__data-discount">
+							  -###PRODUCT_ACTION_DISCOUNT###%
+						  </td>
+						  <td class="cart__data-change">
+							  <div>
+								  <a href="#" class="art__data-change--add" title="Dodaj" role="button">+</a>
+							  </div>
+							  <div>
+								  <a href="#" class="art__data-change--remove" title="Odstrani" role="button">__</a>
+							  </div>
+						  </td>
+					  </tr>
+					  </tbody>
+				  </table>
+			  </div>
+			  <div class="row">
+				  <div class="col-sm-7">
+					  <div class="form-inline cart__voucher">
+						  <div class="form-group">
+							  <label class="cart__voucher-label">
+								  <a data-toggle="collapse" href="#voucher" aria-expanded="false" aria-controls="voucher">Imate promocijsko kodo?</a>
+							  </label>
+							  <div class="collapse cart__voucher-form" id="voucher">
+								  <input type="text" class="form-control">
+								  <button type="submit" class="btn">Potrdi</button>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+				  <div class="col-sm-5">
+					  <div class="cart__summary">
+						  <div class="table-responsive">
+							  <table class="table">
+								  <tbody>
+								  <tr class="cart__summary-price1">
+									  <td>Cena brez DDV</td>
+									  <td class="text-right">9,32 €</td>
+								  </tr>
+								  <tr class="cart__summary-discount">
+									  <td>Popust</td>
+									  <td class="text-right">0 %</td>
+								  </tr>
+								  <tr class="cart__summary-tax1">
+									  <td>DDV 9,5 %</td>
+									  <td class="text-right">0,88 €</td>
+								  </tr>
+								  <tr class="cart__summary-tax2">
+									  <td>DDV 22 %</td>
+									  <td class="text-right">0,00 €</td>
+								  </tr>
+								  <tr class="cart__summary-price2">
+									  <td>Za plačilo</td>
+									  <td class="text-right">61,80 €</td>
+								  </tr>
+								  </tbody>
+							  </table>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+			  <button type="submit" class="btn btn-blank btn-cart bs-margin-bottom bs-pull-right">Na blagajno</button>
+		  </form>
+
+	  </div>
+	  <!-- //End Main Content -->
+
+  </div>
+
+
 <form name="basket_full" id="basket_full" method="POST">	
 <div class="basketIzdelki">
 	<div class="basketBox radius">

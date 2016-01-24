@@ -470,7 +470,12 @@ plugin.tt_news {
     catmenu_stdWrap.wrap = <div class="news-catmenu">|</div>
 
      # stdWrap for the category menu header in "nestedWraps" mode
-    catmenuHeader_stdWrap.wrap = <p class="news-catmenu-header">|</p>
+    #catmenuHeader_stdWrap.wrap = <p class="news-catmenu-header">|</p>
+catmenuHeader_stdWrap.wrap = <div class="sidebar__module-title"><h3>|</h3></div>
+
+<div class="sidebar__module-title">
+    <h3>Kategorije novic</h3>
+</div>
 
     # which icons to use for the category menu
     # 1 = icon from cat record
@@ -509,13 +514,16 @@ plugin.tt_news {
     }
 
     # wraps for active category links in the tree (only in mode "nestedWraps")
-    catmenuItem_ACT_stdWrap.wrap = <div class="news-catmenu-ACT">|</div>
+    #catmenuItem_ACT_stdWrap.wrap = <div class="news-catmenu-ACT">|</div>
+
+    catmenuItem_ACT_stdWrap.wrap = <li>|</li>
 
     # wraps for inactive category links in the tree (only in mode "nestedWraps")
-    catmenuItem_NO_stdWrap.wrap = <div class="news-catmenu-NO">|</div>
+    catmenuItem_NO_stdWrap.wrap = <li>|</li>
 
     # wraps for each menu level (only in mode "nestedWraps")
-    catmenuLevel1_stdWrap.wrap = <div class="level1">|</div>
+    #catmenuLevel1_stdWrap.wrap = <div class="level1">|</div>
+    catmenuLevel1_stdWrap.wrap = <div class="sidebar__module-content" ><ul class="list-unstyled list-content" >|</ul></div>
     catmenuLevel2_stdWrap.wrap = <div class="level2">|</div>
     catmenuLevel3_stdWrap.wrap = <div class="level3">|</div>
     catmenuLevel4_stdWrap.wrap = <div class="level4">|</div>

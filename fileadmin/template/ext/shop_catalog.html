@@ -75,6 +75,36 @@
 </div>
 <!-- ###PRODUCTS_SPECIAL_LIST_TEMPLATE### end-->
 
+<!-- ###PRODUCTS_CONNECTED_LIST_TEMPLATE### begin-->
+<div class="col-xs-6 col-md-2">
+    <div class="productlist__item">
+        <div class="overlay overlay-hover">
+            <img src="###IMAGE###" alt="###PRODUCT###" class="img-responsive">
+            <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
+                <a class="productlist__item_addtocart" href="#" title="V košarico">
+                    <span></span>
+                    <span>V košarico</span>
+                </a>
+                <a class="productlist__item_details" href="#" title="Podrobnosti">
+                    <span></span>
+                    <span>Podrobnosti</span>
+                </a>
+            </div>
+        </div>
+        <div class="caption productlist__item_caption">
+            <p class="productlist__item_title">###PRODUCT###</p>
+            <!--###AKCIJSKA_NONE###-->
+            <p class="productlist__item_price">###PRODUCT_PRICE###&nbsp;€</p>
+            <!--###AKCIJSKA_NONE###-->
+            <!--###AKCIJSKA_NAVADNA###-->
+            <p class="productlist__item_price">###PRODUCT_PRICE###&nbsp;€</p>
+            <!--<span class="fullPrice">###PRODUCT_PRICE###&nbsp;€</span>
+            <span class="popust"><span>###PRODUCT_ACTION_DISCOUNT###% <br /></span>popust</span>-->
+            <!--###AKCIJSKA_NAVADNA###-->
+        </div>
+    </div>
+</div>
+<!-- ###PRODUCTS_CONNECTED_LIST_TEMPLATE### end-->
 
 
 <!-- ###CAT_MENU_WITH_PRODUCTS_TEMPLATE### begin-->
@@ -213,8 +243,8 @@
                 <div class="product-price">
                     <!-- ###PRIZE_WRAP### begin-->
                     <meta itemprop="currency" content="EUR" />
-                    <p class="productpage__item_price ###AKCIJSKA_YES###"><span itemprop="price">###PRODUCT_PRICE##</span># €</p>
-                    <p class="productpage__item_price ###AKCIJSKA_NO###"><span itemprop="price">###PRODUCT_ACTION_PRICE###</span> €</p>
+                    <p class="productpage__item_price ###AKCIJSKA_YES###"><span itemprop="price">###PRODUCT_PRICE###</span></p>
+                    <p class="productpage__item_price ###AKCIJSKA_NO###"><span itemprop="price">###PRODUCT_ACTION_PRICE###</span></p>
                     <!-- ###PRIZE_WRAP### end-->
 
                     <span class="separator_product"></span>
@@ -238,9 +268,9 @@
                     <!-- ###ADD_TO_BASKET### end-->
                 </div>
                 <div class="product-links">
-                    <a class="product-link-fav" href="#" title="Dodaj izdelek med priljubljene">Priljubljen</a>
+                    <!--<a class="product-link-fav" href="#" title="Dodaj izdelek med priljubljene">Priljubljen</a>
                     <a class="product-link-help" href="#" title="Pomoč">Pomoč</a>
-                    <a class="product-link-comments" href="#" title="Komentiraj izdelek">Komentarji</a>
+                    <a class="product-link-comments" href="#" title="Komentiraj izdelek">Komentarji</a>-->
                 </div>
                 <div class="product-description">
                     ###DESCRIPTION###
@@ -250,8 +280,8 @@
 
             <!-- Main Image -->
             <div class="col-xs-12 col-sm-5 col-sm-pull-3 col-md-6 col-md-pull-4 product-image">
-                <div class="item overlay" data-src="images/izdelki/izdelek_3.jpg">
-                    <img class="img-responsive" src="images/izdelki/izdelek_3.jpg" alt="Izdelek">
+                <div class="item overlay" data-src="###PRODUCT_IMAGES_BIG_SRC###">
+                    <img class="img-responsive" src="###PRODUCT_IMAGES_BIG_SRC###" alt="Izdelek">
                     <div class="img-overlay-panel img-overlay-background">
                         <!-- Optional icon on hover
                         <i class="fa fa-search fa-4x"></i>
@@ -293,149 +323,10 @@
                 <h3 class="title-secondary">Priljubljeni produkti</h3>
             </div>
             ###CONNECTED_PRODUCTS###
+            </div>
+            <div class="col-separator"></div>
         </div>
         <!-- ###CONNECTED_PRODUCTS_NONE### end-->
-
-        <div class="row favorite-products">
-
-            <div class="col-xs-12 text-center">
-                <h3 class="title-secondary">Priljubljeni produkti</h3>
-            </div>
-
-            <div class="col-xs-6 col-md-2">
-                <div class="productlist__item">
-                    <div class="overlay overlay-hover">
-                        <img src="images/izdelki/izdelek_3.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva" class="img-responsive">
-                        <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                            <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                <span></span>
-                                <span>V košarico</span>
-                            </a>
-                            <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                <span></span>
-                                <span>Podrobnosti</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="caption productlist__item_caption">
-                        <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                        <p class="productlist__item_price">14,90 €</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-md-2">
-                <div class="productlist__item">
-                    <div class="overlay overlay-hover">
-                        <img src="images/izdelki/izdelek_3.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva" class="img-responsive">
-                        <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                            <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                <span></span>
-                                <span>V košarico</span>
-                            </a>
-                            <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                <span></span>
-                                <span>Podrobnosti</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="caption productlist__item_caption">
-                        <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                        <p class="productlist__item_price price_discount">2,90 €</p>
-                        <span class="separator_discount"></span>
-                        <p class="productlist__item_price">14,90 €</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-md-2">
-                <div class="productlist__item">
-                    <div class="overlay overlay-hover">
-                        <img src="images/izdelki/izdelek_3.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva" class="img-responsive">
-                        <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                            <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                <span></span>
-                                <span>V košarico</span>
-                            </a>
-                            <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                <span></span>
-                                <span>Podrobnosti</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="caption productlist__item_caption">
-                        <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                        <p class="productlist__item_price">14,90 €</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-md-2">
-                <div class="productlist__item">
-                    <div class="overlay overlay-hover">
-                        <img src="images/izdelki/izdelek_3.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva" class="img-responsive">
-                        <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                            <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                <span></span>
-                                <span>V košarico</span>
-                            </a>
-                            <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                <span></span>
-                                <span>Podrobnosti</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="caption productlist__item_caption">
-                        <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                        <p class="productlist__item_price">14,90 €</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-md-2">
-                <div class="productlist__item">
-                    <div class="overlay overlay-hover">
-                        <img src="images/izdelki/izdelek_3.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva" class="img-responsive">
-                        <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                            <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                <span></span>
-                                <span>V košarico</span>
-                            </a>
-                            <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                <span></span>
-                                <span>Podrobnosti</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="caption productlist__item_caption">
-                        <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                        <p class="productlist__item_price price_discount">2,90 €</p>
-                        <span class="separator_discount"></span>
-                        <p class="productlist__item_price">14,90 €</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xs-6 col-md-2">
-                <div class="productlist__item">
-                    <div class="overlay overlay-hover">
-                        <img src="images/izdelki/izdelek_3.jpg" alt="Majica z dolgimi rokavi za dečke Ninja Želva" class="img-responsive">
-                        <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                            <a class="productlist__item_addtocart" href="#" title="V košarico">
-                                <span></span>
-                                <span>V košarico</span>
-                            </a>
-                            <a class="productlist__item_details" href="#" title="Podrobnosti">
-                                <span></span>
-                                <span>Podrobnosti</span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="caption productlist__item_caption">
-                        <p class="productlist__item_title">Majica z dolgimi rokavi za dečke Ninja Želva</p>
-                        <p class="productlist__item_price">14,90 €</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="col-separator"></div>
 
     </div>
 

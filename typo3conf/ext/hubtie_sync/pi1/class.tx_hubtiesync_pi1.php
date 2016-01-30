@@ -135,19 +135,21 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 				}
 
 				// get prod images
-				
+				//TODO
+				/*
 				if($single['images']) {
+					
 					foreach($single['images'] as $img) {
-						//TODO
+						
 					}
-				}
-
+				}*/
+				$imgFiles = ['no-product-image-available.png'];
 				$prodId = $this->checkIf('tx_easyshop_products', 'syncId', intval($single['id']));
 				if ($prodId){
-					$this->updateProd($prodId, $single, $prodProp, $propCats);
+					$this->updateProd($prodId, $single, $prodProp, $propCats, $imgFiles);
 					$udpated++;
 				} else {
-					$this->insertProd($single, $prodProp, $propCats);
+					$this->insertProd($single, $prodProp, $propCats, $imgFiles);
 					$inserted++;
 				}
 
@@ -212,13 +214,17 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 		}
 	}
 
-	private function updateProd($prodId, $prod, $prodProp, $propCats) {
+	private function updateProd($prodId, $prod, $prodProp, $propCats, $imgArray) {
+		//t3lib_utility_Debug::debug($imgArray);
+		$images = implode(',', $imgArray);
+		//t3lib_utility_Debug::debug($images);
 		$updArray['tstamp'] = time();		
 		$updArray['syncId'] = intval($prod['id']);
 		$updArray['code'] = $prod['code'];
 		$updArray['title'] = $prod['title'];
 		$updArray['price'] = $prod['price'];
 		$updArray['vat'] = $prod['vat_percents'];
+		$updArray['images'] = $images;
 		$updArray['hidden'] = (intval($prod['active'])) ? 0 : 1;
 		$GLOBALS['TYPO3_DB']->exec_UPDATEquery('tx_easyshop_products','uid=' . $prodId, $updArray);
 		$GLOBALS['TYPO3_DB']->exec_DELETEquery('tx_easyshop_products_categories_mm','uid_local=' . $prodId);
@@ -227,7 +233,8 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 		$this->insertPropMM($prodId, $prodProp);
 	}
 
-	private function insertProd($prod, $prodProp, $propCats) {
+	private function insertProd($prod, $prodProp, $propCats, $imgArray) {
+		$images = implode(',', $imgArray);
 		$insertArray['pid'] = 15;
 		$insertArray['tstamp'] = time();
 		$insertArray['crdate'] = time();
@@ -235,6 +242,7 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 		$insertArray['code'] = $prod['code'];
 		$insertArray['title'] = $prod['title'];
 		$insertArray['price'] = $prod['price'];
+		$insertArray['images'] = $images;
 		$insertArray['vat'] = $prod['vat_percents'];
 		$insertArray['hidden'] = (intval($prod['active'])) ? 0 : 1;
 		$query = $GLOBALS['TYPO3_DB']->exec_INSERTquery('tx_easyshop_products', $insertArray);

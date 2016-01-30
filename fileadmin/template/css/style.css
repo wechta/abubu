@@ -109,7 +109,8 @@ header {
 	display: block;
     margin: 0 auto;
 }
-.cart > div > div > a {
+.cart > div > div > a,
+.cart > div > a {
     color: #c2c2c2;
     display: block;
     background: url(../images/icons.png) 100px -61px no-repeat transparent;
@@ -121,7 +122,9 @@ header {
     text-transform: uppercase;
 }
 .cart > div > div > a:hover,
-.cart > div > div > a:focus {
+.cart > div > a:hover,
+.cart > div > div > a:focus,
+.cart > div > a:focus {
     text-decoration: none;
 }
 

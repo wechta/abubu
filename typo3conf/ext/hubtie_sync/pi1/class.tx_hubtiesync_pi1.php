@@ -107,7 +107,7 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 				// get child products
 				t3lib_utility_Debug::debug($single);
 				$subArt = $this->getSub($single['id']);
-				//t3lib_utility_Debug::debug($subArt);
+				//t3lib_utility_Debug::debug($single);
 				if($subArt) {
 					foreach($subArt as $sub) {
 						// child prod properties

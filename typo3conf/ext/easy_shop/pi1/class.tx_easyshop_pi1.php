@@ -226,6 +226,7 @@ class tx_easyshop_pi1 extends tslib_pibase {
 		}
 		$GLOBALS['TSFE']->additionalHeaderData['web_shop_script'].= '</script>';
 		return $this->pi_wrapInBaseClass($content);
+		//return $this->pi_wrapInBaseClass($content);
 	}
 	function init($conf){
 	  $this->pi_initPIflexForm(); // Init and get the flexform data of the plugin
@@ -285,7 +286,6 @@ class tx_easyshop_pi1 extends tslib_pibase {
 			}	
 		}
 		$multiMarkBread['###PRODUCT_BREAD_CAT###'] = $pathTrack;
-		//t3lib_utility_Debug::debug($multiMarkBread);
 		return $this->cObj->substituteMarkerArrayCached($templateBreadWrap,array(),$multiMarkBread,array());
 	}
 	

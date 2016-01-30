@@ -927,6 +927,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		}
 		$templateWrap = $this->loadTemplate('###PRODUCTS_LIST_TEMPLATE_WRAP###');
 		$singleWrap['###LIST_ELEMENTS###']=$returnContent;
+		$singleWrap['###CAT_TITLE###']=$this->displayCatTitle();
 		$retStr = $this->cObj->substituteMarkerArrayCached($templateWrap,$singleWrap,array(),array());
 		return $retStr;
 	}

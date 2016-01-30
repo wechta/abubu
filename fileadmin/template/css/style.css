@@ -422,6 +422,9 @@ footer {
 .productlist__item_details > span:first-child {
 	background-position: 50% -213px;
 }
+.productlist__item_details:hover {
+    text-decoration: none;
+}
 .productlist__item_overlay [class*=productlist__item],
 .productlist__item_overlay [class*=productlist__item] > span {
 	color: #333;
@@ -429,6 +432,7 @@ footer {
 	font-weight: 600;
     text-align: center;
 }
+    text-decoration: none;
 .productlist__item_overlay [class*=productlist__item] > span:first-child {
 	background-image: url(../images/icons.png);
 	background-repeat: no-repeat;

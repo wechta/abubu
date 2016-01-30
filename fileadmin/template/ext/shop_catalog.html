@@ -154,7 +154,7 @@
 <!-- ###PRODUCTS_LIST_TEMPLATE_WRAP### begin-->
 <div class="row">
     <div class="col-md-12">
-        <div class="productlist__subpage-intro text-center" id="cattitle">
+        <div class="productlist__subpage-intro text-center">
             ###CAT_TITLE###
         </div>
     </div>
@@ -310,20 +310,10 @@
 
 <!-- ###PRODUCTS_LIST_TEMPLATE### begin-->
 <div class="col-xs-6 col-md-4">
+    <a class="productlist__item_details" href="###PRODUCT_SINGLE_LINK###" title="Podrobnosti">
     <div class="productlist__item">
         <div class="overlay overlay-hover">
             <img src="###IMAGE###" alt="###PRODUCT###">
-            <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                <a class="productlist__item_addtocart" href="###PRODUCT_SINGLE_LINK###" title="V košarico">
-                    <span></span>
-                    <span>V košarico</span>
-                </a>
-                <span class="separator"></span>
-                <a class="productlist__item_details" href="###PRODUCT_SINGLE_LINK###" title="Podrobnosti">
-                    <span></span>
-                    <span>Podrobnosti</span>
-                </a>
-            </div>
         </div>
         <div class="caption productlist__item_caption">
             <p class="productlist__item_title">###PRODUCT###</p>
@@ -337,6 +327,7 @@
             <!--###AKCIJSKA_NAVADNA###-->
         </div>
     </div>
+    </a>
 </div>
 <!-- ###PRODUCTS_LIST_TEMPLATE### end -->
 

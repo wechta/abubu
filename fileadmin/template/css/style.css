@@ -109,7 +109,7 @@ header {
 	display: block;
     margin: 0 auto;
 }
-.cart > div > div > a, .cart > div > a {
+.cart > div > div > a {
     color: #c2c2c2;
     display: block;
     background: url(../images/icons.png) 100px -61px no-repeat transparent;
@@ -120,9 +120,7 @@ header {
     padding-right: 55px;
     text-transform: uppercase;
 }
-.cart > div > a:hover,
 .cart > div > div > a:hover,
-.cart > div > a:focus,
 .cart > div > div > a:focus {
     text-decoration: none;
 }
@@ -1267,12 +1265,6 @@ fieldset {
     .toolbar__social {
         text-align: center;
     }
-    .cart > div > a {
-        background-position: -15px -1027px;
-        margin-top: 0;
-        padding-right: 0;
-        text-indent: -999em;
-    }
     .separator {
         display: none;
     }
@@ -1321,6 +1313,12 @@ fieldset {
     }
     .product .col-separator {
         margin: 15px;
+    }
+    .cart > div > div > a {
+        background-position: -15px -1027px;
+        margin-top: 0;
+        padding-right: 0;
+        text-indent: -999em;
     }
 }
 @media only screen and (max-width: 991px) {

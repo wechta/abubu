@@ -1249,7 +1249,6 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 			
 			$imagesArray=explode(',',$product['images']);
 			$imagesNum=count($imagesArray);
-			
 			if($imagesNum>0){
 				if($imagesNum==1) {
 					$singleMark['###ONLY1###']='only1Img';
@@ -1281,6 +1280,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 			}
 			
 			$multiMark['###PRODUCT_IMAGES_BIG###'] = $imageBig;
+			$singleMark['###PRODUCT_IMAGES_BIG_SRC###'] = 'uploads/tx_easyshop/'.$imagesArray[0];
 			$multiMark['###PRODUCT_IMAGES_SMALL###'] = $imageSmall;
 			$GLOBALS['TSFE']->additionalHeaderData['ogimage'] = '<meta property="og:image" content="http://www.zisha.si/'.$imgConfigBig['file'].'"/>';
 			$GLOBALS['TSFE']->additionalHeaderData['ogimage2'] = '<link rel="image_src" type="image/jpeg" href="http://www.zisha.si/'.$imgConfigBig['file'].'" />';
@@ -1431,6 +1431,9 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 				$multiMark['###CONNECTED_PRODUCTS_NONE###'] = '';
 			}
 		}
+
+		//t3lib_utility_Debug::debug($singleMark);
+
 		return $this->cObj->substituteMarkerArrayCached($template,$singleMark,$multiMark,array());
 	}
 	
@@ -1441,7 +1444,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		$params['asc_desc']=$this->conf['productsFrontSortOrderAscDesc'];	
 		$params['connectedUids']=$arg;
 		
-		$template = $this->loadTemplate('###PRODUCTS_SPECIAL_LIST_TEMPLATE###');
+		$template = $this->loadTemplate('###PRODUCTS_CONNECTED_LIST_TEMPLATE###');
 		$templateActionUser = $this->loadTemplate('###AKCIJSKA_NAVADNA###');
 		$templateNormalUser = $this->loadTemplate('###AKCIJSKA_NONE###');
 		$templateMonthTea = $this->cObj->getSubpart($template, '###MESEC_CAJA_NONE###');

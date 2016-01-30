@@ -120,8 +120,10 @@ header {
     padding-right: 55px;
     text-transform: uppercase;
 }
-.cart > div > a:hover, 
-.cart > div > a:focus {
+.cart > div > a:hover,
+.cart > div > div > a:hover,
+.cart > div > a:focus,
+.cart > div > div > a:focus {
     text-decoration: none;
 }
 

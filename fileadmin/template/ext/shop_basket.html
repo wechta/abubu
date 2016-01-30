@@ -730,44 +730,12 @@
 
 
 <!-- ###BASKET_COMPACT_VIEW### begin-->
-<div class="topBasketInfo" id="basketCompactView">
-	<!-- ###FULL_BASKET### begin-->
-	<a href="###BASKET_VIEW_LINK###" title="NA BLAGAJNO" class="">
-		<h3>Vaša košarica (<span id="basketItems">###BASKET_PRODUCTS_COUNT###</span>)</h3>
-	</a>
-	<!-- ###FULL_BASKET### end-->
-	<!-- ###EMPTY_BASKET### begin-->
-	<a class="">
-		<h3>Vaša košarica (<span id="basketItems">O</span>)</h3>
-	</a>
-	<!-- ###EMPTY_BASKET### end-->
-</div>
-<script type="text/javascript">
-	$( document ).ready(function() {
-		var result = $("#basketDropID").height();
-		if (result > '373') {
-			$('.isScroll').addClass('basketDropItems');
-		}
-		else { $('.isScroll').removeClass('basketDropItems'); }
-	});
-</script>
-<div class="basketDrop " id="basketDropID">
-	<div class="isScroll">
-		<!-- ###COMPACT_BASKET_ITEM### begin-->
-		<a href="###PRODUCT_SINGLE_LINK###" title="" class="basketDropItem">
-			<h2>###ITEM_TITLE###</h2>
-			<!-- ###SINGLE_PROPERTY_DISPLAY### begin--><p>Barva: ###SINGLE_PROPERTY_TITLE###</p><!-- ###SINGLE_PROPERTY_DISPLAY### end-->
-			<!-- ###SINGLE_PROPERTY2_DISPLAY### begin--><p>Velikost: ###SINGLE_PROPERTY2_TITLE###</p><!-- ###SINGLE_PROPERTY2_DISPLAY### end-->
-			<p>Količina: ###ITEM_Q###</p>
-			<span>Cena: ###ITEM_TOTAL### €</span>
-		</a>
-		<!-- ###COMPACT_BASKET_ITEM### begin-->
-	</div>
-	<div class="basketDropPrice">
-		<p>Skupaj: ###BASKETITEMSSUM### €</p>
-		<a href="###BASKET_VIEW_LINK###" title="NA BLAGAJNO" class="flehaPink opacity">Na blagajno</a>
-	</div>
-</div>
+<!-- ###FULL_BASKET### begin-->
+<a href="###BASKET_VIEW_LINK###" title="Košarica">Košarica <span>(###BASKET_PRODUCTS_COUNT###)</span></a>
+<!-- ###FULL_BASKET### end-->
+<!-- ###EMPTY_BASKET### begin-->
+<a href="javascript:void(0)" title="Košarica">Košarica <span>(0)</span></a>
+<!-- ###EMPTY_BASKET### end-->
 <!-- ###BASKET_COMPACT_VIEW### end-->
 
 <!-- ###BASKET_COMPACT_POPUP_WINDOW### begin-->

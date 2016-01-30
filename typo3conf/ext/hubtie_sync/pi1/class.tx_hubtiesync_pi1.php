@@ -105,7 +105,7 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 				}
 
 				// get child products
-				t3lib_utility_Debug::debug($single);
+				//t3lib_utility_Debug::debug($single);
 				$subArt = $this->getSub($single['id']);
 				//t3lib_utility_Debug::debug($single);
 				if($subArt) {
@@ -215,7 +215,7 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 	}
 
 	private function updateProd($prodId, $prod, $prodProp, $propCats, $imgArray) {
-		//t3lib_utility_Debug::debug($imgArray);
+		//t3lib_utility_Debug::debug($prodProp);
 		$images = implode(',', $imgArray);
 		//t3lib_utility_Debug::debug($images);
 		$updArray['tstamp'] = time();		
@@ -254,8 +254,10 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 	private function insertCatMM($idProd, $idCats){
 		if($idCats) {
 			foreach($idCats as $idCat){
+
 				$fields_values['uid_local'] = $idProd;
 				$fields_values['uid_foreign'] = $idCat;
+				t3lib_utility_Debug::debug($fields_values);
 				$GLOBALS['TYPO3_DB']->exec_INSERTquery('tx_easyshop_products_categories_mm',$fields_values,$no_quote_fields=FALSE);
 			}
 		}
@@ -266,7 +268,7 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 			foreach($idProps as $idProp){
 				$fields_values['uid_local'] = $idProd;
 				$fields_values['uid_foreign'] = $idProp;
-				$GLOBALS['TYPO3_DB']->exec_INSERTquery('tx_easyshop_products_properities_mm',$fields_values,$no_quote_fields=FALSE);
+				$GLOBALS['TYPO3_DB']->exec_INSERTquery('tx_easyshop_products_properties_mm',$fields_values,$no_quote_fields=FALSE);
 			}
 		}
 	}

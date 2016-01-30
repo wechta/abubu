@@ -107,6 +107,7 @@
 <!-- ###PRODUCTS_CONNECTED_LIST_TEMPLATE### end-->
 
 
+
 <!-- ###CAT_MENU_WITH_PRODUCTS_TEMPLATE### begin-->
 	<br/><h1>Category menu</h1>
 	<!-- ###CAT_MENU_ITEMS###  begin-->
@@ -150,6 +151,69 @@
 </div>
 <!-- ###PRODUCTS_LIST_CE_TEMPLATE### end-->
 
+<!-- ###PRODUCTS_LIST_FILTER### begin-->
+        <p class="sidebar-left-intro">Išči po filtrih</p>
+        <!-- ###SHOW_FILTER_CAT### begin-->
+        <div class="sidebar__module mod-categories">
+            <div class="sidebar__module-title">
+                <h3>KATEGORIJE</h3>
+            </div>
+            <div class="sidebar__module-content">
+                <!-- ###FILTER_CAT_SINGLE### begin-->
+                <div class="checkbox">
+                    <input type="checkbox" id="category-###CAT_ID###">
+                    <label for="category-###CAT_ID###">###CAT_TITLE###</label>
+                </div>
+                <!-- ###FILTER_CAT_SINGLE### begin-->
+            </div>
+        </div>
+        <!-- ###SHOW_FILTER_CAT### end-->
+        <!-- ###SHOW_FILTER_SIZE### begin-->
+        <div class="sidebar__module mod-size">
+            <div class="sidebar__module-title">
+                <h3>VELIKOST</h3>
+            </div>
+            <div class="sidebar__module-content">
+                <!-- ###FILTER_SIZE_SINGLE### begin-->
+                <div class="checkbox">
+                    <input type="checkbox" id="size-###SIZE_ID###">
+                    <label for="size-###SIZE_ID###">###SIZE_TITLE###</label>
+                </div>
+                <!-- ###FILTER_SIZE_SINGLE### begin-->
+            </div>
+        </div>
+        <!-- ###SHOW_FILTER_SIZE### end-->
+        <!-- ###SHOW_FILTER_AGE### begin-->
+        <div class="sidebar__module mod-color">
+            <div class="sidebar__module-title">
+                <h3>STAROSTNA SKUPINA</h3>
+            </div>
+            <div class="sidebar__module-content">
+                <!-- ###FILTER_AGE_SINGLE### begin-->
+                <div class="checkbox">
+                    <input type="checkbox" id="color-###AGE_ID###">
+                    <label for="color-###AGE_ID###">###AGE_TITLE###</label>
+                </div>
+                <!-- ###FILTER_AGE_SINGLE### end-->
+            </div>
+        </div>
+        <!-- ###SHOW_FILTER_AGE### end-->
+        <!-- ###SHOW_FILTER_GENDER### begin-->
+        <div class="sidebar__module mod-color">
+            <div class="sidebar__module-title">
+                <h3>SPOL</h3>
+            </div>
+            <div class="sidebar__module-content">
+                <!-- ###FILTER_GENDER_SINGLE### begin-->
+                <div class="checkbox">
+                    <input type="checkbox" id="color-###GENDER_ID###">
+                    <label for="color-###GENDER_ID###">###GENDER_TITLE###</label>
+                </div>
+                <!-- ###FILTER_GENDER_SINGLE### end-->
+            </div>
+        </div>
+        <!-- ###SHOW_FILTER_GENDER### end-->
+<!-- ###PRODUCTS_LIST_FILTER### end-->
 
 <!-- ###PRODUCTS_LIST_TEMPLATE_WRAP### begin-->
 <div class="row">
@@ -161,148 +225,12 @@
 </div> 
 <div class="row">
     <div class="main-content col-xs-12 col-sm-8 col-sm-push-4 col-md-9 col-md-push-3">
-        <div class="row row--productlist bs-margin-remove-top">
+        <div class="row row--productlist bs-margin-remove-top" id="listElements">
             ###LIST_ELEMENTS###
         </div>
     </div>
     <div class="sidebar-left col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9">
-
-        <p class="sidebar-left-intro">Išči po filtrih</p>
-
-        <div class="sidebar__module mod-categories">
-            <div class="sidebar__module-title">
-                <h3>KATEGORIJE</h3>
-            </div>
-            <div class="sidebar__module-content">
-                <div class="checkbox">
-                    <input type="checkbox" id="category-1">
-                    <label for="category-1">Zgornji deli</label>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" id="category-2">
-                    <label for="category-2">Spodnji deli</label>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" id="category-3">
-                    <label for="category-3">Nogavice / žabice</label>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" id="category-4">
-                    <label for="category-4">Spodnje perilo</label>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" id="category-5">
-                    <label for="category-5">Spalni programi</label>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" id="category-6">
-                    <label for="category-6">Kapice / Rokavice / Šali</label>
-                </div>
-                <div class="checkbox">
-                    <input type="checkbox" id="category-7">
-                    <label for="category-7">Ostalo</label>
-                </div>
-            </div>
-        </div>
-
-        <div class="sidebar__module mod-size">
-            <div class="sidebar__module-title">
-                <h3>VELIKOST</h3>
-            </div>
-            <div class="sidebar__module-content">
-                <div class="row">
-                    <div class="col-xs-6">
-                        <div class="checkbox">
-                            <input type="checkbox" id="size-1">
-                            <label for="size-1">XS</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="size-2">
-                            <label for="size-2">S</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="size-3">
-                            <label for="size-3">M</label>
-                        </div>
-                    </div>
-                    <div class="col-xs-6">
-                        <div class="checkbox">
-                            <input type="checkbox" id="size-4">
-                            <label for="size-4">L</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="size-5">
-                            <label for="size-5">XL</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="size-6">
-                            <label for="size-6">XXL</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sidebar__module mod-color">
-            <div class="sidebar__module-title">
-                <h3>BARVA</h3>
-            </div>
-            <div class="sidebar__module-content">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <div class="checkbox">
-                            <input type="checkbox" id="color-1">
-                            <label for="color-1">Modra</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="color-2">
-                            <label for="color-2">Bela</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="color-3">
-                            <label for="color-3">Roza</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="color-4">
-                            <label for="color-4">Èrna</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="color-5">
-                            <label for="color-5">Zelena</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="color-6">
-                            <label for="color-6">Rumena</label>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="checkbox">
-                            <input type="checkbox" id="color-7">
-                            <label for="color-7">Oranžna</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="color-8">
-                            <label for="color-8">Vijolièna</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="color-9">
-                            <label for="color-9">Oker</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="color-10">
-                            <label for="color-10">Siva</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="color-11">
-                            <label for="color-11">Rjava</label>
-                        </div>
-                        <div class="checkbox">
-                            <input type="checkbox" id="color-12">
-                            <label for="color-12">Turkizna</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        ###DINAMIC_FILTER###
     </div>
 </div>
 <div class="row row-separator"></div>

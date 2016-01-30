@@ -23,7 +23,7 @@ plugin.tx_easyshop_pi1 {
     ajax {
 		typeNum = 112
 		languageParameter = L
-		templateFile = typo3conf/ext/easy_shop/templates/shop.html
+		templateFile = fileadmin/template/ext/shop_catalog.html
     }
     pageBrowser {
 	    maxPages = 10

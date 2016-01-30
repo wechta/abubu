@@ -76,37 +76,72 @@ class tx_easyshop_pi1 extends tslib_pibase {
 					})";*/
 					//pero striku :)
 					if(!$this->piVars['prod']){
+
+						$GLOBALS['TSFE']->additionalHeaderData['web_shop_script'].= "jQuery(document).ready(function(){
+							$('input[id^=\"category-\"], input[id^=\"size-\"], input[id^=\"age-\"], input[id^=\"gender-\"]').change(function(){
+								getAjaxList();
+							});
+						})
+
+						function getAjaxList() {
+							var cats = [],
+								props = [];
+
+							$('input[id^=\"category-\"]').each(function(){
+								if($(this).is(':checked')) {
+									var cName = $(this).attr('id').split('-');
+									cats.push(cName[1]);
+								}
+							});
+
+							$('input[id^=\"size-\"], input[id^=\"age-\"], input[id^=\"gender-\"]').each(function(){
+								if($(this).is(':checked')) {
+									var pName = $(this).attr('id').split('-');
+									props.push(pName[1]);
+								}
+							});
+
+							var catsStr = cats.join(',');
+							var	propsStr = props.join(',');
+
+							jQuery('#listElements').html('');
+							jQuery('#listElements').load('".$basketLink."&tx_easyshop_pi1[getProductList]=1&tx_easyshop_pi1[cats]='+cats+'&tx_easyshop_pi1[props]='+props);
+						}
+
+						";
+
+
 						$content.=$this->displayProductsList($arg);
 					}else{
 						$GLOBALS['TSFE']->additionalHeaderData['web_shop_script'].= "jQuery(document).ready(function(){
 							jQuery(\"#addToBasket\").click(function(){
-							var prop1 = parseInt($(\"#prop1\").val());
-							var prop2 = parseInt($(\"#prop2\").val());
-							var prop1mono = parseInt($(\"#prop1mono\").val());
-							var prop2mono = parseInt($(\"#prop2mono\").val());
-							var selprop1;
-							var selprop2;									
+								var prop1 = parseInt($(\"#prop1\").val());
+								var prop2 = parseInt($(\"#prop2\").val());
+								var prop1mono = parseInt($(\"#prop1mono\").val());
+								var prop2mono = parseInt($(\"#prop2mono\").val());
+								var selprop1;
+								var selprop2;									
 
-							if(prop1) {
-								selprop1 = prop1;
-							} else if(prop1mono){
-								selprop1 = prop1mono;
-							} else {
-								selprop1 = 0;
-							}
-							if(prop2) {
-								selprop2 = prop2;
-							} else if(prop2mono){
-								selprop2 = prop1mono;
-							} else {
-								selprop2 = 0;
-							}
-							if($('#singleForm').validationEngine('validate')) {
-								jQuery('#topBasket').load('".$basketLink."&tx_easyshop_pi1[addToBasket]='+jQuery(this).attr('rel')+'&tx_easyshop_pi1[prop1]='+selprop1+'&tx_easyshop_pi1[prop2]='+selprop2, function() {
-								  //jQuery('#basketDropID').show().delay(5000).fadeOut();
-								  //jQuery('html, body').animate({ scrollTop: 0 }, 'slow');
-								});
-							}
+								if(prop1) {
+									selprop1 = prop1;
+								} else if(prop1mono){
+									selprop1 = prop1mono;
+								} else {
+									selprop1 = 0;
+								}
+								if(prop2) {
+									selprop2 = prop2;
+								} else if(prop2mono){
+									selprop2 = prop1mono;
+								} else {
+									selprop2 = 0;
+								}
+								if($('#singleForm').validationEngine('validate')) {
+									jQuery('#topBasket').load('".$basketLink."&tx_easyshop_pi1[addToBasket]='+jQuery(this).attr('rel')+'&tx_easyshop_pi1[prop1]='+selprop1+'&tx_easyshop_pi1[prop2]='+selprop2, function() {
+									  //jQuery('#basketDropID').show().delay(5000).fadeOut();
+									  //jQuery('html, body').animate({ scrollTop: 0 }, 'slow');
+									});
+								}
 							
 							
 						});
@@ -478,6 +513,113 @@ class tx_easyshop_pi1 extends tslib_pibase {
 			return '';
 		}
 //t3lib_div::Debug($cat_menu_items);
+	}
+
+	function displayDinFilter() {
+		$template = $this->loadTemplate('###PRODUCTS_LIST_FILTER###');
+		$templateCats = $this->cObj->getSubpart($template, '###FILTER_CAT_SINGLE###');
+		$templateSizes = $this->cObj->getSubpart($template, '###FILTER_SIZE_SINGLE###');
+		$templateAges = $this->cObj->getSubpart($template, '###FILTER_AGE_SINGLE###');
+		$templateGenders = $this->cObj->getSubpart($template, '###FILTER_GENDER_SINGLE###');
+
+		$categories = $this->getAllCategories($arg);
+		foreach($categories as $category){
+			if($this->piVars['cat']==$category['uid']){
+				$selCat=$category;
+				break;
+			}	
+		}
+		$categoryChilds = $this->categoryChilds($selCat['uid'],$categories);
+
+		$catMultie = '';
+		foreach($categoryChilds as $catChild) {
+			$singleMarkCat['###CAT_ID###'] = $catChild['uid'];
+			$singleMarkCat['###CAT_TITLE###'] = $catChild['display_title'];
+			$catMultie .= $this->cObj->substituteMarkerArrayCached($templateCats,$singleMarkCat,array(),array());
+		}
+		$multiMark['###FILTER_CAT_SINGLE###'] = $catMultie;
+		$params['cat']=$this->categoryChildsList($this->piVars['cat']);
+		$params['order_by']=$this->piVars['orderBy'];
+		$params['next_prev']=true;
+		$products = $this->getProducts($params);
+
+		$sizes = array();
+		$genders = array();
+		$ages = array();
+
+		foreach($products as $prod) {
+			$properties = $this->getProductProperties(array('prod_uid'=>$prod['uid']));		
+			foreach($properties as $prop) {
+				if($prop['parrent'] == 2 && !$this->checkIfPropsInArray($ages, $prop['uid'])) {
+					$ages[] = $prop;
+				} else if($prop['parrent'] == 3 && !$this->checkIfPropsInArray($genders, $prop['uid'])) {
+					$genders[] = $prop;
+				} else if($prop['parrent'] == 4 && !$this->checkIfPropsInArray($sizes, $prop['uid'])) {
+					$sizes[] = $prop;
+				}
+			}
+		}
+
+		if(count($sizes)) {
+			$sizeMultie = '';
+			foreach($sizes as $size) {
+				$singleMarkSize['###SIZE_ID###'] = $size['uid'];
+				$singleMarkSize['###SIZE_TITLE###'] = ($size['display_title']) ? $size['display_title'] : $size['title'];
+				$sizeMultie .= $this->cObj->substituteMarkerArrayCached($templateSizes,$singleMarkSize,array(),array());
+			}
+			$multiMark['###FILTER_SIZE_SINGLE###'] = $sizeMultie;
+		} else {
+			$multiMark['###SHOW_FILTER_SIZE###'] = '';
+		}
+
+		if(count($genders)) {
+			$genderMultie = '';
+			foreach($genders as $gender) {
+				$singleMarkGender['###GENDER_ID###'] = $gender['uid'];
+				$singleMarkGender['###GENDER_TITLE###'] = ($gender['display_title']) ? $gender['display_title'] : $gender['title'];
+				$genderMultie .= $this->cObj->substituteMarkerArrayCached($templateGenders,$singleMarkGender,array(),array());
+			}
+			$multiMark['###FILTER_GENDER_SINGLE###'] = $genderMultie;
+		} else {
+			$multiMark['###SHOW_FILTER_GENDER###'] = '';
+		}
+
+		if(count($ages)) {
+			$ageMultie = '';
+			foreach($ages as $age) {
+				$singleMarkAge['###AGE_ID###'] = $age['uid'];
+				$singleMarkAge['###AGE_TITLE###'] = ($age['display_title']) ? $age['display_title'] : $age['title'];
+				$ageMultie .= $this->cObj->substituteMarkerArrayCached($templateAges,$singleMarkAge,array(),array());
+			}
+			$multiMark['###FILTER_AGE_SINGLE###'] = $ageMultie;
+		} else {
+			$multiMark['###SHOW_FILTER_AGE###'] = '';
+		}
+
+
+/*
+		foreach($properties as $key=>$p){
+			if($p['parrent']==0){
+				$p['childs'] = $this->propertyChilds($p,$properties);
+				$properties_tree[] = $p;
+			}
+		}
+*/
+
+		//t3lib_utility_Debug::debug($products);
+		//$params['prop3']=$this->piVars['prop3'];
+
+		return $this->cObj->substituteMarkerArrayCached($template,$singleMark,$multiMark,array());
+	}
+
+	function checkIfPropsInArray($list, $uid) {
+		$found = false;
+		foreach($list as $l) {
+			if($l['uid'] == $uid) {
+				$found = true;
+			}
+		}
+		return $found;
 	}
 	
 	function displayProductsListAction($arg) {
@@ -928,162 +1070,143 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		$templateWrap = $this->loadTemplate('###PRODUCTS_LIST_TEMPLATE_WRAP###');
 		$singleWrap['###LIST_ELEMENTS###']=$returnContent;
 		$singleWrap['###CAT_TITLE###']=$this->displayCatTitle();
+		$singleWrap['###DINAMIC_FILTER###']=$this->displayDinFilter();
 		$retStr = $this->cObj->substituteMarkerArrayCached($templateWrap,$singleWrap,array(),array());
 		return $retStr;
 	}
 	function displayProductsListAjax(){
+		if(!$this->piVars['cats'] && !$this->piVars['props']){return $this->pi_getLL('no_category_error');}
 		$params=array();
 		$this->allCategoriesSorted=$this->getAllCategories(array());
-		$params['cat']=$this->categoryChildsList($this->piVars['cat']);
-		$params['properties']=$this->piVars['filter'];
-		$params['order_by']=$this->piVars['orderBy'];
-		$params['asc_desc']=$this->piVars['ascDesc'];
-		$template_body = $this->cObj->getSubpart($this->loadTemplate('###PRODUCTS_LIST_TEMPLATE###'), '###PRODUCTS_PAGE_TEMPLATE###');
-		$singleMark=array();
-		$singleMark['###cUID###']=$this->cObj->data['uid'];
-		$singleMark['###PAGE_BROWSER###'] = '';
-		$multiMark=array();
-		$products_pages = '';
-		if(!$this->conf['pageBrowser.']['resultsAtATime']){$this->conf['pageBrowser.']['resultsAtATime'] = 12;}
-		$products = $this->getProducts($params);
-		$products['html']='';
-//t3lib_div::Debug($params);
-		if($products['count']>0){
-			$item_templates = array();
-			$templates_num=1;
-			$singleMarkProduct=array();
-			$singleMarkProduct['###cUID###']=$this->cObj->data['uid'];
-			$multiMarkProduct=array();
-			$templates=array('images'=>array(),'files'=>array(),'addToBasket'=>array());
-			while($item_templates[$templates_num]=$this->cObj->getSubpart($template_body, '###ITEM_'.$templates_num.'###')){
-				$item_images_template=$this->cObj->getSubpart($item_templates[$templates_num], '###IMAGES###');
-				if($item_images_template){
-					$images_num=1;
-					while($templates['images'][$templates_num][$images_num]=$this->cObj->getSubpart($item_images_template, '###IMAGE_'.$images_num.'###')){$images_num++;}
-					unset($templates['images'][$templates_num][$images_num--]);	
-				}
-				$templates['files'][$templates_num]=$this->cObj->getSubpart($item_templates[$templates_num], '###PRODUCT_FILES###');
-				$templates['addToBasket'][$templates_num]=$this->cObj->getSubpart($item_templates[$templates_num], '###ADD_TO_BASKET###');
-				$multiMarkProduct['###ITEM_'.$templates_num++.'###']='';
+		
+		$this->allProp3 = $this->getProperties3();
+		$this->allProp4 = $this->getProperties4();
+		foreach($this->allCategoriesSorted as $c){
+			if($c['uid']==$this->piVars['cat']){
+				$currentCat=$c;
+				break;				
 			}
-			unset($item_templates[$templates_num--]);
-			
-			if(!$item_templates[$templates_num]){return $this->pi_getLL('no_template_error');}
-			//$params['products']=implode(',',$products['keys']);
-			$params['products']=$products['keys_list'];
-			$item_template_first=$this->cObj->getSubpart($template_body, '###ITEM_FIRST###');
-			$multiMarkProduct['###ITEM_FIRST###']='';
-			$item_template_last=$this->cObj->getSubpart($template_body, '###ITEM_LAST###');
-			$multiMarkProduct['###ITEM_LAST###']='';
-			
-			$templates_first=array('images'=>array(),'files'=>'','addToBasket'=>'');
-			if($item_template_first){
-				$item_images_template_first=$this->cObj->getSubpart($item_template_first, '###IMAGES###');
-				if($item_images_template_first){
-					$images_first_num=1;
-					while($templates_first['images'][$images_first_num]=$this->cObj->getSubpart($item_images_template_first, '###IMAGE_'.$images_first_num.'###')){$images_first_num++;}
-					unset($templates_first['images'][$images_first_num--]);	
-				}
-				$templates_first['files']=$this->cObj->getSubpart($item_template_first, '###PRODUCT_FILES###');
-				$templates_first['addToBasket']=$this->cObj->getSubpart($templates_first, '###ADD_TO_BASKET###');	
-			}
-			$templates_last=array('images'=>array(),'files'=>'','addToBasket'=>'');
-			if($item_template_last){
-				$item_images_template_last=$this->cObj->getSubpart($item_template_last, '###IMAGES###');
-				if($item_images_template_last){
-					$images_last_num=1;
-					while($templates_last['images'][$images_last_num]=$this->cObj->getSubpart($item_images_template_last, '###IMAGE_'.$images_last_num.'###')){$images_last_num++;}
-					unset($templates_last['images'][$images_last_num--]);	
-				}
-				$templates_last['files']=$this->cObj->getSubpart($item_template_last, '###PRODUCT_FILES###');
-				$templates_last['addToBasket']=$this->cObj->getSubpart($templates_last, '###ADD_TO_BASKET###');	
-			}
-			$GLOBALS['TSFE']->config['config']['forceTypeValue']=$this->conf['ajax.']['typeNum'];
-			//$cat_prod_list_url = t3lib_div::getIndpEnv('TYPO3_SITE_URL').$this->pi_linkTP_keepPIvars_url(array('cat'=>$this->piVars['cat'],'cUid'=>$this->cObj->data['uid']), 1, 1);
-			$GLOBALS['TSFE']->config['config']['forceTypeValue']=0;
-//t3lib_div::Debug($GLOBALS['TSFE']->config['config']['forceTypeValue']);
-//t3lib_div::Debug($cat_prod_list_url);
-			foreach($products['products'] as $page => $pageProducts){
-				$singleMarkProduct['###NECESSARY_INLINE_STYLE###']='';
-				if($page!=1){
-					 $singleMarkProduct['###NECESSARY_INLINE_STYLE###']='style="display:none;"';
-				}
-				$singleMarkProduct['###PAGE###']=$page;
-				$index=$i=1;
-				$productsNum=count($pageProducts);
-				$first=true;
-				$last=false;
-				$products_items='';
-				foreach($pageProducts as $product){
-					if($GLOBALS['TSFE']->loginUser && $this->feUserGroup==2) {
-						if($product['price_partner'] || $product['web_price_partner']) {
-							$product['price'] = $product['price_partner'];
-							$product['web_price'] = $product['web_price_partner'];
-						}
-					}
-					$singleMarkProduct['###PRODUCT###']=$product['title'];
-					$singleMarkProduct['###PRODUCT_UID###']=$product['uid'];
-					$singleMarkProduct['###PRODUCT_SINGLE_LINK###']=t3lib_div::getIndpEnv('TYPO3_SITE_URL').$this->pi_linkTP_keepPIvars_url(array('cat'=>$this->piVars['cat'],'prod'=>$product['uid']), 1, 1,$this->conf['page_single_product']);
-					$singleMarkProduct['###PRODUCT_SUBTITLE###']=$product['subtitle'];
-					$singleMarkProduct['###PRODUCT_DESCRIPTION###']=$this->cObj->parseFunc($product['description'], $GLOBALS['TSFE']->tmpl->setup['tt_content.']['text.']['20.']['parseFunc.']);
-					$singleMarkProduct['###PRODUCT_DESCRIPTION2###']=$this->cObj->parseFunc($product['description2'], $GLOBALS['TSFE']->tmpl->setup['tt_content.']['text.']['20.']['parseFunc.']);
-					$singleMarkProduct['###PRODUCT_PROPERTIES###']='';
-					$singleMarkProduct['###PRODUCT_CATEGORIES###']='';
-					$singleMarkProduct['###PRODUCT_STOCK###']=$product['stock'];
-					$singleMarkProduct['###PRODUCT_MEASURE_UNIT###']=$product['measure_unit'];
-					$multiMarkItem=array();
-					if($i++==$productsNum){$last=true;}
-					if($item_template_first && $first){
-						$multiMarkItem['###IMAGES###']=$this->productImages(array('images'=>explode(',',$product['images']),'captions'=>explode(chr(10),$product['images_captions']),'templates'=>$templates_first['images'],'product_uid'=>$product['uid']));
-						$multiMarkItem['###PRODUCT_FILES###']=$this->productFiles(array('files'=>$product['files'],'template'=>$templates_first['files']));
-						if($product['web_price'] && $product['stock']){
-							$basketMarker=array('###PRODUCT_PRICE###'=>$product['price'],
-												'###PRODUCT_MEMBER_PRICE###'=>$product['web_price'],
-												'###PRODUCT_UID###'=>$product['uid'],
-												'###PRODUCT_DISCOUNT###'=>'');
-							if($product['discount']){
-								$basketMarker['###PRODUCT_DISCOUNT###']=$this->cObj->wrap($product['discount'],$this->conf['discountWrap']);	
-							}
-							$multiMarkItem['###ADD_TO_BASKET###']=$this->cObj->substituteMarkerArrayCached($templates_first['addToBasket'],$basketMarker,array(),array());
-						}	
-						$products_items.=$this->cObj->substituteMarkerArrayCached($item_template_first,$singleMarkProduct,$multiMarkItem,array());
-						$first=false;
-					}elseif($item_template_last && $last){
-						$multiMarkItem['###IMAGES###']=$this->productImages(array('images'=>explode(',',$product['images']),'captions'=>explode(chr(10),$product['images_captions']),'templates'=>$templates_last['images'],'product_uid'=>$product['uid']));
-						$multiMarkItem['###PRODUCT_FILES###']=$this->productFiles(array('files'=>$product['files'],'template'=>$templates_last['files']));
-						if($product['web_price'] && $product['stock']){
-							$basketMarker=array('###PRODUCT_PRICE###'=>$product['price'],
-												'###PRODUCT_MEMBER_PRICE###'=>$product['web_price'],
-												'###PRODUCT_UID###'=>$product['uid'],
-												'###PRODUCT_DISCOUNT###'=>'');
-							if($product['discount']){
-								$basketMarker['###PRODUCT_DISCOUNT###']=$this->cObj->wrap($product['discount'],$this->conf['discountWrap']);	
-							}
-							$multiMarkItem['###ADD_TO_BASKET###']=$this->cObj->substituteMarkerArrayCached($templates_last['addToBasket'],$basketMarker,array(),array());
-						}	
-						$products_items.=$this->cObj->substituteMarkerArrayCached($item_template_last,$singleMarkProduct,$multiMarkItem,array());
-					}else{
-						$multiMarkItem['###IMAGES###']=$this->productImages(array('images'=>explode(',',$product['images']),'captions'=>explode(chr(10),$product['images_captions']),'templates'=>$templates['images'][$index],'product_uid'=>$product['uid']));
-						$multiMarkItem['###PRODUCT_FILES###']=$this->productFiles(array('files'=>$product['files'],'template'=>$templates['files'][$index]));
-						if($product['web_price'] && $product['stock']){
-							$basketMarker=array('###PRODUCT_PRICE###'=>$product['price'],
-												'###PRODUCT_MEMBER_PRICE###'=>$product['web_price'],
-												'###PRODUCT_UID###'=>$product['uid'],
-												'###PRODUCT_DISCOUNT###'=>'');
-							if($product['discount']){
-								$basketMarker['###PRODUCT_DISCOUNT###']=$this->cObj->wrap($product['discount'],$this->conf['discountWrap']);	
-							}
-							$multiMarkItem['###ADD_TO_BASKET###']=$this->cObj->substituteMarkerArrayCached($templates['addToBasket'][$index],$basketMarker,array(),array());
-						}	
-						$products_items.= $this->cObj->substituteMarkerArrayCached($item_templates[$index++],$singleMarkProduct,$multiMarkItem,array());
-						if($index>$templates_num){$index=1;}	
-					}
-				}
-				$multiMarkProduct['###ITEM_'.$templates_num.'###']=$products_items;
-				$products['html'].=$this->cObj->substituteMarkerArrayCached($template_body,$singleMarkProduct,$multiMarkProduct,array());
-			}
-			return $products;
 		}
+		foreach($this->allProp3 as $p){
+			if($p['uid']==$this->piVars['prop3']){
+				$currentCat=$p;
+				break;				
+			}
+		}
+		foreach($this->allProp4 as $p){
+			if($p['uid']==$this->piVars['prop4']){
+				$currentCat=$p;
+				break;				
+			}
+		}
+		
+		$params['cat']= ($this->piVars['cats']) ? $this->piVars['cats'] : $this->categoryChildsList($this->piVars['cat']);
+		$params['prop']=$this->piVars['props'];
+		//$params['prop4']=$this->piVars['prop4'];
+		//$params['order_by']=$this->piVars['orderBy'];
+		
+		//DA NI PAGEBROWSINGA
+		$params['next_prev']=true;
+
+		$template = $this->loadTemplate('###PRODUCTS_LIST_TEMPLATE###');
+		if(!$template){return $this->pi_getLL('no_template_error');}
+		
+		//$template = $this->loadTemplate('###PRODUCTS_SPECIAL_LIST_TEMPLATE###');
+		$templateActionUser = $this->loadTemplate('###AKCIJSKA_NAVADNA###');
+		$templateNormalUser = $this->loadTemplate('###AKCIJSKA_NONE###');
+		$templateMonthTea = $this->loadTemplate('###MESEC_CAJA_NONE###');
+		$templateTypeTea = $this->loadTemplate('###VRSTA_CAJA_NONE###');
+		$templateBioTea = $this->loadTemplate('###BIOSTICKER_NONE###');
+		if(!$template){return $this->pi_getLL('no_template_error');}
+		$singleMark=array();
+		$singleMarkCE=array();
+
+		
+		$products = $this->getProducts($params);
+		
+		$returnContent='';
+		$counter=0;
+		foreach($products as $product){
+			if($GLOBALS['TSFE']->loginUser && $this->feUserGroup==2) {
+				if($product['price_partner'] || $product['web_price_partner']) {
+					$product['price'] = $product['price_partner'];
+					$product['web_price'] = $product['web_price_partner'];
+				}
+			}
+			$productCategories = $this->getProductCategories(array('prod_uid'=>$product['uid']));
+			$singleMarkProduct['###CAT_UID###']=$singleMarkType['###CAT_UID###']=$singleMarkMonth['###CAT_UID###']=$productCategories[0]['uid'];
+			//t3lib_utility_Debug::debug($productCategories);
+			//echo "<br>";
+			
+			$singleMarkProduct['###PRODUCT###']=$product['title'];
+			
+			$singleMarkProduct['###PRODUCT_SINGLE_LINK###']=t3lib_div::getIndpEnv('TYPO3_SITE_URL').$this->pi_linkTP_keepPIvars_url(array('cat'=>$productCategories[0]['uid'],'prod'=>$product['uid']), 1, 1,$this->conf['page_single_product']);
+			
+			$singleMarkProduct['###PRODUCT_SUBTITLE###']=$product['subtitle'];
+			
+			$origImagesArray=explode(',',$product['images']);
+		
+			$leadImage = $origImagesArray[0];
+			$imgConfig['file.']['maxH'] = '263px';
+			$imgConfig['file.']['height'] = '280px';
+			$singleMark['###IMAGE_ORIGINAL###']=t3lib_div::getIndpEnv('TYPO3_SITE_URL').'uploads/tx_easyshop/'.$leadImage;
+			$imgConfig['file'] = 'uploads/tx_easyshop/'.$leadImage;
+			$origImg = $this->cObj->IMAGE($imgConfig);
+			$resizedImageInfo = $GLOBALS['TSFE']->lastImageInfo;
+			$singleMarkProduct['###IMAGE###']=$resizedImageInfo[3];
+			
+			$singleMarkProduct['###PRODUCT_PRICE###']=$this->moneyFormat($product['price']);
+			if($product['web_price']) {
+				$singleMarkProduct['###PRODUCT_ACTION_DISCOUNT###']=100 - intval(100*(floatval(str_replace(',','.',$product['web_price'])))/floatval(str_replace(',','.',$product['price'])));
+				$singleMarkProduct['###PRODUCT_ACTION_PRICE###']=$this->moneyFormat($product['web_price']);
+				$multieMarkProduct['###AKCIJSKA_NAVADNA###']=$this->cObj->substituteMarkerArrayCached($templateActionUser,$singleMarkProduct,array(),array());
+				$multieMarkProduct['###AKCIJSKA_NONE###']='';
+			} else {
+				$multieMarkProduct['###AKCIJSKA_NONE###']=$this->cObj->substituteMarkerArrayCached($templateNormalUser,$singleMarkProduct,array(),array());
+				$multieMarkProduct['###AKCIJSKA_NAVADNA###']='';
+			}
+
+			if($product['month_tea']) {
+				$singleMarkMonth['###MESEC_CAJA###']=$product['month_tea'];
+				$multieMarkProduct['###MESEC_CAJA_NONE###'] = $this->cObj->substituteMarkerArrayCached($templateMonthTea,$singleMarkMonth,array(),array());
+			} else {
+				$multieMarkProduct['###MESEC_CAJA_NONE###']='';
+			}
+			
+			if($product['type_tea']) {
+				$singleMarkType['###VRSTA_CAJA###']=$product['type_tea'];
+				$multieMarkProduct['###VRSTA_CAJA_NONE###'] = $this->cObj->substituteMarkerArrayCached($templateTypeTea,$singleMarkType,array(),array());
+			} else {
+				$multieMarkProduct['###VRSTA_CAJA_NONE###']='';
+			}
+			
+			if($product['bio_tea']) {
+				$multieMarkProduct['###BIOSTICKER_NONE###'] = $templateBioTea;
+			} else {
+				$multieMarkProduct['###BIOSTICKER_NONE###']='';
+			}
+			
+			
+			// CE IMAMO CENO VEZANO NA KOLIČINE!
+			if($product['price_prop2']) {
+				$priceArray = explode('|',$product['price_prop2']);
+				$singleMarkProduct['###PRODUCT_PRICE###']=$this->moneyFormat(trim($priceArray[0]));
+				if($product['price_disc_prop2']) {
+					$priceDiscArray = explode('|',$product['price_disc_prop2']);
+					$singleMarkProduct['###PRODUCT_ACTION_PRICE###']=$this->moneyFormat(trim($priceDiscArray[0]));
+					$singleMarkProduct['###PRODUCT_ACTION_DISCOUNT###']=100 - intval(100*(floatval(str_replace(',','.',trim($priceDiscArray[0]))))/floatval(str_replace(',','.',trim($priceArray[0]))));
+					$multieMarkProduct['###AKCIJSKA_NAVADNA###']=$this->cObj->substituteMarkerArrayCached($templateActionUser,$singleMarkProduct,array(),array());
+					$multieMarkProduct['###AKCIJSKA_NONE###']='';
+				} else {
+					$multieMarkProduct['###AKCIJSKA_NONE###']=$this->cObj->substituteMarkerArrayCached($templateNormalUser,$singleMarkProduct,array(),array());
+					$multieMarkProduct['###AKCIJSKA_NAVADNA###']='';
+				}				
+			}
+			
+			//t3lib_utility_Debug::debug($singleMarkProduct);
+			$returnContent .= $this->cObj->substituteMarkerArrayCached($template,$singleMarkProduct,$multieMarkProduct,array());
+		}
+		return $returnContent;
 	}
 	
 	function displayProductTitle($arg){
@@ -2045,17 +2168,17 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 				$arg['asc_desc']=$this->conf['productsDefaultSortOrderAscDesc'];
 			}
 		}
-	
 		$products =$products_overlay=$queryParts=$prod_pos=array();
 		
 		if(!$arg['special'] && !$arg['connectedUids']){	
 			$queryParts['SELECT'] = 'DISTINCT tx_easyshop_products.*';
-			if($arg['prop3']) {
-				$queryParts['FROM'] = 'tx_easyshop_products LEFT JOIN tx_easyshop_products_properties3_mm ON tx_easyshop_products.uid=tx_easyshop_products_properties3_mm.uid_local';
+			if($arg['prop']) {
+				$queryParts['FROM'] = 'tx_easyshop_products LEFT JOIN tx_easyshop_products_properties_mm ON tx_easyshop_products.uid=tx_easyshop_products_properties_mm.uid_local';
 				$queryParts['FROM'] .= ' LEFT JOIN tx_easyshop_products_categories_mm ON tx_easyshop_products.uid=tx_easyshop_products_categories_mm.uid_local';
-				$queryParts['WHERE'] = 'tx_easyshop_products.deleted=0 AND tx_easyshop_products.hidden=0 AND tx_easyshop_products_properties3_mm.uid_foreign IN ('.$arg['prop3'].')';
+				$queryParts['WHERE'] = 'tx_easyshop_products.deleted=0 AND tx_easyshop_products.hidden=0 AND tx_easyshop_products_properties_mm.uid_foreign IN ('.$arg['prop'].')';
 				$queryParts['WHERE'] .= ' AND tx_easyshop_products_categories_mm.uid_foreign IN ('.$arg['cat'].')';			
-				}else if($arg['prop4']) {
+				}
+			else if($arg['prop4']) {
 				$queryParts['FROM'] = 'tx_easyshop_products LEFT JOIN tx_easyshop_products_properties4_mm ON tx_easyshop_products.uid=tx_easyshop_products_properties4_mm.uid_local';
 				$queryParts['WHERE'] = 'tx_easyshop_products.deleted=0 AND tx_easyshop_products.hidden=0 AND tx_easyshop_products_properties4_mm.uid_foreign IN ('.$arg['prop4'].')';
 			} else {
@@ -2130,8 +2253,8 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 t3lib_utility_Debug::debug($queryParts);
 */
 
+		//t3lib_utility_Debug::debug($queryParts);
 		$res = $GLOBALS['TYPO3_DB']->exec_SELECT_queryArray($queryParts);
-		
 		if($arg['special'] || $arg['next_prev'] || $arg['connectedUids']) {
 			if ($res) {
 				while($row = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($res)){
@@ -2220,6 +2343,7 @@ t3lib_utility_Debug::debug($queryParts);
 			}
 			$GLOBALS['TYPO3_DB']->sql_free_result($res);
 		}
+		t3lib_utility_Debug::debug('aaa');
 		return array('products'=>$products,'count'=>$p_count, 'keys_list'=>$p_keys_list, 'prod_pos'=>$prod_pos);
 	}
 	function getProduct($arg){
@@ -2294,7 +2418,7 @@ t3lib_utility_Debug::debug($queryParts);
 		$queryParts['SELECT'] = 'tx_easyshop_properties.*';
 		$queryParts['FROM'] = 'tx_easyshop_products_properties_mm LEFT JOIN tx_easyshop_properties ON tx_easyshop_products_properties_mm.uid_foreign=tx_easyshop_properties.uid';
 		$queryParts['WHERE'] = 'tx_easyshop_products_properties_mm.uid_local='.$arg['prod_uid'].' AND tx_easyshop_properties.hidden=0  AND tx_easyshop_properties.deleted=0 ';
-		
+		//t3lib_utility_Debug::debug($queryParts);
 		//t3lib_div::Debug($queryParts);
 		$res = $GLOBALS['TYPO3_DB']->exec_SELECT_queryArray($queryParts);
 		$properties = array();
@@ -2505,8 +2629,8 @@ t3lib_utility_Debug::debug($queryParts);
 		}
 		return $childs;
 	}
-	function categoryChildsList($parrent){
-		$catList = $parrent;
+	function categoryChildsList($parrent, $noParent = false){
+		$catList = ($noParent) ? '' : $parrent;		
 		foreach($this->allCategoriesSorted as $c){
 			if($c['parrent']==$parrent){
 				$catList .= ','.$this->categoryChildsList($c['uid']);	
@@ -2971,6 +3095,11 @@ t3lib_utility_Debug::debug($queryParts);
 		//	$singleMark['###PRODUCT_PRICE###']=$this->moneyFormat($product['price']);
 		//	$singleMark['###PRODUCT_PRICE###']=$this->moneyFormat($product['price']);			
 			return $this->cObj->substituteMarkerArrayCached($template,$singleMark,$multieMark,array());			
+		} else if($this->piVars['getProductList']) {
+			$this->conf=$conf;
+			$this->pi_setPiVarDefaults();
+			$this->init($conf);
+			return $this->displayProductsListAjax();
 		} else {
 			return "ERROR";
 		}

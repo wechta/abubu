@@ -872,9 +872,8 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 			$origImagesArray=explode(',',$product['images']);
 		
 			$leadImage = $origImagesArray[0];
-			$imgConfig['file.']['maxH'] = '190c';
-			$imgConfig['file.']['height'] = '190c';
-			$imgConfig['file.']['XY'] = '[10.w],[10.h]';
+			$imgConfig['file.']['maxH'] = '263px';
+			$imgConfig['file.']['height'] = '280px';
 			$singleMark['###IMAGE_ORIGINAL###']=t3lib_div::getIndpEnv('TYPO3_SITE_URL').'uploads/tx_easyshop/'.$leadImage;
 			$imgConfig['file'] = 'uploads/tx_easyshop/'.$leadImage;
 			$origImg = $this->cObj->IMAGE($imgConfig);

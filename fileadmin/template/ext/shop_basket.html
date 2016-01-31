@@ -1,6 +1,14 @@
 <!-- ###PRODUCTS_BASKET_CHECKOUT_TEMPLATE### begin-->
+<script type="text/javascript">
+	function show(Id) {
+		document.getElementById(Id).style.display="block";
+	}
+	function hide(Id) {
+		document.getElementById(Id).style.display="none";
+	}
+</script>
 <div class="row">
-
+	<form id="form_blagajna" name="form_blagajna" method="POST">
 	<!-- Start Main Title Block -->
 	<div class="intro-block text-center">
 		<h1 class="title-secondary">
@@ -83,13 +91,13 @@
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="checkbox">
-									<input type="checkbox" id="dostava-1">
+									<input type="radio" id="dostava-1" name="prevzem" class="validate[required]" value="1" style="position: absolute;" >
 									<label for="dostava-1">Dostava prek GLS - 4€</label>
 								</div>
 							</div>
 							<div class="col-sm-6">
 								<div class="checkbox">
-									<input type="checkbox" id="dostava-2">
+									<input type="radio" id="dostava-2" name="prevzem" class="validate[required]" value="2" style="position: absolute;" >
 									<label for="dostava-2">Osebni prevzem</label>
 								</div>
 							</div>
@@ -100,14 +108,14 @@
 						<div class="row">
 							<div class="col-sm-6">
 								<div class="checkbox">
-									<input type="checkbox" id="placilo-1">
-									<label for="placilo-1">Plačilo po povzetju</label>
+									<input name="tipPlacila" type="radio" class="validate[required]" id="povzetju" value="1" style="position: absolute;">
+									<label for="povzetju">Plačilo po povzetju</label>
 								</div>
 							</div>
 							<div class="col-sm-6">
 								<div class="checkbox">
-									<input type="checkbox" id="placilo-2">
-									<label for="placilo-2">Plačilo po predračunu. UPN nalog</label>
+									<input name="tipPlacila" type="radio" class="validate[required]" id="upn" value="2" style="position: absolute;">
+									<label for="upn">Plačilo po predračunu. UPN nalog</label>
 								</div>
 							</div>
 						</div>
@@ -117,7 +125,7 @@
 							<fieldset class="checkout__form-buyer">
 								<legend>Plačnik ni prejemnik:</legend>
 								<div class="checkbox">
-									<input type="checkbox" id="buyer">
+									<input type="checkbox" id="buyer" name="drugPlacnik" onclick="if(this.checked){show('drugPlacnikBox')}else{hide('drugPlacnikBox')}">
 									<label for="buyer">Prejem izdelka na drug naslov</label>
 								</div>
 							</fieldset>
@@ -126,15 +134,55 @@
 							<fieldset class="checkout__form-company">
 								<legend>Ste pravna oseba?</legend>
 								<div class="checkbox">
-									<input type="checkbox" id="company">
+									<input type="checkbox" id="pravnaOseba" name="pravnaOseba" onclick="if(this.checked){show('pravnaOsebaBox')}else{hide('pravnaOsebaBox')}" ###PRAVNA_CHECKED### >
 									<label for="company">Nakupujem kot pravna oseba</label>
 								</div>
+								<div id="pravnaOsebaBox" class="pravna###PRAVNA_CHECKED###" style="display:none;">
+									<div class="col-sm-12 form-group">
+										<label for="company">Podjetje:</label>
+										<input type="text" class="form-control validate[required,length[1,200]] radius" type="text" id="company" name="company" value="###COMPANY###">
+									</div>
+									<div class="col-sm-12 form-group">
+										<label for="id_ddv">Davčna številka:</label>
+										<input type="text" class="form-control validate[required,length[1,200]] radius" type="text" id="id_ddv" name="id_ddv" value="###ID_DDV###">
+									</div>
+								</div
 							</fieldset>
 						</div>
 					</div>
 				</div>
-
-				<div class="col-sm-5 col-sm-offset-7">
+				</div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div id="drugPlacnikBox" style="display:none;">
+							<fieldset class="checkout__form-data">
+								<legend>Podatki za dostavo:</legend>
+								<div class="row">
+									<div class="col-sm-6 form-group">
+										<label for="reciver_name">Ime:</label>
+										<input type="text" class="form-control validate[required,length[1,200]] radius" type="text" id="reciver_name" name="reciver_name">
+									</div>	
+									<div class="col-sm-6 form-group">
+										<label for="reciver_surname">Priimek:</label>
+										<input type="text" class="form-control validate[required,length[1,200]] radius" type="text" id="reciver_surname" name="reciver_surname">
+									</div>
+									<div class="col-sm-6 form-group">
+										<label for="reciver_address">Naslov:</label>
+										<input type="text" class="form-control validate[required,length[1,200]] radius" type="text" id="reciver_address" name="reciver_address">
+									</div>
+									<div class="col-sm-6 form-group">
+										<label for="reciver_post">Poštna številka:</label>
+										<input type="text" class="form-control validate[required,length[1,200]] radius" type="text" id="reciver_post" name="reciver_post">
+									</div>
+									<div class="col-sm-6 form-group">
+										<label for="reciver_city">Kraj:</label>
+										<input type="text" class="form-control validate[required,length[1,200]] radius" type="text" id="reciver_city" name="reciver_city">
+									</div>
+								</div>
+							</fieldset>	
+						</div>
+					</div>
+					<div class="col-sm-5 col-sm-offset-1">
 					<div class="checkout__summary">
 						<div class="table-responsive">
 							<table class="table">
@@ -173,12 +221,12 @@
 					<button  onClick="jQuery('#form_blagajna').attr('action','###PAYMENT_LINK###').submit();" class="btn btn-blank btn-checkout bs-margin-bottom bs-pull-right">Na blagajno</button>
 
 				</div>
-
+				</div>
 			</div>
 
 	</div>
 	<!-- //End Main Content -->
-
+	</form>	
 </div>
 <!-- ###PRODUCTS_BASKET_CHECKOUT_TEMPLATE### begin-->
 

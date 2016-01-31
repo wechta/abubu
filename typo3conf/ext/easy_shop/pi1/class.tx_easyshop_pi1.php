@@ -972,7 +972,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 				break;				
 			}
 		}
-		
+		//t3lib_utility_Debug::debug($this->allCategoriesSorted);
 		$params['cat']=$this->categoryChildsList($this->piVars['cat']);
 		$params['prop3']=$this->piVars['prop3'];
 		$params['prop4']=$this->piVars['prop4'];
@@ -1091,7 +1091,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		if(!$this->piVars['cat'] && !$this->piVars['cats'] && !$this->piVars['props']){return $this->pi_getLL('no_category_error');}
 		$params=array();
 		$this->allCategoriesSorted=$this->getAllCategories(array());
-		
+		//t3lib_utility_Debug::debug($this->getAllCategories(array()));
 		$this->allProp3 = $this->getProperties3();
 		$this->allProp4 = $this->getProperties4();
 		foreach($this->allCategoriesSorted as $c){
@@ -1118,7 +1118,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		//$params['prop4']=$this->piVars['prop4'];
 		//$params['order_by']=$this->piVars['orderBy'];
 		
-//t3lib_utility_Debug::debug($params);
+
 
 		//DA NI PAGEBROWSINGA
 		$params['next_prev']=true;
@@ -2019,6 +2019,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 				$GLOBALS['TYPO3_DB']->sql_free_result($resCount);
 			}
 		}
+		
 		$res = $GLOBALS['TYPO3_DB']->exec_SELECT_queryArray($queryParts);
 		$categories = array();
 		if ($res) {
@@ -2030,6 +2031,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 				if($arg['records_count']){
 					$row['records_count']=$recordsCount[$row['uid']];
 				}
+
 				$categories[] = $row;
 			}	
 			$GLOBALS['TYPO3_DB']->sql_free_result($res);
@@ -2038,12 +2040,13 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		if(!$this->conf['categoryMenuSortOrder']){
 			usort($categories, 'compareCategoriesByDisplayTitle');	
 		}
-//t3lib_div::Debug($categories);			
+		
 		if($this->conf['categories_display_type']==1){
 			return $categories;	
 		}else{
-			$filtered_categories=array();
+			$filtered_categories = $categories;
 			if($this->conf['root_categories']){
+				$filtered_categories=array();
 				$root_categories = explode(',',$this->conf['root_categories']);
 					foreach($categories as $category){
 						if(!$category['parrent']){//Root category

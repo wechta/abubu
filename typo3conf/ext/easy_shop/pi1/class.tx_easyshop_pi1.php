@@ -103,9 +103,8 @@ class tx_easyshop_pi1 extends tslib_pibase {
 
 							var catsStr = cats.join(',');
 							var	propsStr = props.join(',');
+							jQuery('#listElements').load('".$basketLink."&tx_easyshop_pi1[cat]=".$this->piVars['cat']."&tx_easyshop_pi1[getProductList]=1&tx_easyshop_pi1[cats]='+cats+'&tx_easyshop_pi1[props]='+props);
 
-							jQuery('#listElements').html('');
-							jQuery('#listElements').load('".$basketLink."&tx_easyshop_pi1[getProductList]=1&tx_easyshop_pi1[cats]='+cats+'&tx_easyshop_pi1[props]='+props);
 						}
 
 						";
@@ -521,22 +520,17 @@ class tx_easyshop_pi1 extends tslib_pibase {
 		$templateSizes = $this->cObj->getSubpart($template, '###FILTER_SIZE_SINGLE###');
 		$templateAges = $this->cObj->getSubpart($template, '###FILTER_AGE_SINGLE###');
 		$templateGenders = $this->cObj->getSubpart($template, '###FILTER_GENDER_SINGLE###');
-
+/*
 		$categories = $this->getAllCategories($arg);
 		foreach($categories as $category){
 			if($this->piVars['cat']==$category['uid']){
 				$selCat=$category;
 				break;
 			}	
-		}
-		$categoryChilds = $this->categoryChilds($selCat['uid'],$categories);
+		}*/
+			
 
-		$catMultie = '';
-		foreach($categoryChilds as $catChild) {
-			$singleMarkCat['###CAT_ID###'] = $catChild['uid'];
-			$singleMarkCat['###CAT_TITLE###'] = $catChild['display_title'];
-			$catMultie .= $this->cObj->substituteMarkerArrayCached($templateCats,$singleMarkCat,array(),array());
-		}
+
 		$multiMark['###FILTER_CAT_SINGLE###'] = $catMultie;
 		$params['cat']=$this->categoryChildsList($this->piVars['cat']);
 		$params['order_by']=$this->piVars['orderBy'];
@@ -546,9 +540,11 @@ class tx_easyshop_pi1 extends tslib_pibase {
 		$sizes = array();
 		$genders = array();
 		$ages = array();
+		$cats = array();
 
 		foreach($products as $prod) {
-			$properties = $this->getProductProperties(array('prod_uid'=>$prod['uid']));		
+			$properties = $this->getProductProperties(array('prod_uid'=>$prod['uid']));
+			$categories = $this->getProductCategories(array('prod_uid'=>$prod['uid']));
 			foreach($properties as $prop) {
 				if($prop['parrent'] == 2 && !$this->checkIfPropsInArray($ages, $prop['uid'])) {
 					$ages[] = $prop;
@@ -558,7 +554,19 @@ class tx_easyshop_pi1 extends tslib_pibase {
 					$sizes[] = $prop;
 				}
 			}
+			foreach($categories as $c) {
+				if(!$this->checkIfPropsInArray($cats, $c['uid']) && $c['parrent'] != 0) {
+					$cats[] = $c;
+				}
+			}
 		}
+		$catMultie = '';
+		foreach($cats as $cat) {
+			$singleMarkCat['###CAT_ID###'] = $cat['uid'];
+			$singleMarkCat['###CAT_TITLE###'] = $cat['display_title'];
+			$catMultie .= $this->cObj->substituteMarkerArrayCached($templateCats,$singleMarkCat,array(),array());
+		}
+		$multiMark['###FILTER_CAT_SINGLE###'] = $catMultie;
 
 		if(count($sizes)) {
 			$sizeMultie = '';
@@ -571,6 +579,11 @@ class tx_easyshop_pi1 extends tslib_pibase {
 		} else {
 			$multiMark['###SHOW_FILTER_SIZE###'] = '';
 		}
+
+
+		//hiding useless filters
+		$genders = [];
+		$ages = [];
 
 		if(count($genders)) {
 			$genderMultie = '';
@@ -1075,7 +1088,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		return $retStr;
 	}
 	function displayProductsListAjax(){
-		if(!$this->piVars['cats'] && !$this->piVars['props']){return $this->pi_getLL('no_category_error');}
+		if(!$this->piVars['cat'] && !$this->piVars['cats'] && !$this->piVars['props']){return $this->pi_getLL('no_category_error');}
 		$params=array();
 		$this->allCategoriesSorted=$this->getAllCategories(array());
 		
@@ -1105,6 +1118,8 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		//$params['prop4']=$this->piVars['prop4'];
 		//$params['order_by']=$this->piVars['orderBy'];
 		
+//t3lib_utility_Debug::debug($params);
+
 		//DA NI PAGEBROWSINGA
 		$params['next_prev']=true;
 

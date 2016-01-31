@@ -107,6 +107,10 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 				// get child products
 				//t3lib_utility_Debug::debug($single);
 				$subArt = $this->getSub($single['id']);
+				if($single['id'] == 1324) {
+					t3lib_utility_Debug::debug($single);
+					t3lib_utility_Debug::debug($subArt);
+				}
 				//t3lib_utility_Debug::debug($single);
 				if($subArt) {
 					foreach($subArt as $sub) {
@@ -143,13 +147,27 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 						
 					}
 				}*/
+
+				$wsCatIds = array();
+				$wsPropIds = array();
+
+				foreach($prodProp as $p) {
+					$pro = $this->getPropertie($p);
+					$wsPropIds[] = $pro['uid'];
+				}
+
+				foreach($propCats as $c) {
+					 $cat = $this->getCategory($c);
+					 $wsCatIds[] = $cat['uid'];
+				}
+
 				$imgFiles = ['no-product-image-available.png'];
 				$prodId = $this->checkIf('tx_easyshop_products', 'syncId', intval($single['id']));
 				if ($prodId){
-					$this->updateProd($prodId, $single, $prodProp, $propCats, $imgFiles);
+					$this->updateProd($prodId, $single, $wsPropIds, $wsCatIds, $imgFiles);
 					$udpated++;
 				} else {
-					$this->insertProd($single, $prodProp, $propCats, $imgFiles);
+					$this->insertProd($single, $wsPropIds, $wsCatIds, $imgFiles);
 					$inserted++;
 				}
 
@@ -254,10 +272,8 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 	private function insertCatMM($idProd, $idCats){
 		if($idCats) {
 			foreach($idCats as $idCat){
-
 				$fields_values['uid_local'] = $idProd;
 				$fields_values['uid_foreign'] = $idCat;
-				t3lib_utility_Debug::debug($fields_values);
 				$GLOBALS['TYPO3_DB']->exec_INSERTquery('tx_easyshop_products_categories_mm',$fields_values,$no_quote_fields=FALSE);
 			}
 		}
@@ -331,6 +347,15 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 		$queryParts['SELECT'] = 'tx_easyshop_categories.*';
 		$queryParts['FROM'] = 'tx_easyshop_categories';
 		$queryParts['WHERE'] = 'tx_easyshop_categories.syncId='.$syncId.' AND tx_easyshop_categories.hidden=0  AND tx_easyshop_categories.deleted=0 ';
+		$cat = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($GLOBALS['TYPO3_DB']->exec_SELECT_queryArray($queryParts));
+		return $cat;
+	}
+
+	private	function getPropertie($syncId){
+		$queryParts=array();
+		$queryParts['SELECT'] = 'tx_easyshop_properties.*';
+		$queryParts['FROM'] = 'tx_easyshop_properties';
+		$queryParts['WHERE'] = 'tx_easyshop_properties.syncId='.$syncId.' AND tx_easyshop_properties.hidden=0  AND tx_easyshop_properties.deleted=0 ';
 		$cat = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($GLOBALS['TYPO3_DB']->exec_SELECT_queryArray($queryParts));
 		return $cat;
 	}

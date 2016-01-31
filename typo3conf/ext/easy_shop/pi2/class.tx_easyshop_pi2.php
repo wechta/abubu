@@ -48,9 +48,24 @@ exit();
 		$content='';
 		$arg=$GLOBALS["TSFE"]->fe_user->getKey('ses','web_shop');
 		if(!is_array($arg['session']['products'])){$arg['session']['products']=array();}
+		$GLOBALS['TSFE']->additionalHeaderData['web_shop_script'].= '<script type="text/javascript">';
 		foreach(explode(',',$this->conf['display']) as $display){
 			switch($display){
 				case 1:
+						$GLOBALS['TSFE']->additionalHeaderData['web_shop_script'].= "
+						function addQuantity(pUid) {
+							var oldVal = parseInt($('#card-hidden-num-'+pUid).val());
+							console.log(oldVal);
+							$('#card-hidden-num-'+pUid).val(oldVal+1);
+							$('#card-quantity-num-'+pUid).html(oldVal+1);
+						};
+						function remQuantity(pUid) {
+							var oldVal = parseInt($('#card-hidden-num-'+pUid).val());
+							var newVal = (oldVal-1 >= 0)? oldVal-1 : oldVal;
+							$('#card-hidden-num-'+pUid).val(newVal);
+							$('#card-quantity-num-'+pUid).html(newVal);
+						};";
+
 					$content=$this->displayBasketFull($arg);
 				break;
 				case 2:
@@ -61,6 +76,7 @@ exit();
 				break;
 			}	
 		}
+		$GLOBALS['TSFE']->additionalHeaderData['web_shop_script'].= '</script>';
 		return $this->pi_wrapInBaseClass($content);
 	}
 	function init($conf){

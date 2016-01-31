@@ -306,30 +306,35 @@
 
             <!-- Product Info Block -->
             <div class="col-xs-12 col-sm-5 col-sm-push-7 col-md-5 col-md-push-7 product-info">
-                <p class="product-brand text-small text-uppercase">TODO: Ime firme produkta</p>
+                <p class="product-brand text-small text-uppercase">###COMPANY_TITLE###</p>
                 <h2 class="product-title">###TITLE###</h2>
                 <div class="product-price">
                     <!-- ###PRIZE_WRAP### begin-->
                     <meta itemprop="currency" content="EUR" />
-                    <p class="productpage__item_price ###AKCIJSKA_YES###"><span itemprop="price">###PRODUCT_PRICE###</span></p>
-                    <p class="productpage__item_price ###AKCIJSKA_NO###"><span itemprop="price">###PRODUCT_ACTION_PRICE###</span></p>
+                    <p class="productpage__item_price ###AKCIJSKA_YES###"><span itemprop="price">###PRODUCT_PRICE### €</span></p>
+                    <p class="productpage__item_price ###AKCIJSKA_NO###"><span itemprop="price">###PRODUCT_ACTION_PRICE### €</span></p>
                     <!-- ###PRIZE_WRAP### end-->
 
                     <span class="separator_product"></span>
                     <p class="productpage__item_price text-small text-uppercase">Na zalogi</p>
                 </div>
                 <div class="product-select">
+                    <!-- ###MULTIE_PROPERTIES### begin-->
+                    <!-- ###NO_MONO_PROPERTIES### begin-->
                     <form class="bs-pull-left" id="singleForm">
                         <select class="validate[required] selectpicker" id="prop1">
                             <option>Izberi velikost</option>
-                            <option>XS</option>
-                            <option>S</option>
-                            <option>M</option>
-                            <option>L</option>
-                            <option>XL</option>
-                            <option>XXL</option>
+                            <!-- ###SINGLE_PROPERTIES### begin-->
+                            <option value="###SINGLE_PROPERTY_UID###">###SINGLE_PROPERTY_TITLE###</option>
+                            <!-- ###SINGLE_PROPERTIES### end -->
                         </select>
                     </form>
+                    <!-- ###NO_MONO_PROPERTIES### end-->
+                    <!-- ###MONO_PROPERTIES### begin-->
+                    <div class="oneColor">###SINGLE_PROPERTY_TITLE###</div>
+                    <input type="hidden" id="prop1mono" value="###SINGLE_PROPERTY_UID###">
+                    <!-- ###MONO_PROPERTIES### end-->
+                    <!-- ###MULTIE_PROPERTIES### end-->
                     <!-- ###ADD_TO_BASKET### begin-->
                     <button rel="###UID###" class="btn btn-default add-to-cart" id="addToBasket" onmousedown="$('#singleForm').validationEngine('validate')">Dodaj v košarico</button>
                     <input type="hidden" id="prod_uid" value="###UID###">
@@ -342,7 +347,7 @@
                 </div>
                 <div class="product-description">
                     ###DESCRIPTION###
-                    <p>TODO: Št. artikla: 166362_19</p>
+                    <p>Št. artikla: ###PRODUCT_CODE###</p>
                 </div>
             </div>
 
@@ -373,12 +378,11 @@
             <!-- Thumbnail Images -->
             <div class="col-xs-12 col-sm-2 col-sm-pull-10 col-md-1 col-md-pull-11 product-thumbs">
                 <div class="row">
-                    <div class="col-xs-4 col-sm-12 item" data-src="images/izdelki/izdelek_1.jpg">
-                        <img class="img-responsive" src="images/izdelki/izdelek_1.jpg" alt="Izdelek">
-                    </div>
-                    <div class="col-xs-4 col-sm-12 item item" data-src="images/izdelki/izdelek_2.jpg">
-                        <img class="img-responsive" src="images/izdelki/izdelek_2.jpg" alt="Izdelek">
-                    </div>
+                    <!-- ###PRODUCT_IMAGES_SMALL### begin-->
+                    <div class="col-xs-4 col-sm-12 item" data-src="###PRODUCT_IMAGE_SMALL_SRC###">
+                        <img class="img-responsive" src="###PRODUCT_IMAGE_SMALL_SRC###" alt="Izdelek">
+                    </div>             
+                    <!-- ###PRODUCT_IMAGES_SMALL### end-->
                 </div>
             </div>
 

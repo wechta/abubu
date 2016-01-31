@@ -1497,7 +1497,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 			
 			$productCategories = $this->getProductCategories(array('prod_uid'=>$product['uid']));
 			$singleMark['###CAT_UID###']=$singleMarkType['###CAT_UID###']=$singleMarkMonth['###CAT_UID###']=$productCategories[0]['uid'];
-			
+			$singleMark['###PRODUCT_CODE###'] = $product['code'];
 			if(!$product['has_tester']) {
 				$multiMark['###SHOW_TESTER###'] = '';
 			}
@@ -1517,19 +1517,17 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 			}
 			
 			if($template_properties){
-				$productProperties = $this->getProductProperties(array('prod_uid'=>$this->piVars['prod']));
-				
-				//t3lib_utility_Debug::debug(count($productProperties));
+				$productProperties = $this->getProductProperties(array('prod_uid'=>$this->piVars['prod']));				
 				$propNum = count($productProperties);
 				if($propNum == 0) {
 					$multiMark['###MULTIE_PROPERTIES###'] = '';
-				} else if($propNum == 1) {
-					$multiMark['###NO_MONO_PROPERTIES###'] = '';
-					$multiMark['###MONO_PROPERTIES###'].=$this->cObj->substituteMarkerArrayCached($template_properties_mono,array('###SINGLE_PROPERTY_TITLE###' => $productProperties[0]['display_title'], '###SINGLE_PROPERTY_UID###' => $productProperties[0]['uid']),array(),array());
-					//$multiMark['###MULTIE_PROPERTIES###'] = $productProperties[0]['display_title'];
 				} else {
 					foreach ($productProperties as $prop) {
-						$multiMark['###SINGLE_PROPERTIES###'].=$this->cObj->substituteMarkerArrayCached($template_properties,array('###SINGLE_PROPERTY_TITLE###' => $prop['display_title'], '###SINGLE_PROPERTY_UID###' => $prop['uid']),array(),array());
+						if($prop['parrent'] == 4) {
+								$multiMark['###SINGLE_PROPERTIES###'].=$this->cObj->substituteMarkerArrayCached($template_properties,array('###SINGLE_PROPERTY_TITLE###' => $prop['display_title'], '###SINGLE_PROPERTY_UID###' => $prop['uid']),array(),array());
+						} else if($prop['parrent'] == 1) {
+							$singleMark['###COMPANY_TITLE###'] = $prop['display_title'];
+						}
 					}
 					$multiMark['###MONO_PROPERTIES###'] = '';
 				}
@@ -2433,7 +2431,7 @@ t3lib_utility_Debug::debug($queryParts);
 	}	
 	function getProductProperties($arg){
 		$queryParts = array();
-		$queryParts['SELECT'] = 'tx_easyshop_properties.*';
+		$queryParts['SELECT'] = 'DISTINCT tx_easyshop_properties.*';
 		$queryParts['FROM'] = 'tx_easyshop_products_properties_mm LEFT JOIN tx_easyshop_properties ON tx_easyshop_products_properties_mm.uid_foreign=tx_easyshop_properties.uid';
 		$queryParts['WHERE'] = 'tx_easyshop_products_properties_mm.uid_local='.$arg['prod_uid'].' AND tx_easyshop_properties.hidden=0  AND tx_easyshop_properties.deleted=0 ';
 		//t3lib_utility_Debug::debug($queryParts);

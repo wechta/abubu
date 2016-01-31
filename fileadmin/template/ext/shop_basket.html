@@ -39,8 +39,6 @@
 				</tbody>
 			</table>
 		</div>
-
-
 			<div class="row">
 				<div class="col-sm-6">
 					<fieldset class="checkout__form-data">
@@ -345,7 +343,7 @@
 				<ul>
 					<li>
 						<a href="###PRODUCT_SINGLE_LINK###">###PRODUCT###</a>
-						<!-- ###SINGLE_PROPERTY_DISPLAY### begin--><p>Barva: ###SINGLE_PROPERTY_TITLE###</p><!-- ###SINGLE_PROPERTY_DISPLAY### end-->
+						<!-- ###SINGLE_PROPERTY_DISPLAY### begin--><p>Velikost: ###SINGLE_PROPERTY_TITLE###</p><!-- ###SINGLE_PROPERTY_DISPLAY### end-->
 						<!-- ###SINGLE_PROPERTY2_DISPLAY### begin--><p>Velikost: ###SINGLE_PROPERTY2_TITLE###</p><!-- ###SINGLE_PROPERTY2_DISPLAY### end-->
 					</li>
 					<li>###PRODUCT_QUANTITY###</li>
@@ -401,6 +399,7 @@
 <!-- ###PRODUCTS_BASKET_CHECKOUT_TEMPLATE### begin-->
 
 <!-- ###PRODUCTS_BASKET_LIST_TEMPLATE### begin-->
+<form name="basket_full" id="basket_full" method="POST">
 <div class="row">
 
 	<!-- Start Main Title Block -->
@@ -414,7 +413,7 @@
 
 	<!-- Start Main Content -->
 	<div class="main-content col-md-12">
-			<div class="table-responsive">
+			<div class="table-responsive bs-margin-bottom">
 				<table class="table bs-table table__cart">
 					<thead>
 					<tr>
@@ -435,11 +434,11 @@
 						</td>
 						<td class="cart__data-info">
 							<p>###PRODUCT###</p>
-							<!-- ###SINGLE_PROPERTY_DISPLAY### begin--><p>Barva: ###SINGLE_PROPERTY_TITLE###</p><!-- ###SINGLE_PROPERTY_DISPLAY### end-->
+							<!-- ###SINGLE_PROPERTY_DISPLAY### begin--><p>Velikost: ###SINGLE_PROPERTY_TITLE###</p><!-- ###SINGLE_PROPERTY_DISPLAY### end-->
 							<!-- ###SINGLE_PROPERTY2_DISPLAY### begin--><p>###SINGLE_PROPERTY2_TITLE### velikost</p><!-- ###SINGLE_PROPERTY2_DISPLAY### end-->
 						</td>
-						<td class="cart__data-quantity">
-							###PRODUCT_QUANTITY###
+						<td class="cart__data-quantity" id="card-quantity-num-###PRODUCT_QUANTITY_INPUT###">
+							###PRODUCT_QUANTITY###						
 						</td>
 						<td class="cart__data-price">
 							###PRODUCT_QUANTITY### x ###PRODUCT_PRICE### € = ###PRODUCT_TOTAL_PRICE### €
@@ -449,11 +448,12 @@
 						</td>
 						<td class="cart__data-change">
 							<div>
-								<a href="#" class="art__data-change--add" title="Dodaj" role="button">+</a>
+								<a href="javascript:addQuantity('###PRODUCT_QUANTITY_INPUT###');" class="art__data-change--add" title="Dodaj" role="button">+</a>
 							</div>
 							<div>
-								<a href="#" class="art__data-change--remove" title="Odstrani" role="button">__</a>
+								<a href="javascript:remQuantity('###PRODUCT_QUANTITY_INPUT###');" class="art__data-change--remove" title="Odstrani" role="button">__</a>
 							</div>
+							<input type="hidden" id="card-hidden-num-###PRODUCT_QUANTITY_INPUT###" name="###PRODUCT_QUANTITY_INPUT###" value="###PRODUCT_QUANTITY###">
 						</td>
 					</tr>
 					<!--###BASKET_SINGLE_PRODUCT###-->
@@ -475,6 +475,11 @@
 					</div>
 				</div>
 				<div class="col-sm-5">
+				    <div class="row ">
+                    	<div class="col-sm-5  bs-pull-right">
+                        	<button class="btn btn-default add-to-cart bs-pull-right bs-margin-bottom" onclick="javascript:document.getElementById('basket_full').submit();">Osveži košarico</button>
+              		    </div>   
+                    </div>     
 					<div class="cart__summary">
 						<div class="table-responsive">
 							<table class="table">
@@ -514,6 +519,7 @@
 	<!-- //End Main Content -->
 
 </div>
+</form>
 <!-- ###PRODUCTS_BASKET_LIST_TEMPLATE### begin-->
 
 <!-- ###PRODUCTS_BASKET_LIST_TEMPLATE_OLD### begin-->
@@ -541,7 +547,7 @@
 				<div class="basketPopust"><p>###PRODUCT_ACTION_DISCOUNT### %</p></div>
 				<div class="basketSkupaj"><p>###PRODUCT_TOTAL_PRICE### €</p></div>
 				<div class="basketProperty">
-					<!-- ###SINGLE_PROPERTY_DISPLAY### begin--><p>Barva: ###SINGLE_PROPERTY_TITLE###</p><!-- ###SINGLE_PROPERTY_DISPLAY### end-->
+					<!-- ###SINGLE_PROPERTY_DISPLAY### begin--><p>Velikost: ###SINGLE_PROPERTY_TITLE###</p><!-- ###SINGLE_PROPERTY_DISPLAY### end-->
 					<!-- ###SINGLE_PROPERTY2_DISPLAY### begin--><p>Velikost: ###SINGLE_PROPERTY2_TITLE###</p><!-- ###SINGLE_PROPERTY2_DISPLAY### end-->
 				</div>
 				<div class="basketZaloga">

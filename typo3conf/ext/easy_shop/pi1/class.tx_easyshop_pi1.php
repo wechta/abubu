@@ -136,6 +136,7 @@ class tx_easyshop_pi1 extends tslib_pibase {
 									selprop2 = 0;
 								}
 								if($('#singleForm').validationEngine('validate')) {
+									jQuery('#addedMsg').show();
 									jQuery('#topBasket').load('".$basketLink."&tx_easyshop_pi1[addToBasket]='+jQuery(this).attr('rel')+'&tx_easyshop_pi1[prop1]='+selprop1+'&tx_easyshop_pi1[prop2]='+selprop2, function() {
 									  //jQuery('#basketDropID').show().delay(5000).fadeOut();
 									  //jQuery('html, body').animate({ scrollTop: 0 }, 'slow');
@@ -729,6 +730,13 @@ class tx_easyshop_pi1 extends tslib_pibase {
 			} else {
 				$multieMarkProduct['###BIOSTICKER_NONE###']='';
 			}
+
+			$productProperties = $this->getProductProperties(array('prod_uid'=>$product['uid']));
+			foreach($productProperties as $prop) {
+				if($prop['parrent'] == 1) {
+					$singleMarkProduct['###COMPANY_TITLE###'] = $prop['display_title'];
+				}
+			}
 			
 			//t3lib_utility_Debug::debug($singleMarkProduct);
 			$returnContent .= $this->cObj->substituteMarkerArrayCached($template,$singleMarkProduct,$multieMarkProduct,array());
@@ -835,6 +843,13 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 			} else {
 				$multieMarkProduct['###BIOSTICKER_NONE###']='';
 			}
+
+			$productProperties = $this->getProductProperties(array('prod_uid'=>$product['uid']));
+			foreach($productProperties as $prop) {
+				if($prop['parrent'] == 1) {
+					$singleMarkProduct['###COMPANY_TITLE###'] = $prop['display_title'];
+				}
+			}
 			
 			//t3lib_utility_Debug::debug($singleMarkProduct);
 			$returnContent .= $this->cObj->substituteMarkerArrayCached($template,$singleMarkProduct,$multieMarkProduct,array());
@@ -934,6 +949,13 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 			} else {
 				$multieMarkProduct['###BIOSTICKER_NONE###']='';
 			}
+
+			$productProperties = $this->getProductProperties(array('prod_uid'=>$product['uid']));
+			foreach($productProperties as $prop) {
+				if($prop['parrent'] == 1) {
+					$singleMarkProduct['###COMPANY_TITLE###'] = $prop['display_title'];
+				}
+			}
 			
 			//t3lib_utility_Debug::debug($singleMarkProduct);
 			$returnContent .= $this->cObj->substituteMarkerArrayCached($template,$singleMarkProduct,$multieMarkProduct,array());
@@ -1021,8 +1043,10 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 			$origImagesArray=explode(',',$product['images']);
 		
 			$leadImage = $origImagesArray[0];
-			$imgConfig['file.']['maxH'] = '263px';
-			$imgConfig['file.']['height'] = '280px';
+			//$imgConfig['file.']['maxH'] = '263px';
+			$imgConfig['file.']['maxW'] = '263px';
+			$imgConfig['file.']['width'] = '263px';
+			//$imgConfig['file.']['height'] = '280px';
 			$singleMark['###IMAGE_ORIGINAL###']=t3lib_div::getIndpEnv('TYPO3_SITE_URL').'uploads/tx_easyshop/'.$leadImage;
 			$imgConfig['file'] = 'uploads/tx_easyshop/'.$leadImage;
 			$origImg = $this->cObj->IMAGE($imgConfig);
@@ -1077,6 +1101,13 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 				}				
 			}
 			
+			$productProperties = $this->getProductProperties(array('prod_uid'=>$product['uid']));
+			foreach($productProperties as $prop) {
+				if($prop['parrent'] == 1) {
+					$singleMarkProduct['###COMPANY_TITLE###'] = $prop['display_title'];
+				}
+			}
+
 			//t3lib_utility_Debug::debug($singleMarkProduct);
 			$returnContent .= $this->cObj->substituteMarkerArrayCached($template,$singleMarkProduct,$multieMarkProduct,array());
 		}
@@ -1201,6 +1232,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 				$multieMarkProduct['###BIOSTICKER_NONE###']='';
 			}
 			
+
 			
 			// CE IMAMO CENO VEZANO NA KOLIČINE!
 			if($product['price_prop2']) {
@@ -1216,6 +1248,13 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 					$multieMarkProduct['###AKCIJSKA_NONE###']=$this->cObj->substituteMarkerArrayCached($templateNormalUser,$singleMarkProduct,array(),array());
 					$multieMarkProduct['###AKCIJSKA_NAVADNA###']='';
 				}				
+			}
+
+			$productProperties = $this->getProductProperties(array('prod_uid'=>$product['uid']));
+			foreach($productProperties as $prop) {
+				if($prop['parrent'] == 1) {
+					$singleMarkProduct['###COMPANY_TITLE###'] = $prop['display_title'];
+				}
 			}
 			
 			//t3lib_utility_Debug::debug($singleMarkProduct);

@@ -1457,7 +1457,8 @@ class tx_ttnews extends tslib_pibase {
 					}
 				}
 				$this->db->sql_free_result($res);
-				$content = $this->getCatMenuContent($cArr, $lConf);
+
+				$content = $this->getCatMenuContent($cArr, $lConf);			
 				break;
 			case 'tree' :
 			case 'ajaxtree' :
@@ -2610,6 +2611,8 @@ class tx_ttnews extends tslib_pibase {
 						}
 						// if (!$title) $title = $val;
 						$catSelLinkParams = ($this->conf['catSelectorTargetPid'] ? ($this->conf['itemLinkTarget'] ? $this->conf['catSelectorTargetPid'] . ' ' . $this->conf['itemLinkTarget'] : $this->conf['catSelectorTargetPid']) : $this->tsfe->id);
+						//t3lib_utility_Debug::debug();
+						$catSelLinkParams = $lConf['catPidList'];
 						$pTmp = $this->tsfe->ATagParams;
 						if ($this->conf['displayCatMenu.']['insertDescrAsTitle']) {
 							$this->tsfe->ATagParams = ($pTmp ? $pTmp . ' ' : '') . 'title="' . $array_in['description'] . '"';

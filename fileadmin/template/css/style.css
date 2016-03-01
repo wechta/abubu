@@ -1352,7 +1352,8 @@ fieldset {
         max-width: 100%;
         width: 100%;
     }
-    .add-to-cart {
+    .add-to-cart,
+    .add-to-cart:focus {
         margin: 10px 0 0;
     }
     .product-links > a[class*=product-link-] {
@@ -1361,7 +1362,7 @@ fieldset {
     }
     .intro-block {
         margin-bottom: 30px;
-    }
+    } 
     
 }
 @media only screen and (max-width: 1221px) {
@@ -1492,6 +1493,11 @@ fieldset {
     color: inherit;
     text-decoration: underline
 }
+.productlist__item .overlay-hover {
+    height: 263px;
+} 
+ 
+
 .overlay-hover:not(:hover):not(.hover) .overlay-panel:not(.ignore) {
     opacity: 0;
 }

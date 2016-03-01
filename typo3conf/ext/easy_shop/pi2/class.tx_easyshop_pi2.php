@@ -588,8 +588,6 @@ exit();
 						$this->sendEmail($this->conf['from_name'],$this->conf['from'], t3lib_div::_POST('buyer_email'), t3lib_div::_POST('buyer_email'), $this->conf['subject'], $mailBody);
 						$this->sendEmail($this->conf['from_name'],$this->conf['from'], $this->conf['send_to'], $this->conf['send_to'], $this->conf['subject'], $mailBody);
 						
-						
-						
 						//$this->sendEmail($this->conf['from_name'],$this->conf['from'], $this->conf['send_to'], $this->conf['send_to'], 'Račun', $mailBodyRacun);
 						
 						//$this->sendEmail($this->conf['from_name'],$this->conf['from'], 'mitja.venturini@gmail.com', 'mitja.venturini@gmail.com', $this->conf['subject'], $mailBody);

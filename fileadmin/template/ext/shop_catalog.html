@@ -44,22 +44,13 @@
 
 <!-- ###PRODUCTS_SPECIAL_LIST_TEMPLATE### begin-->
 <div class="col-xs-6 col-md-3">
+    <a class="productlist__item_details" href="###PRODUCT_SINGLE_LINK###" title="Podrobnosti">
     <div class="productlist__item">
         <div class="overlay overlay-hover">
-            <img src="###IMAGE###" alt="###PRODUCT###">
-            <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                <a class="productlist__item_addtocart" href="###PRODUCT_SINGLE_LINK###" title="V košarico">
-                    <span></span>
-                    <span>V košarico</span>
-                </a>
-                <span class="separator"></span>
-                <a class="productlist__item_details" href="###PRODUCT_SINGLE_LINK###" title="Podrobnosti">
-                    <span></span>
-                    <span>Podrobnosti</span>
-                </a>
-            </div>
+            <img src="###IMAGE###" alt="###PRODUCT###">            
         </div>
         <div class="caption productlist__item_caption">
+            <p class="productlist__item_price">###COMPANY_TITLE###</p>
             <p class="productlist__item_title">###PRODUCT###</p>
             
             <!--###AKCIJSKA_NONE###-->
@@ -72,26 +63,19 @@
 			<!--###AKCIJSKA_NAVADNA###-->
         </div>
     </div>
+    </a>
 </div>
 <!-- ###PRODUCTS_SPECIAL_LIST_TEMPLATE### end-->
 
 <!-- ###PRODUCTS_CONNECTED_LIST_TEMPLATE### begin-->
 <div class="col-xs-6 col-md-2">
+    <a class="productlist__item_details" href="###PRODUCT_SINGLE_LINK###" title="Podrobnosti">
     <div class="productlist__item">
         <div class="overlay overlay-hover">
-            <img src="###IMAGE###" alt="###PRODUCT###" class="img-responsive">
-            <div class="overlay-panel overlay-bottom overlay-slide-bottom productlist__item_overlay">
-                <a class="productlist__item_addtocart" href="#" title="V košarico">
-                    <span></span>
-                    <span>V košarico</span>
-                </a>
-                <a class="productlist__item_details" href="#" title="Podrobnosti">
-                    <span></span>
-                    <span>Podrobnosti</span>
-                </a>
-            </div>
+            <img src="###IMAGE###" alt="###PRODUCT###" class="img-responsive">      
         </div>
         <div class="caption productlist__item_caption">
+         <p class="productlist__item_price">###COMPANY_TITLE###</p>
             <p class="productlist__item_title">###PRODUCT###</p>
             <!--###AKCIJSKA_NONE###-->
             <p class="productlist__item_price">###PRODUCT_PRICE###&nbsp;€</p>
@@ -103,6 +87,7 @@
             <!--###AKCIJSKA_NAVADNA###-->
         </div>
     </div>
+    </a>
 </div>
 <!-- ###PRODUCTS_CONNECTED_LIST_TEMPLATE### end-->
 
@@ -241,9 +226,11 @@
     <a class="productlist__item_details" href="###PRODUCT_SINGLE_LINK###" title="Podrobnosti">
     <div class="productlist__item">
         <div class="overlay overlay-hover">
-            <img src="###IMAGE###" alt="###PRODUCT###">
+            <img src="###IMAGE###" alt="###PRODUCT###" style="width: 100%; height: auto;">
         </div>
         <div class="caption productlist__item_caption">
+        
+            <p class="productlist__item_price">###COMPANY_TITLE###</p>
             <p class="productlist__item_title">###PRODUCT###</p>
             <!--###AKCIJSKA_NONE###-->
             <p class="productlist__item_price price_discount">###PRODUCT_ACTION_PRICE### €</p>
@@ -340,6 +327,7 @@
                     <input type="hidden" id="prod_uid" value="###UID###">
                     <!-- ###ADD_TO_BASKET### end-->
                 </div>
+                <div id="addedMsg" style="display: none;">Vaš izdelek je bil uspešno dodan v košarico!</div>
                 <div class="product-links">
                     <!--<a class="product-link-fav" href="#" title="Dodaj izdelek med priljubljene">Priljubljen</a>
                     <a class="product-link-help" href="#" title="Pomoč">Pomoč</a>

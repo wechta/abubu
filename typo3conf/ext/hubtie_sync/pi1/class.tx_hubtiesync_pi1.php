@@ -84,9 +84,14 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 		$returnStr = '';
 		$udpated = $inserted = 0;		
 		$result = mt_api_call("getArticles", array("all" => "1"));
+
 		foreach ($result['data'] as $single) {
+			$prodImages = array();
 	 		$prodProp = $propCats = array();		
 			if($single['pid']==0 && $single['web']==1 && $single['active']==1) {
+
+
+
 				// parent prod props
 				if($single['props']) {
 					foreach($single['props'] as $prop) {
@@ -107,13 +112,31 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 				// get child products
 				//t3lib_utility_Debug::debug($single);
 				$subArt = $this->getSub($single['id']);
-				if($single['id'] == 1324) {
+				//if($single['id'] == 1324) {
 					t3lib_utility_Debug::debug($single);
-					t3lib_utility_Debug::debug($subArt);
-				}
+					//t3lib_utility_Debug::debug($subArt);
+				//}
 				//t3lib_utility_Debug::debug($single);
 				if($subArt) {
+
+
+
 					foreach($subArt as $sub) {
+						if($sub['id']==29) {
+							//t3lib_utility_Debug::debug($sub);
+						}
+
+
+
+						if($sub['images'] ) {
+							foreach($sub['images'] as $img) {
+								//if ($img['image_file'] != '/api/getFile?file=/1u081Kcc1u4c1K891N4b1w8b1Ic71N8b1Ic91P0buc71N081Kcc/articles/-1.' &&
+								//	$img['image_file'] != '/api/getFile?file=/1u081Kcc1u4c1K891N4b1w8b1Ic71N8b1Ic91P0buc71N081Kcc/articles/15096579-hlace-deklice-1.jpg') {
+									$prodImages[] = $img['image_file'];
+								//}
+							}
+						}
+
 						// child prod properties
 						if($sub['props']) {
 							foreach($sub['props'] as $sProp) {
@@ -140,13 +163,21 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 
 				// get prod images
 				//TODO
-				/*
+				
+				if($single['id']==29) {
+					//t3lib_utility_Debug::debug($single);
+				}
+
+
+
 				if($single['images']) {
-					
 					foreach($single['images'] as $img) {
-						
+						//if ($img['image_file'] != '/api/getFile?file=/1u081Kcc1u4c1K891N4b1w8b1Ic71N8b1Ic91P0buc71N081Kcc/articles/-1.' &&
+						//	$img['image_file'] != '/api/getFile?file=/1u081Kcc1u4c1K891N4b1w8b1Ic71N8b1Ic91P0buc71N081Kcc/articles/15096579-hlace-deklice-1.jpg') {
+							$prodImages[] = $img['image_file'];
+						//}
 					}
-				}*/
+				}
 
 				$wsCatIds = array();
 				$wsPropIds = array();
@@ -160,8 +191,23 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 					 $cat = $this->getCategory($c);
 					 $wsCatIds[] = $cat['uid'];
 				}
+				$imgFiles = array();
+				if(count($prodImages)) {
+					foreach($prodImages as $prImg) {
+						$url = 'http://dev.minitron-apps.si'.$prImg;
+						$pieces = explode("/", $prImg);
+						$img = 'uploads/tx_easyshop/'.$pieces[count($pieces)-1];
+						//$img = 'C:/wserver/htdocs/prod_abubu/uploads/tx_easyshop/'.$pieces[count($pieces)-1];
+						t3lib_utility_Debug::debug($img);
+						$data = file_get_contents($url);
+						file_put_contents($img, $data);
+						$imgFiles[] = $pieces[count($pieces)-1];
+					}
+				} else {
+					$imgFiles = ['no-product-image-available.png'];
+				}
 
-				$imgFiles = ['no-product-image-available.png'];
+				
 				$prodId = $this->checkIf('tx_easyshop_products', 'syncId', intval($single['id']));
 				if ($prodId){
 					$this->updateProd($prodId, $single, $wsPropIds, $wsCatIds, $imgFiles);
@@ -177,6 +223,7 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 			}
 		}
 		return "Inserted ".$inserted.", updated ".$udpated." products.<br>";
+		
 	}
 
 	private function doProps() {
@@ -241,6 +288,10 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 		$updArray['code'] = $prod['code'];
 		$updArray['title'] = $prod['title'];
 		$updArray['price'] = $prod['price'];
+		$updArray['subtitle'] = $prod['short_description'];
+		$updArray['description'] = $prod['long_description'];
+		$updArray['seo_keywords'] = $prod['meta_key'];
+		$updArray['seo_description'] = $prod['meta_desc'];
 		$updArray['vat'] = $prod['vat_percents'];
 		$updArray['images'] = $images;
 		$updArray['hidden'] = (intval($prod['active'])) ? 0 : 1;
@@ -260,6 +311,10 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 		$insertArray['code'] = $prod['code'];
 		$insertArray['title'] = $prod['title'];
 		$insertArray['price'] = $prod['price'];
+		$insertArray['subtitle'] = $prod['short_description'];
+		$insertArray['description'] = $prod['long_description'];
+		$insertArray['seo_keywords'] = $prod['meta_key'];
+		$insertArray['seo_description'] = $prod['meta_desc'];
 		$insertArray['images'] = $images;
 		$insertArray['vat'] = $prod['vat_percents'];
 		$insertArray['hidden'] = (intval($prod['active'])) ? 0 : 1;

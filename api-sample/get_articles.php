@@ -20,10 +20,13 @@ echo "<pre>";
 var_dump($result);
 echo "</pre>";*/
 
+//$result = mt_api_call("getFile",array("file" => "/1u081Kcc1u4c1K891N4b1w8b1Ic71N8b1Ic91P0buc71N081Kcc/articles/-1."));
+//var_dump($result);
 //dobis vse GLAVNE izdelke.. zraven imas kateri kategoriji spadajo
+
 echo "<pre>";
 $i = 0;
-$result = mt_api_call("getArticles", array("all" => "1"));
+$result = mt_api_call("getArticles", array("id" => "166"));
 foreach ($result['data'] as $single) {
   if($single['pid']==0 && $single['web']==1 && $single['active']==1) {
     $i++;
@@ -32,6 +35,7 @@ foreach ($result['data'] as $single) {
 }
 var_dump('SKUPAJ GLAVNIH IZDELKOV: '.$i);
 echo "</pre>";
+
 
 
 //dobis podrejene izdelke za posamezen glavni izdelek, te potem zdruzis v en izdelek..

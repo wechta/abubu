@@ -5,8 +5,8 @@ if (!defined ('TYPO3_MODE')) {
 
 $TYPO3_CONF_VARS['SYS']['sitename'] = 'Abubu';
 
-	// Default password is "joh316" :
-$TYPO3_CONF_VARS['BE']['installToolPassword'] = 'bacb98acf97e0b6112b1d1b650b84971';
+// Default password is "joh316" :
+$TYPO3_CONF_VARS['BE']['installToolPassword'] = 'a40786d4aaa25967b8460da6a53eb0e1';
 
 $TYPO3_CONF_VARS['EXT']['extList'] = 'info,perm,func,filelist,about,version,tsconfig_help,context_help,extra_page_cm_options,impexp,sys_note,tstemplate,tstemplate_ceditor,tstemplate_info,tstemplate_objbrowser,tstemplate_analyzer,func_wizards,wizard_crpages,wizard_sortpages,lowlevel,install,belog,beuser,aboutmodules,setup,taskcenter,info_pagetsconfig,viewpage,rtehtmlarea,css_styled_content,t3skin,t3editor,reports,felogin,form';
 
@@ -20,7 +20,7 @@ $TYPO3_CONF_VARS['EXT']['extList'] = 'extbase,css_styled_content,info,perm,func,
 $typo_db_username = 'root';	// Modified or inserted by TYPO3 Install Tool. 
 $typo_db_host = 'localhost';	//  Modified or inserted by TYPO3 Install Tool.
 $typo_db_password = '';
-$typo_db = 'zisha_baza';	//  Modified or inserted by TYPO3 Install Tool.
+$typo_db = 'abubu';	//  Modified or inserted by TYPO3 Install Tool.
 $TYPO3_CONF_VARS['BE']['disable_exec_function'] = '0';	//  Modified or inserted by TYPO3 Install Tool.
 $TYPO3_CONF_VARS['GFX']['gdlib_png'] = '1';	// Modified or inserted by TYPO3 Install Tool. 
 $TYPO3_CONF_VARS['GFX']['im'] = '1';	// Modified or inserted by TYPO3 Install Tool. 
@@ -90,5 +90,5 @@ $TYPO3_CONF_VARS['EXT']['extConf']['rtehtmlarea'] = 'a:8:{s:21:"noSpellCheckLang
 //$TYPO3_CONF_VARS['EXT']['extConf']['transactor_paymill'] = 'a:4:{s:10:"privatekey";s:32:"a5bb9cd2a13ee35d536b79a309a070cc";s:9:"publickey";s:32:"463412031171a07ce76a922cd82ec805";s:11:"provideruri";s:27:"https://api.paymill.com/v2/";s:8:"testMode";s:1:"1";}';	//  Modified or inserted by TYPO3 Extension Manager.
 // Updated by TYPO3 Extension Manager 25-05-15 17:21:42
 // Updated by TYPO3 Install Tool 28-11-15 03:56:09
-// Updated by TYPO3 Extension Manager 23-01-16 22:15:12
+// Updated by TYPO3 Extension Manager 30-01-16 16:24:20
 ?>

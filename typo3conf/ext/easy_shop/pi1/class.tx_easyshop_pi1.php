@@ -1019,7 +1019,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 		
 		$products = $this->getProducts($params);
 		
-		//t3lib_utility_Debug::debug($products);
+		//t3lib_utility_Debug::debug($params);
 		$returnContent='';
 		$counter=0;
 		foreach($products as $product){
@@ -1050,6 +1050,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 			$singleMark['###IMAGE_ORIGINAL###']=t3lib_div::getIndpEnv('TYPO3_SITE_URL').'uploads/tx_easyshop/'.$leadImage;
 			$imgConfig['file'] = 'uploads/tx_easyshop/'.$leadImage;
 			$origImg = $this->cObj->IMAGE($imgConfig);
+			t3lib_utility_Debug::debug($origImg);
 			$resizedImageInfo = $GLOBALS['TSFE']->lastImageInfo;
 			$singleMarkProduct['###IMAGE###']=$resizedImageInfo[3];
 			

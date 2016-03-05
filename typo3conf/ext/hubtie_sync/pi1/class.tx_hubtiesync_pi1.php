@@ -84,14 +84,12 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 		$returnStr = '';
 		$udpated = $inserted = 0;		
 		$result = mt_api_call("getArticles", array("all" => "1"));
+		$syncIds = array();
 
 		foreach ($result['data'] as $single) {
 			$prodImages = array();
 	 		$prodProp = $propCats = array();		
 			if($single['pid']==0 && $single['web']==1 && $single['active']==1) {
-
-
-
 				// parent prod props
 				if($single['props']) {
 					foreach($single['props'] as $prop) {
@@ -110,30 +108,12 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 				}
 
 				// get child products
-				//t3lib_utility_Debug::debug($single);
 				$subArt = $this->getSub($single['id']);
-				//if($single['id'] == 1324) {
-					t3lib_utility_Debug::debug($single);
-					//t3lib_utility_Debug::debug($subArt);
-				//}
-				//t3lib_utility_Debug::debug($single);
 				if($subArt) {
-
-
-
 					foreach($subArt as $sub) {
-						if($sub['id']==29) {
-							//t3lib_utility_Debug::debug($sub);
-						}
-
-
-
 						if($sub['images'] ) {
 							foreach($sub['images'] as $img) {
-								//if ($img['image_file'] != '/api/getFile?file=/1u081Kcc1u4c1K891N4b1w8b1Ic71N8b1Ic91P0buc71N081Kcc/articles/-1.' &&
-								//	$img['image_file'] != '/api/getFile?file=/1u081Kcc1u4c1K891N4b1w8b1Ic71N8b1Ic91P0buc71N081Kcc/articles/15096579-hlace-deklice-1.jpg') {
-									$prodImages[] = $img['image_file'];
-								//}
+								$prodImages[] = $img['image_file'];
 							}
 						}
 
@@ -161,21 +141,9 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 					}
 				}
 
-				// get prod images
-				//TODO
-				
-				if($single['id']==29) {
-					//t3lib_utility_Debug::debug($single);
-				}
-
-
-
 				if($single['images']) {
 					foreach($single['images'] as $img) {
-						//if ($img['image_file'] != '/api/getFile?file=/1u081Kcc1u4c1K891N4b1w8b1Ic71N8b1Ic91P0buc71N081Kcc/articles/-1.' &&
-						//	$img['image_file'] != '/api/getFile?file=/1u081Kcc1u4c1K891N4b1w8b1Ic71N8b1Ic91P0buc71N081Kcc/articles/15096579-hlace-deklice-1.jpg') {
-							$prodImages[] = $img['image_file'];
-						//}
+						$prodImages[] = $img['image_file'];
 					}
 				}
 
@@ -192,38 +160,57 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 					 $wsCatIds[] = $cat['uid'];
 				}
 				$imgFiles = array();
-				if(count($prodImages)) {
-					foreach($prodImages as $prImg) {
-						$url = 'http://dev.minitron-apps.si'.$prImg;
-						$pieces = explode("/", $prImg);
-						$img = 'uploads/tx_easyshop/'.$pieces[count($pieces)-1];
-						//$img = 'C:/wserver/htdocs/prod_abubu/uploads/tx_easyshop/'.$pieces[count($pieces)-1];
-						t3lib_utility_Debug::debug($img);
-						$data = file_get_contents($url);
-						file_put_contents($img, $data);
-						$imgFiles[] = $pieces[count($pieces)-1];
-					}
-				} else {
-					$imgFiles = ['no-product-image-available.png'];
-				}
-
 				
 				$prodId = $this->checkIf('tx_easyshop_products', 'syncId', intval($single['id']));
+				$prodTime = (strtotime($single['last_change']) > 0) ? strtotime($single['last_change']) : 0;
+
+				$allProducts = $this->getProducts();
+
+//t3lib_utility_Debug::debug($allProducts);
 				if ($prodId){
-					$this->updateProd($prodId, $single, $wsPropIds, $wsCatIds, $imgFiles);
-					$udpated++;
-				} else {
-					$this->insertProd($single, $wsPropIds, $wsCatIds, $imgFiles);
+					$product = $this->getProduct($prodId);
+					if($product['tstamp'] < $prodTime) {
+						if(count($prodImages)) {
+							foreach($prodImages as $prImg) {
+								$url = 'http://dev.minitron-apps.si'.$prImg;
+								$pieces = explode("/", $prImg);
+								$img = 'uploads/tx_easyshop/'.$pieces[count($pieces)-1];
+								$data = file_get_contents($url);
+								file_put_contents($img, $data);
+								$imgFiles[] = $pieces[count($pieces)-1];
+							}
+						} else {
+							$imgFiles = ['no-product-image-available.png'];
+						}
+						$this->updateProd($prodId, $single, $wsPropIds, $wsCatIds, $imgFiles, $prodTime);
+						$udpated++;
+					}
+				} else {	
+					if(count($prodImages)) {
+						foreach($prodImages as $prImg) {
+							$url = 'http://dev.minitron-apps.si'.$prImg;
+							$pieces = explode("/", $prImg);
+							$img = 'uploads/tx_easyshop/'.$pieces[count($pieces)-1];
+							$data = file_get_contents($url);
+							file_put_contents($img, $data);
+							$imgFiles[] = $pieces[count($pieces)-1];
+						}
+					} else {
+						$imgFiles = ['no-product-image-available.png'];
+					}
+					$this->insertProd($single, $wsPropIds, $wsCatIds, $imgFiles, $prodTime);
 					$inserted++;
 				}
+				$syncIds[] = $single['id'];
+			}
+		}
 
-				//t3lib_utility_Debug::debug($prodProp);
-				//t3lib_utility_Debug::debug($propCats);
-				//t3lib_utility_Debug::debug($single);
+		foreach ($allProducts as $key => $prod) {
+			if(!in_array($prod['syncId'], $syncIds)) {
+				$this->hiddeProduct($prod['uid']);
 			}
 		}
 		return "Inserted ".$inserted.", updated ".$udpated." products.<br>";
-		
 	}
 
 	private function doProps() {
@@ -279,11 +266,16 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 		}
 	}
 
-	private function updateProd($prodId, $prod, $prodProp, $propCats, $imgArray) {
+	private function hiddeProduct($prodId) {
+		$updArray['hidden'] = 1;
+		$GLOBALS['TYPO3_DB']->exec_UPDATEquery('tx_easyshop_products','uid=' . $prodId, $updArray);
+	}
+
+	private function updateProd($prodId, $prod, $prodProp, $propCats, $imgArray, $syncTime) {
 		//t3lib_utility_Debug::debug($prodProp);
 		$images = implode(',', $imgArray);
 		//t3lib_utility_Debug::debug($images);
-		$updArray['tstamp'] = time();		
+		$updArray['tstamp'] = $syncTime;		
 		$updArray['syncId'] = intval($prod['id']);
 		$updArray['code'] = $prod['code'];
 		$updArray['title'] = $prod['title'];
@@ -302,10 +294,10 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 		$this->insertPropMM($prodId, $prodProp);
 	}
 
-	private function insertProd($prod, $prodProp, $propCats, $imgArray) {
+	private function insertProd($prod, $prodProp, $propCats, $imgArray, $syncTime) {
 		$images = implode(',', $imgArray);
 		$insertArray['pid'] = 15;
-		$insertArray['tstamp'] = time();
+		$insertArray['tstamp'] = $syncTime;
 		$insertArray['crdate'] = time();
 		$insertArray['syncId'] = intval($prod['id']);
 		$insertArray['code'] = $prod['code'];
@@ -388,13 +380,30 @@ class tx_hubtiesync_pi1 extends tslib_pibase {
 		$GLOBALS['TYPO3_DB']->exec_UPDATEquery('tx_easyshop_categories','uid=' . $catId, $updArray);
 	}
 
-	private	function getProduct($syncId){
+	private	function getProduct($uid){
 		$queryParts=$product=$productOverlay=$queryPartsOverlay=array();
 		$queryParts['SELECT'] = 'tx_easyshop_products.*';
 		$queryParts['FROM'] = 'tx_easyshop_products';
-		$queryParts['WHERE'] = 'tx_easyshop_products.syncId='.$syncId.' AND tx_easyshop_products.hidden=0  AND tx_easyshop_products.deleted=0 ';
+		$queryParts['WHERE'] = 'tx_easyshop_products.uid='.$uid.' AND tx_easyshop_products.hidden=0  AND tx_easyshop_products.deleted=0 ';
 		$product = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($GLOBALS['TYPO3_DB']->exec_SELECT_queryArray($queryParts));
 		return $product;
+	}
+
+	private	function getProducts(){
+		$queryParts=array();
+		$queryParts['SELECT'] = 'tx_easyshop_products.*';
+		$queryParts['FROM'] = 'tx_easyshop_products';
+		$queryParts['WHERE'] = 'tx_easyshop_products.hidden=0  AND tx_easyshop_products.deleted=0 ';
+
+		$res = $GLOBALS['TYPO3_DB']->exec_SELECT_queryArray($queryParts);
+		$products = array();
+
+		if ($res){
+			while($row = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($res)){
+				$result[] = $row;
+			}
+			return $result;
+		}
 	}
 
 	private	function getCategory($syncId){

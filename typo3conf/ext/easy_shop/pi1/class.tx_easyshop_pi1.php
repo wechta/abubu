@@ -425,7 +425,7 @@ class tx_easyshop_pi1 extends tslib_pibase {
 //t3lib_utility_Debug::debug(count($categoryChilds));
 
 		if(!count($categoryChilds)) $categoryChilds = $this->categoryChilds($selCat['parrent'],$categories);
-		
+		//t3lib_utility_Debug::debug($categoryChilds);
 		$template = $this->loadTemplate('###CAT_MENU_TEMPLATE###');
 		$lvl1Item = $this->cObj->getSubpart($template, '###CAT_MENU_LVL1###');
 		$lvl2Item = $this->cObj->getSubpart($lvl1Item, '###CAT_MENU_LVL2###');
@@ -556,12 +556,15 @@ class tx_easyshop_pi1 extends tslib_pibase {
 				}
 			}
 			foreach($categories as $c) {
-				if(!$this->checkIfPropsInArray($cats, $c['uid']) && $c['parrent'] != 0) {
+				if(!$this->checkIfPropsInArray($cats, $c['uid']) && $c['parrent'] != 0 && $c['parrent'] == $this->piVars['cat']) {
 					$cats[] = $c;
 				}
 			}
 		}
 		$catMultie = '';
+//t3lib_utility_Debug::debug($cats);
+
+
 		foreach($cats as $cat) {
 			$singleMarkCat['###CAT_ID###'] = $cat['uid'];
 			$singleMarkCat['###CAT_TITLE###'] = $cat['display_title'];
@@ -1050,7 +1053,7 @@ if(!$template){return $this->pi_getLL('no_template_error');}
 			$singleMark['###IMAGE_ORIGINAL###']=t3lib_div::getIndpEnv('TYPO3_SITE_URL').'uploads/tx_easyshop/'.$leadImage;
 			$imgConfig['file'] = 'uploads/tx_easyshop/'.$leadImage;
 			$origImg = $this->cObj->IMAGE($imgConfig);
-			t3lib_utility_Debug::debug($origImg);
+			//t3lib_utility_Debug::debug($origImg);
 			$resizedImageInfo = $GLOBALS['TSFE']->lastImageInfo;
 			$singleMarkProduct['###IMAGE###']=$resizedImageInfo[3];
 			
